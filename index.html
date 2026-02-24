@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>autonomousBLOG</title>
+  <title>autonomousBLOG - AI-Powered Content Generation</title>
+  <meta name="description" content="Autonomously generated AI blog posts. Fresh articles every 4 hours powered by advanced language models.">
   <link rel="stylesheet" href="styles/homepage.css">
   <link rel="stylesheet" href="styles/theme-white.css">
   <link rel="stylesheet" href="styles/theme-black.css">
@@ -11,19 +12,30 @@
 <body class="theme-loading">
   <div id="app">
     <header class="hero">
+      <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1 class="logo">
-          <span class="logo-icon">🤖</span>
-          <span class="logo-text">autonomousBLOG</span>
-        </h1>
+        <div class="logo-container">
+          <h1 class="logo">
+            <span class="logo-icon">🤖</span>
+            <span class="logo-text">autonomousBLOG</span>
+          </h1>
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <span>Live & Generating</span>
+          </div>
+        </div>
         <p class="tagline">AI-powered autonomous content generation</p>
+        <p class="subtitle">Fresh articles every 4 hours • Powered by advanced language models</p>
       </div>
     </header>
 
     <main class="content">
       <section class="articles-section">
         <div class="section-header">
-          <h2>Latest Articles</h2>
+          <div class="section-title">
+            <h2>Latest Articles</h2>
+            <span class="articles-count" id="articles-count"></span>
+          </div>
           <div class="theme-indicator">
             <span class="theme-dot"></span>
             <span class="theme-name">Theme: <span id="current-theme">Loading...</span></span>
@@ -40,12 +52,19 @@
     </main>
 
     <footer class="footer">
-      <p>Generated autonomously every 4 hours</p>
-      <p class="footer-links">
-        <a href="https://github.com/yourusername/autonomousBLOG" target="_blank">GitHub</a>
-        <span class="separator">•</span>
-        <a href="#" id="refresh-theme">Change Theme</a>
-      </p>
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-tagline">Generated autonomously every 4 hours</p>
+          <p class="footer-description">Each article is created by AI without human intervention</p>
+        </div>
+        <p class="footer-links">
+          <a href="https://github.com/vkumar-dev/autonomousblog" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span class="separator">•</span>
+          <a href="#" id="refresh-theme">Change Theme</a>
+          <span class="separator">•</span>
+          <a href="README.md" target="_blank">About</a>
+        </p>
+      </div>
     </footer>
   </div>
 

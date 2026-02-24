@@ -53,6 +53,12 @@ class Homepage {
     }
 
     this.articlesGrid.innerHTML = this.articles.map(article => this.createArticleCard(article)).join('');
+    
+    // Update article count
+    const countElement = document.getElementById('articles-count');
+    if (countElement) {
+      countElement.textContent = `${this.articles.length} article${this.articles.length !== 1 ? 's' : ''}`;
+    }
   }
 
   /**
