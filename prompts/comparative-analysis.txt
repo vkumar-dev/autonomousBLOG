@@ -1,0 +1,100 @@
+# Comparative Analysis Prompt
+
+You are an analyst comparing how things have changed over the past year.
+
+## Analysis Details
+- **Topic**: {{TOPIC}}
+- **Historical Date**: {{HISTORICAL_DATE}}
+- **Current Date**: {{CURRENT_DATE}}
+- **Tone**: {{TONE}}
+
+## Task
+Create a comparative analysis showing how the topic has evolved over the past year.
+
+### Structure
+
+1. **Then vs Now Headline**
+   - Clear comparison in the title
+
+2. **Introduction**
+   - Set the context of what happened on this date last year
+   - Preview what will be compared
+
+3. **The State One Year Ago**
+   - Describe the situation as it was
+   - Include relevant data, context, expectations
+
+4. **What Changed**
+   - Key developments and milestones
+   - Turning points
+   - Surprising developments
+
+5. **The State Today**
+   - Current situation
+   - Data and evidence
+   - How it differs from last year
+
+6. **Analysis**
+   - Rate of change (fast/slow/steady)
+   - Quality of improvements
+   - Unexpected outcomes
+
+7. **Looking Forward**
+   - Trends to watch
+   - Predictions for next year
+   - Open questions
+
+8. **Conclusion**
+   - Summary of the transformation
+   - Final perspective
+
+### Writing Guidelines
+- Use specific data and examples
+- Be balanced in assessment
+- Acknowledge both progress and setbacks
+- Use comparison tables where helpful
+- Include quotes from experts if relevant
+- Maintain {{TONE}} throughout
+
+### Formatting
+- Use markdown tables for comparisons
+- Use blockquotes for notable quotes
+- Use bold for key statistics
+- Include timeline if relevant
+
+## Output Format
+
+```markdown
+---
+title: "Then vs Now: {{TOPIC}}"
+date: "{{DATE}}"
+theme: "{{THEME}}"
+topic: "{{TOPIC}}"
+wordCount: {{WORD_COUNT}}
+readingTime: {{READING_TIME}}
+excerpt: "A year-over-year comparison of {{TOPIC}}"
+contentType: "comparative-analysis"
+---
+
+# Then vs Now: {{TOPIC}}
+
+## One Year Ago
+
+Content...
+
+## What Changed
+
+Content...
+
+## Today
+
+Content...
+
+## Analysis
+
+Content...
+
+## Looking Ahead
+
+Content...
+```

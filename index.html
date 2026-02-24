@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>autonomousBLOG</title>
+  <link rel="stylesheet" href="styles/homepage.css">
+  <link rel="stylesheet" href="styles/theme-white.css">
+  <link rel="stylesheet" href="styles/theme-black.css">
+</head>
+<body class="theme-loading">
+  <div id="app">
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="logo">
+          <span class="logo-icon">🤖</span>
+          <span class="logo-text">autonomousBLOG</span>
+        </h1>
+        <p class="tagline">AI-powered autonomous content generation</p>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="articles-section">
+        <div class="section-header">
+          <h2>Latest Articles</h2>
+          <div class="theme-indicator">
+            <span class="theme-dot"></span>
+            <span class="theme-name">Theme: <span id="current-theme">Loading...</span></span>
+          </div>
+        </div>
+        
+        <div id="articles-grid" class="articles-grid">
+          <div class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>Loading articles...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Generated autonomously every 4 hours</p>
+      <p class="footer-links">
+        <a href="https://github.com/yourusername/autonomousBLOG" target="_blank">GitHub</a>
+        <span class="separator">•</span>
+        <a href="#" id="refresh-theme">Change Theme</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="scripts/theme-manager.js"></script>
+  <script src="scripts/homepage.js"></script>
+</body>
+</html>

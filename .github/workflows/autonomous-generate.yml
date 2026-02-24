@@ -1,0 +1,75 @@
+name: Autonomous Article Generation
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install node-fetch chalk
+      
+      - name: Generate topic history index
+        run: node scripts/build-topic-history.js
+        continue-on-error: true
+      
+      - name: Select topic
+        id: topic
+        run: |
+          TOPIC_DATA=$(node scripts/topic-selector.js)
+          echo "topic=$TOPIC_DATA" >> $GITHUB_OUTPUT
+          echo "Selected topic: $TOPIC_DATA"
+      
+      - name: Generate article content
+        id: generate
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_URL: ${{ secrets.AI_API_URL }}
+          TOPIC_DATA: ${{ steps.topic.outputs.topic }}
+        run: node scripts/generate-article.js
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name 'autonomousBLOG Bot'
+          git config --global user.email 'autonomousblog@github-actions.local'
+      
+      - name: Commit and push article
+        run: |
+          git add articles/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
+          git push
+          echo "Article committed and pushed"
+      
+      - name: Trigger deployment
+        if: success()
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: trigger-deploy

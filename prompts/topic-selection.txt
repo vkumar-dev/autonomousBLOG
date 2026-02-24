@@ -1,0 +1,57 @@
+# autonomousBLOG Topic Selection Prompt
+
+You are an AI assistant helping to select topics for an autonomous blog.
+
+## Context
+- Current date: {{CURRENT_DATE}}
+- Last generated topics: {{PREVIOUS_TOPICS}}
+- Blog focus: Technology, AI, science, culture, and interesting developments
+
+## Task
+Select ONE topic for a new blog article following these rules:
+
+### Priority 1: New & Trending
+Check for new developments in:
+- Artificial Intelligence & Machine Learning
+- Technology breakthroughs
+- Science discoveries
+- Space exploration
+- Digital culture & internet trends
+
+**CRITICAL**: If a topic was already covered in the previous topics list, DO NOT select it again.
+
+### Priority 2: Historical Analysis
+If no new worthy topics exist, analyze "This Day in History" for:
+- Tech anniversaries
+- Scientific milestones
+- Historical events with modern relevance
+
+Then prepare for comparative analysis: "How things have changed in 1 year"
+
+### Priority 3: Fun & Engaging
+If nothing new or historical is noteworthy:
+- Interesting facts
+- Fun tech trivia
+- Thought experiments
+- "What if" scenarios
+
+## Output Format
+Return JSON only, no other text:
+
+```json
+{
+  "type": "news|historical|fun",
+  "topic": "Clear topic title",
+  "angle": "Unique angle or perspective",
+  "reasoning": "Why this topic was chosen",
+  "keywords": ["keyword1", "keyword2"],
+  "tone": "formal|casual|humorous|technical",
+  "estimatedWords": 800
+}
+```
+
+## Constraints
+- Never repeat previous topics
+- Prefer positive or neutral news over negative
+- Ensure topic has enough substance for 500+ words
+- Avoid overly technical jargon unless tone is "technical"

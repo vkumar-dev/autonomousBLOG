@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+
+# Generated files
+selected-topic.json
+articles-index.json
+
+# Articles (keep directory, ignore content during dev)
+# Uncomment if you want to track articles
+# articles/
+
+# Temporary files
+tmp/
+temp/
