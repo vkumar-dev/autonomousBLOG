@@ -31,7 +31,20 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install node-fetch chalk
+          npm install node-fetch
+      
+      - name: Check AI Configuration
+        run: |
+          echo "🔍 Checking AI configuration..."
+          if [ -n "${{ secrets.GEMINI_API_KEY }}" ]; then
+            echo "✅ Gemini API key found - will use Gemini (free tier)"
+          elif [ -n "${{ secrets.AI_API_KEY }}" ]; then
+            echo "✅ OpenAI API key found - will use OpenAI-compatible API"
+          else
+            echo "⚠️  No API key found - will use fallback content generation"
+            echo "💡 For better quality articles, add GEMINI_API_KEY secret"
+            echo "💡 Get free Gemini API key at: https://aistudio.google.com"
+          fi
       
       - name: Generate topic history index
         run: node scripts/build-topic-history.js
@@ -47,8 +60,10 @@ jobs:
       - name: Generate article content
         id: generate
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_URL: ${{ secrets.AI_API_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
           TOPIC_DATA: ${{ steps.topic.outputs.topic }}
         run: node scripts/generate-article.js
       
@@ -66,7 +81,7 @@ jobs:
           fi
           git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
           git push
-          echo "Article committed and pushed"
+          echo "✅ Article committed and pushed"
       
       - name: Trigger deployment
         if: success()

@@ -2,7 +2,10 @@
 
 /**
  * Generate Article
- * Calls AI API to generate article content based on selected topic
+ * Supports multiple AI providers with fallback mode
+ * - Gemini API (recommended, free tier)
+ * - OpenAI-compatible API
+ * - Fallback mode (no API key needed)
  */
 
 const fs = require('fs');
@@ -44,7 +47,6 @@ function generateDatePath() {
 }
 
 function calculateReadingTime(wordCount) {
-  // Average reading speed: 200 words per minute
   return Math.ceil(wordCount / 200);
 }
 
@@ -59,14 +61,61 @@ function getPromptForType(type) {
   }
 }
 
-async function callAI(prompt, topicData) {
+/**
+ * Call Gemini API (Recommended - Free Tier)
+ */
+async function callGemini(prompt, topicData) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  
+  if (!apiKey) {
+    return null; // Will use fallback
+  }
+  
+  const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+  
+  try {
+    const response = await fetch(`${url}?key=${apiKey}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{
+            text: prompt
+          }]
+        }],
+        generationConfig: {
+          temperature: 0.7,
+          maxOutputTokens: 2048
+        }
+      })
+    });
+    
+    if (!response.ok) {
+      const error = await response.json();
+      console.error('Gemini API error:', error);
+      throw new Error(`Gemini API error: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
+    
+  } catch (error) {
+    console.error('Gemini API call failed:', error.message);
+    return null;
+  }
+}
+
+/**
+ * Call OpenAI-compatible API
+ */
+async function callOpenAI(prompt, topicData) {
   const apiKey = process.env.AI_API_KEY;
   const apiUrl = process.env.AI_API_URL || 'https://api.openai.com/v1/chat/completions';
   
-  // If no API key, generate placeholder content
   if (!apiKey) {
-    console.log('No AI_API_KEY found, generating placeholder content');
-    return generatePlaceholderContent(topicData);
+    return null;
   }
   
   try {
@@ -77,7 +126,7 @@ async function callAI(prompt, topicData) {
         'Authorization': `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: 'gpt-4o-mini',
+        model: process.env.AI_MODEL || 'gpt-4o-mini',
         messages: [
           {
             role: 'system',
@@ -101,16 +150,56 @@ async function callAI(prompt, topicData) {
     return data.choices[0].message.content;
     
   } catch (error) {
-    console.error('AI API call failed:', error.message);
-    return generatePlaceholderContent(topicData);
+    console.error('OpenAI API call failed:', error.message);
+    return null;
   }
 }
 
-function generatePlaceholderContent(topicData) {
+/**
+ * Generate fallback content without AI
+ * Uses templates and topic data to create structured content
+ */
+function generateFallbackContent(topicData) {
   const { topic, type, tone, estimatedWords } = topicData;
   const theme = ARTICLE_THEMES[Math.floor(Math.random() * ARTICLE_THEMES.length)];
   const now = new Date();
-  const slug = generateSlug(topic);
+  
+  const typeLabels = {
+    'news': 'News Article',
+    'historical': 'Comparative Analysis',
+    'fun': 'Fun Content',
+    'article': 'Article'
+  };
+  
+  const intros = {
+    'news': `In today's rapidly evolving landscape of ${topicData.keywords?.[0] || 'technology'}, ${topic} has emerged as a significant development.`,
+    'historical': `Looking back at ${topic}, we can see how much has changed over time.`,
+    'fun': `Let's dive into something interesting: ${topic}. Trust us, it's more fascinating than it sounds!`
+  };
+  
+  const sections = {
+    'news': [
+      '## Background\n\nTo understand why this matters, we need to look at the broader context. The field has been evolving rapidly, with multiple developments leading to this point.',
+      '## Key Developments\n\nSeveral key factors have contributed to this development:\n\n1. **Technical Innovation**: New approaches and methodologies have emerged\n2. **Industry Adoption**: Organizations are increasingly recognizing the potential\n3. **Community Interest**: Growing engagement from developers and researchers',
+      '## Implications\n\nThis development has several important implications:\n\n- **Short-term**: Immediate impacts on current workflows and practices\n- **Medium-term**: Changes in how teams approach related challenges\n- **Long-term**: Potential shifts in the broader landscape',
+      '## What to Watch\n\nAs this space continues to evolve, keep an eye on:\n\n- Further announcements and updates\n- Community feedback and adoption\n- Integration with existing tools and platforms'
+    ],
+    'historical': [
+      '## The Past\n\nLooking back, we can see how things used to be. The landscape was different, with its own set of challenges and opportunities.',
+      '## The Transition\n\nOver time, several key changes occurred:\n\n1. Initial developments laid the groundwork\n2. Major milestones marked significant progress\n3. Recent advances have accelerated the pace',
+      '## The Present\n\nToday, we stand in a very different position. The changes have been substantial, affecting multiple aspects of the field.',
+      '## Lessons Learned\n\nWhat can we take away from this evolution?\n\n- **Persistence matters**: Long-term progress often requires patience\n- **Incremental gains add up**: Small improvements compound over time\n- **Context is key**: Understanding the journey helps appreciate the destination'
+    ],
+    'fun': [
+      '## Why This Is Interesting\n\nAt first glance, this might seem like just another topic. But dig a little deeper, and you\'ll find some fascinating aspects.',
+      '## Surprising Facts\n\nHere are some things that might surprise you:\n\n1. **Did you know?**: There\'s more complexity here than meets the eye\n2. **Fun fact**: The history behind this is more interesting than you\'d expect\n3. **Bonus trivia**: There are connections to other areas you might not expect',
+      '## The Bigger Picture\n\nWhat makes this truly interesting is how it connects to broader themes:\n\n- It reflects larger trends in technology and culture\n- It shows how innovation often comes from unexpected places\n- It demonstrates the creative potential of human ingenuity',
+      '## Food for Thought\n\nNext time you encounter this topic, remember:\n\n- There\'s always more to learn\n- Curiosity leads to discovery\n- Even "boring" topics can be fascinating with the right perspective'
+    ]
+  };
+  
+  const selectedSections = sections[type] || sections.news;
+  const intro = intros[type] || intros.news;
   
   return `---
 title: "${topic}"
@@ -119,39 +208,52 @@ theme: "${theme}"
 topic: "${topic}"
 wordCount: ${estimatedWords}
 readingTime: ${calculateReadingTime(estimatedWords)}
-excerpt: "An autonomously generated article about ${topic}"
+excerpt: "An autonomously generated ${typeLabels[type]} about ${topic}"
 contentType: "${type}"
+generated: "fallback"
 ---
 
 # ${topic}
 
 *This article was autonomously generated by autonomousBLOG.*
 
-## Introduction
+${intro}
 
-This is a placeholder article generated because the AI API is not configured. 
-The topic selected was: **${topic}**
-
-## Content Type: ${type}
-
-${type === 'news' ? 'This would contain the latest news and developments.' : 
-  type === 'historical' ? 'This would contain a comparative analysis over time.' :
-  'This would contain fun and entertaining content.'}
-
-## Writing Style: ${tone}
-
-The article would be written in a ${tone} tone, engaging readers with 
-well-researched content about ${topic}.
+${selectedSections.join('\n\n')}
 
 ## Conclusion
 
-To enable real article generation:
-1. Set up AI_API_KEY in your GitHub repository secrets
-2. Optionally set AI_API_URL for custom endpoints
+${type === 'news' ? 'As this story continues to develop, we\'ll keep you updated with the latest information.' : 
+  type === 'historical' ? 'The journey from past to present shows us not just where we\'ve been, but hints at where we\'re going.' :
+  'Sometimes the most interesting discoveries come from exploring the unexpected.'}
 
 ---
+
 *Generated by autonomousBLOG on ${now.toUTCString()}*
+
+> **Note**: This is fallback content. For AI-generated articles, set up a free Gemini API key at https://aistudio.google.com and add it as GEMINI_API_KEY secret in your repository settings.
 `;
+}
+
+async function callAI(prompt, topicData) {
+  // Try Gemini first (recommended)
+  if (process.env.GEMINI_API_KEY) {
+    console.log('Using Gemini API...');
+    const result = await callGemini(prompt, topicData);
+    if (result) return result;
+  }
+  
+  // Try OpenAI-compatible API
+  if (process.env.AI_API_KEY) {
+    console.log('Using OpenAI-compatible API...');
+    const result = await callOpenAI(prompt, topicData);
+    if (result) return result;
+  }
+  
+  // Fall back to template-based generation
+  console.log('No API key found, using fallback content generation...');
+  console.log('💡 Tip: Set GEMINI_API_KEY secret for better quality (free at https://aistudio.google.com)');
+  return null;
 }
 
 async function generateArticle() {
@@ -190,6 +292,11 @@ async function generateArticle() {
   // Call AI to generate content
   let content = await callAI(prompt, topicData);
   
+  // Use fallback if AI failed
+  if (!content) {
+    content = generateFallbackContent(topicData);
+  }
+  
   // Ensure content has frontmatter
   if (!content.includes('---')) {
     content = `---
@@ -218,7 +325,7 @@ ${content}
   
   // Write article
   fs.writeFileSync(articleFile, content);
-  console.log('Article created:', articleFile);
+  console.log('✅ Article created:', articleFile);
   
   // Clean up topic file
   if (fs.existsSync(TOPIC_FILE)) {
@@ -233,6 +340,14 @@ async function main() {
   try {
     const result = await generateArticle();
     console.log('Article generation complete:', result.file);
+    
+    // Log which mode was used
+    const articleContent = fs.readFileSync(result.file, 'utf8');
+    const generatedMode = articleContent.includes('generated: "fallback"') 
+      ? 'FALLBACK (no API key)' 
+      : 'AI-GENERATED';
+    console.log(`Generation mode: ${generatedMode}`);
+    
   } catch (error) {
     console.error('Error generating article:', error.message);
     process.exit(1);
