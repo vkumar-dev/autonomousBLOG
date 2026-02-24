@@ -1,0 +1,277 @@
+/**
+ * Markdown Viewer for Articles
+ * Converts markdown articles to HTML and displays them
+ * Handles .md file serving and rendering
+ */
+
+class MarkdownViewer {
+  constructor() {
+    this.articlePath = this.extractArticlePathFromUrl();
+    this.init();
+  }
+
+  /**
+   * Extract article path from URL
+   * e.g., /autonomousBLOG/?article=2026/02/my-article.md
+   */
+  extractArticlePathFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const article = params.get('article');
+    
+    if (!article) {
+      // Try from hash
+      const hash = window.location.hash.slice(1);
+      if (hash) return hash;
+    }
+    
+    return article;
+  }
+
+  /**
+   * Initialize viewer
+   */
+  async init() {
+    try {
+      if (!this.articlePath) {
+        this.showError('No article specified');
+        return;
+      }
+
+      // Load and parse markdown
+      const markdown = await this.loadMarkdown();
+      const { frontmatter, content } = this.parseFrontmatter(markdown);
+      
+      // Render HTML
+      this.renderArticle(frontmatter, content);
+      
+    } catch (error) {
+      console.error('Error loading article:', error);
+      this.showError(`Failed to load article: ${error.message}`);
+    }
+  }
+
+  /**
+   * Load markdown file
+   */
+  async loadMarkdown() {
+    const response = await fetch(`articles/${this.articlePath}`);
+    
+    if (!response.ok) {
+      throw new Error(`Article not found (${response.status})`);
+    }
+    
+    return await response.text();
+  }
+
+  /**
+   * Parse YAML frontmatter and content
+   */
+  parseFrontmatter(markdown) {
+    const match = markdown.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+    
+    if (!match) {
+      throw new Error('Invalid article format: missing frontmatter');
+    }
+
+    const frontmatter = this.parseFrontmatterBlock(match[1]);
+    const content = match[2];
+
+    return { frontmatter, content };
+  }
+
+  /**
+   * Parse YAML-like frontmatter
+   */
+  parseFrontmatterBlock(block) {
+    const data = {};
+    const lines = block.split('\n');
+
+    for (const line of lines) {
+      const colonIndex = line.indexOf(':');
+      if (colonIndex === -1) continue;
+
+      const key = line.slice(0, colonIndex).trim();
+      let value = line.slice(colonIndex + 1).trim();
+
+      // Remove quotes
+      if ((value.startsWith('"') && value.endsWith('"')) ||
+          (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1);
+      }
+
+      // Parse arrays
+      if (value.startsWith('[') && value.endsWith(']')) {
+        value = value.slice(1, -1).split(',').map(v => {
+          let trimmed = v.trim();
+          if ((trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+              (trimmed.startsWith("'") && trimmed.endsWith("'"))) {
+            trimmed = trimmed.slice(1, -1);
+          }
+          return trimmed;
+        });
+      }
+
+      data[key] = value;
+    }
+
+    return data;
+  }
+
+  /**
+   * Convert markdown to HTML (simple)
+   */
+  markdownToHtml(markdown) {
+    let html = markdown
+      // Headers
+      .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
+      .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
+      .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+      // Bold and italic
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/__(.*?)__/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/_(.*?)_/g, '<em>$1</em>')
+      // Links
+      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
+      // Code blocks
+      .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+      // Inline code
+      .replace(/`(.*?)`/g, '<code>$1</code>')
+      // Lists
+      .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
+      // Paragraphs
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/^(?!<[hp])/gm, '<p>')
+      .replace(/$/gm, '</p>');
+
+    return html;
+  }
+
+  /**
+   * Render article to page
+   */
+  renderArticle(frontmatter, content) {
+    const html = this.markdownToHtml(content);
+    const now = new Date(frontmatter.date || new Date());
+    const formattedDate = now.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    });
+
+    // Create article HTML
+    const articleHtml = `
+      <article class="article-page">
+        <nav class="article-nav">
+          <a href="index.html" class="nav-home">
+            <span class="nav-icon">←</span>
+            <span class="nav-text">autonomousBLOG</span>
+          </a>
+        </nav>
+
+        <header class="article-header">
+          <div class="header-content">
+            <div class="article-meta">
+              <span class="meta-type">${this.escapeHtml(frontmatter.contentType || 'Article')}</span>
+              <span class="meta-theme">${this.escapeHtml(frontmatter.theme || 'default')}</span>
+              <span class="meta-date">${formattedDate}</span>
+            </div>
+            <h1 class="article-title">${this.escapeHtml(frontmatter.title || 'Untitled')}</h1>
+            <p class="article-excerpt">${this.escapeHtml(frontmatter.excerpt || '')}</p>
+            <div class="article-stats">
+              <span class="stat">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+                ${frontmatter.readingTime || 5} min read
+              </span>
+              <span class="stat">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                </svg>
+                ${frontmatter.wordCount || 0} words
+              </span>
+            </div>
+          </div>
+        </header>
+
+        <main class="article-content">
+          <article id="article-body">
+            ${html}
+          </article>
+          <footer class="article-footer">
+            <p class="generated-info">
+              <span class="bot-icon">🤖</span>
+              This article was autonomously generated by autonomousBLOG
+            </p>
+            <p class="generation-date">Generated on ${now.toUTCString()}</p>
+          </footer>
+        </main>
+      </article>
+    `;
+
+    // Set page content
+    document.body.innerHTML = articleHtml;
+    document.title = `${frontmatter.title || 'Article'} - autonomousBLOG`;
+    
+    // Apply theme
+    this.applyTheme(frontmatter.theme);
+  }
+
+  /**
+   * Apply theme to article
+   */
+  applyTheme(theme) {
+    // Remove existing theme classes
+    document.body.classList.remove('theme-white', 'theme-black');
+    
+    // Determine which theme to use
+    if (!theme || theme === 'default') {
+      // Random theme
+      theme = Math.random() > 0.5 ? 'theme-white' : 'theme-black';
+    } else {
+      theme = `theme-${theme.split('-')[0]}`;
+    }
+
+    document.body.classList.add(theme, 'theme-loaded');
+  }
+
+  /**
+   * Escape HTML to prevent XSS
+   */
+  escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  /**
+   * Show error message
+   */
+  showError(message) {
+    document.body.innerHTML = `
+      <div style="padding: 2rem; max-width: 600px; margin: 0 auto;">
+        <a href="index.html" style="text-decoration: none; margin-bottom: 1rem; display: inline-block;">
+          ← Back to Blog
+        </a>
+        <div style="
+          background: #fee;
+          color: #c33;
+          padding: 1rem;
+          border-radius: 8px;
+          margin-top: 1rem;
+        ">
+          <h2>Error Loading Article</h2>
+          <p>${this.escapeHtml(message)}</p>
+        </div>
+      </div>
+    `;
+    document.title = 'Error - autonomousBLOG';
+  }
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', () => {
+  new MarkdownViewer();
+});

@@ -111,17 +111,20 @@ class Homepage {
    * Get article file path
    */
   getArticlePath(article) {
-    if (article.path) {
-      return article.path;
+    let articlePath = article.path;
+    
+    if (!articlePath) {
+      // Construct path from date and slug
+      const date = new Date(article.date);
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const slug = this.generateSlug(article.title);
+      
+      articlePath = `${year}/${month}/${slug}.md`;
     }
     
-    // Construct path from date and slug
-    const date = new Date(article.date);
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const slug = this.generateSlug(article.title);
-    
-    return `articles/${year}/${month}/${slug}.md`;
+    // Use markdown viewer for .md files
+    return `view-article.html?article=${encodeURIComponent(articlePath)}`;
   }
 
   /**
