@@ -26,12 +26,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       
       - name: Install dependencies
         run: |
           npm init -y
-          npm install node-fetch
+          npm install node-fetch --save
       
       - name: Check AI Configuration
         run: |
