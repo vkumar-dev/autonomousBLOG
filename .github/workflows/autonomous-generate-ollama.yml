@@ -41,7 +41,7 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           npm init -y
-          npm install --no-save gray-matter
+          npm install --no-save gray-matter node-fetch@2
 
       - name: Start Ollama service
         run: |
