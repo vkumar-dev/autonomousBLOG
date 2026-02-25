@@ -11,6 +11,7 @@
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
+const { buildArticlesList } = require('./build-articles-list');
 
 const TOPIC_FILE = path.join(__dirname, '..', 'selected-topic.json');
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
@@ -331,6 +332,10 @@ ${content}
   if (fs.existsSync(TOPIC_FILE)) {
     fs.unlinkSync(TOPIC_FILE);
   }
+  
+  // Rebuild articles list so homepage can load the new article
+  console.log('Rebuilding articles list...');
+  buildArticlesList();
   
   return { file: articleFile, theme };
 }
