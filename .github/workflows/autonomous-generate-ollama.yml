@@ -38,9 +38,10 @@ jobs:
           which ollama
           echo "✅ Ollama installed"
 
-      - name: Install Python dependencies (before Ollama)
+      - name: Install Node.js dependencies
         run: |
-          pip install --no-cache-dir gray-matter
+          npm init -y
+          npm install --no-save gray-matter
 
       - name: Start Ollama service
         run: |
