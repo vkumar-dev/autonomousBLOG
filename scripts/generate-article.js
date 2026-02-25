@@ -113,6 +113,56 @@ function getPromptForType(type) {
 }
 
 /**
+ * Call Qwen API (via OpenAI-compatible interface)
+ */
+async function callQwen(prompt, topicData) {
+  const apiKey = process.env.QWEN_API_KEY;
+  const apiUrl = process.env.QWEN_API_URL || 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
+  
+  if (!apiKey) {
+    return null;
+  }
+  
+  try {
+    const response = await fetch(apiUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}`
+      },
+      body: JSON.stringify({
+        model: process.env.QWEN_MODEL || 'qwen-plus',
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a professional blog writer creating engaging, well-researched articles for autonomousBLOG.'
+          },
+          {
+            role: 'user',
+            content: prompt
+          }
+        ],
+        temperature: 0.7,
+        max_tokens: 2048
+      })
+    });
+    
+    if (!response.ok) {
+      const error = await response.json();
+      console.error('Qwen API error:', error);
+      throw new Error(`Qwen API error: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    return data.choices?.[0]?.message?.content || null;
+    
+  } catch (error) {
+    console.error('Qwen API call failed:', error.message);
+    return null;
+  }
+}
+
+/**
  * Call Gemini API (Recommended - Free Tier)
  */
 async function callGemini(prompt, topicData) {
@@ -287,7 +337,14 @@ ${type === 'news' ? 'As this story continues to develop, we\'ll keep you updated
 }
 
 async function callAI(prompt, topicData) {
-  // Try Gemini first (recommended)
+  // Try Qwen API first (if available)
+  if (process.env.QWEN_API_KEY) {
+    console.log('Using Qwen API...');
+    const result = await callQwen(prompt, topicData);
+    if (result) return result;
+  }
+  
+  // Try Gemini API (recommended - free)
   if (process.env.GEMINI_API_KEY) {
     console.log('Using Gemini API...');
     const result = await callGemini(prompt, topicData);
