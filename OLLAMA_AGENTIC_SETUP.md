@@ -48,19 +48,19 @@ The `[skip ci]` flag tells GitHub Actions not to run any workflows on this push.
 
 ## Part 2: Choose Your Agentic Framework
 
-### Recommended: PydanticAI (Simple, Minimal, Modern)
+### Direct Ollama HTTP API (Simplest, Zero Dependencies)
 
 **Pros:**
-- Designed for LLM agents in 2024+
-- Zero complex abstractions
-- Built for Ollama/local models
-- Lightweight (perfect for GitHub Actions)
-- Full tool calling & structured output
+- Zero dependencies (just urllib from stdlib)
+- Direct API calls, no abstractions
+- Fast, reliable
+- Works perfectly for text generation
+- Uses ~30 lines of actual API code
 
 **Cons:**
-- Newer (but stable)
+- No structured output (but markdown is structured enough)
 
-**Package:** `pip install pydantic-ai`
+**Implementation:** Built into generate_article_agentic.py
 
 ### Alternative: Atomic Agents (Extremely Lightweight)
 

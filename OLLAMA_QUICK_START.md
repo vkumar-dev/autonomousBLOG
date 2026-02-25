@@ -43,7 +43,8 @@ ollama run mistral "Say hello"
 
 ### Install Python dependencies
 ```bash
-pip install pydantic-ai ollama gray-matter
+pip install gray-matter
+# (No pydantic-ai needed - uses direct Ollama API)
 ```
 
 ### Generate a test article
