@@ -1,55 +1,56 @@
-# GitHub Actions Quick Start (5 minutes)
+# GitHub Actions Quick Start (1 minute)
 
 ## What You Need
+- Your repository on GitHub (public)
+- That's it. No API keys. No costs.
 
-1. Your repository on GitHub (public)
-2. One API key from: Qwen, Gemini, or OpenAI
-
-## Step 1: Add API Key (1 min)
-
-1. Go to your repo → **Settings** → **Secrets and variables** → **Actions**
-2. Click **New repository secret**
-3. Add your API key:
-   - **For Qwen**: Name = `QWEN_API_KEY`, Value = your key
-   - **For Gemini**: Name = `GEMINI_API_KEY`, Value = your key
-   - **For OpenAI**: Name = `AI_API_KEY`, Value = your key
-4. Click **Add secret**
-
-## Step 2: Enable GitHub Pages (2 min)
+## Step 1: Enable GitHub Pages (1 min)
 
 1. Go to **Settings** → **Pages**
 2. Under "Source", select "Deploy from a branch"
 3. Branch = `main`, Folder = `/ (root)`
 4. Click **Save**
 
-## Step 3: Enable Workflows (1 min)
+## Step 2: Done!
+
+Your blog is now autonomous. Workflows run automatically every 4 hours on GitHub's servers.
+
+- ✅ No API keys needed
+- ✅ No costs
+- ✅ No secrets to manage
+- ✅ Completely free
+
+## Verify It Works
 
 1. Go to **Actions** tab
-2. If disabled, click **Enable workflows**
-3. You should see:
-   - ✅ Autonomous Article Generation
-   - ✅ Deploy to GitHub Pages
+2. Check workflow status
+3. Wait 4 hours for next article, or click **Run workflow** to test immediately
+4. Visit your site: `https://yourusername.github.io/autonomousBLOG/`
 
-## Step 4: Test It (1 min)
+## Change Article Frequency
 
-1. Go to **Actions** → **Autonomous Article Generation**
-2. Click **Run workflow** → **Run workflow**
-3. Watch it run! Takes 1-2 minutes
-4. Check your site: `https://yourusername.github.io/autonomousBLOG/`
+Edit `.github/workflows/autonomous-generate.yml`:
 
-## That's It!
+```yaml
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Change 4 to 6, 12, 24, etc.
+```
 
-Your blog now generates articles every 4 hours automatically. No more local monitoring needed.
+Examples:
+- `'0 */4 * * *'` - Every 4 hours
+- `'0 0 * * *'` - Once daily
+- `'0 0 * * 0'` - Once weekly
 
-## Next Steps
+## How It Works
 
-- Check articles generate every 4 hours
-- Customize prompts in `prompts/` directory
-- Change frequency: Edit `.github/workflows/autonomous-generate.yml` cron
-- View logs: **Actions** tab shows all runs
+1. GitHub Actions runs every 4 hours
+2. Topic selector picks a topic
+3. Free inference generates article (no API)
+4. Article commits to your repo
+5. GitHub Pages auto-deploys
+6. Site updates with new article
 
-## Get API Keys
+## That's It
 
-**Qwen** (Free): https://dashscope.aliyuncs.com/
-**Gemini** (Free tier): https://aistudio.google.com
-**OpenAI**: https://platform.openai.com/api-keys
+Your autonomous blog is live and fully self-sustaining.
