@@ -13,7 +13,7 @@ permissions:
 jobs:
   generate-article:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     
     steps:
       - name: Checkout repository
@@ -35,34 +35,42 @@ jobs:
         run: |
           echo "📦 Installing Ollama..."
           curl -fsSL https://ollama.ai/install.sh | sh
-          echo "Ollama installed successfully"
+          which ollama
+          echo "✅ Ollama installed"
+
+      - name: Install Python dependencies (before Ollama)
+        run: |
+          pip install --no-cache-dir gray-matter
 
       - name: Start Ollama service
         run: |
           echo "🚀 Starting Ollama service..."
-          # Start ollama in background
+          # Start ollama in background with output redirected
           nohup ollama serve > /tmp/ollama.log 2>&1 &
+          OLLAMA_PID=$!
+          echo "Ollama PID: $OLLAMA_PID"
           
-          # Wait for service to be ready
-          for i in {1..30}; do
-            if ollama list > /dev/null 2>&1; then
+          # Wait for service to be ready (longer timeout)
+          for i in {1..60}; do
+            if curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
               echo "✅ Ollama service ready"
               break
             fi
-            echo "⏳ Waiting for Ollama... ($i/30)"
-            sleep 2
+            if [ $i -eq 60 ]; then
+              echo "❌ Ollama failed to start"
+              cat /tmp/ollama.log
+              exit 1
+            fi
+            echo "⏳ Waiting for Ollama... ($i/60)"
+            sleep 1
           done
 
       - name: Pull Ollama model
         run: |
-          echo "📥 Pulling model (mistral)..."
-          ollama pull mistral
+          echo "📥 Pulling model (neural-chat)..."
+          timeout 600 ollama pull neural-chat:latest || timeout 600 ollama pull mistral || ollama pull tinyllama
           echo "✅ Model ready"
           ollama list
-
-      - name: Install Python dependencies
-        run: |
-          pip install --no-cache-dir pydantic-ai ollama gray-matter
 
       - name: Generate topic history
         run: |
