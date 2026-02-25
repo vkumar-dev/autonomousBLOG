@@ -15,6 +15,7 @@ const { buildArticlesList } = require('./build-articles-list');
 
 const TOPIC_FILE = path.join(__dirname, '..', 'selected-topic.json');
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
+const ARTICLES_LIST_FILE = path.join(__dirname, '..', 'articles-list.json');
 const PROMPT_FILE = path.join(__dirname, '..', 'prompts', 'article-generation.txt');
 const COMPARATIVE_PROMPT = path.join(__dirname, '..', 'prompts', 'comparative-analysis.txt');
 const FUN_PROMPT = path.join(__dirname, '..', 'prompts', 'fun-content.txt');
@@ -38,6 +39,55 @@ function generateSlug(title) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '');
+}
+
+/**
+ * Check if a similar article already exists
+ * Uses simple keyword matching to avoid duplicate topics
+ */
+function findSimilarArticles(topic, keywords) {
+  if (!fs.existsSync(ARTICLES_LIST_FILE)) {
+    return [];
+  }
+  
+  try {
+    const articles = JSON.parse(fs.readFileSync(ARTICLES_LIST_FILE, 'utf8'));
+    const topicLower = topic.toLowerCase();
+    const keywordLower = keywords.map(k => k.toLowerCase());
+    
+    const similar = articles.filter(filename => {
+      const filenameLower = filename.toLowerCase();
+      
+      // Check if topic words appear in filename
+      const topicWords = topicLower.split(/[^a-z0-9]+/);
+      const filenameWords = filenameLower.split(/[^a-z0-9]+/);
+      
+      let matches = 0;
+      for (const word of topicWords) {
+        if (word.length > 3 && filenameWords.includes(word)) {
+          matches++;
+        }
+      }
+      
+      // Check if keywords appear in filename
+      for (const keyword of keywordLower) {
+        const keywordWords = keyword.split(/[^a-z0-9]+/);
+        for (const word of keywordWords) {
+          if (word.length > 3 && filenameWords.includes(word)) {
+            matches++;
+          }
+        }
+      }
+      
+      // Consider it similar if there are 2+ matching keywords or significant overlap
+      return matches >= 2;
+    });
+    
+    return similar;
+  } catch (error) {
+    console.warn('Warning: Could not check for similar articles:', error.message);
+    return [];
+  }
 }
 
 function generateDatePath() {
@@ -265,6 +315,28 @@ async function generateArticle() {
   
   const topicData = JSON.parse(fs.readFileSync(TOPIC_FILE, 'utf8'));
   console.log('Generating article for topic:', topicData.topic);
+  
+  // Check for similar articles to avoid duplicates
+  const keywords = Array.isArray(topicData.keywords) ? topicData.keywords : [topicData.keywords || ''];
+  const similarArticles = findSimilarArticles(topicData.topic, keywords);
+  
+  if (similarArticles.length > 0) {
+    console.warn('⚠️  WARNING: Similar articles already exist:');
+    similarArticles.forEach(article => {
+      console.warn(`   - ${article}`);
+    });
+    console.warn('\n❌ Skipping article generation to avoid duplicate content.');
+    console.warn('Please select a different topic or modify the current topic to be more unique.\n');
+    
+    // Clean up topic file
+    if (fs.existsSync(TOPIC_FILE)) {
+      fs.unlinkSync(TOPIC_FILE);
+    }
+    
+    throw new Error('Similar article already exists. Skipping generation.');
+  }
+  
+  console.log('✅ No similar articles found. Proceeding with generation...\n');
   
   // Load and prepare prompt
   const promptFile = getPromptForType(topicData.type);
