@@ -52,6 +52,23 @@ generate_article() {
     cat "$PRD_FILE" | qwen -y -p
     
     log_success "Article generation complete"
+    
+    # Convert HTML articles to markdown (if any)
+    log_info "Converting HTML articles to markdown..."
+    if node "$SCRIPT_DIR/convert-html-to-markdown.js"; then
+        log_success "HTML conversion complete"
+    else
+        log_warning "Failed to convert HTML articles"
+    fi
+    
+    # Rebuild article index after generation
+    log_info "Rebuilding article index..."
+    if node "$SCRIPT_DIR/build-article-index.js"; then
+        log_success "Article index rebuilt"
+    else
+        log_warning "Failed to rebuild article index"
+    fi
+    
     return 0
 }
 

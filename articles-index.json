@@ -1,6 +1,47 @@
 {
   "articles": [
     {
+      "title": "AI Giants' February Showdown: GPT-5, Gemini 3 & Meta's Secret Weapon",
+      "date": "2026-02-25T08:30:00Z",
+      "theme": "default",
+      "topic": "AI Giants' February Showdown: GPT-5, Gemini 3 & Meta's Secret Weapon",
+      "contentType": "article",
+      "excerpt": "🔥 Breaking: While you were sleeping, the AI arms race hit DEFCON 1. OpenAI just pulled the plug on older ChatGPT models, Google's Gemini 3 is now the...",
+      "readingTime": 5,
+      "wordCount": 853,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Google",
+        "Meta",
+        "Anthropic",
+        "GPT-5",
+        "Gemini 3",
+        "2026"
+      ],
+      "path": "2026/02/ai-giants-february-showdown-gpt-5-gemini-3-meta-s-secret-weapon.md"
+    },
+    {
+      "title": "The AI Valuation Wars: Anthropic's $380B Bombshell & Gemini 3 Takes Over",
+      "date": "2026-02-25",
+      "theme": "default",
+      "topic": "The AI Valuation Wars: Anthropic's $380B Bombshell & Gemini 3 Takes Over",
+      "contentType": "article",
+      "excerpt": "If you thought the AI race was intense before, buckle up. February 2026 has delivered some of the most explosive news in artificial intelligence histo...",
+      "readingTime": 3,
+      "wordCount": 565,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Google",
+        "Gemini",
+        "China AI",
+        "Valuation",
+        "Tech News"
+      ],
+      "path": "2026/02/the-ai-valuation-wars-anthropic-s-380b-bombshell-gemini-3-takes-over.md"
+    },
+    {
       "title": "AI Breakthrough in Reasoning",
       "date": "2026-02-24T21:51:28.322Z",
       "theme": "minimalist-clean",
@@ -13,6 +54,6 @@
       "path": "2026/02/ai-breakthrough-in-reasoning.md"
     }
   ],
-  "total": 1,
-  "lastBuilt": "2026-02-24T21:56:07.132Z"
+  "total": 3,
+  "lastBuilt": "2026-02-25T05:35:50.946Z"
 }
