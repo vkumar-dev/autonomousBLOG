@@ -92,7 +92,7 @@ function main() {
   
   const moved = [];
   
-  // Find all .md and .html files in subdirectories
+  // Find all .html files in subdirectories
   function scanDir(dir) {
     const files = fs.readdirSync(dir);
     
@@ -102,8 +102,7 @@ function main() {
       
       if (stat.isDirectory()) {
         scanDir(filePath);
-      } else if ((file.endsWith('.md') || file.endsWith('.html')) && 
-                 file !== 'topic-history.json') {
+      } else if (file.endsWith('.html')) {
         try {
           const result = processFile(filePath);
           moved.push(result);

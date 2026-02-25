@@ -35,9 +35,9 @@ class Homepage {
     
     const files = await response.json();
     
-    // Filter for .md and .html files, sort by filename descending (latest first)
+    // Filter for .html files only, sort by filename descending (latest first)
     this.articles = files
-      .filter(f => f.endsWith('.md') || f.endsWith('.html'))
+      .filter(f => f.endsWith('.html'))
       .sort((a, b) => b.localeCompare(a))
       .map(filename => this.parseArticleFile(filename));
     
@@ -136,13 +136,8 @@ class Homepage {
    * Get article file path
    */
   getArticlePath(article) {
-    if (article.ext === 'html') {
-      // Direct link to HTML file
-      return article.path;
-    } else {
-      // Use markdown viewer for .md files
-      return `view-article.html?article=${encodeURIComponent(article.path)}`;
-    }
+    // Direct link to HTML file
+    return article.path;
   }
 
   /**

@@ -28,8 +28,8 @@ function buildArticlesList() {
     const fullPath = path.join(ARTICLES_DIR, entry);
     const stat = fs.statSync(fullPath);
     
-    // Only include .md and .html files, skip directories and other files
-    if (stat.isFile() && (entry.endsWith('.md') || entry.endsWith('.html'))) {
+    // Only include .html files, skip directories and other files
+    if (stat.isFile() && entry.endsWith('.html')) {
       files.push(entry);
     }
   }

@@ -61,6 +61,14 @@ generate_article() {
         log_warning "Failed to reorganize articles"
     fi
     
+    # Add back button to HTML articles
+    log_info "Adding back buttons to articles..."
+    if node "$SCRIPT_DIR/add-back-button.js"; then
+        log_success "Back buttons added"
+    else
+        log_warning "Failed to add back buttons"
+    fi
+    
     # Rebuild articles list for homepage
     log_info "Rebuilding articles list..."
     if node "$SCRIPT_DIR/build-articles-list.js"; then
