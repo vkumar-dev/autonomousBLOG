@@ -1,9 +1,8 @@
 /**
  * Homepage Script
- * Loads and displays articles from the article index
+ * Loads articles directly from the articles folder
+ * Articles are sorted by filename (timestamp format: YYYYMMDD-HHMMSS)
  */
-
-const ARTICLES_INDEX_URL = 'articles-index.json';
 
 class Homepage {
   constructor() {
@@ -23,22 +22,64 @@ class Homepage {
   }
 
   /**
-   * Load articles from index
+   * Load articles from folder listing
    */
   async loadArticles() {
-    const response = await fetch(ARTICLES_INDEX_URL);
+    // Fetch directory listing (requires server support or we use a predefined list)
+    // For now, we'll use an API endpoint that lists files
+    const response = await fetch('articles-list.json');
     
     if (!response.ok) {
       throw new Error(`Failed to load articles: ${response.status}`);
     }
     
-    const data = await response.json();
-    this.articles = data.articles || [];
+    const files = await response.json();
     
-    // Sort by date descending
-    this.articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Filter for .md and .html files, sort by filename descending (latest first)
+    this.articles = files
+      .filter(f => f.endsWith('.md') || f.endsWith('.html'))
+      .sort((a, b) => b.localeCompare(a))
+      .map(filename => this.parseArticleFile(filename));
     
     console.log(`[Homepage] Loaded ${this.articles.length} articles`);
+  }
+
+  /**
+   * Parse article metadata from filename and fetch content
+   */
+  parseArticleFile(filename) {
+    // Filename format: YYYYMMDD-HHMMSS-article-slug.{md|html}
+    const match = filename.match(/^(\d{8})-(\d{6})-(.+)\.(md|html)$/);
+    
+    if (!match) {
+      return null;
+    }
+    
+    const [, dateStr, timeStr, slug, ext] = match;
+    const year = dateStr.substring(0, 4);
+    const month = dateStr.substring(4, 6);
+    const day = dateStr.substring(6, 8);
+    const hours = timeStr.substring(0, 2);
+    const minutes = timeStr.substring(2, 4);
+    const seconds = timeStr.substring(4, 6);
+    
+    const isoDate = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`;
+    const date = new Date(isoDate);
+    
+    // Convert slug back to title (uppercase first letter of each word)
+    const title = slug
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+    
+    return {
+      filename,
+      title,
+      date: date.toISOString(),
+      slug,
+      ext,
+      path: `articles/${filename}`
+    };
   }
 
   /**
@@ -47,17 +88,20 @@ class Homepage {
   renderArticles() {
     if (!this.articlesGrid) return;
 
-    if (this.articles.length === 0) {
+    // Filter out null entries
+    const validArticles = this.articles.filter(a => a !== null);
+
+    if (validArticles.length === 0) {
       this.renderEmptyState();
       return;
     }
 
-    this.articlesGrid.innerHTML = this.articles.map(article => this.createArticleCard(article)).join('');
+    this.articlesGrid.innerHTML = validArticles.map(article => this.createArticleCard(article)).join('');
     
     // Update article count
     const countElement = document.getElementById('articles-count');
     if (countElement) {
-      countElement.textContent = `${this.articles.length} article${this.articles.length !== 1 ? 's' : ''}`;
+      countElement.textContent = `${validArticles.length} article${validArticles.length !== 1 ? 's' : ''}`;
     }
   }
 
@@ -72,36 +116,17 @@ class Homepage {
       day: 'numeric'
     });
 
-    const typeLabels = {
-      'news': 'News',
-      'historical': 'Analysis',
-      'fun': 'Fun',
-      'comparative-analysis': 'Analysis',
-      'article': 'Article'
-    };
-
-    const typeLabel = typeLabels[article.contentType] || 'Article';
     const articlePath = this.getArticlePath(article);
 
     return `
-      <a href="${articlePath}" class="article-card">
+      <a href="${articlePath}" class="article-card" title="${this.escapeHtml(article.title)}">
         <div class="article-card-content">
           <div class="article-meta">
-            <span class="article-type">${typeLabel}</span>
-            <span class="article-theme">${article.theme || 'Default'}</span>
+            <span class="article-type">${article.ext === 'html' ? 'HTML' : 'Article'}</span>
+            <span class="article-date">${formattedDate}</span>
           </div>
           <h3 class="article-title">${this.escapeHtml(article.title)}</h3>
-          <p class="article-excerpt">${this.escapeHtml(article.excerpt || 'Click to read more...')}</p>
-          <div class="article-footer">
-            <span class="date">${formattedDate}</span>
-            <span class="reading-time">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"/>
-                <polyline points="12 6 12 12 16 14"/>
-              </svg>
-              ${article.readingTime || 5} min read
-            </span>
-          </div>
+          <p class="article-excerpt">Read more about "${this.escapeHtml(article.title)}"...</p>
         </div>
       </a>
     `;
@@ -111,20 +136,13 @@ class Homepage {
    * Get article file path
    */
   getArticlePath(article) {
-    let articlePath = article.path;
-    
-    if (!articlePath) {
-      // Construct path from date and slug
-      const date = new Date(article.date);
-      const year = date.getFullYear();
-      const month = String(date.getMonth() + 1).padStart(2, '0');
-      const slug = this.generateSlug(article.title);
-      
-      articlePath = `${year}/${month}/${slug}.md`;
+    if (article.ext === 'html') {
+      // Direct link to HTML file
+      return article.path;
+    } else {
+      // Use markdown viewer for .md files
+      return `view-article.html?article=${encodeURIComponent(article.path)}`;
     }
-    
-    // Use markdown viewer for .md files
-    return `view-article.html?article=${encodeURIComponent(articlePath)}`;
   }
 
   /**
@@ -155,16 +173,6 @@ class Homepage {
         <p>Please refresh the page or check back later.</p>
       </div>
     `;
-  }
-
-  /**
-   * Generate slug from title
-   */
-  generateSlug(title) {
-    return title
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/(^-|-$)/g, '');
   }
 
   /**

@@ -53,20 +53,20 @@ generate_article() {
     
     log_success "Article generation complete"
     
-    # Convert HTML articles to markdown (if any)
-    log_info "Converting HTML articles to markdown..."
-    if node "$SCRIPT_DIR/convert-html-to-markdown.js"; then
-        log_success "HTML conversion complete"
+    # Reorganize articles to flat structure with timestamps (if needed)
+    log_info "Reorganizing articles..."
+    if node "$SCRIPT_DIR/reorganize-articles.js"; then
+        log_success "Articles reorganized"
     else
-        log_warning "Failed to convert HTML articles"
+        log_warning "Failed to reorganize articles"
     fi
     
-    # Rebuild article index after generation
-    log_info "Rebuilding article index..."
-    if node "$SCRIPT_DIR/build-article-index.js"; then
-        log_success "Article index rebuilt"
+    # Rebuild articles list for homepage
+    log_info "Rebuilding articles list..."
+    if node "$SCRIPT_DIR/build-articles-list.js"; then
+        log_success "Articles list rebuilt"
     else
-        log_warning "Failed to rebuild article index"
+        log_warning "Failed to rebuild articles list"
     fi
     
     return 0
