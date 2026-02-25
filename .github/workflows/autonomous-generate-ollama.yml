@@ -1,0 +1,139 @@
+name: Autonomous Article Generation (Ollama)
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    # Manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Ollama
+        run: |
+          echo "📦 Installing Ollama..."
+          curl -fsSL https://ollama.ai/install.sh | sh
+          echo "Ollama installed successfully"
+
+      - name: Start Ollama service
+        run: |
+          echo "🚀 Starting Ollama service..."
+          # Start ollama in background
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          
+          # Wait for service to be ready
+          for i in {1..30}; do
+            if ollama list > /dev/null 2>&1; then
+              echo "✅ Ollama service ready"
+              break
+            fi
+            echo "⏳ Waiting for Ollama... ($i/30)"
+            sleep 2
+          done
+
+      - name: Pull Ollama model
+        run: |
+          echo "📥 Pulling model (mistral)..."
+          ollama pull mistral
+          echo "✅ Model ready"
+          ollama list
+
+      - name: Install Python dependencies
+        run: |
+          pip install --no-cache-dir pydantic-ai ollama gray-matter
+
+      - name: Generate topic history
+        run: |
+          echo "📚 Building topic history..."
+          node scripts/build-topic-history.js
+          echo "✅ Topic history built"
+        continue-on-error: true
+
+      - name: Select topic
+        id: topic
+        run: |
+          echo "🎯 Selecting topic..."
+          node scripts/topic-selector.js > selected-topic.json
+          TOPIC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-topic.json')).topic)")
+          echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+          echo "✅ Selected topic: $TOPIC"
+
+      - name: Generate article with Ollama
+        env:
+          OLLAMA_MODEL: mistral
+          OLLAMA_BASE_URL: http://localhost:11434
+        run: |
+          echo "✍️  Generating article with Ollama..."
+          python scripts/generate_article_agentic.py
+          echo "✅ Article generation complete"
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'autonomousBLOG Bot'
+          git config --global user.email 'autonomousblog@github-actions.local'
+
+      - name: Commit and push article (prevent recursive trigger)
+        run: |
+          git add articles/
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit"
+            exit 0
+          fi
+          
+          # Use [skip ci] to prevent deployment workflow from re-triggering generation
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d) [skip ci]"
+          
+          if git push origin main; then
+            echo "✅ Article committed and pushed"
+          else
+            echo "⚠️  Push failed (may need to pull first)"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Build article index
+        run: |
+          echo "🔨 Building article index..."
+          node scripts/build-article-index.js
+          echo "✅ Article index built"
+        continue-on-error: true
+
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          cname: false
+          allow_empty_commit: true
+
+      - name: Show summary
+        if: always()
+        run: |
+          echo "📊 Workflow Summary:"
+          echo "   Article topic: ${{ steps.topic.outputs.topic }}"
+          echo "   Model: mistral"
+          echo "   Status: Complete"
