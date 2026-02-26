@@ -51,36 +51,46 @@ class MarkdownViewer {
   }
 
   /**
-   * Load markdown file
+   * Load markdown file - uses content cache first, then tries direct fetch
    */
   async loadMarkdown() {
-    // Try with articles/ prefix first
-    let response = await fetch(`articles/${this.articlePath}`);
-    
-    if (!response.ok) {
-      // Try without prefix in case it's already in the path
-      response = await fetch(this.articlePath);
+    try {
+      // First, try to load from content cache
+      const cacheResponse = await fetch('articles-content.json');
+      if (cacheResponse.ok) {
+        const contentCache = await cacheResponse.json();
+        const content = contentCache[this.articlePath];
+        
+        if (content) {
+          console.log('[MarkdownViewer] Loaded from content cache');
+          return content;
+        }
+      }
+    } catch (error) {
+      console.warn('[MarkdownViewer] Content cache unavailable:', error.message);
     }
     
-    if (!response.ok) {
-      // Try alternative path resolution
-      const altPath = this.articlePath.includes('articles/') ? 
-        this.articlePath : 
-        `articles/${this.articlePath}`;
-      response = await fetch(altPath);
+    // Fallback: try direct file fetch
+    try {
+      let response = await fetch(`articles/${this.articlePath}`);
+      
+      if (!response.ok) {
+        // Try without prefix in case it's already in the path
+        response = await fetch(this.articlePath);
+      }
+      
+      if (response.ok) {
+        const text = await response.text();
+        if (text && text.trim().length > 0) {
+          console.log('[MarkdownViewer] Loaded from direct fetch');
+          return text;
+        }
+      }
+    } catch (error) {
+      console.warn('[MarkdownViewer] Direct fetch failed:', error.message);
     }
     
-    if (!response.ok) {
-      console.error(`Failed to fetch: articles/${this.articlePath} (${response.status})`);
-      throw new Error(`Article not found (${response.status})`);
-    }
-    
-    const text = await response.text();
-    if (!text || text.trim().length === 0) {
-      throw new Error('Article file is empty');
-    }
-    
-    return text;
+    throw new Error(`Could not load article: ${this.articlePath}. Make sure the article file exists and the articles-content.json cache is up to date.`);
   }
 
   /**

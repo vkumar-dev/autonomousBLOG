@@ -12,6 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
 const { buildArticlesList } = require('./build-articles-list');
+const { buildArticlesContent } = require('./build-articles-content');
 
 const TOPIC_FILE = path.join(__dirname, '..', 'selected-topic.json');
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
@@ -298,10 +299,11 @@ ${content}
     fs.unlinkSync(TOPIC_FILE);
   }
   
-  // Rebuild articles list so homepage can load the new article
-  console.log('Rebuilding articles list...');
+  // Rebuild articles list and content cache so homepage can load the new article
+  console.log('Rebuilding articles list and content cache...');
   buildArticlesList();
-  console.log('✅ Articles list updated');
+  buildArticlesContent();
+  console.log('✅ Articles list and content cache updated');
   
   return { file: articleFile, theme };
 }
