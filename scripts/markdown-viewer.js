@@ -54,35 +54,45 @@ class MarkdownViewer {
    * Load markdown file - uses content cache first, then tries direct fetch
    */
   async loadMarkdown() {
+    console.log('[MarkdownViewer] Loading article:', this.articlePath);
+    
     try {
       // First, try to load from content cache
+      console.log('[MarkdownViewer] Trying content cache...');
       const cacheResponse = await fetch('articles-content.json');
       if (cacheResponse.ok) {
         const contentCache = await cacheResponse.json();
         const content = contentCache[this.articlePath];
         
         if (content) {
-          console.log('[MarkdownViewer] Loaded from content cache');
+          console.log('[MarkdownViewer] ✓ Loaded from content cache');
           return content;
+        } else {
+          console.warn('[MarkdownViewer] Article not found in cache. Available articles:', Object.keys(contentCache).slice(0, 3));
         }
+      } else {
+        console.warn('[MarkdownViewer] Content cache fetch returned', cacheResponse.status);
       }
     } catch (error) {
-      console.warn('[MarkdownViewer] Content cache unavailable:', error.message);
+      console.warn('[MarkdownViewer] Content cache error:', error.message);
     }
     
     // Fallback: try direct file fetch
+    console.log('[MarkdownViewer] Trying direct file fetch...');
     try {
       let response = await fetch(`articles/${this.articlePath}`);
+      console.log('[MarkdownViewer] Fetch articles/... returned:', response.status);
       
       if (!response.ok) {
         // Try without prefix in case it's already in the path
         response = await fetch(this.articlePath);
+        console.log('[MarkdownViewer] Fetch without prefix returned:', response.status);
       }
       
       if (response.ok) {
         const text = await response.text();
         if (text && text.trim().length > 0) {
-          console.log('[MarkdownViewer] Loaded from direct fetch');
+          console.log('[MarkdownViewer] ✓ Loaded from direct fetch');
           return text;
         }
       }

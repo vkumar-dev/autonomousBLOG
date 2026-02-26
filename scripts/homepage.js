@@ -1,32 +1,35 @@
 /**
  * Homepage Script
  * Loads articles from the articles-index.json
- * Allows users to browse articles or view the latest one
+ * Auto-opens latest article on landing
  */
 
 class Homepage {
   constructor() {
     this.articles = [];
     this.articlesGrid = document.getElementById('articles-grid');
-    this.isArticleView = this.checkIfArticleView();
     this.init();
-  }
-
-  /**
-   * Check if we're already viewing an article
-   */
-  checkIfArticleView() {
-    const params = new URLSearchParams(window.location.search);
-    return params.has('article') || params.has('view') === false && window.location.pathname.includes('view-article');
   }
 
   async init() {
     try {
       await this.loadArticles();
       
-      // If viewing articles list, render the grid
-      if (!this.isArticleView) {
+      // Check URL params to see if user wants list view
+      const params = new URLSearchParams(window.location.search);
+      const wantsList = params.has('view') && params.get('view') === 'list';
+      
+      // If user explicitly wants list view, show it
+      if (wantsList) {
         this.renderArticles();
+        return;
+      }
+      
+      // Otherwise, auto-redirect to latest article
+      if (this.articles.length > 0) {
+        this.openLatestArticle();
+      } else {
+        this.renderEmptyState();
       }
     } catch (error) {
       console.error('Failed to initialize homepage:', error);
@@ -48,6 +51,18 @@ class Homepage {
     this.articles = data.articles || [];
     
     console.log(`[Homepage] Loaded ${this.articles.length} articles`);
+  }
+
+  /**
+   * Open latest article
+   */
+  openLatestArticle() {
+    if (this.articles.length === 0) return;
+    
+    const latest = this.articles[0];
+    console.log('[Homepage] Auto-navigating to latest article:', latest.title);
+    const articlePath = `view-article.html?article=${encodeURIComponent(latest.path)}`;
+    window.location.href = articlePath;
   }
 
   /**
@@ -158,50 +173,9 @@ class Homepage {
     div.textContent = text;
     return div.innerHTML;
   }
-
-  /**
-   * Navigate to latest article
-   */
-  static openLatestArticle() {
-    if (this.articles && this.articles.length > 0) {
-      const latest = this.articles[0];
-      const articlePath = `view-article.html?article=${encodeURIComponent(latest.path)}`;
-      window.location.href = articlePath;
-    }
-  }
 }
 
 // Initialize homepage when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   window.homepage = new Homepage();
-});
-
-// Auto-open latest article on landing (only on first visit)
-document.addEventListener('DOMContentLoaded', () => {
-  // Check if we should auto-open the latest article
-  const params = new URLSearchParams(window.location.search);
-  const shouldOpenLatest = !params.has('view') && window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
-  
-  // Check if user preference exists (use sessionStorage to allow override)
-  const userPreference = sessionStorage.getItem('blog-view-preference');
-  
-  if (shouldOpenLatest && userPreference !== 'articles-list') {
-    // Load articles and auto-open latest
-    fetch('articles-index.json')
-      .then(r => r.json())
-      .then(data => {
-        if (data.articles && data.articles.length > 0) {
-          const latest = data.articles[0];
-          const articlePath = `view-article.html?article=${encodeURIComponent(latest.path)}`;
-          // Only auto-navigate if not already viewing articles list
-          if (document.getElementById('articles-grid')) {
-            // Articles are loaded, don't auto-navigate
-            return;
-          }
-          // Auto-navigate to latest article
-          window.location.href = articlePath;
-        }
-      })
-      .catch(err => console.log('Could not auto-open latest article:', err));
-  }
 });
