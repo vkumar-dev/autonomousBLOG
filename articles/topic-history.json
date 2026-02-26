@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Sustainable Tech Innovation",
+      "date": "2026-02-25T20:26:53.269Z",
+      "title": "Sustainable Tech Innovation",
+      "contentType": "news"
+    },
+    {
       "topic": "Quantum Computing Milestone",
       "date": "2026-02-25T16:59:25.619Z",
       "title": "Quantum Computing Milestone",
@@ -19,5 +25,5 @@
       "contentType": "news"
     }
   ],
-  "lastUpdated": "2026-02-25T20:26:52.984Z"
+  "lastUpdated": "2026-02-26T00:05:31.787Z"
 }
