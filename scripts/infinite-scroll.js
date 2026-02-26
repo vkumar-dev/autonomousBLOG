@@ -1,6 +1,6 @@
 /**
- * Infinite Scroll & Autoscroll Module
- * Provides infinite scrolling and automatic article cycling
+ * Infinite Scroll Module
+ * Loads articles as user scrolls down
  */
 
 class InfiniteScrollManager {
@@ -9,13 +9,9 @@ class InfiniteScrollManager {
     this.currentPage = 1;
     this.allArticles = [];
     this.isLoading = false;
-    this.autoScrollEnabled = false;
-    this.autoScrollInterval = null;
-    this.autoScrollDelay = 8000; // 8 seconds per article
-    this.currentAutoScrollIndex = 0;
     
     this.setupIntersectionObserver();
-    this.setupAutoScrollControls();
+    this.setupIndexCircle();
   }
 
   /**
@@ -85,7 +81,6 @@ class InfiniteScrollManager {
   initializeWithArticles(articles) {
     this.allArticles = articles;
     this.currentPage = 0;
-    this.currentAutoScrollIndex = 0;
     
     console.log(`[InfiniteScroll] Initialized with ${articles.length} articles`);
     
@@ -155,196 +150,38 @@ class InfiniteScrollManager {
   }
 
   /**
-   * Setup autoscroll controls
+   * Setup index circle
    */
-  setupAutoScrollControls() {
-    // Create autoscroll controls with index circle
-    const controlsHTML = `
-      <div id="autoscroll-controls" style="
+  setupIndexCircle() {
+    // Create index circle with link to list view
+    const circleHTML = `
+      <a href="articles-list.html" id="index-circle" style="
         position: fixed;
         bottom: 30px;
         right: 30px;
         z-index: 1000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: 2px solid rgba(255,255,255,0.3);
         display: flex;
-        gap: 10px;
         align-items: center;
-      ">
-        <!-- Index Circle Button -->
-        <a href="articles-list.html" id="index-circle" style="
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-          border: 2px solid rgba(255,255,255,0.3);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: white;
-          font-weight: bold;
-          font-size: 14px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          text-decoration: none;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-          box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
-        " title="View all articles list" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-          ≡
-        </a>
-        
-        <!-- Controls Panel -->
-        <div style="
-          background: rgba(0,0,0,0.8);
-          padding: 15px 20px;
-          border-radius: 50px;
-          backdrop-filter: blur(10px);
-          display: flex;
-          gap: 10px;
-          align-items: center;
-        ">
-          <button id="autoscroll-btn" style="
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            padding: 10px 16px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 13px;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-          ">
-            ▶ Autoscroll
-          </button>
-          
-          <div id="autoscroll-speed" style="
-            color: #999;
-            font-size: 12px;
-            cursor: pointer;
-            padding: 5px 10px;
-            border-radius: 15px;
-            background: rgba(255,255,255,0.1);
-            transition: all 0.3s ease;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-          " title="Click to adjust speed">
-            ${(this.autoScrollDelay / 1000).toFixed(1)}s
-          </div>
-          
-          <div id="scroll-indicator" style="
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: #ccc;
-            transition: background 0.3s ease;
-          "></div>
-        </div>
-      </div>
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      " title="View all articles list" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        ≡
+      </a>
     `;
     
-    document.body.insertAdjacentHTML('beforeend', controlsHTML);
-
-    // Setup button click handler
-    const autoscrollBtn = document.getElementById('autoscroll-btn');
-    autoscrollBtn.addEventListener('click', () => this.toggleAutoscroll());
-
-    // Setup speed adjustment
-    const speedControl = document.getElementById('autoscroll-speed');
-    speedControl.addEventListener('click', () => this.cycleSpeed());
-  }
-
-  /**
-   * Toggle autoscroll
-   */
-  toggleAutoscroll() {
-    this.autoScrollEnabled = !this.autoScrollEnabled;
-    const btn = document.getElementById('autoscroll-btn');
-    const indicator = document.getElementById('scroll-indicator');
-
-    if (this.autoScrollEnabled) {
-      btn.style.background = 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';
-      btn.innerHTML = '⏸ Autoscroll';
-      indicator.style.background = '#f5576c';
-      this.startAutoscroll();
-    } else {
-      btn.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-      btn.innerHTML = '▶ Autoscroll';
-      indicator.style.background = '#ccc';
-      this.stopAutoscroll();
-    }
-  }
-
-  /**
-   * Start autoscroll
-   */
-  startAutoscroll() {
-    if (this.autoScrollInterval) clearInterval(this.autoScrollInterval);
-
-    console.log(`[Autoscroll] Started with ${this.autoScrollDelay}ms delay`);
-    
-    this.autoScrollInterval = setInterval(() => {
-      this.scrollToNextArticle();
-    }, this.autoScrollDelay);
-  }
-
-  /**
-   * Stop autoscroll
-   */
-  stopAutoscroll() {
-    if (this.autoScrollInterval) {
-      clearInterval(this.autoScrollInterval);
-      this.autoScrollInterval = null;
-    }
-    console.log('[Autoscroll] Stopped');
-  }
-
-  /**
-   * Scroll to next article
-   */
-  scrollToNextArticle() {
-    const cards = document.querySelectorAll('.article-card');
-    
-    if (cards.length === 0) return;
-
-    if (this.currentAutoScrollIndex >= cards.length) {
-      this.currentAutoScrollIndex = 0;
-    }
-
-    const card = cards[this.currentAutoScrollIndex];
-    
-    // Smooth scroll to card
-    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    
-    // Highlight the card
-    cards.forEach(c => c.style.opacity = '0.6');
-    card.style.opacity = '1';
-    card.style.transform = 'scale(1.05)';
-    
-    console.log(`[Autoscroll] Scrolled to article ${this.currentAutoScrollIndex + 1}/${cards.length}`);
-    
-    this.currentAutoScrollIndex++;
-  }
-
-  /**
-   * Cycle through speed options
-   */
-  cycleSpeed() {
-    const speeds = [3000, 5000, 8000, 12000, 15000]; // milliseconds
-    const currentIndex = speeds.indexOf(this.autoScrollDelay);
-    const nextIndex = (currentIndex + 1) % speeds.length;
-    
-    this.autoScrollDelay = speeds[nextIndex];
-    
-    const speedControl = document.getElementById('autoscroll-speed');
-    speedControl.textContent = `${(this.autoScrollDelay / 1000).toFixed(1)}s`;
-    
-    if (this.autoScrollEnabled) {
-      this.stopAutoscroll();
-      this.startAutoscroll();
-    }
-    
-    console.log(`[Autoscroll] Speed changed to ${this.autoScrollDelay}ms`);
+    document.body.insertAdjacentHTML('beforeend', circleHTML);
   }
 }
 

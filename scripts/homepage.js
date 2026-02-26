@@ -1,6 +1,6 @@
 /**
- * Homepage Script - Infinite Scroll + Autoscroll
- * Single view: Infinite scrolling with auto-cycling through articles
+ * Homepage Script - Infinite Scroll
+ * Single view: Infinite scrolling through articles
  */
 
 class Homepage {
@@ -22,11 +22,6 @@ class Homepage {
       // Initialize infinite scroll with articles
       if (window.infiniteScroll) {
         window.infiniteScroll.initializeWithArticles(this.articles);
-        
-        // Auto-start autoscroll after a short delay
-        setTimeout(() => {
-          window.infiniteScroll.toggleAutoscroll();
-        }, 500);
       }
       
       // Update article count
