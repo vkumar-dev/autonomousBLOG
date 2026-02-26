@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "Data Privacy Regulations",
+      "date": "2026-02-26T15:30:50.023Z",
+      "theme": "aurora",
+      "topic": "Data Privacy Regulations",
+      "contentType": "news",
+      "excerpt": "An autonomously generated News Article about Data Privacy Regulations",
+      "readingTime": 5,
+      "wordCount": 871,
+      "keywords": [],
+      "path": "2026/02/25/data-privacy-regulations.md"
+    },
+    {
+      "title": "Machine Learning Applications",
+      "date": "2026-02-26T15:30:31.795Z",
+      "theme": "sunset-vibes",
+      "topic": "Machine Learning Applications",
+      "contentType": "news",
+      "excerpt": "An autonomously generated News Article about Machine Learning Applications",
+      "readingTime": 5,
+      "wordCount": 890,
+      "keywords": [],
+      "path": "2026/02/25/machine-learning-applications.md"
+    },
+    {
       "title": "Sustainable Tech Innovation",
       "date": "2026-02-25T20:26:53.269Z",
       "theme": "aurora",
@@ -16,9 +40,9 @@
       "title": "Geology: Myths vs Reality",
       "date": "2026-02-26T01:09:55.610232",
       "theme": "default",
-      "topic": "Geology: Myths vs Reality",
+      "topic": "",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Exploring Geology: Myths vs Reality offers fascinating insights into Geology. This article examines the subject through problem-solution framework,...",
       "readingTime": 5,
       "wordCount": 0,
       "keywords": [],
@@ -28,33 +52,33 @@
       "title": "The Evolution of Biology",
       "date": "2026-02-26T00:58:35.083229",
       "theme": "default",
-      "topic": "The Evolution of Biology",
+      "topic": "",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Exploring The Evolution of Biology offers fascinating insights into Biology. This article examines the subject through before-after comparison, pro...",
       "readingTime": 5,
       "wordCount": 0,
       "keywords": [],
-      "path": "2026/02/the-evolution-of-biology.md"
+      "path": "2026/02/25/the-evolution-of-biology.md"
     },
     {
       "title": "Biology: A critical Perspective",
       "date": "2026-02-26T00:56:11.608039",
       "theme": "default",
-      "topic": "Biology: A critical Perspective",
+      "topic": "",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Exploring Biology: A critical Perspective offers fascinating insights into Biology. This article examines the subject through question-answer forma...",
       "readingTime": 5,
       "wordCount": 0,
       "keywords": [],
-      "path": "2026/02/biology:-a-critical-perspective.md"
+      "path": "2026/02/25/biology:-a-critical-perspective.md"
     },
     {
       "title": "Exploring the Foundations of Cryptography",
       "date": "2026-02-26T00:53:35.542629",
       "theme": "default",
-      "topic": "Exploring the Foundations of Cryptography",
+      "topic": "",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Exploring Exploring the Foundations of Cryptography offers fascinating insights into Cryptography. This article examines the subject through questi...",
       "readingTime": 5,
       "wordCount": 0,
       "keywords": [],
@@ -64,9 +88,9 @@
       "title": "Digital Privacy Updates",
       "date": "2026-02-26T00:05:31.980410",
       "theme": "default",
-      "topic": "Digital Privacy Updates",
+      "topic": "",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Understanding Digital Privacy Updates requires context. The landscape continues to evolve with new developments.",
       "readingTime": 5,
       "wordCount": 0,
       "keywords": [],
@@ -109,6 +133,6 @@
       "path": "2026/02/25/ai-breakthrough-in-reasoning.md"
     }
   ],
-  "total": 9,
-  "lastBuilt": "2026-02-26T11:04:01.569Z"
+  "total": 11,
+  "lastBuilt": "2026-02-26T15:54:02.053Z"
 }
