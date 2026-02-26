@@ -313,8 +313,8 @@ body.theme-loaded {
 /* Generated Footer */
 .generated-footer {
   text-align: center;
-  padding: 3rem 2rem;
-  margin-top: 4rem;
+  padding: 2rem 2rem 3rem;
+  margin-top: 3rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   opacity: 0.6;
@@ -327,6 +327,32 @@ body.theme-loaded {
 .generation-info {
   margin-top: 0.5rem;
   font-size: 0.75rem;
+}
+
+.article-nav-footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(125, 125, 125, 0.1);
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: rgba(125, 125, 125, 0.1);
+  color: inherit;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s var(--ease-out-expo);
+  opacity: 0.8;
+}
+
+.btn-back:hover {
+  opacity: 1;
+  background: rgba(125, 125, 125, 0.2);
+  transform: translateX(-4px);
 }
 
 /* Responsive */
