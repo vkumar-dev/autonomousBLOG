@@ -38,6 +38,7 @@ jobs:
           OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://localhost:11434' }}
           OLLAMA_MODEL: ${{ secrets.OLLAMA_MODEL || 'mistral' }}
           GITHUB_ACTIONS: 'true'
+        continue-on-error: true
       
       - name: Generate topic history index
         run: node scripts/build-topic-history.js

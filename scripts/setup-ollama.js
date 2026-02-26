@@ -46,20 +46,24 @@ async function checkModelAvailable() {
 /**
  * Wait for Ollama to be ready
  */
-async function waitForOllama(maxWaitMs = 120000) {
+async function waitForOllama(maxWaitMs = 600000) { // 10 minutes for GitHub Actions
   const startTime = Date.now();
-  const interval = 5000; // Check every 5 seconds
+  const interval = 10000; // Check every 10 seconds
 
-  console.log('⏳ Waiting for Ollama to be ready...');
+  console.log(`⏳ Waiting for Ollama to be ready (max ${maxWaitMs / 1000}s)...`);
 
+  let attempts = 0;
   while (Date.now() - startTime < maxWaitMs) {
+    attempts++;
     const isHealthy = await checkOllamaHealth();
     if (isHealthy) {
-      console.log('✅ Ollama is running and healthy');
+      const elapsedSecs = Math.floor((Date.now() - startTime) / 1000);
+      console.log(`✅ Ollama is running and healthy (took ${elapsedSecs}s)`);
       return true;
     }
     
-    console.log(`⏳ Still waiting... (${Math.floor((Date.now() - startTime) / 1000)}s)`);
+    const elapsedSecs = Math.floor((Date.now() - startTime) / 1000);
+    process.stdout.write(`\r⏳ Waiting... (${elapsedSecs}s, attempt ${attempts})`);
     await new Promise(resolve => setTimeout(resolve, interval));
   }
 
@@ -180,10 +184,22 @@ async function setupOllama() {
   console.log(`📍 Ollama URL: ${OLLAMA_URL}`);
   console.log(`🤖 Model: ${OLLAMA_MODEL}`);
   console.log(`🖥️  Platform: ${PLATFORM}`);
+  console.log(`🏃 GitHub Actions: ${IS_GITHUB_ACTIONS}`);
   console.log('');
 
   try {
+    // Check if using remote Ollama
+    const isRemote = !OLLAMA_URL.includes('localhost') && !OLLAMA_URL.includes('127.0.0.1');
+    if (isRemote) {
+      console.log('🌐 Using remote Ollama instance');
+      console.log(`📍 URL: ${OLLAMA_URL}`);
+    } else if (IS_GITHUB_ACTIONS) {
+      console.log('⚠️  Local Ollama in GitHub Actions takes 5-10 minutes to install');
+      console.log('💡 Tip: Use a remote Ollama URL via OLLAMA_URL secret for faster setup');
+    }
+
     // Check if Ollama is already running
+    console.log('');
     console.log('🔍 Checking Ollama status...');
     const isRunning = await checkOllamaHealth();
 
