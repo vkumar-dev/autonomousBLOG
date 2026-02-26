@@ -32,13 +32,30 @@ jobs:
           npm init -y
           npm install node-fetch@2 gray-matter --save
       
-      - name: Setup Ollama
-        run: node scripts/setup-ollama.js
+      - name: Setup and Wait for Ollama
+        run: |
+          echo "🔧 Starting Ollama setup..."
+          node scripts/setup-ollama.js
+          
+          # If setup succeeded or we're using remote Ollama, wait a bit more
+          echo ""
+          echo "⏳ Additional wait for Ollama readiness..."
+          for i in {1..30}; do
+            if curl -s http://$OLLAMA_URL_HOST/api/tags > /dev/null 2>&1; then
+              echo "✅ Ollama is ready!"
+              exit 0
+            fi
+            echo "  Attempt $i/30..."
+            sleep 2
+          done
+          
+          echo "⚠️  Ollama still not ready, will use fallback content"
+          exit 0
         env:
           OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://localhost:11434' }}
+          OLLAMA_URL_HOST: ${{ secrets.OLLAMA_URL || 'localhost:11434' }}
           OLLAMA_MODEL: ${{ secrets.OLLAMA_MODEL || 'mistral' }}
           GITHUB_ACTIONS: 'true'
-        continue-on-error: true
       
       - name: Generate topic history index
         run: node scripts/build-topic-history.js
