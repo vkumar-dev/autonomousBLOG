@@ -103,6 +103,10 @@ class Homepage {
    */
   createArticleCard(article, index) {
     const formattedDate = this.formatDate(article.date);
+    const timeInfo = TimeFormatter ? TimeFormatter.getFullTimeInfo(article.date) : {
+      dateTime: formattedDate,
+      relativeTime: 'recently'
+    };
     const articlePath = this.getArticlePath(article);
     const isLatest = index === 0 ? ' is-latest' : '';
 
@@ -112,7 +116,7 @@ class Homepage {
         <div class="article-card-content">
           <div class="article-meta">
             <span class="article-type">${this.escapeHtml(article.contentType)}</span>
-            <span class="article-date">${formattedDate}</span>
+            <span class="article-date" title="${timeInfo.dateTime}">${timeInfo.relativeTime}</span>
           </div>
           <h3 class="article-title">${this.escapeHtml(article.title)}</h3>
           <p class="article-excerpt">${this.escapeHtml(article.excerpt || 'Read more about ' + article.title)}</p>

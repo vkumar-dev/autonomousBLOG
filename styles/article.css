@@ -138,6 +138,34 @@ body.theme-loaded {
   background: rgba(125, 125, 125, 0.1);
 }
 
+.meta-date {
+  position: relative;
+  cursor: help;
+  transition: background 0.3s;
+}
+
+.meta-date:hover {
+  background: rgba(125, 125, 125, 0.15);
+}
+
+.meta-date[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  z-index: 10;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
 .article-title {
   font-family: 'Inter', sans-serif;
   font-size: clamp(1.75rem, 5vw, 2.5rem);
