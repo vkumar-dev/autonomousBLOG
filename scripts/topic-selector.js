@@ -33,14 +33,28 @@ async function getTrendingTopics() {
   // - Twitter trends
   // - RSS feeds
   
-  // For now, return placeholder trending topics
-  return [
+  // Expanded list of trending topics to avoid duplicates
+  const topicPool = [
     { title: 'AI Breakthrough in Reasoning', category: 'technology' },
     { title: 'New Space Mission Announced', category: 'space' },
     { title: 'Quantum Computing Milestone', category: 'technology' },
     { title: 'Sustainable Tech Innovation', category: 'science' },
-    { title: 'Digital Privacy Updates', category: 'tech-policy' }
+    { title: 'Digital Privacy Updates', category: 'tech-policy' },
+    { title: 'Open Source Software Trends', category: 'technology' },
+    { title: 'Blockchain Security Advances', category: 'technology' },
+    { title: 'Machine Learning Applications', category: 'technology' },
+    { title: 'Cloud Computing Evolution', category: 'technology' },
+    { title: 'Cybersecurity Threats Analysis', category: 'security' },
+    { title: 'Neural Network Breakthroughs', category: 'ai' },
+    { title: 'Renewable Energy Solutions', category: 'science' },
+    { title: 'Internet of Things Expansion', category: 'technology' },
+    { title: 'Virtual Reality Innovations', category: 'technology' },
+    { title: 'Data Privacy Regulations', category: 'policy' }
   ];
+  
+  // Shuffle and return first 5 for variety
+  const shuffled = topicPool.sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, 5);
 }
 
 // Get historical events for this day
@@ -50,13 +64,15 @@ function getHistoricalEvents() {
   const day = today.getDate();
   
   // In production, fetch from historical events API
-  return [
-    { 
-      year: 2025, 
-      event: 'Major AI model released', 
-      category: 'technology' 
-    }
+  const historicalEvents = [
+    { year: 2024, event: 'Major AI model released', category: 'technology' },
+    { year: 2023, event: 'Historic Space Discovery', category: 'space' },
+    { year: 2022, event: 'Quantum Computing Breakthrough', category: 'technology' },
+    { year: 2021, event: 'Green Energy Milestone', category: 'science' },
+    { year: 2020, event: 'Open Source Project Success', category: 'technology' }
   ];
+  
+  return historicalEvents;
 }
 
 // Check if topic was already covered
@@ -104,7 +120,7 @@ async function selectTopicWithAI() {
   
   // If no new topics, check for historical analysis
   if (historicalEvents.length > 0) {
-    const event = historicalEvents[0];
+    const event = historicalEvents[Math.floor(Math.random() * historicalEvents.length)];
     return {
       type: 'historical',
       topic: `${event.event} - One Year Later`,
@@ -122,7 +138,17 @@ async function selectTopicWithAI() {
     'What If Computers Could Dream?',
     'A Day in the Life of an AI',
     'Unpopular Tech Opinions',
-    'Letter to Future Developers'
+    'Letter to Future Developers',
+    'The Hidden Side of Technology',
+    'Why Programmers Love Coffee',
+    'Greatest Tech Fails and What We Learned',
+    'The Future of Work in Tech',
+    'Memes That Defined Developer Culture',
+    'Stories from the Code Trenches',
+    'Tech Predictions That Came True',
+    'The Psychology of User Interface',
+    'How Algorithms Shape Our World',
+    'Tales from the Data Center'
   ];
   
   const selectedFun = funTopics[Math.floor(Math.random() * funTopics.length)];
