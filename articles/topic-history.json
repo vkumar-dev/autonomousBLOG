@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Renewable Energy Solutions",
+      "date": "2026-02-26T16:04:56.370Z",
+      "title": "Renewable Energy Solutions",
+      "contentType": "news"
+    },
+    {
       "topic": "Data Privacy Regulations",
       "date": "2026-02-26T15:30:50.023Z",
       "title": "Data Privacy Regulations",
@@ -37,5 +43,5 @@
       "contentType": "news"
     }
   ],
-  "lastUpdated": "2026-02-26T16:04:56.227Z"
+  "lastUpdated": "2026-02-26T16:09:22.723Z"
 }
