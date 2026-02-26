@@ -1,7 +1,7 @@
 /**
  * Homepage Script
  * Loads articles from the articles-index.json
- * Auto-opens latest article on landing
+ * Supports: auto-open latest, infinite scroll, autoscroll
  */
 
 class Homepage {
@@ -19,10 +19,23 @@ class Homepage {
       const params = new URLSearchParams(window.location.search);
       const viewMode = params.get('view');
       
-      // Explicit list view
+      // Explicit list view with infinite scroll
       if (viewMode === 'list') {
-        console.log('[Homepage] Showing articles list');
-        this.renderArticles();
+        console.log('[Homepage] Showing articles list with infinite scroll');
+        this.renderArticlesWithInfiniteScroll();
+        return;
+      }
+      
+      // Explicit scroll view (infinite scroll + autoscroll)
+      if (viewMode === 'scroll') {
+        console.log('[Homepage] Showing scroll view with autoscroll');
+        this.renderArticlesWithInfiniteScroll();
+        // Auto-start autoscroll
+        setTimeout(() => {
+          if (window.infiniteScroll) {
+            window.infiniteScroll.toggleAutoscroll();
+          }
+        }, 500);
         return;
       }
       
@@ -79,7 +92,30 @@ class Homepage {
   }
 
   /**
-   * Render articles to grid
+   * Render articles with infinite scroll
+   */
+  renderArticlesWithInfiniteScroll() {
+    if (!this.articlesGrid) return;
+
+    if (this.articles.length === 0) {
+      this.renderEmptyState();
+      return;
+    }
+
+    // Initialize infinite scroll manager with all articles
+    if (window.infiniteScroll) {
+      window.infiniteScroll.initializeWithArticles(this.articles);
+    }
+    
+    // Update article count
+    const countElement = document.getElementById('articles-count');
+    if (countElement) {
+      countElement.textContent = `${this.articles.length} article${this.articles.length !== 1 ? 's' : ''}`;
+    }
+  }
+
+  /**
+   * Render articles to grid (legacy)
    */
   renderArticles() {
     if (!this.articlesGrid) return;
