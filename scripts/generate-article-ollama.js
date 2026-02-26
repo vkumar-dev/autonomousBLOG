@@ -7,7 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+const OllamaInference = require('./ollama-inference');
 
 const TOPIC_FILE = path.join(__dirname, '..', 'selected-topic.json');
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
@@ -57,42 +57,21 @@ function getPromptForType(type) {
  * Call Ollama API for content generation
  */
 async function callOllama(prompt, topicData) {
-  try {
-    console.log(`📡 Connecting to Ollama at ${OLLAMA_URL}...`);
-    console.log(`🤖 Using model: ${OLLAMA_MODEL}`);
+  const inference = new OllamaInference(OLLAMA_URL, OLLAMA_MODEL);
+  
+  const result = await inference.generate(prompt, {
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    numPredict: 2048,
+    verbose: true
+  });
 
-    const response = await fetch(`${OLLAMA_URL}/api/generate`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: OLLAMA_MODEL,
-        prompt: prompt,
-        stream: false,
-        options: {
-          temperature: 0.7,
-          top_p: 0.9
-        }
-      })
-    });
-
-    if (!response.ok) {
-      throw new Error(`Ollama API error: ${response.status} ${response.statusText}`);
-    }
-
-    const data = await response.json();
-
-    if (!data.response) {
-      throw new Error('No response from Ollama');
-    }
-
-    console.log('✅ Content generated successfully');
-    return data.response;
-  } catch (error) {
-    console.error('❌ Ollama generation failed:', error.message);
-    throw error;
+  if (!result.success) {
+    throw new Error(result.error || 'Failed to generate content with Ollama');
   }
+
+  return result.content;
 }
 
 /**

@@ -32,6 +32,13 @@ jobs:
           npm init -y
           npm install node-fetch@2 gray-matter --save
       
+      - name: Setup Ollama
+        run: node scripts/setup-ollama.js
+        env:
+          OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://localhost:11434' }}
+          OLLAMA_MODEL: ${{ secrets.OLLAMA_MODEL || 'mistral' }}
+          GITHUB_ACTIONS: 'true'
+      
       - name: Generate topic history index
         run: node scripts/build-topic-history.js
         continue-on-error: true
