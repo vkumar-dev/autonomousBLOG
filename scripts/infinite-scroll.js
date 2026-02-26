@@ -158,7 +158,7 @@ class InfiniteScrollManager {
    * Setup autoscroll controls
    */
   setupAutoScrollControls() {
-    // Create autoscroll controls
+    // Create autoscroll controls with index circle
     const controlsHTML = `
       <div id="autoscroll-controls" style="
         position: fixed;
@@ -167,49 +167,79 @@ class InfiniteScrollManager {
         z-index: 1000;
         display: flex;
         gap: 10px;
-        background: rgba(0,0,0,0.8);
-        padding: 15px 20px;
-        border-radius: 50px;
-        backdrop-filter: blur(10px);
         align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       ">
-        <button id="autoscroll-btn" style="
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-          color: white;
-          border: none;
-          padding: 10px 16px;
-          border-radius: 25px;
-          cursor: pointer;
-          font-weight: 500;
-          font-size: 13px;
-          transition: all 0.3s ease;
+        <!-- Index Circle Button -->
+        <a href="articles-list.html" id="index-circle" style="
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+          border: 2px solid rgba(255,255,255,0.3);
           display: flex;
           align-items: center;
-          gap: 8px;
-        ">
-          ▶ Autoscroll
-        </button>
-        
-        <div id="autoscroll-speed" style="
-          color: #999;
-          font-size: 12px;
+          justify-content: center;
+          color: white;
+          font-weight: bold;
+          font-size: 14px;
           cursor: pointer;
-          padding: 5px 10px;
-          border-radius: 15px;
-          background: rgba(255,255,255,0.1);
           transition: all 0.3s ease;
-        " title="Click to adjust speed">
-          ${(this.autoScrollDelay / 1000).toFixed(1)}s
-        </div>
+          text-decoration: none;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+        " title="View all articles list" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          ≡
+        </a>
         
-        <div id="scroll-indicator" style="
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: #ccc;
-          transition: background 0.3s ease;
-        "></div>
+        <!-- Controls Panel -->
+        <div style="
+          background: rgba(0,0,0,0.8);
+          padding: 15px 20px;
+          border-radius: 50px;
+          backdrop-filter: blur(10px);
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        ">
+          <button id="autoscroll-btn" style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          ">
+            ▶ Autoscroll
+          </button>
+          
+          <div id="autoscroll-speed" style="
+            color: #999;
+            font-size: 12px;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          " title="Click to adjust speed">
+            ${(this.autoScrollDelay / 1000).toFixed(1)}s
+          </div>
+          
+          <div id="scroll-indicator" style="
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ccc;
+            transition: background 0.3s ease;
+          "></div>
+        </div>
       </div>
     `;
     
