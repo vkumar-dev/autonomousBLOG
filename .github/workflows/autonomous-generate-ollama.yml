@@ -80,14 +80,14 @@ jobs:
           echo "✅ Topic history built"
         continue-on-error: true
 
-      - name: Select topic
+      - name: Select random topic
         id: topic
         run: |
-          echo "🎯 Selecting topic..."
-          node scripts/topic-selector.js > selected-topic.json
+          echo "🎲 Generating random topic..."
+          node scripts/random-topic-selector.js > selected-topic.json
           TOPIC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-topic.json')).topic)")
           echo "topic=$TOPIC" >> $GITHUB_OUTPUT
-          echo "✅ Selected topic: $TOPIC"
+          echo "✅ Generated topic: $TOPIC"
 
       - name: Generate article with Ollama
         env:

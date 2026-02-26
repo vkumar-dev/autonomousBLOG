@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Simple Article Generation using Ollama HTTP API or fallback templates
+Random Blog Article Generation
+Generates unique evergreen content from random category combinations
+No duplicate checking needed - each article is unique by design
 """
 
 import json
@@ -95,37 +97,38 @@ def generate_template_article(topic):
     """Fallback: Generate article from template"""
     print("📄 Using template generation...")
     
+    style_lower = topic.get('writingStyle', '').lower()
+    method = topic.get('storytellingMethod', 'Chronological Timeline')
+    category = topic.get('category', 'Knowledge')
+    
     sections = {
-        'news': [
-            f"## Background\n\nUnderstanding {topic['topic']} requires context. The landscape continues to evolve with new developments.",
-            f"## Key Developments\n\nSeveral important factors are at play:\n\n1. **Progress**: Significant advances have occurred\n2. **Adoption**: Growing recognition across sectors\n3. **Impact**: Meaningful changes are emerging",
-            f"## Implications\n\nThis development has multiple implications:\n\n- **Near-term**: Immediate effects on current practices\n- **Medium-term**: Evolving changes in strategies\n- **Long-term**: Potential transformation of the field",
-            f"## Conclusion\n\nAs {topic['topic']} continues to develop, stakeholders will need to adapt accordingly."
-        ],
-        'article': [
-            f"## Overview\n\n{topic['topic']} is a compelling area worthy of exploration and understanding.",
-            f"## Key Concepts\n\nSeveral core aspects define this topic:\n\n1. **Foundation**: Basic principles and concepts\n2. **Development**: Evolution and progress over time\n3. **Current State**: Where we stand in 2026",
-            f"## Practical Considerations\n\nThere are important practical aspects to consider when examining this subject.",
-            f"## Conclusion\n\nThis area continues to evolve and deserves ongoing attention."
-        ],
-        'fun': [
-            f"## What's So Interesting?\n\n{topic['topic']} is far more fascinating than most realize at first glance.",
-            f"## Fun Facts\n\nHere are some intriguing details:\n\n1. **Surprising element**: Often overlooked aspects\n2. **Historical connection**: Interesting background and origins\n3. **Current trend**: What's happening right now",
-            f"## The Bigger Picture\n\nThis connects to larger themes and patterns in our world.",
-            f"## Final Thoughts\n\nKeeping these insights in mind will enhance your understanding of this topic."
-        ]
+        'Introduction': f"## Introduction\n\nExploring {topic['topic']} offers fascinating insights into {topic['category']}. This article examines the subject through {method.lower()}, providing {topic['depthLevel'].lower()} for {topic['targetAudience'].lower()}.",
+        
+        'Foundations': f"## Foundations\n\nUnderstanding {category} requires examining core principles:\n\n1. **Core Concept**: The fundamental nature and definition\n2. **Historical Context**: How it emerged and evolved\n3. **Key Principles**: Essential elements and frameworks",
+        
+        'Exploration': f"## Deep Exploration\n\nLooking deeper into {topic['topic']}:\n\n- **Perspective**: From a {topic['perspective'].lower()} viewpoint\n- **Applications**: Practical uses and implications\n- **Connections**: Links to other fields and ideas",
+        
+        'Analysis': f"## Analysis & Insights\n\n{category} reveals important patterns:\n\n1. **Patterns**: Recurring themes and trends\n2. **Significance**: Why this matters\n3. **Future**: Implications and possibilities",
+        
+        'Conclusion': f"## Conclusion\n\nThis exploration of {topic['topic']} demonstrates the depth and relevance of {category}. Whether approaching it as {topic['targetAudience'].lower()} or specialist, the insights gained contribute to broader understanding. The intersection of theory and practice continues to evolve, offering new perspectives and possibilities for ongoing discovery."
     }
     
-    article_type = topic.get('type', 'article')
-    article_sections = sections.get(article_type, sections['article'])
+    article_sections = [
+        f"# {topic['topic']}\n",
+        sections['Introduction'],
+        sections['Foundations'],
+        sections['Exploration'],
+        sections['Analysis'],
+        sections['Conclusion']
+    ]
     
-    return f"# {topic['topic']}\n\n" + "\n\n".join(article_sections)
+    return "\n\n".join(article_sections)
 
 def main():
     """Main execution"""
     
     print("\n" + "="*60)
-    print("🤖 Autonomous Article Generation (Ollama + Fallback)")
+    print("🤖 Random Blog Article Generator (Evergreen Content)")
     print("="*60)
     
     try:
@@ -141,23 +144,37 @@ def main():
             use_ollama = False
         
         # Load topic
-        print(f"\n📝 Loading topic...")
+        print(f"\n📝 Loading random topic...")
         topic = load_topic()
         print(f"   Topic: {topic['topic']}")
-        print(f"   Type: {topic['type']}")
+        print(f"   Category: {topic['category']}")
+        print(f"   Genre: {topic['genre']}")
+        print(f"   Style: {topic['writingStyle']}")
         
         # Generate article
         article = None
         
         if use_ollama:
             # Try Ollama
-            prompt = f"""Write a comprehensive article about: {topic['topic']}
+            prompt = f"""Write a comprehensive {topic['genre'].lower()} article.
 
-Type: {topic['type']}
-Tone: {topic['tone']}
-Target length: ~{topic['estimatedWords']} words
+TOPIC: {topic['topic']}
+CATEGORY: {topic['category']}
+TARGET AUDIENCE: {topic['targetAudience']}
+WRITING STYLE: {topic['writingStyle']}
+STORYTELLING METHOD: {topic['storytellingMethod']}
+PERSPECTIVE: {topic['perspective']}
+DEPTH: {topic['depthLevel']}
+TARGET WORDS: ~{topic['estimatedWords']}
 
-Write in Markdown with 3-4 sections (use ##) including conclusion."""
+Write in Markdown format with:
+- Engaging title section
+- 4-5 detailed sections (use ## for headers)
+- Clear examples or explanations
+- Thoughtful conclusion
+
+Remember: This is evergreen content, not time-dependent news.
+Make it timeless, informative, and valuable."""
 
             for attempt in range(2):
                 print(f"\n✍️  Ollama attempt {attempt + 1}/2...")
@@ -196,8 +213,14 @@ Write in Markdown with 3-4 sections (use ##) including conclusion."""
         frontmatter = f"""---
 title: "{topic['topic']}"
 date: "{now.isoformat()}"
-type: "{topic['type']}"
-tone: "{topic['tone']}"
+category: "{topic['category']}"
+genre: "{topic['genre']}"
+style: "{topic['writingStyle']}"
+method: "{topic['storytellingMethod']}"
+perspective: "{topic['perspective']}"
+depth: "{topic['depthLevel']}"
+audience: "{topic['targetAudience']}"
+type: "evergreen"
 ---
 
 {article}
@@ -205,6 +228,7 @@ tone: "{topic['tone']}"
 ---
 
 *Generated by autonomousBLOG on {now.strftime('%Y-%m-%d %H:%M:%S UTC')}*
+*Category: {topic['category']} | Genre: {topic['genre']}*
 """
         
         article_file.write_text(frontmatter)
