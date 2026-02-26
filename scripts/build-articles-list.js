@@ -2,7 +2,7 @@
 
 /**
  * Build Articles List
- * Scans the articles folder and creates a JSON list of all article files
+ * Scans the articles folder recursively for .md files and creates a JSON list
  * This is used by the homepage to dynamically load articles
  */
 
@@ -11,40 +11,117 @@ const path = require('path');
 
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
 const LIST_FILE = path.join(__dirname, '..', 'articles-list.json');
+const INDEX_FILE = path.join(__dirname, '..', 'articles-index.json');
+
+function extractFrontmatter(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const match = content.match(/^---\n([\s\S]*?)\n---/);
+    
+    if (!match) return null;
+    
+    const frontmatter = {};
+    const lines = match[1].split('\n');
+    
+    for (const line of lines) {
+      const [key, ...valueParts] = line.split(':');
+      if (key && valueParts.length) {
+        const value = valueParts.join(':').trim().replace(/^["']|["']$/g, '');
+        frontmatter[key.trim()] = value;
+      }
+    }
+    
+    return frontmatter;
+  } catch (error) {
+    return null;
+  }
+}
 
 function buildArticlesList() {
-  const files = [];
+  const articles = [];
   
   if (!fs.existsSync(ARTICLES_DIR)) {
     console.log('Articles directory does not exist');
-    fs.writeFileSync(LIST_FILE, JSON.stringify(files, null, 2));
+    fs.writeFileSync(LIST_FILE, JSON.stringify([], null, 2));
+    fs.writeFileSync(INDEX_FILE, JSON.stringify({ articles: [], total: 0, lastBuilt: new Date().toISOString() }, null, 2));
     return;
   }
 
-  // Read all files in articles directory (flat structure)
-  const dirEntries = fs.readdirSync(ARTICLES_DIR);
-  
-  for (const entry of dirEntries) {
-    const fullPath = path.join(ARTICLES_DIR, entry);
-    const stat = fs.statSync(fullPath);
+  // Recursively find all .md files
+  function walkDir(dir) {
+    const entries = fs.readdirSync(dir);
     
-    // Only include .html files, skip directories and other files
-    if (stat.isFile() && entry.endsWith('.html')) {
-      files.push(entry);
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry);
+      const stat = fs.statSync(fullPath);
+      
+      if (stat.isDirectory()) {
+        walkDir(fullPath);
+      } else if (stat.isFile() && entry.endsWith('.md')) {
+        const relativePath = path.relative(ARTICLES_DIR, fullPath);
+        const frontmatter = extractFrontmatter(fullPath);
+        
+        articles.push({
+          file: entry,
+          path: relativePath,
+          frontmatter: frontmatter || {},
+          fullPath: fullPath,
+          date: frontmatter?.date || stat.mtime.toISOString()
+        });
+      }
     }
   }
   
-  // Sort by filename descending (latest first due to timestamp format)
-  files.sort((a, b) => b.localeCompare(a));
+  walkDir(ARTICLES_DIR);
   
-  // Write list to file
-  fs.writeFileSync(LIST_FILE, JSON.stringify(files, null, 2));
-  
-  console.log(`Article list built: ${files.length} articles`);
-  console.log('\nArticles (latest first):');
-  files.forEach((file, i) => {
-    console.log(`  ${i + 1}. ${file}`);
+  // Sort by date descending (latest first)
+  articles.sort((a, b) => {
+    const dateA = new Date(a.date || 0);
+    const dateB = new Date(b.date || 0);
+    return dateB - dateA;
   });
+  
+  // Build simple list for homepage (file paths)
+  const fileList = articles.map(article => article.path);
+  
+  // Build detailed index with metadata
+  const indexArticles = articles.map(article => ({
+    title: article.frontmatter.title || article.file.replace('.md', ''),
+    date: article.date,
+    theme: article.frontmatter.theme || 'default',
+    topic: article.frontmatter.topic || article.frontmatter.title || '',
+    contentType: article.frontmatter.contentType || 'article',
+    excerpt: article.frontmatter.excerpt || '',
+    readingTime: parseInt(article.frontmatter.readingTime) || 5,
+    wordCount: parseInt(article.frontmatter.wordCount) || 0,
+    keywords: article.frontmatter.keywords ? 
+      (typeof article.frontmatter.keywords === 'string' ? 
+        article.frontmatter.keywords.split(',').map(k => k.trim()) : 
+        []) : [],
+    path: article.path
+  }));
+  
+  // Write list file (for homepage.js)
+  fs.writeFileSync(LIST_FILE, JSON.stringify(fileList, null, 2));
+  
+  // Write index file (detailed metadata)
+  fs.writeFileSync(INDEX_FILE, JSON.stringify({
+    articles: indexArticles,
+    total: indexArticles.length,
+    lastBuilt: new Date().toISOString()
+  }, null, 2));
+  
+  console.log(`✅ Article list built: ${articles.length} articles`);
+  console.log('\nArticles (latest first):');
+  articles.slice(0, 10).forEach((article, i) => {
+    const title = article.frontmatter.title || article.file;
+    const date = new Date(article.date).toLocaleDateString();
+    console.log(`  ${i + 1}. [${date}] ${title}`);
+  });
+  
+  if (articles.length > 10) {
+    console.log(`  ... and ${articles.length - 10} more`);
+  }
 }
 
 if (require.main === module) {

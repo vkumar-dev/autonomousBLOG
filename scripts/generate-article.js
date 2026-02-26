@@ -301,6 +301,7 @@ ${content}
   // Rebuild articles list so homepage can load the new article
   console.log('Rebuilding articles list...');
   buildArticlesList();
+  console.log('✅ Articles list updated');
   
   return { file: articleFile, theme };
 }

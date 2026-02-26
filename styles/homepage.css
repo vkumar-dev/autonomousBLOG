@@ -239,11 +239,32 @@ body.theme-loaded {
   text-decoration: none;
   transition: all 0.3s var(--ease-out-expo);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   display: block;
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.article-card.is-latest {
+  border: 2px solid var(--accent-primary, #10b981);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+}
+
+.latest-badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: var(--accent-primary, #10b981);
+  color: white;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  z-index: 2;
 }
 
 .article-card::before {
