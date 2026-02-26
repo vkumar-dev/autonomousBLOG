@@ -1,6 +1,6 @@
 /**
- * Homepage Script - Infinite Scroll
- * Single view: Infinite scrolling through articles
+ * Homepage Script - Article Feed
+ * Single view: Full articles in expandable/scrollable feed
  */
 
 class Homepage {
@@ -19,9 +19,9 @@ class Homepage {
         return;
       }
 
-      // Initialize infinite scroll with articles
-      if (window.infiniteScroll) {
-        window.infiniteScroll.initializeWithArticles(this.articles);
+      // Initialize article feed with full pages
+      if (window.articleFeed) {
+        window.articleFeed.initializeWithArticles(this.articles);
       }
       
       // Update article count
