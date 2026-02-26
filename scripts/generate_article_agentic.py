@@ -202,7 +202,7 @@ Make it timeless, informative, and valuable."""
         # Save article
         print(f"\n💾 Saving article...")
         now = datetime.now()
-        date_path = now.strftime('%Y/%m')
+        date_path = now.strftime('%Y/%m/%d')  # Changed to include day: YYYY/MM/DD
         slug = topic['topic'].lower()[:40].replace(' ', '-').replace('/', '-').replace('&', 'and')
         
         article_dir = PROJECT_DIR / 'articles' / date_path
