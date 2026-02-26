@@ -204,11 +204,11 @@ class MarkdownViewer {
     const articleHtml = `
       <article class="article-page">
         <nav class="article-nav">
-          <a href="index.html" class="nav-home">
+          <a href="index.html?view=list" class="nav-home">
             <span class="nav-icon">←</span>
             <span class="nav-text">autonomousBLOG</span>
           </a>
-          <a href="index.html" class="nav-articles">
+          <a href="index.html?view=list" class="nav-articles">
             <span class="nav-text">View All Articles</span>
             <span class="nav-icon">📰</span>
           </a>
@@ -251,7 +251,7 @@ class MarkdownViewer {
             </p>
             <p class="generation-date">Generated on ${now.toUTCString()}</p>
             <div class="article-nav-footer">
-              <a href="index.html" class="btn-back">← Back to Articles</a>
+              <a href="index.html?view=list" class="btn-back">← Back to Articles</a>
             </div>
           </footer>
         </main>
@@ -300,9 +300,9 @@ class MarkdownViewer {
     document.body.innerHTML = `
       <div style="padding: 2rem; max-width: 600px; margin: 0 auto;">
         <nav style="padding: 1.5rem 0; border-bottom: 1px solid rgba(125, 125, 125, 0.1); margin-bottom: 2rem;">
-          <a href="index.html" style="text-decoration: none; color: inherit; opacity: 0.7; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+          <a href="index.html?view=list" style="text-decoration: none; color: inherit; opacity: 0.7; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
             <span>←</span>
-            <span>Back to Blog</span>
+            <span>Back to Articles</span>
           </a>
         </nav>
         <div style="

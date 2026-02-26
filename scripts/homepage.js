@@ -15,18 +15,31 @@ class Homepage {
     try {
       await this.loadArticles();
       
-      // Check URL params to see if user wants list view
+      // Check URL params to determine view mode
       const params = new URLSearchParams(window.location.search);
-      const wantsList = params.has('view') && params.get('view') === 'list';
+      const viewMode = params.get('view');
       
-      // If user explicitly wants list view, show it
-      if (wantsList) {
+      // Explicit list view
+      if (viewMode === 'list') {
+        console.log('[Homepage] Showing articles list');
         this.renderArticles();
         return;
       }
       
-      // Otherwise, auto-redirect to latest article
+      // Explicit latest view (used by footer links)
+      if (viewMode === 'latest') {
+        console.log('[Homepage] Showing latest article');
+        if (this.articles.length > 0) {
+          this.openLatestArticle();
+        } else {
+          this.renderEmptyState();
+        }
+        return;
+      }
+      
+      // Default: auto-redirect to latest article on first visit
       if (this.articles.length > 0) {
+        console.log('[Homepage] Auto-navigating to latest article (default)');
         this.openLatestArticle();
       } else {
         this.renderEmptyState();
