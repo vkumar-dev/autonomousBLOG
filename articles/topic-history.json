@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Blockchain Security Advances",
+      "date": "2026-02-26T16:29:38.762Z",
+      "title": "Blockchain Security Advances",
+      "contentType": "news"
+    },
+    {
       "topic": "Internet of Things Expansion",
       "date": "2026-02-26T16:18:16.383Z",
       "title": "Internet of Things Expansion",
@@ -55,5 +61,5 @@
       "contentType": "news"
     }
   ],
-  "lastUpdated": "2026-02-26T16:27:38.510Z"
+  "lastUpdated": "2026-02-26T16:36:47.043Z"
 }
