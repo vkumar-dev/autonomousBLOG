@@ -74,7 +74,7 @@ jobs:
       
       - name: Commit and push article
         run: |
-          git add articles/
+          git add articles/ articles-list.json articles-content.json articles-index.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
@@ -82,10 +82,6 @@ jobs:
           git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
           git push
           echo "✅ Article committed and pushed"
-      
-      - name: Build article index
-        run: node scripts/build-article-index.js
-        continue-on-error: true
       
       - name: Trigger deployment
         if: success()

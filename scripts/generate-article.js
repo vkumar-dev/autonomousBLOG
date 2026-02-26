@@ -210,28 +210,6 @@ async function generateArticle() {
   const topicData = JSON.parse(fs.readFileSync(TOPIC_FILE, 'utf8'));
   console.log('Generating article for topic:', topicData.topic);
   
-  // Check for similar articles to avoid duplicates
-  const keywords = Array.isArray(topicData.keywords) ? topicData.keywords : [topicData.keywords || ''];
-  const similarArticles = findSimilarArticles(topicData.topic, keywords);
-  
-  if (similarArticles.length > 0) {
-    console.warn('⚠️  WARNING: Similar articles already exist:');
-    similarArticles.forEach(article => {
-      console.warn(`   - ${article}`);
-    });
-    console.warn('\n❌ Skipping article generation to avoid duplicate content.');
-    console.warn('Please select a different topic or modify the current topic to be more unique.\n');
-    
-    // Clean up topic file
-    if (fs.existsSync(TOPIC_FILE)) {
-      fs.unlinkSync(TOPIC_FILE);
-    }
-    
-    throw new Error('Similar article already exists. Skipping generation.');
-  }
-  
-  console.log('✅ No similar articles found. Proceeding with generation...\n');
-  
   // Load and prepare prompt
   const promptFile = getPromptForType(topicData.type);
   let prompt = fs.existsSync(promptFile) 
