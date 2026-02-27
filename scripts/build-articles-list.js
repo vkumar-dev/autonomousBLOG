@@ -13,6 +13,17 @@ const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
 const LIST_FILE = path.join(__dirname, '..', 'articles-list.json');
 const INDEX_FILE = path.join(__dirname, '..', 'articles-index.json');
 
+function extractTimestampFromFilename(filename) {
+  // Match yyyy-mm-dd-hh-mm-ss_ pattern at start of filename
+  const match = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})_/);
+  if (match) {
+    const [, year, month, day, hours, minutes, seconds] = match;
+    const dateStr = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`;
+    return new Date(dateStr).toISOString();
+  }
+  return null;
+}
+
 function extractFrontmatter(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf8');
@@ -61,12 +72,16 @@ function buildArticlesList() {
         const relativePath = path.relative(ARTICLES_DIR, fullPath);
         const frontmatter = extractFrontmatter(fullPath);
         
+        // Try to extract date from filename first, then fall back to frontmatter or file mtime
+        const filenameDate = extractTimestampFromFilename(entry);
+        const date = filenameDate || frontmatter?.date || stat.mtime.toISOString();
+        
         articles.push({
           file: entry,
           path: relativePath,
           frontmatter: frontmatter || {},
           fullPath: fullPath,
-          date: frontmatter?.date || stat.mtime.toISOString()
+          date: date
         });
       }
     }

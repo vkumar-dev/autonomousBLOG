@@ -36,6 +36,17 @@ function generateDatePath() {
   return path.join(year, month, day);
 }
 
+function generateTimestamp() {
+  const now = new Date();
+  const year = String(now.getFullYear());
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+  return `${year}-${month}-${day}-${hours}-${minutes}-${seconds}`;
+}
+
 function calculateReadingTime(wordCount) {
   return Math.ceil(wordCount / 200);
 }
@@ -114,9 +125,10 @@ ${content}`
 
   // Create article file
   const datePath = generateDatePath();
+  const timestamp = generateTimestamp();
   const slug = generateSlug(topicData.topic);
   const articleDir = path.join(ARTICLES_DIR, datePath);
-  const articleFile = path.join(articleDir, `${slug}.md`);
+  const articleFile = path.join(articleDir, `${timestamp}_${slug}.md`);
 
   // Ensure directory exists
   fs.mkdirSync(articleDir, { recursive: true });
