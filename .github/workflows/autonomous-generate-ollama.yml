@@ -46,32 +46,50 @@ jobs:
       - name: Start Ollama service
         run: |
           echo "🚀 Starting Ollama service..."
-          # Start ollama in background with output redirected
+          # Start ollama in background with output redirected, save PID for later
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           OLLAMA_PID=$!
+          echo "OLLAMA_PID=$OLLAMA_PID" >> $GITHUB_ENV
           echo "Ollama PID: $OLLAMA_PID"
           
           # Wait for service to be ready (longer timeout)
           for i in {1..60}; do
             if curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
-              echo "✅ Ollama service ready"
+              echo "✅ Ollama service ready at $(date)"
               break
             fi
             if [ $i -eq 60 ]; then
-              echo "❌ Ollama failed to start"
-              cat /tmp/ollama.log
+              echo "❌ Ollama failed to start after 60 attempts"
+              echo "Last 50 lines of log:"
+              tail -50 /tmp/ollama.log
               exit 1
             fi
-            echo "⏳ Waiting for Ollama... ($i/60)"
+            echo "⏳ Waiting for Ollama... ($i/60 at $(date))"
             sleep 1
           done
 
       - name: Pull Ollama model
         run: |
-          echo "📥 Pulling model (neural-chat)..."
-          timeout 600 ollama pull neural-chat:latest || timeout 600 ollama pull mistral || ollama pull tinyllama
-          echo "✅ Model ready"
+          echo "📥 Pulling model..."
+          RETRIES=3
+          for attempt in $(seq 1 $RETRIES); do
+            echo "Attempt $attempt/$RETRIES..."
+            if timeout 600 ollama pull mistral; then
+              echo "✅ Mistral model pulled successfully"
+              break
+            fi
+            if [ $attempt -eq $RETRIES ]; then
+              echo "⚠️  Failed to pull mistral, trying tinyllama..."
+              timeout 300 ollama pull tinyllama || true
+            fi
+            sleep 5
+          done
+          
+          echo "📋 Available models:"
           ollama list
+          
+          echo "🏥 Health check..."
+          curl -s http://localhost:11434/api/tags | head -20
 
       - name: Generate topic history
         run: |
@@ -88,6 +106,20 @@ jobs:
           TOPIC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-topic.json')).topic)")
           echo "topic=$TOPIC" >> $GITHUB_OUTPUT
           echo "✅ Generated topic: $TOPIC"
+
+      - name: Pre-generation health check
+        run: |
+          echo "🏥 Checking Ollama health before generation..."
+          echo "Checking service..."
+          curl -v http://localhost:11434/api/tags 2>&1 | head -30
+          
+          echo ""
+          echo "Checking process..."
+          ps aux | grep ollama | grep -v grep || echo "⚠️  Ollama process not found!"
+          
+          echo ""
+          echo "Checking logs..."
+          tail -20 /tmp/ollama.log
 
       - name: Generate article with Ollama
         env:
