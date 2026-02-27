@@ -2,6 +2,10 @@
 
 🤖 An AI-powered autonomous blog that generates and publishes content automatically via GitHub Actions.
 
+[![GitHub stars](https://img.shields.io/github/stars/vkumar-dev/autonomousBLOG?style=social)](https://github.com/vkumar-dev/autonomousBLOG/stargazers)
+
+**If you find this useful, please ⭐ star it!** It helps others discover this project.
+
 ![GitHub Actions](https://img.shields.io/badge/powered%20by-GitHub%20Actions-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
