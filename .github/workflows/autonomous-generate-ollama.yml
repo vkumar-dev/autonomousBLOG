@@ -92,10 +92,10 @@ jobs:
       - name: Generate article with Ollama
         env:
           OLLAMA_MODEL: mistral
-          OLLAMA_BASE_URL: http://localhost:11434
+          OLLAMA_URL: http://localhost:11434
         run: |
           echo "✍️  Generating article with Ollama..."
-          python scripts/generate_article_agentic.py
+          node scripts/generate-article-ollama.js
           echo "✅ Article generation complete"
 
       - name: Configure Git
