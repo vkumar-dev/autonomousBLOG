@@ -66,6 +66,12 @@ class ArticleFeed {
     
     console.log(`[ArticleFeed] Initialized with ${articles.length} articles`);
     
+    // Clear loading state before loading articles
+    const feedContainer = document.getElementById('articles-grid');
+    if (feedContainer) {
+      feedContainer.innerHTML = ''; // Remove loading spinner
+    }
+    
     // Load first page
     this.loadMoreArticles();
   }
@@ -92,17 +98,21 @@ class ArticleFeed {
     // Render new articles
     const feedContainer = document.getElementById('articles-grid');
     if (feedContainer) {
+      // Create sentinel if it doesn't exist (for first load)
+      let sentinel = feedContainer.querySelector('#scroll-sentinel');
+      if (!sentinel) {
+        sentinel = document.createElement('div');
+        sentinel.id = 'scroll-sentinel';
+        sentinel.style.height = '1px';
+        feedContainer.appendChild(sentinel);
+      }
+      
       const newHTML = newArticles.map((article) => 
         this.createArticlePage(article)
       ).join('');
       
       // Insert before sentinel
-      const sentinel = feedContainer.querySelector('#scroll-sentinel');
-      if (sentinel) {
-        sentinel.insertAdjacentHTML('beforebegin', newHTML);
-      } else {
-        feedContainer.innerHTML += newHTML;
-      }
+      sentinel.insertAdjacentHTML('beforebegin', newHTML);
       
       console.log(`[ArticleFeed] Loaded ${newArticles.length} full articles`);
     }
