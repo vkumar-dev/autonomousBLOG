@@ -5,7 +5,7 @@
 
 class ArticleFeed {
   constructor() {
-    this.articlesPerPage = 3;
+    this.articlesPerPage = 10; // Show 10 articles initially, load more on scroll
     this.currentPage = 0;
     this.allArticles = [];
     this.contentCache = {};
@@ -158,7 +158,7 @@ class ArticleFeed {
           ">
             <span>${this.escapeHtml(article.contentType)}</span>
             <span>•</span>
-            <span title="${timeInfo.dateTime}">${timeInfo.relativeTime}</span>
+            <span title="${timeInfo.relativeTime}">${timeInfo.dateTime}</span>
           </div>
           <h1 style="margin: 0 0 20px 0; font-size: 2.5rem; line-height: 1.2;">
             ${this.escapeHtml(article.title)}
@@ -192,15 +192,16 @@ class ArticleFeed {
         </div>
 
         <div style="
-          margin-top: 60px;
-          padding-top: 40px;
-          border-top: 1px solid rgba(0,0,0,0.1);
-          opacity: 0.6;
-          font-size: 0.9rem;
-        ">
-          <p>${timeInfo.fullText}</p>
-          <p>Read: ${article.readingTime || 5} minutes</p>
-        </div>
+           margin-top: 60px;
+           padding-top: 40px;
+           border-top: 1px solid rgba(0,0,0,0.1);
+           opacity: 0.6;
+           font-size: 0.9rem;
+         ">
+           <p>Published: ${timeInfo.dateTime}</p>
+           <p>(${timeInfo.relativeTime})</p>
+           <p>Read: ${article.readingTime || 5} minutes</p>
+         </div>
       </article>
     `;
   }
