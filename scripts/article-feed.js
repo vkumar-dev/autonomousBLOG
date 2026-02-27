@@ -107,15 +107,14 @@ class ArticleFeed {
         feedContainer.appendChild(sentinel);
       }
       
-      // Create card + expanded pairs for each article
       const newHTML = newArticles.map((article) => 
-        this.createArticleCard(article) + this.createArticleExpanded(article)
+        this.createArticlePage(article)
       ).join('');
       
       // Insert before sentinel
       sentinel.insertAdjacentHTML('beforebegin', newHTML);
       
-      console.log(`[ArticleFeed] Loaded ${newArticles.length} clickable articles`);
+      console.log(`[ArticleFeed] Loaded ${newArticles.length} full articles`);
     }
 
     this.currentPage++;
@@ -123,60 +122,9 @@ class ArticleFeed {
   }
 
   /**
-   * Create clickable article card HTML
+   * Create full article page HTML
    */
-  createArticleCard(article) {
-    const timeInfo = window.TimeFormatter ? window.TimeFormatter.getFullTimeInfo(article.date) : {
-      dateTime: this.formatDate(article.date),
-      relativeTime: 'recently',
-      fullText: `Published ${this.formatDate(article.date)}`
-    };
-
-    return `
-      <article class="article-card" style="
-        padding: 30px;
-        margin-bottom: 20px;
-        border: 1px solid rgba(0,0,0,0.1);
-        border-radius: 8px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        background: #fff;
-      " onclick="this.classList.toggle('expanded'); this.nextElementSibling && this.nextElementSibling.style.display === 'none' ? this.nextElementSibling.style.display = 'block' : this.nextElementSibling.style.display = 'none'">
-        <div style="
-          display: flex;
-          gap: 10px;
-          margin-bottom: 15px;
-          font-size: 0.85rem;
-          opacity: 0.7;
-        ">
-          <span>${this.escapeHtml(article.contentType)}</span>
-          <span>•</span>
-          <span title="${timeInfo.relativeTime}">${timeInfo.dateTime}</span>
-          <span>•</span>
-          <span>${article.readingTime || 5} min read</span>
-        </div>
-        <h2 style="margin: 0 0 10px 0; font-size: 1.4rem; line-height: 1.3;">
-          ${this.escapeHtml(article.title)}
-        </h2>
-        <p style="
-          margin: 0;
-          font-size: 0.95rem;
-          opacity: 0.75;
-          color: #555;
-        ">
-          ${this.escapeHtml(article.excerpt || '')}
-        </p>
-        <div style="margin-top: 15px; font-size: 0.85rem; color: #667eea; font-weight: 500;">
-          Click to read more →
-        </div>
-      </article>
-    `;
-  }
-
-  /**
-   * Create expanded article view HTML
-   */
-  createArticleExpanded(article) {
+  createArticlePage(article) {
     const content = this.contentCache[article.path] || '';
     
     // Extract markdown content (remove frontmatter)
@@ -190,42 +138,65 @@ class ArticleFeed {
     };
 
     return `
-      <div class="article-expanded" style="
-        padding: 40px;
-        margin-bottom: 20px;
-        border: 1px solid rgba(0,0,0,0.1);
-        border-radius: 8px;
-        background: #f9f9f9;
-        display: none;
+      <article class="article-page-item" style="
+        min-height: 100vh;
+        padding: 60px 40px;
+        max-width: 900px;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
       ">
-        <div style="margin-bottom: 30px;">
-          <h1 style="margin: 0 0 15px 0; font-size: 2rem; line-height: 1.2;">
-            ${this.escapeHtml(article.title)}
-          </h1>
+        <div style="margin-bottom: 40px;">
           <div style="
             display: flex;
-            gap: 15px;
+            gap: 10px;
+            margin-bottom: 20px;
             font-size: 0.9rem;
             opacity: 0.7;
-            margin-bottom: 20px;
+            flex-wrap: wrap;
           ">
             <span>${this.escapeHtml(article.contentType)}</span>
             <span>•</span>
-            <span title="${timeInfo.relativeTime}">Published: ${timeInfo.dateTime}</span>
+            <span title="${timeInfo.relativeTime}">${timeInfo.dateTime}</span>
             <span>•</span>
             <span>${article.readingTime || 5} min read</span>
           </div>
+          <h1 style="margin: 0 0 20px 0; font-size: 2.5rem; line-height: 1.2;">
+            ${this.escapeHtml(article.title)}
+          </h1>
+          <p style="
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.8;
+            color: #666;
+          ">
+            ${this.escapeHtml(article.excerpt || '')}
+          </p>
         </div>
 
         <div class="article-content" style="
-          font-size: 1rem;
+          font-size: 1.05rem;
           line-height: 1.8;
           color: #333;
-          max-width: 100%;
         ">
           ${htmlContent}
         </div>
-      </div>
+
+        <div style="
+           margin-top: 60px;
+           padding-top: 40px;
+           border-top: 1px solid rgba(0,0,0,0.1);
+           opacity: 0.6;
+           font-size: 0.9rem;
+         ">
+           <p>Published: ${timeInfo.dateTime}</p>
+           <p>(${timeInfo.relativeTime})</p>
+           <p>Read: ${article.readingTime || 5} minutes</p>
+         </div>
+      </article>
     `;
   }
 
