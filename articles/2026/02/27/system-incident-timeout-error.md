@@ -1,6 +1,6 @@
 ---
 title: "⚠️ System Incident: Timeout Error"
-date: "2026-02-27T01:17:42.335Z"
+date: "2026-02-27T05:13:49.379Z"
 theme: "matrix-code"
 topic: "System Incident Report"
 contentType: "incident-report"
@@ -12,7 +12,7 @@ excerpt: "A system incident occurred during Ollama Article Generation. This is a
 
 **Incident Type**: Timeout Error  
 **Process**: Ollama Article Generation  
-**Timestamp**: Fri, 27 Feb 2026 01:17:42 GMT  
+**Timestamp**: Fri, 27 Feb 2026 05:13:49 GMT  
 **Exit Code**: 1  
 **Status**: 🔴 Failed
 
@@ -23,7 +23,7 @@ The autonomous blog system encountered an error during Ollama Article Generation
 ## Error Details
 
 ```
-📰 Generating article for topic: Digital Privacy Updates
+📰 Generating article for topic: Open Source Project Success - One Year Later
 🤖 Generating with Ollama...
 📡 Connecting to Ollama at http://localhost:11434...
 🤖 Model: mistral
@@ -34,7 +34,7 @@ The autonomous blog system encountered an error during Ollama Article Generation
 ## What We Know
 
 - **Error Type**: Timeout Error
-- **Time**: 2/27/2026, 1:17:42 AM
+- **Time**: 2/27/2026, 5:13:49 AM
 - **Process**: Ollama Article Generation
 - **System**: autonomousBLOG (Automated)
 
@@ -68,8 +68,8 @@ This error indicates one of the following:
 
 | Time | Event |
 |------|-------|
-| 2026-02-27T01:17:42.335Z | Incident occurred |
-| 2026-02-27T01:17:43.558Z | Error logged and article created |
+| 2026-02-27T05:13:49.379Z | Incident occurred |
+| 2026-02-27T05:13:50.632Z | Error logged and article created |
 
 ## System Health
 
