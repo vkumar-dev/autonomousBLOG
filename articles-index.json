@@ -1,15 +1,21 @@
 {
   "articles": [
     {
-      "title": "2026-02-27-19-30-36_psychology-explained-conceptual-overview",
+      "title": "Exploring Psychology Through a Skeptical Lens: A Journey Beyond Earth",
       "date": "2026-02-27T19:30:36.000Z",
-      "theme": "default",
-      "topic": "",
+      "theme": "sunset-vibes",
+      "topic": "Psychology, Conceptual, Skeptical, Space & Astronomy",
       "contentType": "article",
-      "excerpt": "",
+      "excerpt": "Delve into the exploration of psychology through a skeptical perspective, drawing parallels between human behavior and the vast expanse of space.",
       "readingTime": 5,
-      "wordCount": 0,
-      "keywords": [],
+      "wordCount": 900,
+      "keywords": [
+        "[psychology",
+        "conceptual",
+        "skeptical",
+        "space",
+        "astronomy]"
+      ],
       "path": "2026/02/27/2026-02-27-19-30-36_psychology-explained-conceptual-overview.md"
     },
     {
@@ -242,5 +248,5 @@
     }
   ],
   "total": 20,
-  "lastBuilt": "2026-02-27T14:09:00.005Z"
+  "lastBuilt": "2026-02-27T14:14:25.641Z"
 }

@@ -1,4 +1,3 @@
- ```markdown
 ---
 title: "Exploring Psychology Through a Skeptical Lens: A Journey Beyond Earth"
 date: "2026-02-27T13:50:51.194Z"

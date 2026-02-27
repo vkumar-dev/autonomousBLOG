@@ -104,7 +104,10 @@ async function generateArticle() {
 
   // Generate with Ollama (NO FALLBACK)
   console.log('🤖 Generating with Ollama...');
-  const content = await callOllama(prompt, topicData);
+  let content = await callOllama(prompt, topicData);
+
+  // Clean up content - remove markdown code fences if present
+  content = content.replace(/^```markdown\n/i, '').replace(/^```\n/i, '').replace(/\n```\s*$/i, '');
 
   // Ensure content has frontmatter
   const finalContent = !content.includes('---') 
