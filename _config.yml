@@ -1,37 +1,20 @@
 # GitHub Pages configuration
-# This prevents Jekyll from processing our article files
+# Minimal Jekyll config - we're using vanilla HTML/JS, not Jekyll site
 
-# Exclude files and folders from Jekyll processing
+# Exclude build/source files but keep content files
 exclude:
-  - articles/
-  - scripts/
-  - styles/
-  - templates/
-  - prompts/
   - .github/
   - node_modules/
   - package.json
   - package-lock.json
-  - README.md
   - CONTRIBUTING.md
   - .gitignore
+  - README.md
+  - .git/
 
-# Use site.github.url if available
-url: ""
-
-# Keep these files as-is
-keep_files:
-  - articles
-  - scripts
-  - styles
-  - templates
-  - prompts
-
-# Don't process markdown files in articles folder
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Use GitHub's default theme if needed
-theme: jekyll-theme-minimal
+# Don't use a theme - we have custom HTML
+theme: null
 
 # Build settings
 incremental: false
+safe: true
