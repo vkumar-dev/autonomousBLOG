@@ -50,7 +50,7 @@ async function callOllama(prompt, topicData) {
     temperature: 0.7,
     topP: 0.9,
     topK: 40,
-    numPredict: 2048,
+    numPredict: 1024, // Reduced from 2048 for faster generation
     verbose: true
   });
 

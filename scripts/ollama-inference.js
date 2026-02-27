@@ -15,7 +15,7 @@ class OllamaInference {
   constructor(url = OLLAMA_URL, model = OLLAMA_MODEL) {
     this.url = url;
     this.model = model;
-    this.timeout = 120000; // 2 minutes
+    this.timeout = 600000; // 10 minutes for generation (slower on CI)
   }
 
   /**

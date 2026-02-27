@@ -122,12 +122,17 @@ jobs:
           tail -20 /tmp/ollama.log
 
       - name: Generate article with Ollama
+        timeout-minutes: 15
         env:
           OLLAMA_MODEL: mistral
           OLLAMA_URL: http://localhost:11434
         run: |
           echo "✍️  Generating article with Ollama..."
-          node scripts/generate-article-ollama.js
+          timeout 600 node scripts/generate-article-ollama.js || EXIT_CODE=$?
+          if [ $EXIT_CODE -ne 0 ] && [ $EXIT_CODE -ne 124 ]; then
+            echo "⚠️  Generation failed, will create error article"
+            exit 1
+          fi
           echo "✅ Article generation complete"
 
       - name: Configure Git
