@@ -1,20 +1,36 @@
 # GitHub Pages configuration
-# Minimal Jekyll config - we're using vanilla HTML/JS, not Jekyll site
+# We use .nojekyll to disable Jekyll, but keeping this as fallback
 
-# Exclude build/source files but keep content files
+# Exclude all content directories to prevent Jekyll processing
 exclude:
+  - articles/
+  - scripts/
+  - styles/
+  - templates/
+  - prompts/
   - .github/
   - node_modules/
   - package.json
   - package-lock.json
   - CONTRIBUTING.md
   - .gitignore
-  - README.md
   - .git/
 
-# Don't use a theme - we have custom HTML
-theme: null
+# Keep directories in output
+keep_files:
+  - articles
+  - scripts
+  - styles
+  - templates
+  - prompts
+  - articles-index.json
+  - articles-content.json
+  - articles-list.json
+  - index.html
+  - view-article.html
+
+# No processing of markdown
+markdown: kramdown
 
 # Build settings
 incremental: false
-safe: true
