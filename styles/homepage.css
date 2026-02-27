@@ -520,3 +520,29 @@ body.theme-loaded {
     align-items: flex-start;
   }
 }
+
+/* Article Cards */
+.article-card {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.article-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.article-card:hover .article-card-title {
+  color: #667eea;
+}
+
+.article-expanded {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.articles-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
