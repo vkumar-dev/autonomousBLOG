@@ -34,9 +34,11 @@ class Homepage {
   }
 
   async loadArticles() {
+    // Add cache-busting parameter to avoid stale content
+    const bustParam = `?t=${window.CACHE_BUST || Date.now()}`;
     const [indexResponse, contentResponse] = await Promise.all([
-      fetch('articles-index.json'),
-      fetch('articles-content.json')
+      fetch('articles-index.json' + bustParam),
+      fetch('articles-content.json' + bustParam)
     ]);
 
     if (!indexResponse.ok || !contentResponse.ok) {

@@ -53,6 +53,11 @@
     </footer>
   </div>
 
+  <script>
+    // Cache-busting for dynamic content loading
+    const CACHE_BUST = Math.random().toString(36).substring(7);
+    window.CACHE_BUST = CACHE_BUST;
+  </script>
   <script src="scripts/theme-manager.js"></script>
   <script src="scripts/utils/time-formatter.js"></script>
   <script src="scripts/article-feed.js"></script>

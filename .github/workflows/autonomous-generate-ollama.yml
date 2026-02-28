@@ -167,14 +167,12 @@ jobs:
           echo "✅ Article index built"
         continue-on-error: true
 
-      - name: Deploy to GitHub Pages
+      - name: Trigger deployment workflow
         if: always()
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          cname: false
-          allow_empty_commit: true
+        run: |
+          gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show summary
         if: always()
