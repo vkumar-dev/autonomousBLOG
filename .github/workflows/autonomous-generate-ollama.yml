@@ -140,11 +140,15 @@ jobs:
           git config --global user.name 'autonomousBLOG Bot'
           git config --global user.email 'autonomousblog@github-actions.local'
 
-      - name: Build article index
+      - name: Build article index and content cache
         run: |
           echo "🔨 Building article index..."
           node scripts/build-article-index.js
           echo "✅ Article index built"
+          
+          echo "🔨 Building content cache..."
+          node scripts/build-articles-content.js
+          echo "✅ Content cache built"
         continue-on-error: true
 
       - name: Commit and push article with index
