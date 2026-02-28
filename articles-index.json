@@ -1,6 +1,125 @@
 {
   "articles": [
     {
+      "title": "Understanding Literature Through Debate Structure: A Critical Perspective",
+      "date": "2026-02-28T16:02:16.478Z",
+      "theme": "ocean-breeze",
+      "topic": "Understanding Literature Through Debate Structure",
+      "contentType": "article",
+      "excerpt": "Exploring how the structure of debate can provide a unique lens for understanding and interpreting literature.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "literature",
+        "reference",
+        "critical",
+        "literary analysis"
+      ],
+      "path": "2026/02/28/2026-02-28-16-06-43_understanding-literature-through-debate-structure.md"
+    },
+    {
+      "title": "Exploring Modern Frontiers: A Comprehensive Guide to Space & Astronomy",
+      "date": "2026-02-28T12:02:18.189Z",
+      "theme": "ocean-breeze",
+      "topic": "Space & Astronomy Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of modern space and astronomy, as we unravel the latest discoveries and their impact on anthropology.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "space & astronomy",
+        "reference",
+        "modern",
+        "anthropology"
+      ],
+      "path": "2026/02/28/2026-02-28-12-07-07_space-astronomy-explained-reference-guide.md"
+    },
+    {
+      "title": "The Pessimistic Programmer's Guide to the Unsung Heroes of Science: Lessons from History",
+      "date": "2026-02-28T08:02:21.254Z",
+      "theme": "sunset-vibes",
+      "topic": "Science, Narrative, Pessimistic, Programming",
+      "contentType": "article",
+      "excerpt": "Discover the often overlooked struggles and triumphs of programmers in the world of science.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "science",
+        "narrative",
+        "pessimistic",
+        "programming"
+      ],
+      "path": "2026/02/28/2026-02-28-08-06-02_science-lesser-known-facts-and-stories.md"
+    },
+    {
+      "title": "Understanding the Economic Philosophies of Ancient Civilizations",
+      "date": "2026-02-28T04:46:02.599Z",
+      "theme": "minimalist-clean",
+      "topic": "The Philosophy Behind Ancient Cultures",
+      "contentType": "article",
+      "excerpt": "Explore the economic philosophies that shaped ancient civilizations, shedding light on their lasting impact.",
+      "readingTime": "Approx 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "ancient cultures",
+        "educational",
+        "theoretical",
+        "economics"
+      ],
+      "path": "2026/02/28/2026-02-28-04-50-32_the-philosophy-behind-ancient-cultures.md"
+    },
+    {
+      "title": "Decoding the Mysteries of Modern Technology: A Journey through Space and Beyond",
+      "date": "2026-02-28T00:50:14.902Z",
+      "theme": "cotton-candy",
+      "topic": "Unraveling the Complexity of Technology",
+      "contentType": "article",
+      "excerpt": "Discover how technology has revolutionized space exploration and astronomy.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "technology",
+        "exploratory",
+        "balanced",
+        "space & astronomy"
+      ],
+      "path": "2026/02/28/2026-02-28-00-54-18_unraveling-the-complexity-of-technology.md"
+    },
+    {
+      "title": "The Disillusionment of Biology's Practical Applications: A Pessimistic Perspective",
+      "date": "2026-02-27T20:17:25.132Z",
+      "theme": "ocean-breeze",
+      "topic": "Biology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Exploring the limitations and pitfalls of applying biology in practical scenarios from a pessimistic standpoint.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "biology",
+        "case",
+        "pessimistic",
+        "programming"
+      ],
+      "path": "2026/02/27/2026-02-27-20-21-36_biology-practical-applications-and-insights.md"
+    },
+    {
+      "title": "Unveiling the Hidden Secrets of Ancient Art & Design",
+      "date": "2026-02-27T16:25:52.243Z",
+      "theme": "neon-nights",
+      "topic": "Ancient Cultures: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the intricate world of ancient art & design, revealing lesser-known facts and stories that illuminate the technical prowess and creative spirit of our ancestors.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "ancient cultures",
+        "technical",
+        "ancient",
+        "art & design"
+      ],
+      "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Exploring Psychology Through a Skeptical Lens: A Journey Beyond Earth",
       "date": "2026-02-27T13:50:51.194Z",
       "theme": "sunset-vibes",
@@ -79,6 +198,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 6,
-  "lastBuilt": "2026-02-28T17:06:09.075Z"
+  "total": 13,
+  "lastBuilt": "2026-02-28T17:10:40.701Z"
 }

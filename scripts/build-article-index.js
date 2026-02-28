@@ -16,8 +16,8 @@ const INDEX_FILE = path.join(__dirname, '..', 'articles-index.json');
  * Extract frontmatter from markdown content
  */
 function extractFrontmatter(content) {
-  // Handle markdown code fences that might wrap the content
-  let cleanContent = content.replace(/^```markdown\s*\n/i, '').replace(/^```\s*\n/i, '');
+  // Handle markdown code fences that might wrap the content (with leading spaces)
+  let cleanContent = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
   
   const match = cleanContent.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return null;
@@ -59,8 +59,8 @@ function extractExcerpt(content, frontmatter) {
     return frontmatter.excerpt;
   }
   
-  // Handle markdown code fences that might wrap the content
-  let cleanContent = content.replace(/^```markdown\s*\n/i, '').replace(/^```\s*\n/i, '');
+  // Handle markdown code fences that might wrap the content (with leading spaces)
+  let cleanContent = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
   
   // Remove frontmatter
   const withoutFrontmatter = cleanContent.replace(/^---\n[\s\S]*?\n---\n/, '');

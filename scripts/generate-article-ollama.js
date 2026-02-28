@@ -106,8 +106,8 @@ async function generateArticle() {
   console.log('🤖 Generating with Ollama...');
   let content = await callOllama(prompt, topicData);
 
-  // Clean up content - remove markdown code fences if present
-  content = content.replace(/^```markdown\n/i, '').replace(/^```\n/i, '').replace(/\n```\s*$/i, '');
+  // Clean up content - remove markdown code fences if present (with leading spaces)
+  content = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '').replace(/\n\s*```\s*$/i, '');
 
   // Ensure content has frontmatter
   const finalContent = !content.includes('---') 
