@@ -49,21 +49,6 @@ jobs:
       - name: Build article index
         run: node scripts/build-article-index.js
       
-      - name: Add cache-busting headers
-        run: |
-          cat > _headers << 'EOF'
-          /index.html
-            Cache-Control: max-age=0, no-cache, no-store, must-revalidate
-          /articles-list.html
-            Cache-Control: max-age=0, no-cache, no-store, must-revalidate
-          /*.json
-            Cache-Control: max-age=300
-          /scripts/*
-            Cache-Control: max-age=31536000
-          /styles/*
-            Cache-Control: max-age=31536000
-          EOF
-      
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
