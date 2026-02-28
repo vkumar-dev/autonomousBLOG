@@ -140,17 +140,24 @@ jobs:
           git config --global user.name 'autonomousBLOG Bot'
           git config --global user.email 'autonomousblog@github-actions.local'
 
-      - name: Commit and push article (prevent recursive trigger)
+      - name: Build article index
         run: |
-          git add articles/
+          echo "🔨 Building article index..."
+          node scripts/build-article-index.js
+          echo "✅ Article index built"
+        continue-on-error: true
+
+      - name: Commit and push article with index (trigger deploy)
+        run: |
+          git add articles/ articles-index.json articles-content.json
           
           if git diff --staged --quiet; then
             echo "ℹ️  No changes to commit"
             exit 0
           fi
           
-          # Use [skip ci] to prevent deployment workflow from re-triggering generation
-          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d) [skip ci]"
+          # Don't use [skip ci] - we WANT deploy workflow to run
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
           
           if git push origin main; then
             echo "✅ Article committed and pushed"
@@ -159,20 +166,6 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-
-      - name: Build article index
-        run: |
-          echo "🔨 Building article index..."
-          node scripts/build-article-index.js
-          echo "✅ Article index built"
-        continue-on-error: true
-
-      - name: Trigger deployment workflow
-        if: always()
-        run: |
-          gh workflow run deploy.yml --ref main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show summary
         if: always()
