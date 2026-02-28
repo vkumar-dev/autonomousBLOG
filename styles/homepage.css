@@ -128,6 +128,9 @@ body.theme-loaded {
 .articles-grid {
   min-height: calc(100vh - 120px);
   overflow-y: auto;
+}
+
+.articles-grid.has-reel-feed {
   scroll-snap-type: y mandatory;
 }
 
@@ -270,6 +273,14 @@ body.theme-loaded {
   background: transparent;
   box-shadow: none;
   border: none;
+  display: block;
+  min-height: auto;
+}
+
+.featured-article-full .article-content-featured {
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .article-header-featured {

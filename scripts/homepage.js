@@ -39,30 +39,38 @@ class Homepage {
   async loadArticles() {
     // Add cache-busting parameter to avoid stale content
     const bustParam = `?t=${window.CACHE_BUST || Date.now()}`;
-    const [indexResponse, contentResponse] = await Promise.all([
-      fetch('articles-index.json' + bustParam),
-      fetch('articles-content.json' + bustParam)
-    ]);
+    
+    try {
+      const [indexResponse, contentResponse] = await Promise.all([
+        fetch('articles-index.json' + bustParam),
+        fetch('articles-content.json' + bustParam)
+      ]);
 
-    if (!indexResponse.ok || !contentResponse.ok) {
-      throw new Error('Failed to load article data files');
+      if (!indexResponse.ok || !contentResponse.ok) {
+        throw new Error('Failed to load article data files');
+      }
+
+      const indexData = await indexResponse.json();
+      this.contentCache = await contentResponse.json();
+
+      const fromIndex = (indexData.articles || []).map((item) => this.normalizeArticle(item));
+
+      const indexedPaths = new Set(fromIndex.map((item) => item.path));
+      const fromContent = Object.entries(this.contentCache)
+        .filter(([path]) => !indexedPaths.has(path))
+        .map(([path, raw]) => this.articleFromMarkdown(path, raw));
+
+      this.articles = [...fromIndex, ...fromContent]
+        .filter((item) => item.path)
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+      console.log(`[Homepage] Loaded ${this.articles.length} articles (latest first)`);
+      console.log(`[Homepage] Latest article: ${this.articles[0]?.title}`);
+      console.log(`[Homepage] Content cache keys: ${Object.keys(this.contentCache).length}`);
+    } catch (error) {
+      console.error('[Homepage] Error loading articles:', error);
+      throw error;
     }
-
-    const indexData = await indexResponse.json();
-    this.contentCache = await contentResponse.json();
-
-    const fromIndex = (indexData.articles || []).map((item) => this.normalizeArticle(item));
-
-    const indexedPaths = new Set(fromIndex.map((item) => item.path));
-    const fromContent = Object.entries(this.contentCache)
-      .filter(([path]) => !indexedPaths.has(path))
-      .map(([path, raw]) => this.articleFromMarkdown(path, raw));
-
-    this.articles = [...fromIndex, ...fromContent]
-      .filter((item) => item.path)
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-    console.log(`[Homepage] Loaded ${this.articles.length} articles (latest first)`);
   }
 
   normalizeArticle(article) {
@@ -128,28 +136,37 @@ class Homepage {
   async renderLatestArticle(article) {
     if (!this.articlesGrid) return;
 
+    console.log(`[Homepage] Rendering latest article: ${article.title}`);
+    console.log(`[Homepage] Article path: ${article.path}`);
+    
     // Load article content
     const content = this.contentCache[article.path];
     if (!content) {
       console.warn('Article content not found:', article.path);
+      console.log('[Homepage] Available keys:', Object.keys(this.contentCache));
       this.renderFeaturedArticle(article);
       return;
     }
 
-    // Parse the article
+    console.log(`[Homepage] Content length: ${content.length} chars`);
+
+    // Parse the article - handle markdown code fences (with leading spaces)
     let cleaned = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
     const match = cleaned.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-    
+
     if (!match) {
       console.warn('Invalid article format:', article.path);
+      console.log('[Homepage] Content preview:', content.substring(0, 200));
       this.renderFeaturedArticle(article);
       return;
     }
 
     const body = match[2];
+    console.log(`[Homepage] Article body length: ${body.length} chars`);
+    
     const html = this.markdownToHtml(body);
     const now = new Date(article.date);
-    
+
     const formattedDate = now.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
@@ -170,11 +187,11 @@ class Homepage {
             <span>📅 ${formattedDate}</span>
           </div>
         </div>
-        
+
         <div class="article-content-featured">
           ${html}
         </div>
-        
+
         <div class="articles-separator">
           <span>More Articles</span>
         </div>
@@ -182,6 +199,12 @@ class Homepage {
     `;
 
     this.articlesGrid.innerHTML = latestHtml;
+    console.log('[Homepage] Article rendered successfully');
+    
+    // Add reel-feed class if there are more articles to load
+    if (this.articles.length > 1) {
+      this.articlesGrid.classList.add('has-reel-feed');
+    }
   }
 
   renderFeaturedArticle(article) {
