@@ -147,7 +147,7 @@ jobs:
           echo "✅ Article index built"
         continue-on-error: true
 
-      - name: Commit and push article with index (trigger deploy)
+      - name: Commit and push article with index
         run: |
           git add articles/ articles-index.json articles-content.json
           
@@ -156,8 +156,8 @@ jobs:
             exit 0
           fi
           
-          # Don't use [skip ci] - we WANT deploy workflow to run
-          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
+          # Use [skip ci] to prevent recursive deploy trigger while we commit
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d) [skip ci]"
           
           if git push origin main; then
             echo "✅ Article committed and pushed"
@@ -166,6 +166,14 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+      
+      - name: Trigger deploy after articles pushed
+        if: always()
+        run: |
+          echo "Triggering deploy workflow..."
+          gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show summary
         if: always()
