@@ -19,11 +19,11 @@ class Homepage {
         return;
       }
 
-      // Render featured article first (latest)
-      this.renderFeaturedArticle(this.articles[0]);
+      // Render and load latest article content
+      await this.renderLatestArticle(this.articles[0]);
 
       if (window.articleFeed) {
-        window.articleFeed.initializeWithArticles(this.articles, this.contentCache);
+        window.articleFeed.initializeWithArticles(this.articles.slice(1), this.contentCache);
       }
 
       const countElement = document.getElementById('articles-count');
@@ -125,6 +125,65 @@ class Homepage {
     return new Date(Date.UTC(+year, +month - 1, +day, +hour, +min, +sec)).toISOString();
   }
 
+  async renderLatestArticle(article) {
+    if (!this.articlesGrid) return;
+
+    // Load article content
+    const content = this.contentCache[article.path];
+    if (!content) {
+      console.warn('Article content not found:', article.path);
+      this.renderFeaturedArticle(article);
+      return;
+    }
+
+    // Parse the article
+    let cleaned = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+    const match = cleaned.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+    
+    if (!match) {
+      console.warn('Invalid article format:', article.path);
+      this.renderFeaturedArticle(article);
+      return;
+    }
+
+    const body = match[2];
+    const html = this.markdownToHtml(body);
+    const now = new Date(article.date);
+    
+    const formattedDate = now.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    });
+
+    const latestHtml = `
+      <article class="featured-article-full">
+        <div class="article-header-featured">
+          <div class="badges">
+            <span class="badge-new">Latest</span>
+            <span class="badge-theme">${article.theme || 'default'}</span>
+          </div>
+          <h1 class="article-title-featured">${article.title}</h1>
+          <div class="article-meta-featured">
+            <span>📖 ${article.readingTime} min read</span>
+            <span>🤖 AI Generated</span>
+            <span>📅 ${formattedDate}</span>
+          </div>
+        </div>
+        
+        <div class="article-content-featured">
+          ${html}
+        </div>
+        
+        <div class="articles-separator">
+          <span>More Articles</span>
+        </div>
+      </article>
+    `;
+
+    this.articlesGrid.innerHTML = latestHtml;
+  }
+
   renderFeaturedArticle(article) {
     if (!this.articlesGrid) return;
 
@@ -151,6 +210,27 @@ class Homepage {
     `;
 
     this.articlesGrid.innerHTML = featuredHtml;
+  }
+
+  markdownToHtml(markdown) {
+    let html = markdown
+      .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
+      .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
+      .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/__(.*?)__/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/_(.*?)_/g, '<em>$1</em>')
+      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
+      .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+      .replace(/`(.*?)`/g, '<code>$1</code>')
+      .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/^(?!<[hp])/gm, '<p>')
+      .replace(/$/gm, '</p>');
+
+    return html;
   }
 
   renderEmptyState() {
