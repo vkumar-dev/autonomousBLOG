@@ -236,7 +236,13 @@ class Homepage {
   }
 
   markdownToHtml(markdown) {
-    let html = markdown
+    // First, strip any remaining frontmatter that wasn't removed
+    let cleanMarkdown = markdown.replace(/^---\n[\s\S]*?\n---\n?/, '');
+    
+    // Strip markdown code fence markers
+    cleanMarkdown = cleanMarkdown.replace(/^\s*```\s*\n?/gm, '').replace(/^\s*```\s*$/gm, '');
+    
+    let html = cleanMarkdown
       .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
       .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
       .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
@@ -245,13 +251,14 @@ class Homepage {
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
       .replace(/_(.*?)_/g, '<em>$1</em>')
       .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
-      .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+      .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
       .replace(/`(.*?)`/g, '<code>$1</code>')
       .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
       .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
-      .replace(/\n\n/g, '</p><p>')
-      .replace(/^(?!<[hp])/gm, '<p>')
-      .replace(/$/gm, '</p>');
+      .replace(/\n\n+/g, '</p><p>')
+      .replace(/^(?!<[hpul])/gm, '<p>')
+      .replace(/$/gm, '</p>')
+      .replace(/<p><\/p>/g, '');
 
     return html;
   }

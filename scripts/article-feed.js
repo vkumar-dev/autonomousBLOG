@@ -90,7 +90,11 @@ class ArticleFeed {
 
   createArticlePage(article, isLatest) {
     const markdown = this.contentCache[article.path] || '';
-    const contentOnly = markdown.replace(/^---[\s\S]*?---\n?/, '');
+    // Strip markdown code fences and frontmatter
+    let contentOnly = markdown.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+    contentOnly = contentOnly.replace(/^---[\s\S]*?---\n?/, '');
+    // Also strip any trailing code fence markers
+    contentOnly = contentOnly.replace(/^\s*```\s*$/gm, '');
     const htmlContent = this.markdownToHtml(contentOnly);
 
     const timeInfo = window.TimeFormatter
