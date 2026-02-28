@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Pessimistic Philosophy of Programming: A Look Beyond the Practical",
+      "date": "2026-02-28T20:02:23.710Z",
+      "theme": "cotton-candy",
+      "topic": "The Philosophy Behind Programming",
+      "contentType": "article",
+      "excerpt": "Exploring the less optimistic aspects of programming, delving into its underlying architecture and philosophical implications.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "programming",
+        "practical",
+        "pessimistic",
+        "architecture"
+      ],
+      "path": "2026/02/28/2026-02-28-20-06-32_the-philosophy-behind-programming.md"
+    },
+    {
       "title": "Understanding Literature Through Debate Structure: A Critical Perspective",
       "date": "2026-02-28T16:02:16.478Z",
       "theme": "ocean-breeze",
@@ -198,6 +215,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 13,
-  "lastBuilt": "2026-02-28T17:10:40.701Z"
+  "total": 14,
+  "lastBuilt": "2026-02-28T20:06:32.844Z"
 }
