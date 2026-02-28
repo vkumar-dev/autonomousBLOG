@@ -104,20 +104,23 @@ class MarkdownViewer {
   }
 
   /**
-   * Parse YAML frontmatter and content
-   */
-  parseFrontmatter(markdown) {
-    const match = markdown.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-    
-    if (!match) {
-      throw new Error('Invalid article format: missing frontmatter');
-    }
+    * Parse YAML frontmatter and content
+    */
+   parseFrontmatter(markdown) {
+     // First, clean up markdown code fences (with leading spaces)
+     let cleaned = markdown.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '').replace(/\n\s*```\s*$/i, '');
+     
+     const match = cleaned.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+     
+     if (!match) {
+       throw new Error('Invalid article format: missing frontmatter');
+     }
 
-    const frontmatter = this.parseFrontmatterBlock(match[1]);
-    const content = match[2];
+     const frontmatter = this.parseFrontmatterBlock(match[1]);
+     const content = match[2];
 
-    return { frontmatter, content };
-  }
+     return { frontmatter, content };
+   }
 
   /**
    * Parse YAML-like frontmatter

@@ -19,6 +19,9 @@ class Homepage {
         return;
       }
 
+      // Render featured article first (latest)
+      this.renderFeaturedArticle(this.articles[0]);
+
       if (window.articleFeed) {
         window.articleFeed.initializeWithArticles(this.articles, this.contentCache);
       }
@@ -75,7 +78,10 @@ class Homepage {
   }
 
   articleFromMarkdown(path, markdownContent) {
-    const frontmatterMatch = markdownContent.match(/^---\n([\s\S]*?)\n---/);
+    // Handle markdown code fences (with leading spaces)
+    let cleaned = markdownContent.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+    
+    const frontmatterMatch = cleaned.match(/^---\n([\s\S]*?)\n---/);
     const frontmatter = frontmatterMatch ? frontmatterMatch[1] : '';
 
     const getField = (field) => {
@@ -86,7 +92,7 @@ class Homepage {
     const title = getField('title') || this.pathToTitle(path);
     const date = getField('date') || this.dateFromPath(path);
 
-    const body = markdownContent.replace(/^---[\s\S]*?---\n?/, '').trim();
+    const body = cleaned.replace(/^---[\s\S]*?---\n?/, '').trim();
     const excerpt = body.split('\n').find((line) => line.trim() && !line.startsWith('#')) || '';
 
     return {
@@ -117,6 +123,34 @@ class Homepage {
 
     const [, year, month, day, hour, min, sec] = match;
     return new Date(Date.UTC(+year, +month - 1, +day, +hour, +min, +sec)).toISOString();
+  }
+
+  renderFeaturedArticle(article) {
+    if (!this.articlesGrid) return;
+
+    const featuredHtml = `
+      <div class="featured-article">
+        <div class="featured-header">
+          <span class="badge-new">Latest</span>
+          <span class="badge-theme">${article.theme || 'default'}</span>
+        </div>
+        <h2 class="featured-title">${article.title}</h2>
+        <p class="featured-excerpt">${article.excerpt}</p>
+        <div class="featured-meta">
+          <span class="meta-item">📖 ${article.readingTime} min read</span>
+          <span class="meta-item">🤖 AI Generated</span>
+          <span class="meta-item">📅 ${new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+        </div>
+        <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-read-featured">
+          Read Full Article →
+        </a>
+      </div>
+      <div class="articles-separator">
+        <span>More Articles</span>
+      </div>
+    `;
+
+    this.articlesGrid.innerHTML = featuredHtml;
   }
 
   renderEmptyState() {
