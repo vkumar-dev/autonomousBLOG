@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Final Frontier: A Balanced Perspective on Space & Astronomy and Its Impact on Modern Life",
+      "date": "2026-03-01T05:13:30.735Z",
+      "theme": "cotton-candy",
+      "topic": "Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of space exploration, its historical significance, and modern implications.",
+      "readingTime": "Approx. 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "space & astronomy",
+        "debate",
+        "balanced",
+        "tech trivia"
+      ],
+      "path": "2026/03/01/2026-03-01-05-18-51_space-astronomy-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Unveiling the Hidden Depths of Biology: A Journey of Discovery and Optimism",
       "date": "2026-03-01T01:03:35.613Z",
       "theme": "sunset-vibes",
@@ -232,6 +249,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 15,
-  "lastBuilt": "2026-03-01T01:07:38.677Z"
+  "total": 16,
+  "lastBuilt": "2026-03-01T05:18:51.591Z"
 }
