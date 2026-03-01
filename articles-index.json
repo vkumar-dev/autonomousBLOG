@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Delving into Tech Trivia Through an Informative and Balanced Lens",
+      "date": "2026-03-01T12:20:23.211Z",
+      "theme": "forest-calm",
+      "topic": "Understanding Tech Trivia Through Story Arc",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating world of tech trivia from a balanced perspective.",
+      "readingTime": "approximately 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "tech trivia",
+        "theory",
+        "geology"
+      ],
+      "path": "2026/03/01/2026-03-01-12-24-00_understanding-tech-trivia-through-story-arc.md"
+    },
+    {
       "title": "Psychobabble for the Skeptical: A Designer's Guide to the Art of Understanding Humans",
       "date": "2026-03-01T08:16:50.976Z",
       "theme": "minimalist-clean",
@@ -266,6 +282,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 17,
-  "lastBuilt": "2026-03-01T08:20:37.464Z"
+  "total": 18,
+  "lastBuilt": "2026-03-01T12:24:00.517Z"
 }

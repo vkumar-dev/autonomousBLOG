@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Bridging the Gap: Psychology for Everyone",
+      "date": "2026-03-01T08:16:50.976Z",
+      "title": "Psychobabble for the Skeptical: A Designer's Guide to the Art of Understanding Humans",
+      "contentType": "article"
+    },
+    {
       "topic": "Space & Astronomy",
       "date": "2026-03-01T05:13:30.735Z",
       "title": "Exploring the Final Frontier: A Balanced Perspective on Space & Astronomy and Its Impact on Modern Life",
@@ -25,5 +31,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-01T08:16:50.802Z"
+  "lastUpdated": "2026-03-01T12:20:23.035Z"
 }
