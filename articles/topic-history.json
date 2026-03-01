@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Tech Trivia Through Story Arc",
+      "date": "2026-03-01T12:20:23.211Z",
+      "title": "Delving into Tech Trivia Through an Informative and Balanced Lens",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Psychology for Everyone",
       "date": "2026-03-01T08:16:50.976Z",
       "title": "Psychobabble for the Skeptical: A Designer's Guide to the Art of Understanding Humans",
@@ -31,5 +37,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-01T12:20:23.035Z"
+  "lastUpdated": "2026-03-01T16:13:53.153Z"
 }

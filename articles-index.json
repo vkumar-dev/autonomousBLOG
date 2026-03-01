@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Delving into the Depths of Science: A Primer on Practical Applications and Insights",
+      "date": "2026-03-01T16:13:53.339Z",
+      "theme": "forest-calm",
+      "topic": "Science: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating world of science, where theory meets practice.",
+      "readingTime": "Approximately 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "science",
+        "theory",
+        "scientific",
+        "tech trivia"
+      ],
+      "path": "2026/03/01/2026-03-01-16-17-18_science-practical-applications-and-insights.md"
+    },
+    {
       "title": "Delving into Tech Trivia Through an Informative and Balanced Lens",
       "date": "2026-03-01T12:20:23.211Z",
       "theme": "forest-calm",
@@ -282,6 +299,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 18,
-  "lastBuilt": "2026-03-01T12:24:00.517Z"
+  "total": 19,
+  "lastBuilt": "2026-03-01T16:17:19.125Z"
 }
