@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Philosophical Artistry of Science Through Debate Structure",
+      "date": "2026-03-01T20:02:23.748Z",
+      "theme": "paper-ink",
+      "topic": "Understanding Science Through Debate Structure",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical underpinnings of scientific discourse through the lens of debate structure.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "science",
+        "narrative",
+        "philosophical",
+        "art & design"
+      ],
+      "path": "2026/03/01/2026-03-01-20-06-15_understanding-science-through-debate-structure.md"
+    },
+    {
       "title": "Delving into the Depths of Science: A Primer on Practical Applications and Insights",
       "date": "2026-03-01T16:13:53.339Z",
       "theme": "forest-calm",
@@ -299,6 +316,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 19,
-  "lastBuilt": "2026-03-01T16:17:19.125Z"
+  "total": 20,
+  "lastBuilt": "2026-03-01T20:06:16.062Z"
 }
