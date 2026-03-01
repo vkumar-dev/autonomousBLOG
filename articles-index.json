@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Psychobabble for the Skeptical: A Designer's Guide to the Art of Understanding Humans",
+      "date": "2026-03-01T08:16:50.976Z",
+      "theme": "minimalist-clean",
+      "topic": "Bridging the Gap: Psychology for Everyone",
+      "contentType": "article",
+      "excerpt": "Learn psychology from a skeptic's perspective, just like you design from a critical eye. Dive into the art of understanding humans.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "psychology",
+        "reference",
+        "skeptical",
+        "art & design"
+      ],
+      "path": "2026/03/01/2026-03-01-08-20-36_bridging-the-gap-psychology-for-everyone.md"
+    },
+    {
       "title": "Exploring the Final Frontier: A Balanced Perspective on Space & Astronomy and Its Impact on Modern Life",
       "date": "2026-03-01T05:13:30.735Z",
       "theme": "cotton-candy",
@@ -249,6 +266,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 16,
-  "lastBuilt": "2026-03-01T05:18:51.591Z"
+  "total": 17,
+  "lastBuilt": "2026-03-01T08:20:37.464Z"
 }
