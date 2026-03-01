@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Hidden Depths of Biology: A Journey of Discovery and Optimism",
+      "date": "2026-03-01T01:03:35.613Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Biology",
+      "contentType": "article",
+      "excerpt": "Delve into the intriguing world of biology, a field ripe with potential and brimming with optimism for the future.",
+      "readingTime": "Approx 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "biology",
+        "conceptual",
+        "optimistic",
+        "economics"
+      ],
+      "path": "2026/03/01/2026-03-01-01-07-38_the-hidden-depths-of-biology.md"
+    },
+    {
       "title": "The Pessimistic Philosophy of Programming: A Look Beyond the Practical",
       "date": "2026-02-28T20:02:23.710Z",
       "theme": "cotton-candy",
@@ -215,6 +232,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 14,
-  "lastBuilt": "2026-02-28T20:06:32.844Z"
+  "total": 15,
+  "lastBuilt": "2026-03-01T01:07:38.677Z"
 }
