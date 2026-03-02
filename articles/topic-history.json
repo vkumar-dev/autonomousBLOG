@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Mathematics Through Debate Structure",
+      "date": "2026-03-02T16:29:07.492Z",
+      "title": "Mathematics Unraveled: The Philosophical Debate Structure",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of Anthropology",
       "date": "2026-03-02T12:28:42.922Z",
       "title": "The Technical Skeptic's Guide to the Foundations of Anthropology",
@@ -73,5 +79,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T16:29:07.330Z"
+  "lastUpdated": "2026-03-02T20:21:53.642Z"
 }

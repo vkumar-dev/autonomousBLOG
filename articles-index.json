@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Future of Art & Design: Unseen Realms and Hidden Histories",
+      "date": "2026-03-02T20:21:53.779Z",
+      "theme": "ocean-breeze",
+      "topic": "Art & Design: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the uncharted territories of art and design, where science and conceptual exploration intertwine to redefine our understanding of aesthetics.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "art & design",
+        "conceptual",
+        "futuristic",
+        "science"
+      ],
+      "path": "2026/03/02/2026-03-02-20-27-23_art-design-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Mathematics Unraveled: The Philosophical Debate Structure",
       "date": "2026-03-02T16:29:07.492Z",
       "theme": "aurora",
@@ -399,6 +416,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 25,
-  "lastBuilt": "2026-03-02T16:34:12.878Z"
+  "total": 26,
+  "lastBuilt": "2026-03-02T20:27:23.677Z"
 }
