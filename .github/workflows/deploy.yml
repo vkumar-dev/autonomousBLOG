@@ -11,8 +11,6 @@ on:
       - 'templates/**'
       - 'scripts/**'
   workflow_dispatch:
-  repository_dispatch:
-    types: [trigger-deploy]
 
 permissions:
   contents: read

@@ -160,8 +160,8 @@ jobs:
             exit 0
           fi
           
-          # Use [skip ci] to prevent recursive deploy trigger while we commit
-          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d) [skip ci]"
+          # Commit without [skip ci] so push event triggers deploy workflow
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
           
           if git push origin main; then
             echo "✅ Article committed and pushed"
@@ -171,18 +171,7 @@ jobs:
             git push origin main
           fi
       
-      - name: Trigger deploy after articles pushed
-        if: always()
-        run: |
-          echo "Triggering deploy workflow..."
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/vkumar-dev/autonomousBLOG/dispatches \
-            -d '{"event_type":"trigger-deploy"}'
-          echo "✅ Deploy dispatch triggered"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Show summary
         if: always()
