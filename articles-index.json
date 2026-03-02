@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Bridging Time: An Intermediate Exploration of Ancient Cultures Through a Modern Lens",
+      "date": "2026-03-02T05:10:10.089Z",
+      "theme": "cotton-candy",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Exploring the lasting impact of ancient cultures on modern society.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "ancient cultures",
+        "historical",
+        "technology"
+      ],
+      "path": "2026/03/02/2026-03-02-05-13-48_bridging-the-gap-ancient-cultures-for-everyone.md"
+    },
+    {
       "title": "The Skeptical Historian's Guide to Time Travel - A Mathematical Expedition Through History",
       "date": "2026-03-02T00:57:20.667Z",
       "theme": "aurora",
@@ -333,6 +349,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 21,
-  "lastBuilt": "2026-03-02T01:01:54.791Z"
+  "total": 22,
+  "lastBuilt": "2026-03-02T05:13:48.194Z"
 }

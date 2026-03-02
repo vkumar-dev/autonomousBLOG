@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: A Journey Through Time",
+      "date": "2026-03-02T00:57:20.667Z",
+      "title": "The Skeptical Historian's Guide to Time Travel - A Mathematical Expedition Through History",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Science Through Debate Structure",
       "date": "2026-03-01T20:02:23.748Z",
       "title": "The Philosophical Artistry of Science Through Debate Structure",
@@ -49,5 +55,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T00:57:20.496Z"
+  "lastUpdated": "2026-03-02T05:10:09.911Z"
 }
