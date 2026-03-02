@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Decoding Modern Life Through an Anthropological Lens",
+      "date": "2026-03-02T08:29:53.117Z",
+      "theme": "cotton-candy",
+      "topic": "Anthropology and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating impact of anthropology on contemporary life through a scientific perspective.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "anthropology",
+        "science",
+        "art & design"
+      ],
+      "path": "2026/03/02/2026-03-02-08-34-59_anthropology-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Bridging Time: An Intermediate Exploration of Ancient Cultures Through a Modern Lens",
       "date": "2026-03-02T05:10:10.089Z",
       "theme": "cotton-candy",
@@ -349,6 +365,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 22,
-  "lastBuilt": "2026-03-02T05:13:48.194Z"
+  "total": 23,
+  "lastBuilt": "2026-03-02T08:35:00.193Z"
 }

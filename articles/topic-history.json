@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "{{TOPIC}}",
+      "date": "2026-03-02T05:10:10.089Z",
+      "title": "Bridging Time: An Intermediate Exploration of Ancient Cultures Through a Modern Lens",
+      "contentType": "article"
+    },
+    {
       "topic": "History: A Journey Through Time",
       "date": "2026-03-02T00:57:20.667Z",
       "title": "The Skeptical Historian's Guide to Time Travel - A Mathematical Expedition Through History",
@@ -55,5 +61,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T05:10:09.911Z"
+  "lastUpdated": "2026-03-02T08:29:52.924Z"
 }
