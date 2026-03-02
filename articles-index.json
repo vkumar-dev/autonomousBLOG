@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Mathematics Unraveled: The Philosophical Debate Structure",
+      "date": "2026-03-02T16:29:07.492Z",
+      "theme": "aurora",
+      "topic": "Understanding Mathematics Through Debate Structure",
+      "contentType": "article",
+      "excerpt": "Explore the skeptical perspective on understanding mathematics through a debate structure.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "mathematics",
+        "technical",
+        "skeptical",
+        "philosophy"
+      ],
+      "path": "2026/03/02/2026-03-02-16-34-12_understanding-mathematics-through-debate-structure.md"
+    },
+    {
       "title": "The Technical Skeptic's Guide to the Foundations of Anthropology",
       "date": "2026-03-02T12:28:42.922Z",
       "theme": "industrial",
@@ -382,6 +399,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 24,
-  "lastBuilt": "2026-03-02T12:33:19.436Z"
+  "total": 25,
+  "lastBuilt": "2026-03-02T16:34:12.878Z"
 }

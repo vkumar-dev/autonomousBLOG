@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Anthropology",
+      "date": "2026-03-02T12:28:42.922Z",
+      "title": "The Technical Skeptic's Guide to the Foundations of Anthropology",
+      "contentType": "article"
+    },
+    {
       "topic": "Anthropology and Its Impact on Modern Life",
       "date": "2026-03-02T08:29:53.117Z",
       "title": "Decoding Modern Life Through an Anthropological Lens",
@@ -67,5 +73,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T12:28:42.742Z"
+  "lastUpdated": "2026-03-02T16:29:07.330Z"
 }
