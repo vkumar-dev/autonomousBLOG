@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Science Through Debate Structure",
+      "date": "2026-03-01T20:02:23.748Z",
+      "title": "The Philosophical Artistry of Science Through Debate Structure",
+      "contentType": "article"
+    },
+    {
       "topic": "Science: Practical Applications and Insights",
       "date": "2026-03-01T16:13:53.339Z",
       "title": "Delving into the Depths of Science: A Primer on Practical Applications and Insights",
@@ -43,5 +49,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-01T20:02:23.579Z"
+  "lastUpdated": "2026-03-02T00:57:20.496Z"
 }
