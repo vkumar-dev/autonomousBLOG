@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Anthropology and Its Impact on Modern Life",
+      "date": "2026-03-02T08:29:53.117Z",
+      "title": "Decoding Modern Life Through an Anthropological Lens",
+      "contentType": "article"
+    },
+    {
       "topic": "{{TOPIC}}",
       "date": "2026-03-02T05:10:10.089Z",
       "title": "Bridging Time: An Intermediate Exploration of Ancient Cultures Through a Modern Lens",
@@ -61,5 +67,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T08:29:52.924Z"
+  "lastUpdated": "2026-03-02T12:28:42.742Z"
 }
