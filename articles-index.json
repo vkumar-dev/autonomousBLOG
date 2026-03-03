@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Disenchantment of Anthropology: A Skeptical Examination of Myths and Reality",
+      "date": "2026-03-03T05:09:11.130Z",
+      "theme": "minimalist-clean",
+      "topic": "Anthropology: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the skewed perception of anthropology, delving into the reality beneath the myths.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "anthropology",
+        "timeline",
+        "pessimistic",
+        "science"
+      ],
+      "path": "2026/03/03/2026-03-03-05-12-49_anthropology-myths-vs-reality.md"
+    },
+    {
       "title": "Celebrating the Evolution of Technology: A Timeline of Triumphs in Space and Beyond",
       "date": "2026-03-03T00:59:35.287Z",
       "theme": "aurora",
@@ -433,6 +450,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 27,
-  "lastBuilt": "2026-03-03T01:03:10.274Z"
+  "total": 28,
+  "lastBuilt": "2026-03-03T05:12:49.648Z"
 }
