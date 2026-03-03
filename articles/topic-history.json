@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: Myths vs Reality",
+      "date": "2026-03-03T08:26:14.127Z",
+      "title": "Separating Myth from Reality: A Theoretical Perspective on the Narrative Evolution of Architecture",
+      "contentType": "article"
+    },
+    {
       "topic": "Anthropology: Myths vs Reality",
       "date": "2026-03-03T05:09:11.130Z",
       "title": "The Disenchantment of Anthropology: A Skeptical Examination of Myths and Reality",
@@ -97,5 +103,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-03T08:26:13.953Z"
+  "lastUpdated": "2026-03-03T12:28:30.733Z"
 }

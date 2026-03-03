@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Theoretical Evolution of Ancient Cultures: A Deep Dive",
+      "date": "2026-03-03T12:28:30.927Z",
+      "theme": "industrial",
+      "topic": "The Evolution of Ancient Cultures",
+      "contentType": "article",
+      "excerpt": "Explore the evolution of ancient cultures from a theoretical perspective.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "ancient cultures",
+        "practical",
+        "theoretical",
+        "anthropology"
+      ],
+      "path": "2026/03/03/2026-03-03-12-32-33_the-evolution-of-ancient-cultures.md"
+    },
+    {
       "title": "Separating Myth from Reality: A Theoretical Perspective on the Narrative Evolution of Architecture",
       "date": "2026-03-03T08:26:14.127Z",
       "theme": "minimalist-clean",
@@ -467,6 +484,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 29,
-  "lastBuilt": "2026-03-03T08:29:35.810Z"
+  "total": 30,
+  "lastBuilt": "2026-03-03T12:32:33.960Z"
 }
