@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Decoding the Past: Unraveling Ancient Cultures Through a Philosophical Lens",
+      "date": "2026-03-03T16:33:03.442Z",
+      "theme": "forest-calm",
+      "topic": "Ancient Cultures: A philosophical Perspective",
+      "contentType": "article",
+      "excerpt": "Explore the philosophical aspects of ancient cultures, and how their cryptographic techniques have shaped our modern world.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "ancient cultures",
+        "technical",
+        "philosophical",
+        "cryptography"
+      ],
+      "path": "2026/03/03/2026-03-03-16-36-37_ancient-cultures-a-philosophical-perspective.md"
+    },
+    {
       "title": "The Theoretical Evolution of Ancient Cultures: A Deep Dive",
       "date": "2026-03-03T12:28:30.927Z",
       "theme": "industrial",
@@ -484,6 +501,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 30,
-  "lastBuilt": "2026-03-03T12:32:33.960Z"
+  "total": 31,
+  "lastBuilt": "2026-03-03T16:36:38.067Z"
 }
