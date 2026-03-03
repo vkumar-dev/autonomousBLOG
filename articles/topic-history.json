@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Art & Design: Lesser-Known Facts and Stories",
+      "date": "2026-03-02T20:21:53.779Z",
+      "title": "Unveiling the Future of Art & Design: Unseen Realms and Hidden Histories",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Mathematics Through Debate Structure",
       "date": "2026-03-02T16:29:07.492Z",
       "title": "Mathematics Unraveled: The Philosophical Debate Structure",
@@ -79,5 +85,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-02T20:21:53.642Z"
+  "lastUpdated": "2026-03-03T00:59:35.120Z"
 }
