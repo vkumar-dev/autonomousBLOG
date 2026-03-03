@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Disillusioned Craftsman's Guide to Art & Design",
+      "date": "2026-03-03T20:20:44.825Z",
+      "theme": "ocean-breeze",
+      "topic": "The Philosophy Behind Art & Design",
+      "contentType": "article",
+      "excerpt": "A dismal yet hilarious exploration of the philosophy behind art and design.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "art & design",
+        "conceptual",
+        "pessimistic",
+        "geology"
+      ],
+      "path": "2026/03/03/2026-03-03-20-24-25_the-philosophy-behind-art-design.md"
+    },
+    {
       "title": "Decoding the Past: Unraveling Ancient Cultures Through a Philosophical Lens",
       "date": "2026-03-03T16:33:03.442Z",
       "theme": "forest-calm",
@@ -501,6 +518,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 31,
-  "lastBuilt": "2026-03-03T16:36:38.067Z"
+  "total": 32,
+  "lastBuilt": "2026-03-03T20:24:25.876Z"
 }
