@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Separating Myth from Reality: A Theoretical Perspective on the Narrative Evolution of Architecture",
+      "date": "2026-03-03T08:26:14.127Z",
+      "theme": "minimalist-clean",
+      "topic": "History: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating connection between history, narrative, and architecture, and discover the truth behind common myths.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "history",
+        "narrative",
+        "theoretical",
+        "architecture"
+      ],
+      "path": "2026/03/03/2026-03-03-08-29-35_history-myths-vs-reality.md"
+    },
+    {
       "title": "The Disenchantment of Anthropology: A Skeptical Examination of Myths and Reality",
       "date": "2026-03-03T05:09:11.130Z",
       "theme": "minimalist-clean",
@@ -450,6 +467,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 28,
-  "lastBuilt": "2026-03-03T05:12:49.648Z"
+  "total": 29,
+  "lastBuilt": "2026-03-03T08:29:35.810Z"
 }

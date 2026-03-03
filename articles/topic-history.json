@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Anthropology: Myths vs Reality",
+      "date": "2026-03-03T05:09:11.130Z",
+      "title": "The Disenchantment of Anthropology: A Skeptical Examination of Myths and Reality",
+      "contentType": "article"
+    },
+    {
       "topic": "Unraveling the Complexity of Technology",
       "date": "2026-03-03T00:59:35.287Z",
       "title": "Celebrating the Evolution of Technology: A Timeline of Triumphs in Space and Beyond",
@@ -91,5 +97,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-03T05:09:10.957Z"
+  "lastUpdated": "2026-03-03T08:26:13.953Z"
 }
