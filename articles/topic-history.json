@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Art & Design",
+      "date": "2026-03-03T20:20:44.825Z",
+      "title": "The Disillusioned Craftsman's Guide to Art & Design",
+      "contentType": "article"
+    },
+    {
       "topic": "Ancient Cultures: A philosophical Perspective",
       "date": "2026-03-03T16:33:03.442Z",
       "title": "Decoding the Past: Unraveling Ancient Cultures Through a Philosophical Lens",
@@ -115,5 +121,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-03T20:20:44.658Z"
+  "lastUpdated": "2026-03-04T00:56:22.460Z"
 }
