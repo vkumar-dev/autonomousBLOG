@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Programming: A Journey Through Time",
+      "date": "2026-03-04T12:27:36.675Z",
+      "title": "Programming: A Voyage Through Time - Ancient Wisdom in Modern Code",
+      "contentType": "article"
+    },
+    {
       "topic": "The Evolution of Philosophy",
       "date": "2026-03-04T08:24:07.914Z",
       "title": "The Pessimist's Perspective: Unraveling the Evolution of Philosophy",
@@ -139,5 +145,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-04T12:27:36.496Z"
+  "lastUpdated": "2026-03-04T16:28:29.279Z"
 }
