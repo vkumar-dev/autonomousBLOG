@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Bridging the Gap: Biology for Everyone",
+      "date": "2026-03-04T16:28:29.449Z",
+      "title": "Bridging the Gap: A Critical Examination of Biology for Everyone",
+      "contentType": "article"
+    },
+    {
       "topic": "Programming: A Journey Through Time",
       "date": "2026-03-04T12:27:36.675Z",
       "title": "Programming: A Voyage Through Time - Ancient Wisdom in Modern Code",
@@ -145,5 +151,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-04T16:28:29.279Z"
+  "lastUpdated": "2026-03-05T00:58:54.116Z"
 }
