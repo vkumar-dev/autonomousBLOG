@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Art & Design Explained: Educational Essay",
+      "date": "2026-03-05T00:58:54.249Z",
+      "title": "Art & Design: A Skeptical Squint at the Canvas of Creativity",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Biology for Everyone",
       "date": "2026-03-04T16:28:29.449Z",
       "title": "Bridging the Gap: A Critical Examination of Biology for Everyone",
@@ -151,5 +157,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-05T00:58:54.116Z"
+  "lastUpdated": "2026-03-05T05:08:27.859Z"
 }

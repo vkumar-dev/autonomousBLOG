@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Depths: A Popular Science Guide to Psychology",
+      "date": "2026-03-05T05:08:28.029Z",
+      "theme": "ocean-breeze",
+      "topic": "Psychology Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of psychology, explained in a scientific yet accessible way.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "psychology",
+        "reference",
+        "scientific",
+        "economics"
+      ],
+      "path": "2026/03/05/2026-03-05-05-12-01_psychology-explained-reference-guide.md"
+    },
+    {
       "title": "Art & Design: A Skeptical Squint at the Canvas of Creativity",
       "date": "2026-03-05T00:58:54.249Z",
       "theme": "paper-ink",
@@ -619,6 +636,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 38,
-  "lastBuilt": "2026-03-05T01:03:35.458Z"
+  "total": 39,
+  "lastBuilt": "2026-03-05T05:12:01.297Z"
 }
