@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Roots of Coding: A Journey Through the Foundations of Programming",
+      "date": "2026-03-05T17:59:31.352Z",
+      "theme": "paper-ink",
+      "topic": "Exploring the Foundations of Programming",
+      "contentType": "article",
+      "excerpt": "Delve into the rich history and principles that form the bedrock of programming.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "programming",
+        "biography",
+        "optimistic",
+        "programming"
+      ],
+      "path": "2026/03/05/2026-03-05-18-03-20_exploring-the-foundations-of-programming.md"
+    },
+    {
       "title": "Myths vs Reality: Unveiling the True Nature of Technology from a Theoretical Perspective",
       "date": "2026-03-05T12:30:58.408Z",
       "theme": "paper-ink",
@@ -670,6 +687,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 41,
-  "lastBuilt": "2026-03-05T12:34:58.831Z"
+  "total": 42,
+  "lastBuilt": "2026-03-05T18:03:20.612Z"
 }
