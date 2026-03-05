@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Why Tech Trivia is a Pessimist's Best Friend",
+      "date": "2026-03-05T20:27:17.295Z",
+      "theme": "minimalist-clean",
+      "topic": "The Philosophy Behind Tech Trivia",
+      "contentType": "article",
+      "excerpt": "Discover the dark humor in tech trivia for the disgruntled souls.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "tech trivia",
+        "comparative",
+        "pessimistic",
+        "nature"
+      ],
+      "path": "2026/03/05/2026-03-05-20-31-15_the-philosophy-behind-tech-trivia.md"
+    },
+    {
       "title": "Unraveling the Roots of Coding: A Journey Through the Foundations of Programming",
       "date": "2026-03-05T17:59:31.352Z",
       "theme": "paper-ink",
@@ -687,6 +704,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 42,
-  "lastBuilt": "2026-03-05T18:03:20.612Z"
+  "total": 43,
+  "lastBuilt": "2026-03-05T20:31:15.697Z"
 }
