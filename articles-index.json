@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: Unveiling the True Nature of Technology from a Theoretical Perspective",
+      "date": "2026-03-05T12:30:58.408Z",
+      "theme": "paper-ink",
+      "topic": "Technology, Tutorial, Theoretical, Nature",
+      "contentType": "article",
+      "excerpt": "Discover the fascinating world of technology, debunking myths and shedding light on its true nature from a theoretical perspective.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "technology",
+        "tutorial",
+        "theoretical",
+        "nature"
+      ],
+      "path": "2026/03/05/2026-03-05-12-34-58_technology-myths-vs-reality.md"
+    },
+    {
       "title": "Unraveling the Essentials of Literature: A Practical Approach",
       "date": "2026-03-05T08:26:24.388Z",
       "theme": "aurora",
@@ -653,6 +670,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 40,
-  "lastBuilt": "2026-03-05T08:29:42.191Z"
+  "total": 41,
+  "lastBuilt": "2026-03-05T12:34:58.831Z"
 }
