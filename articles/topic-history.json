@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Psychology Explained: Reference Guide",
+      "date": "2026-03-05T05:08:28.029Z",
+      "title": "Exploring the Depths: A Popular Science Guide to Psychology",
+      "contentType": "article"
+    },
+    {
       "topic": "Art & Design Explained: Educational Essay",
       "date": "2026-03-05T00:58:54.249Z",
       "title": "Art & Design: A Skeptical Squint at the Canvas of Creativity",
@@ -157,5 +163,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-05T05:08:27.859Z"
+  "lastUpdated": "2026-03-05T08:26:24.176Z"
 }

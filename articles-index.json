@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Essentials of Literature: A Practical Approach",
+      "date": "2026-03-05T08:26:24.388Z",
+      "theme": "aurora",
+      "topic": "Exploring the Foundations of Literature",
+      "contentType": "article",
+      "excerpt": "Delve into the fundamental aspects of literature from a practical perspective.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "literature",
+        "educational",
+        "practical",
+        "nature"
+      ],
+      "path": "2026/03/05/2026-03-05-08-29-42_exploring-the-foundations-of-literature.md"
+    },
+    {
       "title": "Exploring the Depths: A Popular Science Guide to Psychology",
       "date": "2026-03-05T05:08:28.029Z",
       "theme": "ocean-breeze",
@@ -636,6 +653,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 39,
-  "lastBuilt": "2026-03-05T05:12:01.297Z"
+  "total": 40,
+  "lastBuilt": "2026-03-05T08:29:42.191Z"
 }
