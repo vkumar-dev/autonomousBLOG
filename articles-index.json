@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring Ancient Cultures: Mathematical Pearls from the Past",
+      "date": "2026-03-06T05:05:01.545Z",
+      "theme": "neon-nights",
+      "topic": "Ancient Cultures: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Delve into the mathematical genius of ancient civilizations and their practical applications in the modern world.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "ancient cultures",
+        "educational",
+        "practical",
+        "mathematics"
+      ],
+      "path": "2026/03/06/2026-03-06-05-08-29_ancient-cultures-practical-applications-and-insights.md"
+    },
+    {
       "title": "Revolutionizing Geology: A Modern Perspective",
       "date": "2026-03-06T01:02:33.804Z",
       "theme": "sunset-vibes",
@@ -721,6 +738,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 44,
-  "lastBuilt": "2026-03-06T01:06:02.548Z"
+  "total": 45,
+  "lastBuilt": "2026-03-06T05:08:29.748Z"
 }
