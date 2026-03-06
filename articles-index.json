@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Harnessing the Future: A Practical Guide to Futuristic Programming Techniques",
+      "date": "2026-03-06T12:26:04.601Z",
+      "theme": "forest-calm",
+      "topic": "Technology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Explore the cutting-edge of programming and understand its practical applications in the near future.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "technology",
+        "tutorial",
+        "futuristic",
+        "programming"
+      ],
+      "path": "2026/03/06/2026-03-06-12-29-40_technology-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unveiling the Hidden Depths: Fascinating Geology Facts You Never Knew",
       "date": "2026-03-06T08:23:25.090Z",
       "theme": "cotton-candy",
@@ -755,6 +772,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 46,
-  "lastBuilt": "2026-03-06T08:26:58.923Z"
+  "total": 47,
+  "lastBuilt": "2026-03-06T12:29:40.820Z"
 }
