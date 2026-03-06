@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "title": "History's Enduring Impact: A Futuristic Perspective on Space and Astronomy",
+      "date": "2026-03-06T20:18:58.470Z",
+      "theme": "aurora",
+      "topic": "History and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Explore how history shapes our understanding of space and astronomy in this enlightening article.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "history",
+        "reference",
+        "futuristic",
+        "space",
+        "astronomy"
+      ],
+      "path": "2026/03/06/2026-03-06-20-22-37_history-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Unraveling the Layers of Science: A Balanced Perspective",
       "date": "2026-03-06T16:25:05.669Z",
       "theme": "cotton-candy",
@@ -789,6 +807,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 48,
-  "lastBuilt": "2026-03-06T16:29:16.926Z"
+  "total": 49,
+  "lastBuilt": "2026-03-06T20:22:37.794Z"
 }
