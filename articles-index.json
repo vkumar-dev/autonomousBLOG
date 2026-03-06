@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Layers of Science: A Balanced Perspective",
+      "date": "2026-03-06T16:25:05.669Z",
+      "theme": "cotton-candy",
+      "topic": "Understanding Science Through Layered Complexity",
+      "contentType": "article",
+      "excerpt": "Delve into the practical, balanced, and linguistic aspects of science that make it a fascinating subject.",
+      "readingTime": "5-6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "science",
+        "practical",
+        "balanced",
+        "linguistics"
+      ],
+      "path": "2026/03/06/2026-03-06-16-29-16_understanding-science-through-layered-complexity.md"
+    },
+    {
       "title": "Harnessing the Future: A Practical Guide to Futuristic Programming Techniques",
       "date": "2026-03-06T12:26:04.601Z",
       "theme": "forest-calm",
@@ -772,6 +789,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 47,
-  "lastBuilt": "2026-03-06T12:29:40.820Z"
+  "total": 48,
+  "lastBuilt": "2026-03-06T16:29:16.926Z"
 }
