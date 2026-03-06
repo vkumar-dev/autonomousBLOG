@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Revolutionizing Geology: A Modern Perspective",
+      "date": "2026-03-06T01:02:33.804Z",
+      "theme": "sunset-vibes",
+      "topic": "The Evolution of Geology",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating transformation of geology from its early beginnings to the cutting-edge research of today.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "geology",
+        "theory",
+        "modern",
+        "literature"
+      ],
+      "path": "2026/03/06/2026-03-06-01-06-02_the-evolution-of-geology.md"
+    },
+    {
       "title": "Why Tech Trivia is a Pessimist's Best Friend",
       "date": "2026-03-05T20:27:17.295Z",
       "theme": "minimalist-clean",
@@ -704,6 +721,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 43,
-  "lastBuilt": "2026-03-05T20:31:15.697Z"
+  "total": 44,
+  "lastBuilt": "2026-03-06T01:06:02.548Z"
 }
