@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Philosophical Depths of Mathematics: A Journey Through Time",
+      "date": "2026-03-07T08:16:14.929Z",
+      "theme": "neon-nights",
+      "topic": "The Hidden Depths of Mathematics",
+      "contentType": "article",
+      "excerpt": "Explore the philosophical dimensions of mathematics, delving into its historical significance and contemporary relevance.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "mathematics",
+        "conceptual",
+        "philosophical",
+        "anthropology"
+      ],
+      "path": "2026/03/07/2026-03-07-08-20-00_the-hidden-depths-of-mathematics.md"
+    },
+    {
       "title": "The Cosmic Canvas: A Philosophical Journey Through Space & Astronomy",
       "date": "2026-03-07T04:53:05.094Z",
       "theme": "forest-calm",
@@ -841,6 +858,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 51,
-  "lastBuilt": "2026-03-07T04:59:08.266Z"
+  "total": 52,
+  "lastBuilt": "2026-03-07T08:20:01.186Z"
 }
