@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Disillusionment of Geology: A Pessimistic Examination",
+      "date": "2026-03-07T00:54:14.674Z",
+      "theme": "minimalist-clean",
+      "topic": "Understanding Geology Through Thematic Exploration",
+      "contentType": "article",
+      "excerpt": "Explore the pessimistic perspective on geology, its impact on art and design, and the challenges that lie ahead.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "geology",
+        "debate",
+        "pessimistic",
+        "art & design"
+      ],
+      "path": "2026/03/07/2026-03-07-00-59-18_understanding-geology-through-thematic-exploration.md"
+    },
+    {
       "title": "History's Enduring Impact: A Futuristic Perspective on Space and Astronomy",
       "date": "2026-03-06T20:18:58.470Z",
       "theme": "aurora",
@@ -807,6 +824,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 49,
-  "lastBuilt": "2026-03-06T20:22:37.794Z"
+  "total": 50,
+  "lastBuilt": "2026-03-07T00:59:18.563Z"
 }
