@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Invisible Layers of Programming: A Deep Dive into the Theoretical Aspects",
+      "date": "2026-03-07T20:01:52.421Z",
+      "theme": "forest-calm",
+      "topic": "The Hidden Depths of Programming",
+      "contentType": "article",
+      "excerpt": "Delve into the theoretical foundations of programming, unraveling its complexities and uncovering the science beneath.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "programming",
+        "theory",
+        "theoretical",
+        "science"
+      ],
+      "path": "2026/03/07/2026-03-07-20-06-11_the-hidden-depths-of-programming.md"
+    },
+    {
       "title": "Mathematics of the Past and the Future: Unveiling Hidden Connections",
       "date": "2026-03-07T16:13:32.754Z",
       "theme": "cotton-candy",
@@ -892,6 +909,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 54,
-  "lastBuilt": "2026-03-07T16:18:05.741Z"
+  "total": 55,
+  "lastBuilt": "2026-03-07T20:06:11.466Z"
 }

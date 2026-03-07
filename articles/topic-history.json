@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Mathematics: Lesser-Known Facts and Stories",
+      "date": "2026-03-07T16:13:32.754Z",
+      "title": "Mathematics of the Past and the Future: Unveiling Hidden Connections",
+      "contentType": "article"
+    },
+    {
       "topic": "The Philosophy Behind Tech Trivia",
       "date": "2026-03-07T12:19:40.131Z",
       "title": "The Pessimistic Puzzle: Unraveling the Philosophy Behind Tech Trivia",
@@ -247,5 +253,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-07T16:13:32.575Z"
+  "lastUpdated": "2026-03-07T20:01:52.246Z"
 }
