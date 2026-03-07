@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Cosmic Canvas: A Philosophical Journey Through Space & Astronomy",
+      "date": "2026-03-07T04:53:05.094Z",
+      "theme": "forest-calm",
+      "topic": "The Evolution of Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Join us on a philosophical exploration of space and astronomy, unraveling the mysteries that have captivated artists and thinkers for centuries.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "space & astronomy",
+        "theory",
+        "philosophical",
+        "art & design"
+      ],
+      "path": "2026/03/07/2026-03-07-04-59-08_the-evolution-of-space-astronomy.md"
+    },
+    {
       "title": "The Disillusionment of Geology: A Pessimistic Examination",
       "date": "2026-03-07T00:54:14.674Z",
       "theme": "minimalist-clean",
@@ -824,6 +841,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 50,
-  "lastBuilt": "2026-03-07T00:59:18.563Z"
+  "total": 51,
+  "lastBuilt": "2026-03-07T04:59:08.266Z"
 }
