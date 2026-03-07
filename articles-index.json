@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Mathematics of the Past and the Future: Unveiling Hidden Connections",
+      "date": "2026-03-07T16:13:32.754Z",
+      "theme": "cotton-candy",
+      "topic": "Mathematics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of mathematics, where ancient cultures and futuristic advancements intertwine, revealing hidden connections.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "mathematics",
+        "historical",
+        "futuristic",
+        "ancient cultures"
+      ],
+      "path": "2026/03/07/2026-03-07-16-18-05_mathematics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Pessimistic Puzzle: Unraveling the Philosophy Behind Tech Trivia",
       "date": "2026-03-07T12:19:40.131Z",
       "theme": "aurora",
@@ -875,6 +892,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 53,
-  "lastBuilt": "2026-03-07T12:25:50.775Z"
+  "total": 54,
+  "lastBuilt": "2026-03-07T16:18:05.741Z"
 }
