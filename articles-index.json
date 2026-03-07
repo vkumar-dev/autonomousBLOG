@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Pessimistic Puzzle: Unraveling the Philosophy Behind Tech Trivia",
+      "date": "2026-03-07T12:19:40.131Z",
+      "theme": "aurora",
+      "topic": "The Philosophy Behind Tech Trivia",
+      "contentType": "article",
+      "excerpt": "Exploring the oddly satisfying yet cynical world of tech trivia.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "tech trivia",
+        "educational",
+        "pessimistic",
+        "science"
+      ],
+      "path": "2026/03/07/2026-03-07-12-25-50_the-philosophy-behind-tech-trivia.md"
+    },
+    {
       "title": "Unveiling the Philosophical Depths of Mathematics: A Journey Through Time",
       "date": "2026-03-07T08:16:14.929Z",
       "theme": "neon-nights",
@@ -858,6 +875,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 52,
-  "lastBuilt": "2026-03-07T08:20:01.186Z"
+  "total": 53,
+  "lastBuilt": "2026-03-07T12:25:50.775Z"
 }

@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Hidden Depths of Mathematics",
+      "date": "2026-03-07T08:16:14.929Z",
+      "title": "Unveiling the Philosophical Depths of Mathematics: A Journey Through Time",
+      "contentType": "article"
+    },
+    {
       "topic": "The Evolution of Space & Astronomy",
       "date": "2026-03-07T04:53:05.094Z",
       "title": "The Cosmic Canvas: A Philosophical Journey Through Space & Astronomy",
@@ -235,5 +241,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-07T08:16:14.757Z"
+  "lastUpdated": "2026-03-07T12:19:39.917Z"
 }
