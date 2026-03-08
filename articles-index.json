@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Architecture for Everyone - A Practical Approach",
+      "date": "2026-03-08T05:05:12.677Z",
+      "theme": "minimalist-clean",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Exploring the practical aspects of making architecture accessible to everyone.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "architecture",
+        "narrative",
+        "practical",
+        "cryptography"
+      ],
+      "path": "2026/03/08/2026-03-08-05-08-40_bridging-the-gap-architecture-for-everyone.md"
+    },
+    {
       "title": "Unraveling the Past: A Journey Through the History of Biology",
       "date": "2026-03-08T00:57:40.215Z",
       "theme": "cotton-candy",
@@ -926,6 +943,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 56,
-  "lastBuilt": "2026-03-08T01:01:58.918Z"
+  "total": 57,
+  "lastBuilt": "2026-03-08T05:08:40.880Z"
 }
