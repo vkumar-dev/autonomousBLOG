@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Demystifying Biology for the Everyday Person",
+      "date": "2026-03-08T12:21:07.458Z",
+      "theme": "cotton-candy",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Exploring the world of biology from a practical perspective, making it accessible for everyone.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "biology",
+        "educational",
+        "practical",
+        "biology"
+      ],
+      "path": "2026/03/08/2026-03-08-12-24-25_bridging-the-gap-biology-for-everyone.md"
+    },
+    {
       "title": "The Future of Biology: Conceptual Breakthroughs and Psychological Implications",
       "date": "2026-03-08T08:16:46.680Z",
       "theme": "aurora",
@@ -960,6 +977,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 58,
-  "lastBuilt": "2026-03-08T08:20:17.812Z"
+  "total": 59,
+  "lastBuilt": "2026-03-08T12:24:25.551Z"
 }
