@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Hidden Depths of Programming",
+      "date": "2026-03-07T20:01:52.421Z",
+      "title": "Exploring the Invisible Layers of Programming: A Deep Dive into the Theoretical Aspects",
+      "contentType": "article"
+    },
+    {
       "topic": "Mathematics: Lesser-Known Facts and Stories",
       "date": "2026-03-07T16:13:32.754Z",
       "title": "Mathematics of the Past and the Future: Unveiling Hidden Connections",
@@ -253,5 +259,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-07T20:01:52.246Z"
+  "lastUpdated": "2026-03-08T00:57:40.028Z"
 }
