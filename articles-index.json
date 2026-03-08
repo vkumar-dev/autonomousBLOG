@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling Life's Intricacies: A Celebratory Exploration of Biology's Impact on Modern Life",
+      "date": "2026-03-08T20:02:32.389Z",
+      "theme": "sunset-vibes",
+      "topic": "Biology and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating narrative of how biology has shaped and continues to revolutionize our world.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "biology",
+        "narrative",
+        "celebratory",
+        "science"
+      ],
+      "path": "2026/03/08/2026-03-08-20-06-34_biology-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Bridging the Gap: Making Biology Accessible to Everyone",
       "date": "2026-03-08T16:14:48.848Z",
       "theme": "ocean-breeze",
@@ -994,6 +1011,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 60,
-  "lastBuilt": "2026-03-08T16:18:19.430Z"
+  "total": 61,
+  "lastBuilt": "2026-03-08T20:06:35.027Z"
 }

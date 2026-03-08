@@ -2,6 +2,12 @@
   "topics": [
     {
       "topic": "{{TOPIC}}",
+      "date": "2026-03-08T16:14:48.848Z",
+      "title": "Bridging the Gap: Making Biology Accessible to Everyone",
+      "contentType": "article"
+    },
+    {
+      "topic": "{{TOPIC}}",
       "date": "2026-03-08T12:21:07.458Z",
       "title": "Bridging the Gap: Demystifying Biology for the Everyday Person",
       "contentType": "article"
@@ -283,5 +289,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-08T16:14:48.673Z"
+  "lastUpdated": "2026-03-08T20:02:32.204Z"
 }
