@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Future of Biology: Conceptual Breakthroughs and Psychological Implications",
+      "date": "2026-03-08T08:16:46.680Z",
+      "theme": "aurora",
+      "topic": "Biology: Conceptual, Futuristic, Psychology",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating intersection of biology, futuristic concepts, and psychological implications.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "biology",
+        "conceptual",
+        "futuristic",
+        "psychology"
+      ],
+      "path": "2026/03/08/2026-03-08-08-20-17_biology-practical-applications-and-insights.md"
+    },
+    {
       "title": "Bridging the Gap: Architecture for Everyone - A Practical Approach",
       "date": "2026-03-08T05:05:12.677Z",
       "theme": "minimalist-clean",
@@ -943,6 +960,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 57,
-  "lastBuilt": "2026-03-08T05:08:40.880Z"
+  "total": 58,
+  "lastBuilt": "2026-03-08T08:20:17.812Z"
 }

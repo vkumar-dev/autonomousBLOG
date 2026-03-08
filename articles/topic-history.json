@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "{{TOPIC}}",
+      "date": "2026-03-08T05:05:12.677Z",
+      "title": "Bridging the Gap: Architecture for Everyone - A Practical Approach",
+      "contentType": "article"
+    },
+    {
       "topic": "Unraveling the Complexity of Biology",
       "date": "2026-03-08T00:57:40.215Z",
       "title": "Unraveling the Past: A Journey Through the History of Biology",
@@ -265,5 +271,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-08T05:05:12.504Z"
+  "lastUpdated": "2026-03-08T08:16:46.503Z"
 }
