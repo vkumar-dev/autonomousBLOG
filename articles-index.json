@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Making Biology Accessible to Everyone",
+      "date": "2026-03-08T16:14:48.848Z",
+      "theme": "ocean-breeze",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Exploring the rich and fascinating world of biology, from its roots to cutting-edge research.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "biology",
+        "timeline",
+        "practical",
+        "literature"
+      ],
+      "path": "2026/03/08/2026-03-08-16-18-19_bridging-the-gap-biology-for-everyone.md"
+    },
+    {
       "title": "Bridging the Gap: Demystifying Biology for the Everyday Person",
       "date": "2026-03-08T12:21:07.458Z",
       "theme": "cotton-candy",
@@ -977,6 +994,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 59,
-  "lastBuilt": "2026-03-08T12:24:25.551Z"
+  "total": 60,
+  "lastBuilt": "2026-03-08T16:18:19.430Z"
 }
