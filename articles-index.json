@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Biology: A Pessimistic Exploration of Myths and Reality",
+      "date": "2026-03-09T12:30:31.575Z",
+      "theme": "minimalist-clean",
+      "topic": "Biology: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Delving into the chasm between popular biology myths and the stark reality, we find a disconcerting picture of misinformation and its implications.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "biology",
+        "biography",
+        "pessimistic",
+        "art & design"
+      ],
+      "path": "2026/03/09/2026-03-09-12-34-09_biology-myths-vs-reality.md"
+    },
+    {
       "title": "Unveiling the Psychological Foundations of Practical Economics: A Historical Perspective",
       "date": "2026-03-09T08:30:14.794Z",
       "theme": "forest-calm",
@@ -1062,6 +1079,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 64,
-  "lastBuilt": "2026-03-09T08:33:44.354Z"
+  "total": 65,
+  "lastBuilt": "2026-03-09T12:34:09.537Z"
 }

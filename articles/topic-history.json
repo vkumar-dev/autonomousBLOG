@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Economics: Practical Applications and Insights",
+      "date": "2026-03-09T08:30:14.794Z",
+      "title": "Unveiling the Psychological Foundations of Practical Economics: A Historical Perspective",
+      "contentType": "article"
+    },
+    {
       "topic": "The Evolution of Tech Trivia",
       "date": "2026-03-09T05:15:05.761Z",
       "title": "The Skeptic's Guide to the Evolution of Tech Trivia",
@@ -307,5 +313,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-09T08:30:14.620Z"
+  "lastUpdated": "2026-03-09T12:30:31.398Z"
 }
