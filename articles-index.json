@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Philosopher's Stone: A Humorous Guide to the Foundations of Anthropology",
+      "date": "2026-03-09T16:44:39.647Z",
+      "theme": "minimalist-clean",
+      "topic": "Exploring the Foundations of Anthropology",
+      "contentType": "article",
+      "excerpt": "Dive into the world of anthropology with a dash of humor and a sprinkle of philosophy.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "anthropology",
+        "educational",
+        "philosophical",
+        "programming"
+      ],
+      "path": "2026/03/09/2026-03-09-16-49-11_exploring-the-foundations-of-anthropology.md"
+    },
+    {
       "title": "Biology: A Pessimistic Exploration of Myths and Reality",
       "date": "2026-03-09T12:30:31.575Z",
       "theme": "minimalist-clean",
@@ -1079,6 +1096,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 65,
-  "lastBuilt": "2026-03-09T12:34:09.537Z"
+  "total": 66,
+  "lastBuilt": "2026-03-09T16:49:11.823Z"
 }
