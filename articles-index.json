@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Skeptic's Guide to the Evolution of Tech Trivia",
+      "date": "2026-03-09T05:15:05.761Z",
+      "theme": "aurora",
+      "topic": "The Evolution of Tech Trivia",
+      "contentType": "article",
+      "excerpt": "Exploring the development of tech trivia through a skeptical lens.",
+      "readingTime": "5-7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "tech trivia",
+        "exploratory",
+        "skeptical",
+        "tech history"
+      ],
+      "path": "2026/03/09/2026-03-09-05-19-03_the-evolution-of-tech-trivia.md"
+    },
+    {
       "title": "The Skeptical Explorer's Guide to Tech Trivia: Unveiling the Hidden Depths",
       "date": "2026-03-09T00:58:37.709Z",
       "theme": "aurora",
@@ -1028,6 +1045,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 62,
-  "lastBuilt": "2026-03-09T01:03:10.650Z"
+  "total": 63,
+  "lastBuilt": "2026-03-09T05:19:03.731Z"
 }
