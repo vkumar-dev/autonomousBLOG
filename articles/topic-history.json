@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Anthropology",
+      "date": "2026-03-09T16:44:39.647Z",
+      "title": "The Philosopher's Stone: A Humorous Guide to the Foundations of Anthropology",
+      "contentType": "article"
+    },
+    {
       "topic": "Biology: Myths vs Reality",
       "date": "2026-03-09T12:30:31.575Z",
       "title": "Biology: A Pessimistic Exploration of Myths and Reality",
@@ -319,5 +325,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-09T16:44:39.475Z"
+  "lastUpdated": "2026-03-09T20:19:37.896Z"
 }

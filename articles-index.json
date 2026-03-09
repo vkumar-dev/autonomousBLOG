@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unlocking the Enigma: The Philosophy Behind Anthropology",
+      "date": "2026-03-09T20:19:38.043Z",
+      "theme": "paper-ink",
+      "topic": "The Philosophy Behind Anthropology",
+      "contentType": "article",
+      "excerpt": "Explore the intricate relationship between mathematics, philosophy, and anthropology.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "anthropology",
+        "reference",
+        "optimistic",
+        "mathematics"
+      ],
+      "path": "2026/03/09/2026-03-09-20-24-03_the-philosophy-behind-anthropology.md"
+    },
+    {
       "title": "The Philosopher's Stone: A Humorous Guide to the Foundations of Anthropology",
       "date": "2026-03-09T16:44:39.647Z",
       "theme": "minimalist-clean",
@@ -1096,6 +1113,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 66,
-  "lastBuilt": "2026-03-09T16:49:11.823Z"
+  "total": 67,
+  "lastBuilt": "2026-03-09T20:24:04.090Z"
 }
