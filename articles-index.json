@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Skeptical Explorer's Guide to Tech Trivia: Unveiling the Hidden Depths",
+      "date": "2026-03-09T00:58:37.709Z",
+      "theme": "aurora",
+      "topic": "The Hidden Depths of Tech Trivia",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of tech trivia, but don't forget your skeptic's hat.",
+      "readingTime": "Approx 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "tech trivia",
+        "historical",
+        "skeptical",
+        "tech trivia"
+      ],
+      "path": "2026/03/09/2026-03-09-01-03-10_the-hidden-depths-of-tech-trivia.md"
+    },
+    {
       "title": "Unraveling Life's Intricacies: A Celebratory Exploration of Biology's Impact on Modern Life",
       "date": "2026-03-08T20:02:32.389Z",
       "theme": "sunset-vibes",
@@ -1011,6 +1028,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 61,
-  "lastBuilt": "2026-03-08T20:06:35.027Z"
+  "total": 62,
+  "lastBuilt": "2026-03-09T01:03:10.650Z"
 }
