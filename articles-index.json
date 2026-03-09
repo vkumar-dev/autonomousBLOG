@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Psychological Foundations of Practical Economics: A Historical Perspective",
+      "date": "2026-03-09T08:30:14.794Z",
+      "theme": "forest-calm",
+      "topic": "Economics: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Explore the interplay of psychology and economics throughout history, and gain practical insights for navigating the modern economic landscape.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "economics",
+        "historical",
+        "practical",
+        "psychology"
+      ],
+      "path": "2026/03/09/2026-03-09-08-33-44_economics-practical-applications-and-insights.md"
+    },
+    {
       "title": "The Skeptic's Guide to the Evolution of Tech Trivia",
       "date": "2026-03-09T05:15:05.761Z",
       "theme": "aurora",
@@ -1045,6 +1062,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 63,
-  "lastBuilt": "2026-03-09T05:19:03.731Z"
+  "total": 64,
+  "lastBuilt": "2026-03-09T08:33:44.354Z"
 }
