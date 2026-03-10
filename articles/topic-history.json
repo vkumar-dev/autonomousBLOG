@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Evolution of Economics",
+      "date": "2026-03-10T08:26:38.898Z",
+      "title": "A Balanced Perspective on the Evolution of Economics: From Reference Books to Quantum Computing",
+      "contentType": "article"
+    },
+    {
       "topic": "Unraveling the Complexity of Economics",
       "date": "2026-03-10T05:04:12.450Z",
       "title": "Decoding the Intricacies of Economics from a Scientific Lens",
@@ -343,5 +349,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-10T08:26:38.719Z"
+  "lastUpdated": "2026-03-10T12:30:20.290Z"
 }

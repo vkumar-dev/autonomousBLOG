@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: An Optimistic Exploration of Economics for Everyone",
+      "date": "2026-03-10T12:30:20.477Z",
+      "theme": "paper-ink",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Explore the wonders of economics through an optimistic lens, making complex concepts accessible to all.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "economics",
+        "exploratory",
+        "optimistic",
+        "mathematics"
+      ],
+      "path": "2026/03/10/2026-03-10-12-33-43_bridging-the-gap-economics-for-everyone.md"
+    },
+    {
       "title": "A Balanced Perspective on the Evolution of Economics: From Reference Books to Quantum Computing",
       "date": "2026-03-10T08:26:38.898Z",
       "theme": "neon-nights",
@@ -1164,6 +1181,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 70,
-  "lastBuilt": "2026-03-10T08:30:08.491Z"
+  "total": 71,
+  "lastBuilt": "2026-03-10T12:33:43.816Z"
 }
