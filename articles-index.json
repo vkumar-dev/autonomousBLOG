@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Balanced Perspective on the Evolution of Economics: From Reference Books to Quantum Computing",
+      "date": "2026-03-10T08:26:38.898Z",
+      "theme": "neon-nights",
+      "topic": "The Evolution of Economics",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating journey of economics, from its humble beginnings to its modern-day integration with technology.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "economics",
+        "reference",
+        "balanced",
+        "technology"
+      ],
+      "path": "2026/03/10/2026-03-10-08-30-08_the-evolution-of-economics.md"
+    },
+    {
       "title": "Decoding the Intricacies of Economics from a Scientific Lens",
       "date": "2026-03-10T05:04:12.450Z",
       "theme": "sunset-vibes",
@@ -1147,6 +1164,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 69,
-  "lastBuilt": "2026-03-10T05:07:54.570Z"
+  "total": 70,
+  "lastBuilt": "2026-03-10T08:30:08.491Z"
 }

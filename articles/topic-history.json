@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Unraveling the Complexity of Economics",
+      "date": "2026-03-10T05:04:12.450Z",
+      "title": "Decoding the Intricacies of Economics from a Scientific Lens",
+      "contentType": "article"
+    },
+    {
       "topic": "Economics: Myths vs Reality",
       "date": "2026-03-10T00:53:24.412Z",
       "title": "Myths vs Reality: Debunking Popular Economic Misconceptions in the Modern World",
@@ -337,5 +343,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-10T05:04:12.278Z"
+  "lastUpdated": "2026-03-10T08:26:38.719Z"
 }
