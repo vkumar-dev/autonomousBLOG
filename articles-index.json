@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Evolving Canvas of Life: A Chronicle of Biology's Journey",
+      "date": "2026-03-10T20:20:39.176Z",
+      "theme": "cotton-candy",
+      "topic": "The Evolution of Biology",
+      "contentType": "article",
+      "excerpt": "Explore the timeline of biological discoveries and their impact on our understanding of life.",
+      "readingTime": "Approximately 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "biology",
+        "timeline",
+        "scientific",
+        "literature"
+      ],
+      "path": "2026/03/10/2026-03-10-20-24-26_the-evolution-of-biology.md"
+    },
+    {
       "title": "Nature's Timeless Chronicles: A Journey Through the Ages",
       "date": "2026-03-10T16:43:44.151Z",
       "theme": "sunset-vibes",
@@ -1198,6 +1215,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 72,
-  "lastBuilt": "2026-03-10T16:47:19.114Z"
+  "total": 73,
+  "lastBuilt": "2026-03-10T20:24:26.571Z"
 }
