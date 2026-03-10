@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Decoding the Intricacies of Economics from a Scientific Lens",
+      "date": "2026-03-10T05:04:12.450Z",
+      "theme": "sunset-vibes",
+      "topic": "Unraveling the Complexity of Economics",
+      "contentType": "article",
+      "excerpt": "Explore the scientific perspective of economics, delving into its psychological and educational aspects.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "economics",
+        "educational",
+        "scientific",
+        "psychology"
+      ],
+      "path": "2026/03/10/2026-03-10-05-07-54_unraveling-the-complexity-of-economics.md"
+    },
+    {
       "title": "Myths vs Reality: Debunking Popular Economic Misconceptions in the Modern World",
       "date": "2026-03-10T00:53:24.412Z",
       "theme": "industrial",
@@ -1130,6 +1147,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 68,
-  "lastBuilt": "2026-03-10T00:57:03.123Z"
+  "total": 69,
+  "lastBuilt": "2026-03-10T05:07:54.570Z"
 }

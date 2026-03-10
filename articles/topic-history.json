@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Economics: Myths vs Reality",
+      "date": "2026-03-10T00:53:24.412Z",
+      "title": "Myths vs Reality: Debunking Popular Economic Misconceptions in the Modern World",
+      "contentType": "article"
+    },
+    {
       "topic": "The Philosophy Behind Anthropology",
       "date": "2026-03-09T20:19:38.043Z",
       "title": "Unlocking the Enigma: The Philosophy Behind Anthropology",
@@ -331,5 +337,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-10T00:53:24.238Z"
+  "lastUpdated": "2026-03-10T05:04:12.278Z"
 }
