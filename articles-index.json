@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Nature's Timeless Chronicles: A Journey Through the Ages",
+      "date": "2026-03-10T16:43:44.151Z",
+      "theme": "sunset-vibes",
+      "topic": "Nature: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Explore the captivating biography of nature through academic research, presented in a balanced perspective.",
+      "readingTime": "6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "nature",
+        "biography",
+        "balanced",
+        "literature"
+      ],
+      "path": "2026/03/10/2026-03-10-16-47-18_nature-a-journey-through-time.md"
+    },
+    {
       "title": "Bridging the Gap: An Optimistic Exploration of Economics for Everyone",
       "date": "2026-03-10T12:30:20.477Z",
       "theme": "paper-ink",
@@ -1181,6 +1198,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 71,
-  "lastBuilt": "2026-03-10T12:33:43.816Z"
+  "total": 72,
+  "lastBuilt": "2026-03-10T16:47:19.114Z"
 }
