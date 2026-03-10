@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: Debunking Popular Economic Misconceptions in the Modern World",
+      "date": "2026-03-10T00:53:24.412Z",
+      "theme": "industrial",
+      "topic": "Economics: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the truth behind common economic misconceptions in today's world.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "economics",
+        "practical",
+        "modern",
+        "nature"
+      ],
+      "path": "2026/03/10/2026-03-10-00-57-02_economics-myths-vs-reality.md"
+    },
+    {
       "title": "Unlocking the Enigma: The Philosophy Behind Anthropology",
       "date": "2026-03-09T20:19:38.043Z",
       "theme": "paper-ink",
@@ -1113,6 +1130,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 67,
-  "lastBuilt": "2026-03-09T20:24:04.090Z"
+  "total": 68,
+  "lastBuilt": "2026-03-10T00:57:03.123Z"
 }
