@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: Unveiling the Philosophical Perspective in Literature",
+      "date": "2026-03-11T00:55:18.240Z",
+      "theme": "forest-calm",
+      "topic": "Literature: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating intersection of literature, philosophy, and technology.",
+      "readingTime": "4-5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "literature",
+        "technical",
+        "philosophical",
+        "programming"
+      ],
+      "path": "2026/03/11/2026-03-11-00-59-17_literature-myths-vs-reality.md"
+    },
+    {
       "title": "The Evolving Canvas of Life: A Chronicle of Biology's Journey",
       "date": "2026-03-10T20:20:39.176Z",
       "theme": "cotton-candy",
@@ -1215,6 +1232,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 73,
-  "lastBuilt": "2026-03-10T20:24:26.571Z"
+  "total": 74,
+  "lastBuilt": "2026-03-11T00:59:17.338Z"
 }
