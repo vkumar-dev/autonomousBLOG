@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Roots of Philosophy: A Historical Journey",
+      "date": "2026-03-11T08:27:00.750Z",
+      "theme": "neon-nights",
+      "topic": "Bridging the Gap: Philosophy for Everyone",
+      "contentType": "article",
+      "excerpt": "Dive into the rich history of philosophy, and discover its relevance today.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "philosophy",
+        "exploratory",
+        "historical",
+        "geology"
+      ],
+      "path": "2026/03/11/2026-03-11-08-30-17_bridging-the-gap-philosophy-for-everyone.md"
+    },
+    {
       "title": "Cryptography's Dark Side: A Pragmatic Exploration of Limitations and Vulnerabilities",
       "date": "2026-03-11T05:08:24.449Z",
       "theme": "sunset-vibes",
@@ -1249,6 +1266,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 75,
-  "lastBuilt": "2026-03-11T05:11:58.500Z"
+  "total": 76,
+  "lastBuilt": "2026-03-11T08:30:17.539Z"
 }

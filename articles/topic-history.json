@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Cryptography: Practical Applications and Insights",
+      "date": "2026-03-11T05:08:24.449Z",
+      "title": "Cryptography's Dark Side: A Pragmatic Exploration of Limitations and Vulnerabilities",
+      "contentType": "article"
+    },
+    {
       "topic": "Literature: Myths vs Reality",
       "date": "2026-03-11T00:55:18.240Z",
       "title": "Myths vs Reality: Unveiling the Philosophical Perspective in Literature",
@@ -373,5 +379,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-11T05:08:24.283Z"
+  "lastUpdated": "2026-03-11T08:27:00.567Z"
 }
