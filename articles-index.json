@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Cryptography's Dark Side: A Pragmatic Exploration of Limitations and Vulnerabilities",
+      "date": "2026-03-11T05:08:24.449Z",
+      "theme": "sunset-vibes",
+      "topic": "Cryptography: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "An in-depth look at the practical applications of cryptography, and the hidden vulnerabilities that challenge its security.",
+      "readingTime": "4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "cryptography",
+        "educational",
+        "pessimistic",
+        "technology"
+      ],
+      "path": "2026/03/11/2026-03-11-05-11-58_cryptography-practical-applications-and-insights.md"
+    },
+    {
       "title": "Myths vs Reality: Unveiling the Philosophical Perspective in Literature",
       "date": "2026-03-11T00:55:18.240Z",
       "theme": "forest-calm",
@@ -1232,6 +1249,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 74,
-  "lastBuilt": "2026-03-11T00:59:17.338Z"
+  "total": 75,
+  "lastBuilt": "2026-03-11T05:11:58.500Z"
 }
