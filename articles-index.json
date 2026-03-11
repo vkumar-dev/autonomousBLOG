@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Discovering the Hidden Gems of Architecture: A Journey Through History",
+      "date": "2026-03-11T20:23:08.641Z",
+      "theme": "cotton-candy",
+      "topic": "Architecture: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the lesser-known architectural gems and their fascinating stories from a historical perspective.",
+      "readingTime": "6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "architecture",
+        "tutorial",
+        "historical",
+        "science"
+      ],
+      "path": "2026/03/11/2026-03-11-20-26-44_architecture-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Exploring the Cosmos: Lesser-Known Facts and Philosophical Insights",
       "date": "2026-03-11T16:37:52.506Z",
       "theme": "sunset-vibes",
@@ -1300,6 +1317,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 78,
-  "lastBuilt": "2026-03-11T16:41:49.737Z"
+  "total": 79,
+  "lastBuilt": "2026-03-11T20:26:44.412Z"
 }
