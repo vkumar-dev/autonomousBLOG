@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Mathematics Explained: Practical Guide",
+      "date": "2026-03-11T12:30:36.835Z",
+      "title": "Mathematics Demystified: A Modern Approach to Practical Math",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Philosophy for Everyone",
       "date": "2026-03-11T08:27:00.750Z",
       "title": "Exploring the Roots of Philosophy: A Historical Journey",
@@ -385,5 +391,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-11T12:30:36.651Z"
+  "lastUpdated": "2026-03-11T16:37:52.334Z"
 }

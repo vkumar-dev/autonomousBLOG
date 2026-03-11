@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Cosmos: Lesser-Known Facts and Philosophical Insights",
+      "date": "2026-03-11T16:37:52.506Z",
+      "theme": "sunset-vibes",
+      "topic": "Space & Astronomy: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Dive into the cosmos and uncover lesser-known facts about our universe, explored through a philosophical lens.",
+      "readingTime": "5-7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "space & astronomy",
+        "comparative",
+        "philosophical",
+        "art & design"
+      ],
+      "path": "2026/03/11/2026-03-11-16-41-49_space-astronomy-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Mathematics Demystified: A Modern Approach to Practical Math",
       "date": "2026-03-11T12:30:36.835Z",
       "theme": "ocean-breeze",
@@ -1283,6 +1300,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 77,
-  "lastBuilt": "2026-03-11T12:33:53.744Z"
+  "total": 78,
+  "lastBuilt": "2026-03-11T16:41:49.737Z"
 }
