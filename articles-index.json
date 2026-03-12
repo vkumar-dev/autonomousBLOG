@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating the Historical Evolution of Linguistics: A Journey Through Time",
+      "date": "2026-03-12T05:10:05.258Z",
+      "theme": "ocean-breeze",
+      "topic": "The Evolution of Linguistics",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating journey of linguistics, from its roots in anthropology to its modern-day applications.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "linguistics",
+        "historical",
+        "celebratory",
+        "anthropology"
+      ],
+      "path": "2026/03/12/2026-03-12-05-13-54_the-evolution-of-linguistics.md"
+    },
+    {
       "title": "Exploring the Theoretical Impact of Tech Trivia on Modern Life",
       "date": "2026-03-12T00:50:40.811Z",
       "theme": "aurora",
@@ -1334,6 +1351,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 80,
-  "lastBuilt": "2026-03-12T00:54:48.669Z"
+  "total": 81,
+  "lastBuilt": "2026-03-12T05:13:54.646Z"
 }
