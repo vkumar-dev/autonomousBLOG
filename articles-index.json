@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Theoretical Impact of Tech Trivia on Modern Life",
+      "date": "2026-03-12T00:50:40.811Z",
+      "theme": "aurora",
+      "topic": "Tech Trivia and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Dive deep into the theoretical exploration of how tech trivia is shaping the future.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "tech trivia",
+        "exploratory",
+        "theoretical",
+        "programming"
+      ],
+      "path": "2026/03/12/2026-03-12-00-54-48_tech-trivia-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Discovering the Hidden Gems of Architecture: A Journey Through History",
       "date": "2026-03-11T20:23:08.641Z",
       "theme": "cotton-candy",
@@ -1317,6 +1334,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 79,
-  "lastBuilt": "2026-03-11T20:26:44.412Z"
+  "total": 80,
+  "lastBuilt": "2026-03-12T00:54:48.669Z"
 }

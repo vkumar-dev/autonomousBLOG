@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Architecture: Lesser-Known Facts and Stories",
+      "date": "2026-03-11T20:23:08.641Z",
+      "title": "Discovering the Hidden Gems of Architecture: A Journey Through History",
+      "contentType": "article"
+    },
+    {
       "topic": "Space & Astronomy: Lesser-Known Facts and Stories",
       "date": "2026-03-11T16:37:52.506Z",
       "title": "Exploring the Cosmos: Lesser-Known Facts and Philosophical Insights",
@@ -397,5 +403,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-11T20:23:08.466Z"
+  "lastUpdated": "2026-03-12T00:50:40.618Z"
 }
