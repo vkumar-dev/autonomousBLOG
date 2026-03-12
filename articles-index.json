@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Geology Myths vs Reality: Unraveling the Past",
+      "date": "2026-03-12T16:46:41.412Z",
+      "theme": "minimalist-clean",
+      "topic": "Geology, historical",
+      "contentType": "article",
+      "excerpt": "Exploring the misconceptions and truths in the history of geology.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "geology",
+        "historical",
+        "psychology"
+      ],
+      "path": "2026/03/12/2026-03-12-16-51-00_geology-myths-vs-reality.md"
+    },
+    {
       "title": "Celebrating the Historic Roots of Programming: A Journey Through the Basics",
       "date": "2026-03-12T12:28:52.577Z",
       "theme": "sunset-vibes",
@@ -1385,6 +1401,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 83,
-  "lastBuilt": "2026-03-12T12:32:42.997Z"
+  "total": 84,
+  "lastBuilt": "2026-03-12T16:51:00.218Z"
 }

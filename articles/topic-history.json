@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Programming",
+      "date": "2026-03-12T12:28:52.577Z",
+      "title": "Celebrating the Historic Roots of Programming: A Journey Through the Basics",
+      "contentType": "article"
+    },
+    {
       "topic": "Geology, Conceptual, Theoretical, Economics",
       "date": "2026-03-12T08:28:12.003Z",
       "title": "Geology Explained: Unveiling the Theoretical Depths of Our Planet",
@@ -421,5 +427,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-12T12:28:52.393Z"
+  "lastUpdated": "2026-03-12T16:46:41.246Z"
 }
