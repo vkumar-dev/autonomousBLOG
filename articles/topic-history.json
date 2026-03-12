@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Geology, Conceptual, Theoretical, Economics",
+      "date": "2026-03-12T08:28:12.003Z",
+      "title": "Geology Explained: Unveiling the Theoretical Depths of Our Planet",
+      "contentType": "article"
+    },
+    {
       "topic": "The Evolution of Linguistics",
       "date": "2026-03-12T05:10:05.258Z",
       "title": "Celebrating the Historical Evolution of Linguistics: A Journey Through Time",
@@ -415,5 +421,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-12T08:28:11.857Z"
+  "lastUpdated": "2026-03-12T12:28:52.393Z"
 }

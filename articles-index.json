@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating the Historic Roots of Programming: A Journey Through the Basics",
+      "date": "2026-03-12T12:28:52.577Z",
+      "theme": "sunset-vibes",
+      "topic": "Exploring the Foundations of Programming",
+      "contentType": "article",
+      "excerpt": "Dive into the captivating history of programming and unravel the origins of our digital world.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "programming",
+        "historical",
+        "celebratory",
+        "programming"
+      ],
+      "path": "2026/03/12/2026-03-12-12-32-42_exploring-the-foundations-of-programming.md"
+    },
+    {
       "title": "Geology Explained: Unveiling the Theoretical Depths of Our Planet",
       "date": "2026-03-12T08:28:12.003Z",
       "theme": "sunset-vibes",
@@ -1368,6 +1385,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 82,
-  "lastBuilt": "2026-03-12T08:33:27.428Z"
+  "total": 83,
+  "lastBuilt": "2026-03-12T12:32:42.997Z"
 }
