@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Evolution of Linguistics",
+      "date": "2026-03-12T05:10:05.258Z",
+      "title": "Celebrating the Historical Evolution of Linguistics: A Journey Through Time",
+      "contentType": "article"
+    },
+    {
       "topic": "Tech Trivia and Its Impact on Modern Life",
       "date": "2026-03-12T00:50:40.811Z",
       "title": "Exploring the Theoretical Impact of Tech Trivia on Modern Life",
@@ -409,5 +415,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-12T05:10:05.075Z"
+  "lastUpdated": "2026-03-12T08:28:11.857Z"
 }

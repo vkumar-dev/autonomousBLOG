@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Geology Explained: Unveiling the Theoretical Depths of Our Planet",
+      "date": "2026-03-12T08:28:12.003Z",
+      "theme": "sunset-vibes",
+      "topic": "Geology, Conceptual, Theoretical, Economics",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of geology and uncover the theoretical perspectives shaping our understanding of the Earth's dynamics.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "geology",
+        "conceptual",
+        "theoretical",
+        "economics"
+      ],
+      "path": "2026/03/12/2026-03-12-08-33-27_geology-explained-conceptual-overview.md"
+    },
+    {
       "title": "Celebrating the Historical Evolution of Linguistics: A Journey Through Time",
       "date": "2026-03-12T05:10:05.258Z",
       "theme": "ocean-breeze",
@@ -1351,6 +1368,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 81,
-  "lastBuilt": "2026-03-12T05:13:54.646Z"
+  "total": 82,
+  "lastBuilt": "2026-03-12T08:33:27.428Z"
 }
