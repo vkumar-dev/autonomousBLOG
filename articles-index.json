@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling Hidden Gems: Exploring Modern Economic Phenomena",
+      "date": "2026-03-13T12:28:35.861Z",
+      "theme": "ocean-breeze",
+      "topic": "Economics: Exploratory, Modern",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of economics, uncovering lesser-known facts and stories from a modern perspective.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "economics",
+        "exploratory",
+        "modern",
+        "economics"
+      ],
+      "path": "2026/03/13/2026-03-13-12-32-42_economics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Time Travelers' Guide to Ancient Cultures: A Futuristic Perspective",
       "date": "2026-03-13T08:25:37.002Z",
       "theme": "aurora",
@@ -1470,6 +1487,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 88,
-  "lastBuilt": "2026-03-13T08:30:07.093Z"
+  "total": 89,
+  "lastBuilt": "2026-03-13T12:32:43.170Z"
 }
