@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time Travelers' Guide to Ancient Cultures: A Futuristic Perspective",
+      "date": "2026-03-13T08:25:37.002Z",
+      "theme": "aurora",
+      "topic": "Ancient Cultures Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "Journey through history, revisiting ancient cultures from a futuristic vantage point.",
+      "readingTime": "4-5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "ancient cultures",
+        "reference",
+        "futuristic",
+        "biology"
+      ],
+      "path": "2026/03/13/2026-03-13-08-30-06_ancient-cultures-explained-reference-guide.md"
+    },
+    {
       "title": "Unraveling the Core Concepts of Nature: A Skeptical Examination",
       "date": "2026-03-13T05:07:51.405Z",
       "theme": "minimalist-clean",
@@ -1453,6 +1470,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 87,
-  "lastBuilt": "2026-03-13T05:11:37.852Z"
+  "total": 88,
+  "lastBuilt": "2026-03-13T08:30:07.093Z"
 }
