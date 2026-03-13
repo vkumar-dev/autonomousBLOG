@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Threads: Separating History's Myths from Reality",
+      "date": "2026-03-13T20:20:33.965Z",
+      "theme": "paper-ink",
+      "topic": "History: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A brief exploration of the fascinating world of history, where fact meets fiction.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "history",
+        "practical",
+        "historical",
+        "technology"
+      ],
+      "path": "2026/03/13/2026-03-13-20-23-53_history-myths-vs-reality.md"
+    },
+    {
       "title": "A Historical Journey into the Practical Applications of Cryptography in Economics",
       "date": "2026-03-13T16:24:27.477Z",
       "theme": "aurora",
@@ -1504,6 +1521,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 90,
-  "lastBuilt": "2026-03-13T16:27:38.431Z"
+  "total": 91,
+  "lastBuilt": "2026-03-13T20:23:53.188Z"
 }
