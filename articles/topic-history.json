@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Anthropology: A Futuristic Perspective",
+      "date": "2026-03-12T20:21:25.177Z",
+      "title": "The Cosmic Anthropologist: A Futuristic Perspective on Our Past and Beyond",
+      "contentType": "article"
+    },
+    {
       "topic": "Geology, historical",
       "date": "2026-03-12T16:46:41.412Z",
       "title": "Geology Myths vs Reality: Unraveling the Past",
@@ -433,5 +439,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-12T20:21:25.011Z"
+  "lastUpdated": "2026-03-13T00:57:16.299Z"
 }
