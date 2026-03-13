@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Historical Journey into the Practical Applications of Cryptography in Economics",
+      "date": "2026-03-13T16:24:27.477Z",
+      "theme": "aurora",
+      "topic": "Economics: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Unravel the fascinating journey of cryptography in economics from historical perspectives.",
+      "readingTime": "Approx. 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "economics",
+        "practical",
+        "historical",
+        "cryptography"
+      ],
+      "path": "2026/03/13/2026-03-13-16-27-38_economics-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unveiling Hidden Gems: Exploring Modern Economic Phenomena",
       "date": "2026-03-13T12:28:35.861Z",
       "theme": "ocean-breeze",
@@ -1487,6 +1504,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 89,
-  "lastBuilt": "2026-03-13T12:32:43.170Z"
+  "total": 90,
+  "lastBuilt": "2026-03-13T16:27:38.431Z"
 }
