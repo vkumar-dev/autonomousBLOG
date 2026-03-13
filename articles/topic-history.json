@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Space & Astronomy Explained: Tutorial",
+      "date": "2026-03-13T00:57:16.438Z",
+      "title": "Exploring the Cosmos: A Futuristic Perspective on Space and Astronomy",
+      "contentType": "article"
+    },
+    {
       "topic": "Anthropology: A Futuristic Perspective",
       "date": "2026-03-12T20:21:25.177Z",
       "title": "The Cosmic Anthropologist: A Futuristic Perspective on Our Past and Beyond",
@@ -439,5 +445,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-13T00:57:16.299Z"
+  "lastUpdated": "2026-03-13T05:07:51.222Z"
 }
