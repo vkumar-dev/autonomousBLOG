@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: Myths vs Reality",
+      "date": "2026-03-13T20:20:33.965Z",
+      "title": "Unraveling the Threads: Separating History's Myths from Reality",
+      "contentType": "article"
+    },
+    {
       "topic": "Economics: Practical Applications and Insights",
       "date": "2026-03-13T16:24:27.477Z",
       "title": "A Historical Journey into the Practical Applications of Cryptography in Economics",
@@ -469,5 +475,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-13T20:20:33.794Z"
+  "lastUpdated": "2026-03-14T00:55:49.672Z"
 }

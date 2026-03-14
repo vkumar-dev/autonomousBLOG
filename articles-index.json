@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Roots of Mathematics: A Practical Approach",
+      "date": "2026-03-14T00:55:49.839Z",
+      "theme": "cotton-candy",
+      "topic": "Exploring the Foundations of Mathematics",
+      "contentType": "article",
+      "excerpt": "Delve into the practical applications of mathematics, from ancient times to modern programming.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "mathematics",
+        "exploratory",
+        "practical",
+        "programming"
+      ],
+      "path": "2026/03/14/2026-03-14-00-58-59_exploring-the-foundations-of-mathematics.md"
+    },
+    {
       "title": "Unraveling the Threads: Separating History's Myths from Reality",
       "date": "2026-03-13T20:20:33.965Z",
       "theme": "paper-ink",
@@ -1521,6 +1538,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 91,
-  "lastBuilt": "2026-03-13T20:23:53.188Z"
+  "total": 92,
+  "lastBuilt": "2026-03-14T00:58:59.720Z"
 }
