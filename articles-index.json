@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Debate: Theoretical Psychology and Programming",
+      "date": "2026-03-14T05:05:50.874Z",
+      "theme": "forest-calm",
+      "topic": "Programming, debate, theoretical, psychology",
+      "contentType": "article",
+      "excerpt": "Delve into the intriguing relationship between programming and theoretical psychology.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "programming",
+        "debate",
+        "theoretical",
+        "psychology"
+      ],
+      "path": "2026/03/14/2026-03-14-05-09-36_programming-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unraveling the Roots of Mathematics: A Practical Approach",
       "date": "2026-03-14T00:55:49.839Z",
       "theme": "cotton-candy",
@@ -1538,6 +1555,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 92,
-  "lastBuilt": "2026-03-14T00:58:59.720Z"
+  "total": 93,
+  "lastBuilt": "2026-03-14T05:09:36.605Z"
 }

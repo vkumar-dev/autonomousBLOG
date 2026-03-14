@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Mathematics",
+      "date": "2026-03-14T00:55:49.839Z",
+      "title": "Unraveling the Roots of Mathematics: A Practical Approach",
+      "contentType": "article"
+    },
+    {
       "topic": "History: Myths vs Reality",
       "date": "2026-03-13T20:20:33.965Z",
       "title": "Unraveling the Threads: Separating History's Myths from Reality",
@@ -475,5 +481,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-14T00:55:49.672Z"
+  "lastUpdated": "2026-03-14T05:05:50.696Z"
 }
