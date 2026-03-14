@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Linguistics Unraveled: A Technical Deep Dive into the Evolution of Language",
+      "date": "2026-03-14T20:14:19.996Z",
+      "theme": "aurora",
+      "topic": "Linguistics, technical, balanced, ancient cultures",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating world of linguistics through a balanced academic lens, tracing its roots back to ancient civilizations.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "linguistics",
+        "technical",
+        "balanced",
+        "ancient cultures"
+      ],
+      "path": "2026/03/14/2026-03-14-20-18-28_linguistics-explained-technical-deep-dive.md"
+    },
+    {
       "title": "Unveiling the Depths of Technology: A Scientific Exploration",
       "date": "2026-03-14T16:16:52.182Z",
       "theme": "paper-ink",
@@ -1606,6 +1623,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 96,
-  "lastBuilt": "2026-03-14T16:21:26.905Z"
+  "total": 97,
+  "lastBuilt": "2026-03-14T20:18:28.487Z"
 }
