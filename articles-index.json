@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Depths of Technology: A Scientific Exploration",
+      "date": "2026-03-14T16:16:52.182Z",
+      "theme": "paper-ink",
+      "topic": "The Hidden Depths of Technology",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of technology from a scientific perspective, uncovering its intricate layers.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "technology",
+        "conceptual",
+        "scientific",
+        "science"
+      ],
+      "path": "2026/03/14/2026-03-14-16-21-26_the-hidden-depths-of-technology.md"
+    },
+    {
       "title": "Myths vs Reality: A Journey Through the Lens of Anthropology",
       "date": "2026-03-14T12:22:16.348Z",
       "theme": "matrix-code",
@@ -1589,6 +1606,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 95,
-  "lastBuilt": "2026-03-14T12:25:23.970Z"
+  "total": 96,
+  "lastBuilt": "2026-03-14T16:21:26.905Z"
 }
