@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Sisyphus Syndrome: A Pessimistic Examination of Geology's Spiral Discovery",
+      "date": "2026-03-14T08:20:42.887Z",
+      "theme": "cotton-candy",
+      "topic": "Understanding Geology Through Spiral Discovery",
+      "contentType": "article",
+      "excerpt": "A deep dive into the psychology behind geological exploration, revealing a persistent sense of futility reminiscent of Sisyphus' eternal task.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "geology",
+        "conceptual",
+        "pessimistic",
+        "psychology"
+      ],
+      "path": "2026/03/14/2026-03-14-08-24-43_understanding-geology-through-spiral-discovery.md"
+    },
+    {
       "title": "Exploring the Debate: Theoretical Psychology and Programming",
       "date": "2026-03-14T05:05:50.874Z",
       "theme": "forest-calm",
@@ -1555,6 +1572,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 93,
-  "lastBuilt": "2026-03-14T05:09:36.605Z"
+  "total": 94,
+  "lastBuilt": "2026-03-14T08:24:43.973Z"
 }

@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Programming, debate, theoretical, psychology",
+      "date": "2026-03-14T05:05:50.874Z",
+      "title": "Exploring the Debate: Theoretical Psychology and Programming",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of Mathematics",
       "date": "2026-03-14T00:55:49.839Z",
       "title": "Unraveling the Roots of Mathematics: A Practical Approach",
@@ -481,5 +487,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-14T05:05:50.696Z"
+  "lastUpdated": "2026-03-14T08:20:42.709Z"
 }
