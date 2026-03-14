@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: A Journey Through the Lens of Anthropology",
+      "date": "2026-03-14T12:22:16.348Z",
+      "theme": "matrix-code",
+      "topic": "Anthropology: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating world of anthropology, where myths intertwine with reality.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "anthropology",
+        "narrative",
+        "balanced",
+        "art & design"
+      ],
+      "path": "2026/03/14/2026-03-14-12-25-23_anthropology-myths-vs-reality.md"
+    },
+    {
       "title": "The Sisyphus Syndrome: A Pessimistic Examination of Geology's Spiral Discovery",
       "date": "2026-03-14T08:20:42.887Z",
       "theme": "cotton-candy",
@@ -1572,6 +1589,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 94,
-  "lastBuilt": "2026-03-14T08:24:43.973Z"
+  "total": 95,
+  "lastBuilt": "2026-03-14T12:25:23.970Z"
 }
