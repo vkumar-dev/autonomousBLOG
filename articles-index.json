@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Critical Analysis of Nature's Role in Mathematics: An Exploration Through History",
+      "date": "2026-03-15T01:06:14.351Z",
+      "theme": "paper-ink",
+      "topic": "Nature: A critical Perspective",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating history of mathematics and its connection to nature, seen through a critical lens.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "nature",
+        "historical",
+        "critical",
+        "mathematics"
+      ],
+      "path": "2026/03/15/2026-03-15-01-12-13_nature-a-critical-perspective.md"
+    },
+    {
       "title": "Linguistics Unraveled: A Technical Deep Dive into the Evolution of Language",
       "date": "2026-03-14T20:14:19.996Z",
       "theme": "aurora",
@@ -1623,6 +1640,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 97,
-  "lastBuilt": "2026-03-14T20:18:28.487Z"
+  "total": 98,
+  "lastBuilt": "2026-03-15T01:12:13.401Z"
 }
