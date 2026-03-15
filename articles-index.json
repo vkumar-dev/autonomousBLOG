@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Programming in a Modern World: An Anthropological Perspective",
+      "date": "2026-03-15T20:14:30.677Z",
+      "theme": "industrial",
+      "topic": "Programming, technical, modern, anthropology",
+      "contentType": "article",
+      "excerpt": "Exploring the evolution and impact of programming from a modern perspective.",
+      "readingTime": "4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "programming",
+        "technical",
+        "modern",
+        "anthropology"
+      ],
+      "path": "2026/03/15/2026-03-15-20-17-58_programming-a-modern-perspective.md"
+    },
+    {
       "title": "Unraveling Programming: A Cause-Effect Chain Approach",
       "date": "2026-03-15T16:17:58.970Z",
       "theme": "sunset-vibes",
@@ -1708,6 +1725,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 102,
-  "lastBuilt": "2026-03-15T16:21:49.363Z"
+  "total": 103,
+  "lastBuilt": "2026-03-15T20:17:58.762Z"
 }
