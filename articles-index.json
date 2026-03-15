@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Science Behind Architectural Narratives",
+      "date": "2026-03-15T05:24:25.148Z",
+      "theme": "neon-nights",
+      "topic": "The Philosophy Behind Architecture",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating connection between architecture and science.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "architecture",
+        "narrative",
+        "scientific",
+        "architecture"
+      ],
+      "path": "2026/03/15/2026-03-15-05-28-30_the-philosophy-behind-architecture.md"
+    },
+    {
       "title": "A Critical Analysis of Nature's Role in Mathematics: An Exploration Through History",
       "date": "2026-03-15T01:06:14.351Z",
       "theme": "paper-ink",
@@ -1640,6 +1657,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 98,
-  "lastBuilt": "2026-03-15T01:12:13.401Z"
+  "total": 99,
+  "lastBuilt": "2026-03-15T05:28:30.942Z"
 }
