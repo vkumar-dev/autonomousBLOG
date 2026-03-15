@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Architecture",
+      "date": "2026-03-15T05:24:25.148Z",
+      "title": "Unraveling the Science Behind Architectural Narratives",
+      "contentType": "article"
+    },
+    {
       "topic": "Nature: A critical Perspective",
       "date": "2026-03-15T01:06:14.351Z",
       "title": "A Critical Analysis of Nature's Role in Mathematics: An Exploration Through History",
@@ -517,5 +523,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-15T05:24:24.967Z"
+  "lastUpdated": "2026-03-15T08:23:34.060Z"
 }
