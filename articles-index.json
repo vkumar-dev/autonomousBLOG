@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling Programming: A Cause-Effect Chain Approach",
+      "date": "2026-03-15T16:17:58.970Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Programming Through Cause-Effect Chain",
+      "contentType": "article",
+      "excerpt": "Exploring programming from a scientific perspective through cause-effect chains.",
+      "readingTime": "Approx 6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "programming",
+        "technical",
+        "scientific",
+        "nature"
+      ],
+      "path": "2026/03/15/2026-03-15-16-21-48_understanding-programming-through-cause-effect-chain.md"
+    },
+    {
       "title": "Psychology Through Time: A Philosophical Examination",
       "date": "2026-03-15T12:23:35.332Z",
       "theme": "forest-calm",
@@ -1691,6 +1708,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 101,
-  "lastBuilt": "2026-03-15T12:27:50.925Z"
+  "total": 102,
+  "lastBuilt": "2026-03-15T16:21:49.363Z"
 }
