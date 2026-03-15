@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Psychology Through Time: A Philosophical Examination",
+      "date": "2026-03-15T12:23:35.332Z",
+      "theme": "forest-calm",
+      "topic": "Psychology, Timeline, Philosophical, Economics",
+      "contentType": "article",
+      "excerpt": "Explore the evolution of psychology from a philosophical perspective, with insights into its impact on economics.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "psychology",
+        "timeline",
+        "philosophical",
+        "economics"
+      ],
+      "path": "2026/03/15/2026-03-15-12-27-50_psychology-a-journey-through-time.md"
+    },
+    {
       "title": "The Optimistic Evolution of Art & Design: A Journey Through Mathematics and Biology",
       "date": "2026-03-15T08:23:34.234Z",
       "theme": "cotton-candy",
@@ -1674,6 +1691,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 100,
-  "lastBuilt": "2026-03-15T08:27:11.821Z"
+  "total": 101,
+  "lastBuilt": "2026-03-15T12:27:50.925Z"
 }
