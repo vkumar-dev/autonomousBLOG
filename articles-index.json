@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time Trek: A Journey Through Geology's Past",
+      "date": "2026-03-16T20:26:18.935Z",
+      "theme": "matrix-code",
+      "topic": "Geology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Discover how our understanding of geology has evolved over time.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "geology",
+        "practical",
+        "historical",
+        "anthropology"
+      ],
+      "path": "2026/03/16/2026-03-16-20-29-58_geology-a-journey-through-time.md"
+    },
+    {
       "title": "Unraveling the Complexity of Anthropology: A Skeptical Perspective",
       "date": "2026-03-16T16:48:59.915Z",
       "theme": "aurora",
@@ -1810,6 +1827,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 108,
-  "lastBuilt": "2026-03-16T16:52:00.216Z"
+  "total": 109,
+  "lastBuilt": "2026-03-16T20:29:58.496Z"
 }
