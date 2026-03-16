@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Diving Deep into the Evolution of Technology: Bridging the Gap Between History and Modernity",
+      "date": "2026-03-16T12:39:57.290Z",
+      "theme": "matrix-code",
+      "topic": "Exploring the Foundations of Technology",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating journey of technology, tracing its roots from history to modernity.",
+      "readingTime": "Approx 8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "technology",
+        "historical",
+        "modern",
+        "biology"
+      ],
+      "path": "2026/03/16/2026-03-16-12-43-44_exploring-the-foundations-of-technology.md"
+    },
+    {
       "title": "Exploring the Abyss: The Hidden Depths of Technology from a Philosophical Perspective",
       "date": "2026-03-16T08:43:26.354Z",
       "theme": "sunset-vibes",
@@ -1776,6 +1793,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 106,
-  "lastBuilt": "2026-03-16T08:47:26.951Z"
+  "total": 107,
+  "lastBuilt": "2026-03-16T12:43:44.697Z"
 }
