@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Architecture Through Before-After Comparison",
+      "date": "2026-03-16T01:05:32.618Z",
+      "title": "Unveiling Architectural Evolution Through Before-After Comparison",
+      "contentType": "article"
+    },
+    {
       "topic": "Programming, technical, modern, anthropology",
       "date": "2026-03-15T20:14:30.677Z",
       "title": "Programming in a Modern World: An Anthropological Perspective",
@@ -547,5 +553,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-16T01:05:32.442Z"
+  "lastUpdated": "2026-03-16T05:45:35.774Z"
 }

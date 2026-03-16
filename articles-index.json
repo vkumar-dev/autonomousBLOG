@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging Time: Unveiling Ancient Cultures from a Critical Perspective",
+      "date": "2026-03-16T05:45:35.949Z",
+      "theme": "sunset-vibes",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Delve into ancient cultures through a critical lens to understand their narrative and psychological impact.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "ancient cultures",
+        "narrative",
+        "critical",
+        "psychology"
+      ],
+      "path": "2026/03/16/2026-03-16-05-49-17_bridging-the-gap-ancient-cultures-for-everyone.md"
+    },
+    {
       "title": "Unveiling Architectural Evolution Through Before-After Comparison",
       "date": "2026-03-16T01:05:32.618Z",
       "theme": "minimalist-clean",
@@ -1742,6 +1759,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 104,
-  "lastBuilt": "2026-03-16T01:08:32.155Z"
+  "total": 105,
+  "lastBuilt": "2026-03-16T05:49:17.881Z"
 }
