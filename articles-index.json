@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Abyss: The Hidden Depths of Technology from a Philosophical Perspective",
+      "date": "2026-03-16T08:43:26.354Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Technology",
+      "contentType": "article",
+      "excerpt": "Delve into the philosophical exploration of technology's impact on our lives and society.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "technology",
+        "practical",
+        "philosophical",
+        "technology"
+      ],
+      "path": "2026/03/16/2026-03-16-08-47-26_the-hidden-depths-of-technology.md"
+    },
+    {
       "title": "Bridging Time: Unveiling Ancient Cultures from a Critical Perspective",
       "date": "2026-03-16T05:45:35.949Z",
       "theme": "sunset-vibes",
@@ -1759,6 +1776,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 105,
-  "lastBuilt": "2026-03-16T05:49:17.881Z"
+  "total": 106,
+  "lastBuilt": "2026-03-16T08:47:26.951Z"
 }
