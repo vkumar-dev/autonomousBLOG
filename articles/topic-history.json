@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Programming, technical, modern, anthropology",
+      "date": "2026-03-15T20:14:30.677Z",
+      "title": "Programming in a Modern World: An Anthropological Perspective",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Programming Through Cause-Effect Chain",
       "date": "2026-03-15T16:17:58.970Z",
       "title": "Unraveling Programming: A Cause-Effect Chain Approach",
@@ -541,5 +547,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-15T20:14:30.502Z"
+  "lastUpdated": "2026-03-16T01:05:32.442Z"
 }
