@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Bridging the Gap: Nature for Everyone",
+      "date": "2026-03-17T12:37:58.517Z",
+      "title": "Celebrating Nature's Legacy: A Cross-Cultural Perspective",
+      "contentType": "article"
+    },
+    {
       "topic": "Cryptography and Its Impact on Modern Life",
       "date": "2026-03-17T08:37:18.181Z",
       "title": "Decoding Modern Life: The Scientific Impact of Cryptography",
@@ -601,5 +607,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-17T12:37:58.337Z"
+  "lastUpdated": "2026-03-17T16:52:22.183Z"
 }

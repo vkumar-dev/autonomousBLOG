@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Separating Myth from Reality: An Expert Analysis of Ancient Cultures",
+      "date": "2026-03-17T16:52:22.352Z",
+      "theme": "ocean-breeze",
+      "topic": "Ancient Cultures: Tutorial from a Scientific Perspective",
+      "contentType": "article",
+      "excerpt": "Explore the myths and realities of ancient civilizations through an expert lens.",
+      "readingTime": "approximately 8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "ancient cultures",
+        "tutorial",
+        "scientific",
+        "economics"
+      ],
+      "path": "2026/03/17/2026-03-17-16-56-49_ancient-cultures-myths-vs-reality.md"
+    },
+    {
       "title": "Celebrating Nature's Legacy: A Cross-Cultural Perspective",
       "date": "2026-03-17T12:37:58.517Z",
       "theme": "matrix-code",
@@ -1895,6 +1912,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 113,
-  "lastBuilt": "2026-03-17T12:41:48.065Z"
+  "total": 114,
+  "lastBuilt": "2026-03-17T16:56:49.758Z"
 }
