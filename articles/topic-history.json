@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Cryptography",
+      "date": "2026-03-17T05:16:30.719Z",
+      "title": "Decoding the Roots of Modern Cryptography: A Journey Through Time",
+      "contentType": "article"
+    },
+    {
       "topic": "The Hidden Depths of Cryptography",
       "date": "2026-03-17T00:58:05.888Z",
       "title": "Unveiling the Modern Depths of Cryptography",
@@ -589,5 +595,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-17T05:16:30.551Z"
+  "lastUpdated": "2026-03-17T08:37:18.012Z"
 }

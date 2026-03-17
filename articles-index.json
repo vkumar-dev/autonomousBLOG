@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Decoding Modern Life: The Scientific Impact of Cryptography",
+      "date": "2026-03-17T08:37:18.181Z",
+      "theme": "neon-nights",
+      "topic": "Cryptography and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Discover the scientific roots of cryptography and its profound influence on contemporary society.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "cryptography",
+        "practical",
+        "scientific",
+        "art & design"
+      ],
+      "path": "2026/03/17/2026-03-17-08-41-28_cryptography-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Decoding the Roots of Modern Cryptography: A Journey Through Time",
       "date": "2026-03-17T05:16:30.719Z",
       "theme": "paper-ink",
@@ -1861,6 +1878,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 111,
-  "lastBuilt": "2026-03-17T05:19:56.939Z"
+  "total": 112,
+  "lastBuilt": "2026-03-17T08:41:28.951Z"
 }
