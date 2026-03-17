@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Cryptography and Its Impact on Modern Life",
+      "date": "2026-03-17T08:37:18.181Z",
+      "title": "Decoding Modern Life: The Scientific Impact of Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of Cryptography",
       "date": "2026-03-17T05:16:30.719Z",
       "title": "Decoding the Roots of Modern Cryptography: A Journey Through Time",
@@ -595,5 +601,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-17T08:37:18.012Z"
+  "lastUpdated": "2026-03-17T12:37:58.337Z"
 }

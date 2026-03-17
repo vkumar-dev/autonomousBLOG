@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating Nature's Legacy: A Cross-Cultural Perspective",
+      "date": "2026-03-17T12:37:58.517Z",
+      "theme": "matrix-code",
+      "topic": "Bridging the Gap: Nature for Everyone",
+      "contentType": "article",
+      "excerpt": "Exploring how ancient cultures celebrated and revered nature, and its relevance in contemporary society.",
+      "readingTime": "approximately 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "nature",
+        "narrative",
+        "celebratory",
+        "ancient cultures"
+      ],
+      "path": "2026/03/17/2026-03-17-12-41-47_bridging-the-gap-nature-for-everyone.md"
+    },
+    {
       "title": "Decoding Modern Life: The Scientific Impact of Cryptography",
       "date": "2026-03-17T08:37:18.181Z",
       "theme": "neon-nights",
@@ -1878,6 +1895,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 112,
-  "lastBuilt": "2026-03-17T08:41:28.951Z"
+  "total": 113,
+  "lastBuilt": "2026-03-17T12:41:48.065Z"
 }
