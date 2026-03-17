@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating Our Connection to Nature: A Tutorial for Bridging the Gap",
+      "date": "2026-03-17T20:26:39.094Z",
+      "theme": "industrial",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Explore the wonders of nature and learn how to deepen your connection.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "nature",
+        "tutorial",
+        "celebratory",
+        "biology"
+      ],
+      "path": "2026/03/17/2026-03-17-20-30-08_bridging-the-gap-nature-for-everyone.md"
+    },
+    {
       "title": "Separating Myth from Reality: An Expert Analysis of Ancient Cultures",
       "date": "2026-03-17T16:52:22.352Z",
       "theme": "ocean-breeze",
@@ -1912,6 +1929,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 114,
-  "lastBuilt": "2026-03-17T16:56:49.758Z"
+  "total": 115,
+  "lastBuilt": "2026-03-17T20:30:08.900Z"
 }

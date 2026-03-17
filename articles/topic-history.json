@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Ancient Cultures: Tutorial from a Scientific Perspective",
+      "date": "2026-03-17T16:52:22.352Z",
+      "title": "Separating Myth from Reality: An Expert Analysis of Ancient Cultures",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Nature for Everyone",
       "date": "2026-03-17T12:37:58.517Z",
       "title": "Celebrating Nature's Legacy: A Cross-Cultural Perspective",
@@ -607,5 +613,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-17T16:52:22.183Z"
+  "lastUpdated": "2026-03-17T20:26:38.918Z"
 }
