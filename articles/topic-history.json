@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Hidden Depths of Cryptography",
+      "date": "2026-03-17T00:58:05.888Z",
+      "title": "Unveiling the Modern Depths of Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "Geology: A Journey Through Time",
       "date": "2026-03-16T20:26:18.935Z",
       "title": "Time Trek: A Journey Through Geology's Past",
@@ -583,5 +589,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-17T00:58:05.704Z"
+  "lastUpdated": "2026-03-17T05:16:30.551Z"
 }
