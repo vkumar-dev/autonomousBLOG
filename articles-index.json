@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Modern Depths of Cryptography",
+      "date": "2026-03-17T00:58:05.888Z",
+      "theme": "minimalist-clean",
+      "topic": "The Hidden Depths of Cryptography",
+      "contentType": "article",
+      "excerpt": "Dive into the intricate world of modern cryptography and its far-reaching implications for programming.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "cryptography",
+        "theory",
+        "modern",
+        "programming"
+      ],
+      "path": "2026/03/17/2026-03-17-01-02-27_the-hidden-depths-of-cryptography.md"
+    },
+    {
       "title": "Time Trek: A Journey Through Geology's Past",
       "date": "2026-03-16T20:26:18.935Z",
       "theme": "matrix-code",
@@ -1827,6 +1844,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 109,
-  "lastBuilt": "2026-03-16T20:29:58.496Z"
+  "total": 110,
+  "lastBuilt": "2026-03-17T01:02:27.433Z"
 }
