@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Math Menagerie 2050: Making Numbers Accessible for All!",
+      "date": "2026-03-18T16:47:52.097Z",
+      "theme": "forest-calm",
+      "topic": "Bridging the Gap: Mathematics for Everyone",
+      "contentType": "article",
+      "excerpt": "A playful exploration of future mathematics and its impact on linguistics.",
+      "readingTime": "Approx 7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "mathematics",
+        "historical",
+        "futuristic",
+        "linguistics"
+      ],
+      "path": "2026/03/18/2026-03-18-16-51-52_bridging-the-gap-mathematics-for-everyone.md"
+    },
+    {
       "title": "Exploring the Skeptical Philosophy Behind Space & Astronomy",
       "date": "2026-03-18T12:39:02.414Z",
       "theme": "matrix-code",
@@ -1997,6 +2014,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 119,
-  "lastBuilt": "2026-03-18T12:43:00.717Z"
+  "total": 120,
+  "lastBuilt": "2026-03-18T16:51:52.378Z"
 }
