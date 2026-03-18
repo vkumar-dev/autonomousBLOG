@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Futuristic Evolution of Science: Decoding the Philosophical Shift in Cryptography",
+      "date": "2026-03-18T05:21:05.378Z",
+      "theme": "ocean-breeze",
+      "topic": "The Philosophy Behind Science",
+      "contentType": "article",
+      "excerpt": "Explore the intriguing philosophical shifts in cryptography, shaping our futuristic scientific landscape.",
+      "readingTime": "Approximately 6 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "science",
+        "theory",
+        "futuristic",
+        "cryptography"
+      ],
+      "path": "2026/03/18/2026-03-18-05-25-52_the-philosophy-behind-science.md"
+    },
+    {
       "title": "Bridging the Gap: Art & Design for Everyone",
       "date": "2026-03-18T01:02:03.890Z",
       "theme": "forest-calm",
@@ -1946,6 +1963,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 116,
-  "lastBuilt": "2026-03-18T01:05:51.831Z"
+  "total": 117,
+  "lastBuilt": "2026-03-18T05:25:52.517Z"
 }
