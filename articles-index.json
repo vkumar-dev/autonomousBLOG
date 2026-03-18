@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Art & Design for Everyone",
+      "date": "2026-03-18T01:02:03.890Z",
+      "theme": "forest-calm",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical connection between art and design, and how they can be accessible to everyone.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "art & design",
+        "narrative",
+        "philosophical",
+        "tech trivia"
+      ],
+      "path": "2026/03/18/2026-03-18-01-05-51_bridging-the-gap-art-design-for-everyone.md"
+    },
+    {
       "title": "Celebrating Our Connection to Nature: A Tutorial for Bridging the Gap",
       "date": "2026-03-17T20:26:39.094Z",
       "theme": "industrial",
@@ -1929,6 +1946,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 115,
-  "lastBuilt": "2026-03-17T20:30:08.900Z"
+  "total": 116,
+  "lastBuilt": "2026-03-18T01:05:51.831Z"
 }
