@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time Traveling Through Art: A Practical and Humorous Look at History's Art & Design Evolution",
+      "date": "2026-03-18T20:23:29.936Z",
+      "theme": "neon-nights",
+      "topic": "History: A practical Perspective",
+      "contentType": "article",
+      "excerpt": "A fun and informative exploration of history, seen through the evolution of art and design.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "history",
+        "comparative",
+        "practical",
+        "art & design"
+      ],
+      "path": "2026/03/18/2026-03-18-20-28-07_history-a-practical-perspective.md"
+    },
+    {
       "title": "Math Menagerie 2050: Making Numbers Accessible for All!",
       "date": "2026-03-18T16:47:52.097Z",
       "theme": "forest-calm",
@@ -2014,6 +2031,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 120,
-  "lastBuilt": "2026-03-18T16:51:52.378Z"
+  "total": 121,
+  "lastBuilt": "2026-03-18T20:28:07.237Z"
 }
