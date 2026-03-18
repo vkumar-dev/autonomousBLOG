@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Technology's Transformative Impact on Modern Life: A Scientific Exploration",
+      "date": "2026-03-18T08:33:56.698Z",
+      "theme": "paper-ink",
+      "topic": "Technology and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Explore how technology has revolutionized various sectors of modern life from a scientific perspective.",
+      "readingTime": "Approx 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "technology",
+        "educational",
+        "scientific",
+        "economics"
+      ],
+      "path": "2026/03/18/2026-03-18-08-37-33_technology-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Futuristic Evolution of Science: Decoding the Philosophical Shift in Cryptography",
       "date": "2026-03-18T05:21:05.378Z",
       "theme": "ocean-breeze",
@@ -1963,6 +1980,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 117,
-  "lastBuilt": "2026-03-18T05:25:52.517Z"
+  "total": 118,
+  "lastBuilt": "2026-03-18T08:37:33.687Z"
 }

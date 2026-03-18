@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Science",
+      "date": "2026-03-18T05:21:05.378Z",
+      "title": "The Futuristic Evolution of Science: Decoding the Philosophical Shift in Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "{{TOPIC}}",
       "date": "2026-03-18T01:02:03.890Z",
       "title": "Bridging the Gap: Art & Design for Everyone",
@@ -625,5 +631,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-18T05:21:05.237Z"
+  "lastUpdated": "2026-03-18T08:33:56.524Z"
 }
