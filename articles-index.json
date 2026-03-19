@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: Exploring the Future of Space and Astronomy",
+      "date": "2026-03-19T12:33:24.507Z",
+      "theme": "forest-calm",
+      "topic": "Space & Astronomy: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unveiling the truth behind space and astronomy myths from a futuristic perspective.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "space & astronomy",
+        "debate",
+        "futuristic",
+        "space & astronomy"
+      ],
+      "path": "2026/03/19/2026-03-19-12-37-33_space-astronomy-myths-vs-reality.md"
+    },
+    {
       "title": "Journey Through Time: A Critical Examination of Nature's Historical Evolution",
       "date": "2026-03-19T08:28:15.856Z",
       "theme": "industrial",
@@ -2083,6 +2100,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 124,
-  "lastBuilt": "2026-03-19T08:32:35.165Z"
+  "total": 125,
+  "lastBuilt": "2026-03-19T12:37:33.915Z"
 }
