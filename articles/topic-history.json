@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: A practical Perspective",
+      "date": "2026-03-18T20:23:29.936Z",
+      "title": "Time Traveling Through Art: A Practical and Humorous Look at History's Art & Design Evolution",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Mathematics for Everyone",
       "date": "2026-03-18T16:47:52.097Z",
       "title": "Math Menagerie 2050: Making Numbers Accessible for All!",
@@ -649,5 +655,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-18T20:23:29.745Z"
+  "lastUpdated": "2026-03-19T01:01:54.650Z"
 }

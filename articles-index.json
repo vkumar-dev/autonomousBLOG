@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling Biology: A Historical Perspective on Theory and Practice",
+      "date": "2026-03-19T01:01:54.831Z",
+      "theme": "matrix-code",
+      "topic": "Biology Explained: Theory & Practice",
+      "contentType": "article",
+      "excerpt": "Explore the evolution of biology from its historical roots to modern day practices.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "biology",
+        "theory",
+        "historical",
+        "science"
+      ],
+      "path": "2026/03/19/2026-03-19-01-05-22_biology-explained-theory-practice.md"
+    },
+    {
       "title": "Time Traveling Through Art: A Practical and Humorous Look at History's Art & Design Evolution",
       "date": "2026-03-18T20:23:29.936Z",
       "theme": "neon-nights",
@@ -2031,6 +2048,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 121,
-  "lastBuilt": "2026-03-18T20:28:07.237Z"
+  "total": 122,
+  "lastBuilt": "2026-03-19T01:05:22.194Z"
 }
