@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Foundations of Science: A Skeptical Examination",
+      "date": "2026-03-19T20:24:49.538Z",
+      "theme": "industrial",
+      "topic": "Exploring the Foundations of Science",
+      "contentType": "article",
+      "excerpt": "An in-depth exploration of science, questioning its origins and foundational principles from a skeptical perspective.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "science",
+        "reference",
+        "skeptical",
+        "linguistics"
+      ],
+      "path": "2026/03/19/2026-03-19-20-29-24_exploring-the-foundations-of-science.md"
+    },
+    {
       "title": "Delving into the Intricacies of Nature: A Technical Perspective",
       "date": "2026-03-19T16:43:34.574Z",
       "theme": "cotton-candy",
@@ -2117,6 +2134,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 126,
-  "lastBuilt": "2026-03-19T16:47:48.102Z"
+  "total": 127,
+  "lastBuilt": "2026-03-19T20:29:24.893Z"
 }
