@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Delving into the Intricacies of Nature: A Technical Perspective",
+      "date": "2026-03-19T16:43:34.574Z",
+      "theme": "cotton-candy",
+      "topic": "Unraveling the Complexity of Nature",
+      "contentType": "article",
+      "excerpt": "Exploring the intricate workings of nature from a scientific viewpoint.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "nature",
+        "technical",
+        "scientific",
+        "history"
+      ],
+      "path": "2026/03/19/2026-03-19-16-47-47_unraveling-the-complexity-of-nature.md"
+    },
+    {
       "title": "Myths vs Reality: Exploring the Future of Space and Astronomy",
       "date": "2026-03-19T12:33:24.507Z",
       "theme": "forest-calm",
@@ -2100,6 +2117,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 125,
-  "lastBuilt": "2026-03-19T12:37:33.915Z"
+  "total": 126,
+  "lastBuilt": "2026-03-19T16:47:48.102Z"
 }
