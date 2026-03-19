@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Cosmos: A Futuristic Perspective on History and Theory",
+      "date": "2026-03-19T05:19:00.555Z",
+      "theme": "minimalist-clean",
+      "topic": "History Explained: Theory & Practice",
+      "contentType": "article",
+      "excerpt": "Exploring the connections between history, theory, and our futuristic space endeavors.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "history",
+        "theory",
+        "futuristic",
+        "space",
+        "astronomy"
+      ],
+      "path": "2026/03/19/2026-03-19-05-23-41_history-explained-theory-practice.md"
+    },
+    {
       "title": "Unraveling Biology: A Historical Perspective on Theory and Practice",
       "date": "2026-03-19T01:01:54.831Z",
       "theme": "matrix-code",
@@ -2048,6 +2066,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 122,
-  "lastBuilt": "2026-03-19T01:05:22.194Z"
+  "total": 123,
+  "lastBuilt": "2026-03-19T05:23:41.939Z"
 }

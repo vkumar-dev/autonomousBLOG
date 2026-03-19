@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Biology Explained: Theory & Practice",
+      "date": "2026-03-19T01:01:54.831Z",
+      "title": "Unraveling Biology: A Historical Perspective on Theory and Practice",
+      "contentType": "article"
+    },
+    {
       "topic": "History: A practical Perspective",
       "date": "2026-03-18T20:23:29.936Z",
       "title": "Time Traveling Through Art: A Practical and Humorous Look at History's Art & Design Evolution",
@@ -655,5 +661,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-19T01:01:54.650Z"
+  "lastUpdated": "2026-03-19T05:19:00.383Z"
 }
