@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Debated Evolution of Science and Its Impact on Modern Life: A Theoretical Perspective",
+      "date": "2026-03-20T20:18:39.832Z",
+      "theme": "matrix-code",
+      "topic": "Science and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Exploring the historical debates surrounding science's influence on modern life from a theoretical perspective.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "science",
+        "debate",
+        "theoretical",
+        "history"
+      ],
+      "path": "2026/03/20/2026-03-20-20-23-36_science-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Exploring Philosophy's Role in Understanding Geology: A Theoretical Perspective",
       "date": "2026-03-20T16:28:26.339Z",
       "theme": "ocean-breeze",
@@ -2219,6 +2236,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 132,
-  "lastBuilt": "2026-03-20T16:31:54.643Z"
+  "total": 133,
+  "lastBuilt": "2026-03-20T20:23:36.860Z"
 }
