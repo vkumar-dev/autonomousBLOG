@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring Mathematics Through a Modern Lens: An Academic Journey",
+      "date": "2026-03-20T08:27:35.300Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Mathematics Through Question-Answer Format",
+      "contentType": "article",
+      "excerpt": "Delve into the world of mathematics, as we explore its complexities through a modern question-and-answer format.",
+      "readingTime": "Approx. 6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "mathematics",
+        "exploratory",
+        "modern",
+        "literature"
+      ],
+      "path": "2026/03/20/2026-03-20-08-31-10_understanding-mathematics-through-question-answer-format.md"
+    },
+    {
       "title": "Celebrating the Intricacies of Practical Science: A Journey Through Time",
       "date": "2026-03-20T05:10:39.780Z",
       "theme": "industrial",
@@ -2168,6 +2185,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 129,
-  "lastBuilt": "2026-03-20T05:14:17.328Z"
+  "total": 130,
+  "lastBuilt": "2026-03-20T08:31:10.398Z"
 }
