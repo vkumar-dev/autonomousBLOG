@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling Architecture's Layered Complexity: A Modern Perspective",
+      "date": "2026-03-20T12:28:45.174Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Architecture Through Layered Complexity",
+      "contentType": "article",
+      "excerpt": "Explore the art and science of architecture from a modern viewpoint, revealing its practical application and linguistic roots.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "architecture",
+        "practical",
+        "modern",
+        "linguistics"
+      ],
+      "path": "2026/03/20/2026-03-20-12-32-49_understanding-architecture-through-layered-complexity.md"
+    },
+    {
       "title": "Exploring Mathematics Through a Modern Lens: An Academic Journey",
       "date": "2026-03-20T08:27:35.300Z",
       "theme": "sunset-vibes",
@@ -2185,6 +2202,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 130,
-  "lastBuilt": "2026-03-20T08:31:10.398Z"
+  "total": 131,
+  "lastBuilt": "2026-03-20T12:32:49.445Z"
 }
