@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Cryptography Through Philosophical Inquiry",
+      "date": "2026-03-20T00:58:34.748Z",
+      "title": "Unlocking Secrets: A Philosophical Inquiry into the World of Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of Science",
       "date": "2026-03-19T20:24:49.538Z",
       "title": "Unraveling the Foundations of Science: A Skeptical Examination",
@@ -691,5 +697,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-20T00:58:34.576Z"
+  "lastUpdated": "2026-03-20T05:10:39.610Z"
 }

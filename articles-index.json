@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating the Intricacies of Practical Science: A Journey Through Time",
+      "date": "2026-03-20T05:10:39.780Z",
+      "theme": "industrial",
+      "topic": "Unraveling the Complexity of Science",
+      "contentType": "article",
+      "excerpt": "Delve into the world of practical science, where philosophy and innovation intertwine to create a fascinating exploration.",
+      "readingTime": "4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "science",
+        "practical",
+        "celebratory",
+        "philosophy"
+      ],
+      "path": "2026/03/20/2026-03-20-05-14-17_unraveling-the-complexity-of-science.md"
+    },
+    {
       "title": "Unlocking Secrets: A Philosophical Inquiry into the World of Cryptography",
       "date": "2026-03-20T00:58:34.748Z",
       "theme": "industrial",
@@ -2151,6 +2168,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 128,
-  "lastBuilt": "2026-03-20T01:02:10.297Z"
+  "total": 129,
+  "lastBuilt": "2026-03-20T05:14:17.328Z"
 }
