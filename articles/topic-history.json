@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Science",
+      "date": "2026-03-19T20:24:49.538Z",
+      "title": "Unraveling the Foundations of Science: A Skeptical Examination",
+      "contentType": "article"
+    },
+    {
       "topic": "Unraveling the Complexity of Nature",
       "date": "2026-03-19T16:43:34.574Z",
       "title": "Delving into the Intricacies of Nature: A Technical Perspective",
@@ -685,5 +691,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-19T20:24:49.360Z"
+  "lastUpdated": "2026-03-20T00:58:34.576Z"
 }
