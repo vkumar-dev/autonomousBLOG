@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Architecture Through Layered Complexity",
+      "date": "2026-03-20T12:28:45.174Z",
+      "title": "Unveiling Architecture's Layered Complexity: A Modern Perspective",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Mathematics Through Question-Answer Format",
       "date": "2026-03-20T08:27:35.300Z",
       "title": "Exploring Mathematics Through a Modern Lens: An Academic Journey",
@@ -709,5 +715,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-20T12:28:44.999Z"
+  "lastUpdated": "2026-03-20T16:28:26.172Z"
 }

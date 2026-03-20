@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring Philosophy's Role in Understanding Geology: A Theoretical Perspective",
+      "date": "2026-03-20T16:28:26.339Z",
+      "theme": "ocean-breeze",
+      "topic": "Philosophy",
+      "contentType": "article",
+      "excerpt": "Uncover the connection between philosophy and geology, shedding light on practical applications and enlightening insights.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "philosophy",
+        "reference",
+        "theoretical",
+        "geology"
+      ],
+      "path": "2026/03/20/2026-03-20-16-31-54_philosophy-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unveiling Architecture's Layered Complexity: A Modern Perspective",
       "date": "2026-03-20T12:28:45.174Z",
       "theme": "sunset-vibes",
@@ -2202,6 +2219,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 131,
-  "lastBuilt": "2026-03-20T12:32:49.445Z"
+  "total": 132,
+  "lastBuilt": "2026-03-20T16:31:54.643Z"
 }
