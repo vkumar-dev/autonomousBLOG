@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Case: Theoretical Perspectives in Space and Astronomy",
+      "date": "2026-03-21T00:54:57.424Z",
+      "theme": "ocean-breeze",
+      "topic": "Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Delve into the philosophical underpinnings of space exploration and astronomy from a theoretical perspective.",
+      "readingTime": "approximately 5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "space & astronomy",
+        "case",
+        "theoretical",
+        "technology"
+      ],
+      "path": "2026/03/21/2026-03-21-00-58-36_the-philosophy-behind-space-astronomy.md"
+    },
+    {
       "title": "The Debated Evolution of Science and Its Impact on Modern Life: A Theoretical Perspective",
       "date": "2026-03-20T20:18:39.832Z",
       "theme": "matrix-code",
@@ -2236,6 +2253,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 133,
-  "lastBuilt": "2026-03-20T20:23:36.860Z"
+  "total": 134,
+  "lastBuilt": "2026-03-21T00:58:36.396Z"
 }
