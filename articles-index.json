@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unlocking History: A Beginner's Guide to the Evolution of Cryptography",
+      "date": "2026-03-21T20:01:57.133Z",
+      "theme": "sunset-vibes",
+      "topic": "Cryptography: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of cryptography, tracing its roots from ancient methods to modern applications.",
+      "readingTime": "Approx. 3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "cryptography",
+        "practical",
+        "historical",
+        "literature"
+      ],
+      "path": "2026/03/21/2026-03-21-20-05-34_cryptography-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unraveling Technology's Layers Through Ancient Lenses",
       "date": "2026-03-21T16:16:05.398Z",
       "theme": "sunset-vibes",
@@ -2321,6 +2338,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 138,
-  "lastBuilt": "2026-03-21T16:19:59.939Z"
+  "total": 139,
+  "lastBuilt": "2026-03-21T20:05:35.297Z"
 }

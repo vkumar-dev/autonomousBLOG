@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Technology Through Layered Complexity",
+      "date": "2026-03-21T16:16:05.398Z",
+      "title": "Unraveling Technology's Layers Through Ancient Lenses",
+      "contentType": "article"
+    },
+    {
       "topic": "Linguistics: A modern Perspective",
       "date": "2026-03-21T12:20:21.759Z",
       "title": "Exploring Modern Linguistics: Bridging Art, Design, and Language",
@@ -751,5 +757,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T16:16:05.232Z"
+  "lastUpdated": "2026-03-21T20:01:56.957Z"
 }
