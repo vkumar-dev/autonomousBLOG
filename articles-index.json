@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring Modern Linguistics: Bridging Art, Design, and Language",
+      "date": "2026-03-21T12:20:21.759Z",
+      "theme": "minimalist-clean",
+      "topic": "Linguistics: A modern Perspective",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of linguistics, where art and design meet language!",
+      "readingTime": "4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "linguistics",
+        "theory",
+        "modern",
+        "art & design"
+      ],
+      "path": "2026/03/21/2026-03-21-12-25-02_linguistics-a-modern-perspective.md"
+    },
+    {
       "title": "The Disillusioned Nature of Psychology: A Philosophical Exploration",
       "date": "2026-03-21T08:18:00.483Z",
       "theme": "neon-nights",
@@ -2287,6 +2304,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 136,
-  "lastBuilt": "2026-03-21T08:22:44.491Z"
+  "total": 137,
+  "lastBuilt": "2026-03-21T12:25:02.386Z"
 }

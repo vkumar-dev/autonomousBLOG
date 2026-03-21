@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Psychology",
+      "date": "2026-03-21T08:18:00.483Z",
+      "title": "The Disillusioned Nature of Psychology: A Philosophical Exploration",
+      "contentType": "article"
+    },
+    {
       "topic": "Linguistics: A skeptical Perspective",
       "date": "2026-03-21T05:00:08.267Z",
       "title": "Linguistics: A Skeptical Examination",
@@ -739,5 +745,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T08:18:00.341Z"
+  "lastUpdated": "2026-03-21T12:20:21.623Z"
 }
