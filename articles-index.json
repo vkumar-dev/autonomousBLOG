@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Linguistics: A Skeptical Examination",
+      "date": "2026-03-21T05:00:08.267Z",
+      "theme": "industrial",
+      "topic": "Linguistics: A skeptical Perspective",
+      "contentType": "article",
+      "excerpt": "Delving into the world of linguistics with a critical eye.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "linguistics",
+        "biography",
+        "skeptical",
+        "literature"
+      ],
+      "path": "2026/03/21/2026-03-21-05-04-32_linguistics-a-skeptical-perspective.md"
+    },
+    {
       "title": "Unraveling the Case: Theoretical Perspectives in Space and Astronomy",
       "date": "2026-03-21T00:54:57.424Z",
       "theme": "ocean-breeze",
@@ -2253,6 +2270,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 134,
-  "lastBuilt": "2026-03-21T00:58:36.396Z"
+  "total": 135,
+  "lastBuilt": "2026-03-21T05:04:32.242Z"
 }

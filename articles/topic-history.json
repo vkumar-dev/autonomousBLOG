@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Space & Astronomy",
+      "date": "2026-03-21T00:54:57.424Z",
+      "title": "Unraveling the Case: Theoretical Perspectives in Space and Astronomy",
+      "contentType": "article"
+    },
+    {
       "topic": "Science and Its Impact on Modern Life",
       "date": "2026-03-20T20:18:39.832Z",
       "title": "The Debated Evolution of Science and Its Impact on Modern Life: A Theoretical Perspective",
@@ -727,5 +733,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T00:54:57.255Z"
+  "lastUpdated": "2026-03-21T05:00:08.097Z"
 }
