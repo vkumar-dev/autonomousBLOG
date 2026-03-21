@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Disillusioned Nature of Psychology: A Philosophical Exploration",
+      "date": "2026-03-21T08:18:00.483Z",
+      "theme": "neon-nights",
+      "topic": "The Philosophy Behind Psychology",
+      "contentType": "article",
+      "excerpt": "Exploring the pessimistic underpinnings of psychology's philosophical foundations.",
+      "readingTime": "Approx 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "psychology",
+        "reference",
+        "pessimistic",
+        "nature"
+      ],
+      "path": "2026/03/21/2026-03-21-08-22-43_the-philosophy-behind-psychology.md"
+    },
+    {
       "title": "Linguistics: A Skeptical Examination",
       "date": "2026-03-21T05:00:08.267Z",
       "theme": "industrial",
@@ -2270,6 +2287,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 135,
-  "lastBuilt": "2026-03-21T05:04:32.242Z"
+  "total": 136,
+  "lastBuilt": "2026-03-21T08:22:44.491Z"
 }

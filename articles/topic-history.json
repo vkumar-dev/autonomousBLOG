@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Linguistics: A skeptical Perspective",
+      "date": "2026-03-21T05:00:08.267Z",
+      "title": "Linguistics: A Skeptical Examination",
+      "contentType": "article"
+    },
+    {
       "topic": "Space & Astronomy",
       "date": "2026-03-21T00:54:57.424Z",
       "title": "Unraveling the Case: Theoretical Perspectives in Space and Astronomy",
@@ -733,5 +739,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T05:00:08.097Z"
+  "lastUpdated": "2026-03-21T08:18:00.341Z"
 }
