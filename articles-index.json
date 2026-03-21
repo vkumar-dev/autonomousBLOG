@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling Technology's Layers Through Ancient Lenses",
+      "date": "2026-03-21T16:16:05.398Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Technology Through Layered Complexity",
+      "contentType": "article",
+      "excerpt": "Exploring the intricate relationship between technology and our ancient past.",
+      "readingTime": "Approx 4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "technology",
+        "comparative",
+        "ancient",
+        "literature"
+      ],
+      "path": "2026/03/21/2026-03-21-16-19-59_understanding-technology-through-layered-complexity.md"
+    },
+    {
       "title": "Exploring Modern Linguistics: Bridging Art, Design, and Language",
       "date": "2026-03-21T12:20:21.759Z",
       "theme": "minimalist-clean",
@@ -2304,6 +2321,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 137,
-  "lastBuilt": "2026-03-21T12:25:02.386Z"
+  "total": 138,
+  "lastBuilt": "2026-03-21T16:19:59.939Z"
 }

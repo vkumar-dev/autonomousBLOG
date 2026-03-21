@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Linguistics: A modern Perspective",
+      "date": "2026-03-21T12:20:21.759Z",
+      "title": "Exploring Modern Linguistics: Bridging Art, Design, and Language",
+      "contentType": "article"
+    },
+    {
       "topic": "The Philosophy Behind Psychology",
       "date": "2026-03-21T08:18:00.483Z",
       "title": "The Disillusioned Nature of Psychology: A Philosophical Exploration",
@@ -745,5 +751,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T12:20:21.623Z"
+  "lastUpdated": "2026-03-21T16:16:05.232Z"
 }
