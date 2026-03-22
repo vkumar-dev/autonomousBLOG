@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Cryptography: Practical Applications and Insights",
+      "date": "2026-03-21T20:01:57.133Z",
+      "title": "Unlocking History: A Beginner's Guide to the Evolution of Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Technology Through Layered Complexity",
       "date": "2026-03-21T16:16:05.398Z",
       "title": "Unraveling Technology's Layers Through Ancient Lenses",
@@ -757,5 +763,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-21T20:01:56.957Z"
+  "lastUpdated": "2026-03-22T01:01:37.150Z"
 }

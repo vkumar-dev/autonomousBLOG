@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring Tech Trivia Through Futuristic Philosophical Inquiry",
+      "date": "2026-03-22T01:01:37.312Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Tech Trivia Through Philosophical Inquiry",
+      "contentType": "article",
+      "excerpt": "Dive into a thought-provoking exploration of tech trivia, viewed through the lens of futuristic philosophy.",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "tech trivia",
+        "theory",
+        "futuristic",
+        "tech trivia"
+      ],
+      "path": "2026/03/22/2026-03-22-01-05-01_understanding-tech-trivia-through-philosophical-inquiry.md"
+    },
+    {
       "title": "Unlocking History: A Beginner's Guide to the Evolution of Cryptography",
       "date": "2026-03-21T20:01:57.133Z",
       "theme": "sunset-vibes",
@@ -2338,6 +2355,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 139,
-  "lastBuilt": "2026-03-21T20:05:35.297Z"
+  "total": 140,
+  "lastBuilt": "2026-03-22T01:05:01.504Z"
 }
