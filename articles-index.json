@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Mathematics Myths vs Reality: A Modern Expert Exploration",
+      "date": "2026-03-22T16:15:24.785Z",
+      "theme": "minimalist-clean",
+      "topic": "Mathematics, conceptual, modern, architecture",
+      "contentType": "article",
+      "excerpt": "Unveiling the truth behind common mathematics myths in a modern context.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "mathematics",
+        "conceptual",
+        "modern",
+        "architecture"
+      ],
+      "path": "2026/03/22/2026-03-22-16-19-00_mathematics-myths-vs-reality.md"
+    },
+    {
       "title": "Unraveling the Beauty of Literature's Complexity",
       "date": "2026-03-22T12:21:47.906Z",
       "theme": "minimalist-clean",
@@ -2406,6 +2423,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 143,
-  "lastBuilt": "2026-03-22T12:27:14.759Z"
+  "total": 144,
+  "lastBuilt": "2026-03-22T16:19:00.740Z"
 }
