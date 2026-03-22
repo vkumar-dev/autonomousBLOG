@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Art & Design: A Time Travel Through Ancient Perspectives",
+      "date": "2026-03-22T20:13:02.042Z",
+      "theme": "aurora",
+      "topic": "Art & Design",
+      "contentType": "article",
+      "excerpt": "An academic exploration of art and design throughout history, focusing on ancient perspectives.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "art & design",
+        "reference",
+        "ancient",
+        "programming"
+      ],
+      "path": "2026/03/22/2026-03-22-20-17-30_art-design-a-journey-through-time.md"
+    },
+    {
       "title": "Mathematics Myths vs Reality: A Modern Expert Exploration",
       "date": "2026-03-22T16:15:24.785Z",
       "theme": "minimalist-clean",
@@ -2423,6 +2440,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 144,
-  "lastBuilt": "2026-03-22T16:19:00.740Z"
+  "total": 145,
+  "lastBuilt": "2026-03-22T20:17:31.163Z"
 }
