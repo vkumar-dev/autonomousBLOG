@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Narrative of Cryptography: A Theoretical Journey",
+      "date": "2026-03-22T08:19:29.576Z",
+      "theme": "minimalist-clean",
+      "topic": "The Philosophy Behind Cryptography",
+      "contentType": "article",
+      "excerpt": "Explore the intricate mathematics and philosophical underpinnings of cryptography, shaping our digital world.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "cryptography",
+        "narrative",
+        "theoretical",
+        "mathematics"
+      ],
+      "path": "2026/03/22/2026-03-22-08-23-53_the-philosophy-behind-cryptography.md"
+    },
+    {
       "title": "The Pessimistic View on the Evolution of Biology: A Deep Dive",
       "date": "2026-03-22T05:14:57.506Z",
       "theme": "matrix-code",
@@ -2372,6 +2389,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 141,
-  "lastBuilt": "2026-03-22T05:19:16.205Z"
+  "total": 142,
+  "lastBuilt": "2026-03-22T08:23:53.701Z"
 }
