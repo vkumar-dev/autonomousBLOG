@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "{{TOPIC}}",
+      "date": "2026-03-23T05:26:51.421Z",
+      "title": "Bridging the Past and Present: A Theoretical Introduction to Understanding History",
+      "contentType": "article"
+    },
+    {
       "topic": "Space & Astronomy Explained: Narrative History",
       "date": "2026-03-23T01:03:01.258Z",
       "title": "Celebrating the Cosmos: A Narrative History of Space & Astronomy",
@@ -805,5 +811,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-23T05:26:51.254Z"
+  "lastUpdated": "2026-03-23T08:40:36.648Z"
 }
