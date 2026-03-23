@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Programming and Its Impact on Modern Life",
+      "date": "2026-03-23T12:35:43.464Z",
+      "title": "Programming's Symphony in Modern Life: An Intricate Dance",
+      "contentType": "article"
+    },
+    {
       "topic": "Mathematics and Its Impact on Modern Life",
       "date": "2026-03-23T08:40:36.817Z",
       "title": "The Unfortunate Truth: How Mathematics Ruined Our Lives",
@@ -817,5 +823,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-23T12:35:43.283Z"
+  "lastUpdated": "2026-03-23T16:42:36.721Z"
 }

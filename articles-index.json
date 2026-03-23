@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Balanced Reference Guide to Modern Technology",
+      "date": "2026-03-23T16:42:36.894Z",
+      "theme": "paper-ink",
+      "topic": "Technology Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "An introductory exploration of technology, striking a balance between past and present.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "technology",
+        "reference",
+        "balanced",
+        "literature"
+      ],
+      "path": "2026/03/23/2026-03-23-16-45-45_technology-explained-reference-guide.md"
+    },
+    {
       "title": "Programming's Symphony in Modern Life: An Intricate Dance",
       "date": "2026-03-23T12:35:43.464Z",
       "theme": "matrix-code",
@@ -2508,6 +2525,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 149,
-  "lastBuilt": "2026-03-23T12:39:57.127Z"
+  "total": 150,
+  "lastBuilt": "2026-03-23T16:45:45.853Z"
 }
