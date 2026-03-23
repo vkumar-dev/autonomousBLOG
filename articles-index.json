@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Deciphering the Future Through a Rearview Mirror: The Philosophy Behind History",
+      "date": "2026-03-23T20:27:37.937Z",
+      "theme": "sunset-vibes",
+      "topic": "The Philosophy Behind History",
+      "contentType": "article",
+      "excerpt": "Exploring the academic research of history from a futuristic perspective, shedding light on how understanding our past can shape our future.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "history",
+        "reference",
+        "futuristic",
+        "linguistics"
+      ],
+      "path": "2026/03/23/2026-03-23-20-32-00_the-philosophy-behind-history.md"
+    },
+    {
       "title": "A Balanced Reference Guide to Modern Technology",
       "date": "2026-03-23T16:42:36.894Z",
       "theme": "paper-ink",
@@ -2525,6 +2542,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 150,
-  "lastBuilt": "2026-03-23T16:45:45.853Z"
+  "total": 151,
+  "lastBuilt": "2026-03-23T20:32:00.552Z"
 }
