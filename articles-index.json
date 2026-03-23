@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Programming's Symphony in Modern Life: An Intricate Dance",
+      "date": "2026-03-23T12:35:43.464Z",
+      "theme": "matrix-code",
+      "topic": "Programming and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Explore the profound impact of programming on modern life, as we delve into its practical, narrative essence.",
+      "readingTime": "Approximately 7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "programming",
+        "narrative",
+        "practical",
+        "nature"
+      ],
+      "path": "2026/03/23/2026-03-23-12-39-56_programming-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Unfortunate Truth: How Mathematics Ruined Our Lives",
       "date": "2026-03-23T08:40:36.817Z",
       "theme": "sunset-vibes",
@@ -2491,6 +2508,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 148,
-  "lastBuilt": "2026-03-23T08:44:36.062Z"
+  "total": 149,
+  "lastBuilt": "2026-03-23T12:39:57.127Z"
 }
