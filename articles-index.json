@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Celebrating the Cosmos: A Narrative History of Space & Astronomy",
+      "date": "2026-03-23T01:03:01.258Z",
+      "theme": "aurora",
+      "topic": "Space & Astronomy Explained: Narrative History",
+      "contentType": "article",
+      "excerpt": "Discover the captivating journey of space exploration, as we delve into the mathematical marvels and milestones that have shaped our understanding of the cosmos.",
+      "readingTime": "Approx. 4 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "space & astronomy",
+        "narrative",
+        "celebratory",
+        "mathematics"
+      ],
+      "path": "2026/03/23/2026-03-23-01-07-43_space-astronomy-explained-narrative-history.md"
+    },
+    {
       "title": "Art & Design: A Time Travel Through Ancient Perspectives",
       "date": "2026-03-22T20:13:02.042Z",
       "theme": "aurora",
@@ -2440,6 +2457,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 145,
-  "lastBuilt": "2026-03-22T20:17:31.163Z"
+  "total": 146,
+  "lastBuilt": "2026-03-23T01:07:44.397Z"
 }

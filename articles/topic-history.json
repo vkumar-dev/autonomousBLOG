@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Art & Design",
+      "date": "2026-03-22T20:13:02.042Z",
+      "title": "Art & Design: A Time Travel Through Ancient Perspectives",
+      "contentType": "article"
+    },
+    {
       "topic": "Mathematics, conceptual, modern, architecture",
       "date": "2026-03-22T16:15:24.785Z",
       "title": "Mathematics Myths vs Reality: A Modern Expert Exploration",
@@ -793,5 +799,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-22T20:13:01.870Z"
+  "lastUpdated": "2026-03-23T01:03:01.085Z"
 }
