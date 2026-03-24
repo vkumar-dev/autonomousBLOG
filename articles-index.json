@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Disillusionment of Architecture's Progress",
+      "date": "2026-03-24T05:18:11.150Z",
+      "theme": "matrix-code",
+      "topic": "The Evolution of Architecture",
+      "contentType": "article",
+      "excerpt": "Exploring the historical evolution of architecture from a pessimistic perspective.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "architecture",
+        "historical",
+        "pessimistic",
+        "philosophy"
+      ],
+      "path": "2026/03/24/2026-03-24-05-22-02_the-evolution-of-architecture.md"
+    },
+    {
       "title": "Linguistics: Separating Myths from Reality - A Theoretical Exploration",
       "date": "2026-03-24T00:55:19.414Z",
       "theme": "paper-ink",
@@ -2559,6 +2576,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 152,
-  "lastBuilt": "2026-03-24T00:59:07.011Z"
+  "total": 153,
+  "lastBuilt": "2026-03-24T05:22:03.298Z"
 }
