@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind History",
+      "date": "2026-03-23T20:27:37.937Z",
+      "title": "Deciphering the Future Through a Rearview Mirror: The Philosophy Behind History",
+      "contentType": "article"
+    },
+    {
       "topic": "Technology Explained: Reference Guide",
       "date": "2026-03-23T16:42:36.894Z",
       "title": "A Balanced Reference Guide to Modern Technology",
@@ -829,5 +835,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-23T20:27:37.699Z"
+  "lastUpdated": "2026-03-24T00:55:19.238Z"
 }

@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Linguistics: Separating Myths from Reality - A Theoretical Exploration",
+      "date": "2026-03-24T00:55:19.414Z",
+      "theme": "paper-ink",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of linguistics, separating myths from reality.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "linguistics",
+        "theory",
+        "theoretical",
+        "science"
+      ],
+      "path": "2026/03/24/2026-03-24-00-59-06_linguistics-myths-vs-reality.md"
+    },
+    {
       "title": "Deciphering the Future Through a Rearview Mirror: The Philosophy Behind History",
       "date": "2026-03-23T20:27:37.937Z",
       "theme": "sunset-vibes",
@@ -2542,6 +2559,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 151,
-  "lastBuilt": "2026-03-23T20:32:00.552Z"
+  "total": 152,
+  "lastBuilt": "2026-03-24T00:59:07.011Z"
 }
