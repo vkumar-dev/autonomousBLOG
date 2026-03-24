@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Mastering Linguistics: A Comprehensive Tutorial",
+      "date": "2026-03-24T12:39:42.901Z",
+      "theme": "matrix-code",
+      "topic": "Linguistics Explained: Tutorial",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of linguistics with our expert tutorial.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "linguistics",
+        "tutorial",
+        "cryptography"
+      ],
+      "path": "2026/03/24/2026-03-24-12-44-46_linguistics-explained-tutorial.md"
+    },
+    {
       "title": "Mathematics Unveiled: The Hidden Art Behind Numbers",
       "date": "2026-03-24T08:37:37.308Z",
       "theme": "sunset-vibes",
@@ -2593,6 +2609,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 154,
-  "lastBuilt": "2026-03-24T08:41:56.133Z"
+  "total": 155,
+  "lastBuilt": "2026-03-24T12:44:46.670Z"
 }

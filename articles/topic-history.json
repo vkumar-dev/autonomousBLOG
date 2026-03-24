@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Mathematics: Lesser-Known Facts and Stories",
+      "date": "2026-03-24T08:37:37.308Z",
+      "title": "Mathematics Unveiled: The Hidden Art Behind Numbers",
+      "contentType": "article"
+    },
+    {
       "topic": "The Evolution of Architecture",
       "date": "2026-03-24T05:18:11.150Z",
       "title": "The Disillusionment of Architecture's Progress",
@@ -847,5 +853,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-24T08:37:37.125Z"
+  "lastUpdated": "2026-03-24T12:39:42.726Z"
 }
