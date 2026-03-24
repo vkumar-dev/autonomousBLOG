@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Mathematics Unveiled: The Hidden Art Behind Numbers",
+      "date": "2026-03-24T08:37:37.308Z",
+      "theme": "sunset-vibes",
+      "topic": "Mathematics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Explore the lesser-known facets of mathematics, where art and design intertwine in surprising ways.",
+      "readingTime": "Approx. 3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "mathematics",
+        "debate",
+        "modern",
+        "art & design"
+      ],
+      "path": "2026/03/24/2026-03-24-08-41-55_mathematics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Disillusionment of Architecture's Progress",
       "date": "2026-03-24T05:18:11.150Z",
       "theme": "matrix-code",
@@ -2576,6 +2593,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 153,
-  "lastBuilt": "2026-03-24T05:22:03.298Z"
+  "total": 154,
+  "lastBuilt": "2026-03-24T08:41:56.133Z"
 }
