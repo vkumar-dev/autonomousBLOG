@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Practical Exploration of Ancient Cultures Through the Ages",
+      "date": "2026-03-24T16:47:07.777Z",
+      "theme": "matrix-code",
+      "topic": "Ancient Cultures: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Discover the practical applications and philosophical insights of ancient cultures, spanning millennia.",
+      "readingTime": "approximately 8 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "ancient cultures",
+        "timeline",
+        "practical",
+        "philosophy"
+      ],
+      "path": "2026/03/24/2026-03-24-16-51-33_ancient-cultures-a-journey-through-time.md"
+    },
+    {
       "title": "Mastering Linguistics: A Comprehensive Tutorial",
       "date": "2026-03-24T12:39:42.901Z",
       "theme": "matrix-code",
@@ -2609,6 +2626,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 155,
-  "lastBuilt": "2026-03-24T12:44:46.670Z"
+  "total": 156,
+  "lastBuilt": "2026-03-24T16:51:34.315Z"
 }
