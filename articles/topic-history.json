@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History, debate, practical, programming",
+      "date": "2026-03-25T16:51:14.069Z",
+      "title": "Exploring History Through a Practical Lens: The Intersection of Academia and Programming",
+      "contentType": "article"
+    },
+    {
       "topic": "The Hidden Depths of Space & Astronomy",
       "date": "2026-03-25T12:37:00.316Z",
       "title": "A Cosmic Laugh Riot: The Hilarious Side of Space & Astronomy",
@@ -895,5 +901,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-25T16:51:13.894Z"
+  "lastUpdated": "2026-03-25T20:26:14.885Z"
 }

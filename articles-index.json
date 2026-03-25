@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures Unveiled: A Rollercoaster of Revelations",
+      "date": "2026-03-25T20:26:15.030Z",
+      "theme": "aurora",
+      "topic": "Ancient Cultures Explained: Debate & Critique",
+      "contentType": "article",
+      "excerpt": "Dive into the whimsical world of ancient cultures—where history meets humor.",
+      "readingTime": "Approx. 4 mins",
+      "wordCount": 900,
+      "keywords": [
+        "ancient cultures",
+        "debate",
+        "celebratory",
+        "psychology"
+      ],
+      "path": "2026/03/25/2026-03-25-20-33-40_ancient-cultures-explained-debate-critique.md"
+    },
+    {
       "title": "Exploring History Through a Practical Lens: The Intersection of Academia and Programming",
       "date": "2026-03-25T16:51:14.069Z",
       "theme": "matrix-code",
@@ -2729,6 +2746,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 162,
-  "lastBuilt": "2026-03-25T16:55:13.163Z"
+  "total": 163,
+  "lastBuilt": "2026-03-25T20:33:40.784Z"
 }
