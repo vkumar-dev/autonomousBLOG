@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring History Through a Practical Lens: The Intersection of Academia and Programming",
+      "date": "2026-03-25T16:51:14.069Z",
+      "theme": "matrix-code",
+      "topic": "History, debate, practical, programming",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of historical analysis through programming and data visualization.",
+      "readingTime": "Approx. 7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "history",
+        "debate",
+        "practical",
+        "programming"
+      ],
+      "path": "2026/03/25/2026-03-25-16-55-12_history-a-practical-perspective.md"
+    },
+    {
       "title": "A Cosmic Laugh Riot: The Hilarious Side of Space & Astronomy",
       "date": "2026-03-25T12:37:00.316Z",
       "theme": "industrial",
@@ -2712,6 +2729,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 161,
-  "lastBuilt": "2026-03-25T12:40:45.281Z"
+  "total": 162,
+  "lastBuilt": "2026-03-25T16:55:13.163Z"
 }
