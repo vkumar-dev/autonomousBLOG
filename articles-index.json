@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Delving into the Roots of Psychology: A Critical Examination",
+      "date": "2026-03-25T01:00:18.222Z",
+      "theme": "industrial",
+      "topic": "Exploring the Foundations of Psychology",
+      "contentType": "article",
+      "excerpt": "Dive into a critical exploration of psychology's historical foundations and their impact on modern understanding.",
+      "readingTime": "approximately 5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "psychology",
+        "timeline",
+        "critical",
+        "nature"
+      ],
+      "path": "2026/03/25/2026-03-25-01-04-05_exploring-the-foundations-of-psychology.md"
+    },
+    {
       "title": "Unveiling the Ancient Wisdom of Biology: An Exploratory Journey",
       "date": "2026-03-24T20:29:42.295Z",
       "theme": "minimalist-clean",
@@ -2643,6 +2660,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 157,
-  "lastBuilt": "2026-03-24T20:34:04.011Z"
+  "total": 158,
+  "lastBuilt": "2026-03-25T01:04:05.729Z"
 }
