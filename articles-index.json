@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "title": "A Cosmic Laugh Riot: The Hilarious Side of Space & Astronomy",
+      "date": "2026-03-25T12:37:00.316Z",
+      "theme": "industrial",
+      "topic": "The Hidden Depths of Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Get ready for a whirlwind tour through the cosmos with our humorous take on the scientific side of space and astronomy!",
+      "readingTime": "Approx. 4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "space",
+        "astronomy",
+        "timeline",
+        "scientific",
+        "technology"
+      ],
+      "path": "2026/03/25/2026-03-25-12-40-45_the-hidden-depths-of-space-astronomy.md"
+    },
+    {
       "title": "Decoding the Ancient Mysteries: Unraveling the Hidden Depths of Cryptography",
       "date": "2026-03-25T08:35:16.600Z",
       "theme": "aurora",
@@ -2694,6 +2712,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 160,
-  "lastBuilt": "2026-03-25T08:38:59.211Z"
+  "total": 161,
+  "lastBuilt": "2026-03-25T12:40:45.281Z"
 }
