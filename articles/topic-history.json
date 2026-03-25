@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind History",
+      "date": "2026-03-25T05:19:17.625Z",
+      "title": "Exploring the Philosophy of History Through an Ancient Lens",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of Psychology",
       "date": "2026-03-25T01:00:18.222Z",
       "title": "Delving into the Roots of Psychology: A Critical Examination",
@@ -877,5 +883,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-25T05:19:17.445Z"
+  "lastUpdated": "2026-03-25T08:35:16.424Z"
 }
