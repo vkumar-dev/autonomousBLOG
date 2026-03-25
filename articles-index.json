@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Exploring the Philosophy of History Through an Ancient Lens",
+      "date": "2026-03-25T05:19:17.625Z",
+      "theme": "neon-nights",
+      "topic": "The Philosophy Behind History",
+      "contentType": "article",
+      "excerpt": "Delve into the ancient roots of history's philosophical foundations.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "history",
+        "educational",
+        "ancient",
+        "anthropology"
+      ],
+      "path": "2026/03/25/2026-03-25-05-23-26_the-philosophy-behind-history.md"
+    },
+    {
       "title": "Delving into the Roots of Psychology: A Critical Examination",
       "date": "2026-03-25T01:00:18.222Z",
       "theme": "industrial",
@@ -2660,6 +2677,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 158,
-  "lastBuilt": "2026-03-25T01:04:05.729Z"
+  "total": 159,
+  "lastBuilt": "2026-03-25T05:23:26.502Z"
 }
