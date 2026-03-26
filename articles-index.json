@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Rock On! The Hilarious History of the Earth's Bedrock",
+      "date": "2026-03-26T20:24:21.842Z",
+      "theme": "ocean-breeze",
+      "topic": "Exploring the Foundations of History",
+      "contentType": "article",
+      "excerpt": "Delve into the geological past with a side of laughter and a dash of wit.",
+      "readingTime": "5 min read",
+      "wordCount": 800,
+      "keywords": [
+        "history",
+        "theory",
+        "optimistic",
+        "geology"
+      ],
+      "path": "2026/03/26/2026-03-26-20-30-19_exploring-the-foundations-of-history.md"
+    },
+    {
       "title": "Psychology Launchpad: Navigating the Cosmos of Modern Life",
       "date": "2026-03-26T16:51:26.744Z",
       "theme": "forest-calm",
@@ -2831,6 +2848,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 168,
-  "lastBuilt": "2026-03-26T16:57:24.995Z"
+  "total": 169,
+  "lastBuilt": "2026-03-26T20:30:19.346Z"
 }
