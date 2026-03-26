@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Wisdom for Modern Times: A Comedic Exploration of History's Practical Impact",
+      "date": "2026-03-26T01:05:12.386Z",
+      "theme": "neon-nights",
+      "topic": "History and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Join us as we delve into the humorous yet profound ways ancient cultures have shaped our modern lives. Buckle up for a rollercoaster ride through history's practical side.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "history",
+        "practical",
+        "optimistic",
+        "ancient cultures"
+      ],
+      "path": "2026/03/26/2026-03-26-01-11-14_history-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Ancient Cultures Unveiled: A Rollercoaster of Revelations",
       "date": "2026-03-25T20:26:15.030Z",
       "theme": "aurora",
@@ -2746,6 +2763,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 163,
-  "lastBuilt": "2026-03-25T20:33:40.784Z"
+  "total": 164,
+  "lastBuilt": "2026-03-26T01:11:15.106Z"
 }

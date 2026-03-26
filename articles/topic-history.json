@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Ancient Cultures Explained: Debate & Critique",
+      "date": "2026-03-25T20:26:15.030Z",
+      "title": "Ancient Cultures Unveiled: A Rollercoaster of Revelations",
+      "contentType": "article"
+    },
+    {
       "topic": "History, debate, practical, programming",
       "date": "2026-03-25T16:51:14.069Z",
       "title": "Exploring History Through a Practical Lens: The Intersection of Academia and Programming",
@@ -901,5 +907,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-25T20:26:14.885Z"
+  "lastUpdated": "2026-03-26T01:05:12.215Z"
 }
