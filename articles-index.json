@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Lost in Translation: The Secret Lives of Lesser-Known Linguistic Facts",
+      "date": "2026-03-26T08:39:26.362Z",
+      "theme": "sunset-vibes",
+      "topic": "Linguistics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Unravel the secrets behind linguistics, cryptography, and the curious case of the missing vowels.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "linguistics",
+        "reference",
+        "historical",
+        "cryptography"
+      ],
+      "path": "2026/03/26/2026-03-26-08-45-54_linguistics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Tech Trivia Timeline Twist: A Comical Chronology of Modern Marvels",
       "date": "2026-03-26T05:27:44.073Z",
       "theme": "matrix-code",
@@ -2780,6 +2797,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 165,
-  "lastBuilt": "2026-03-26T05:34:12.465Z"
+  "total": 166,
+  "lastBuilt": "2026-03-26T08:45:54.254Z"
 }
