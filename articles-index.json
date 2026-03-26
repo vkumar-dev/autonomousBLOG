@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Tech Trivia Timeline Twist: A Comical Chronology of Modern Marvels",
+      "date": "2026-03-26T05:27:44.073Z",
+      "theme": "matrix-code",
+      "topic": "Tech Trivia Explained: Timeline & Evolution",
+      "contentType": "article",
+      "excerpt": "From the wheel to the web, a whimsical guide to tech's timeline twist.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "tech trivia",
+        "timeline",
+        "modern",
+        "technology"
+      ],
+      "path": "2026/03/26/2026-03-26-05-34-12_tech-trivia-explained-timeline-evolution.md"
+    },
+    {
       "title": "Ancient Wisdom for Modern Times: A Comedic Exploration of History's Practical Impact",
       "date": "2026-03-26T01:05:12.386Z",
       "theme": "neon-nights",
@@ -2763,6 +2780,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 164,
-  "lastBuilt": "2026-03-26T01:11:15.106Z"
+  "total": 165,
+  "lastBuilt": "2026-03-26T05:34:12.465Z"
 }
