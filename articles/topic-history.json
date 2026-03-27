@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Literature",
+      "date": "2026-03-27T12:33:48.452Z",
+      "title": "The Literary Ocean: Navigating the Foundations of Modern Art & Design",
+      "contentType": "article"
+    },
+    {
       "topic": "History: A philosophical Perspective",
       "date": "2026-03-27T08:36:24.216Z",
       "title": "A Smörgåsbord of Silliness: History Through the Lens of Philosophy",
@@ -961,5 +967,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-27T12:33:48.296Z"
+  "lastUpdated": "2026-03-27T16:39:58.566Z"
 }
