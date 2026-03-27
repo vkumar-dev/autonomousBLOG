@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Literary Ocean: Navigating the Foundations of Modern Art & Design",
+      "date": "2026-03-27T12:33:48.452Z",
+      "theme": "ocean-breeze",
+      "topic": "Exploring the Foundations of Literature",
+      "contentType": "article",
+      "excerpt": "Dive into the depths of modern literature, where classics and contemporaries mingle in an ocean of art & design.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "literature",
+        "comparative",
+        "modern",
+        "art & design"
+      ],
+      "path": "2026/03/27/2026-03-27-12-40-15_exploring-the-foundations-of-literature.md"
+    },
+    {
       "title": "A Smörgåsbord of Silliness: History Through the Lens of Philosophy",
       "date": "2026-03-27T08:36:24.216Z",
       "theme": "neon-nights",
@@ -2899,6 +2916,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 172,
-  "lastBuilt": "2026-03-27T08:42:44.016Z"
+  "total": 173,
+  "lastBuilt": "2026-03-27T12:40:15.892Z"
 }

@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: A philosophical Perspective",
+      "date": "2026-03-27T08:36:24.216Z",
+      "title": "A Smörgåsbord of Silliness: History Through the Lens of Philosophy",
+      "contentType": "article"
+    },
+    {
       "topic": "Economics: Practical Applications and Insights",
       "date": "2026-03-27T05:28:49.839Z",
       "title": "Mining the Future: An Economic Excavation of Tomorrow",
@@ -955,5 +961,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-27T08:36:24.062Z"
+  "lastUpdated": "2026-03-27T12:33:48.296Z"
 }
