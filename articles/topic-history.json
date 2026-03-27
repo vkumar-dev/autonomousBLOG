@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Evolution of Geology",
+      "date": "2026-03-27T01:05:02.400Z",
+      "title": "Rock Solid Celebration: A Witty Exploration of Geology's Evolution",
+      "contentType": "article"
+    },
+    {
       "topic": "Exploring the Foundations of History",
       "date": "2026-03-26T20:24:21.842Z",
       "title": "Rock On! The Hilarious History of the Earth's Bedrock",
@@ -943,5 +949,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-27T01:05:02.216Z"
+  "lastUpdated": "2026-03-27T05:28:49.658Z"
 }

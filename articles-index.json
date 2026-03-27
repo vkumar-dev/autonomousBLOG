@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Mining the Future: An Economic Excavation of Tomorrow",
+      "date": "2026-03-27T05:28:49.839Z",
+      "theme": "cotton-candy",
+      "topic": "Economics: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of economics, where geology meets currency in this educational yet entertaining exploration of our futuristic economy.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "economics",
+        "conceptual",
+        "futuristic",
+        "geology"
+      ],
+      "path": "2026/03/27/2026-03-27-05-34-49_economics-practical-applications-and-insights.md"
+    },
+    {
       "title": "Rock Solid Celebration: A Witty Exploration of Geology's Evolution",
       "date": "2026-03-27T01:05:02.400Z",
       "theme": "ocean-breeze",
@@ -2865,6 +2882,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 170,
-  "lastBuilt": "2026-03-27T01:11:49.468Z"
+  "total": 171,
+  "lastBuilt": "2026-03-27T05:34:50.044Z"
 }
