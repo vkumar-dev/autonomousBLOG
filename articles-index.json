@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Smörgåsbord of Silliness: History Through the Lens of Philosophy",
+      "date": "2026-03-27T08:36:24.216Z",
+      "theme": "neon-nights",
+      "topic": "History: A philosophical Perspective",
+      "contentType": "article",
+      "excerpt": "Delve into history's most absurd anecdotes, pondered by philosophy's great minds—and a few mediocre ones.",
+      "readingTime": "approximately 5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "history",
+        "debate",
+        "philosophical",
+        "nature"
+      ],
+      "path": "2026/03/27/2026-03-27-08-42-43_history-a-philosophical-perspective.md"
+    },
+    {
       "title": "Mining the Future: An Economic Excavation of Tomorrow",
       "date": "2026-03-27T05:28:49.839Z",
       "theme": "cotton-candy",
@@ -2882,6 +2899,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 171,
-  "lastBuilt": "2026-03-27T05:34:50.044Z"
+  "total": 172,
+  "lastBuilt": "2026-03-27T08:42:44.016Z"
 }
