@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Biology's Got Talent: A Balanced Examination Through Case Studies",
+      "date": "2026-03-27T20:23:28.511Z",
+      "theme": "paper-ink",
+      "topic": "Understanding Biology Through Case Studies & Examples",
+      "contentType": "article",
+      "excerpt": "Unravel the mysteries of biology through engaging case studies and examples that'll make you laugh, learn, and love science.",
+      "readingTime": "7 minutes",
+      "wordCount": 1490,
+      "keywords": [
+        "biology",
+        "technical",
+        "balanced",
+        "linguistics"
+      ],
+      "path": "2026/03/27/2026-03-27-20-28-58_understanding-biology-through-case-studies-examples.md"
+    },
+    {
       "title": "Cryptography: Decoding the Science of Secrets",
       "date": "2026-03-27T16:39:58.723Z",
       "theme": "minimalist-clean",
@@ -2933,6 +2950,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 174,
-  "lastBuilt": "2026-03-27T16:46:04.068Z"
+  "total": 175,
+  "lastBuilt": "2026-03-27T20:28:58.786Z"
 }
