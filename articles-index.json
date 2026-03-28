@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Biology Through the Looking Glass of Time: A Journey in 4D",
+      "date": "2026-03-28T00:59:16.410Z",
+      "theme": "sunset-vibes",
+      "topic": "Biology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Explore the evolution of life, one joke at a time.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "biology",
+        "exploratory",
+        "theoretical",
+        "art & design"
+      ],
+      "path": "2026/03/28/2026-03-28-01-04-44_biology-a-journey-through-time.md"
+    },
+    {
       "title": "Biology's Got Talent: A Balanced Examination Through Case Studies",
       "date": "2026-03-27T20:23:28.511Z",
       "theme": "paper-ink",
@@ -2950,6 +2967,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 175,
-  "lastBuilt": "2026-03-27T20:28:58.786Z"
+  "total": 176,
+  "lastBuilt": "2026-03-28T01:04:44.679Z"
 }
