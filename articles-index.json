@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Cosmic Dance: The Linguistic Twirl of Space & Astronomy",
+      "date": "2026-03-28T20:15:59.686Z",
+      "theme": "cotton-candy",
+      "topic": "The Philosophy Behind Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Explore the comparative, theoretical realm of space and astronomy, where black holes twist like pretzels and light years stretch further than your wildest dreams.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "space & astronomy",
+        "comparative",
+        "theoretical",
+        "linguistics"
+      ],
+      "path": "2026/03/28/2026-03-28-20-22-13_the-philosophy-behind-space-astronomy.md"
+    },
+    {
       "title": "Nature's Great Deception: Myths vs. Reality Through the Ages",
       "date": "2026-03-28T16:19:08.019Z",
       "theme": "forest-calm",
@@ -3035,6 +3052,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 180,
-  "lastBuilt": "2026-03-28T16:25:38.176Z"
+  "total": 181,
+  "lastBuilt": "2026-03-28T20:22:13.475Z"
 }
