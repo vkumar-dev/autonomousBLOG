@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time-Traveling Through the Ageless Wonders: A Fun Guide to Ancient Cultures",
+      "date": "2026-03-28T08:24:56.108Z",
+      "theme": "matrix-code",
+      "topic": "Bridging the Gap: Ancient Cultures for Everyone",
+      "contentType": "article",
+      "excerpt": "Journey through history, laughing and learning about ancient cultures. Buckle up!",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "ancient cultures",
+        "historical",
+        "optimistic",
+        "technology"
+      ],
+      "path": "2026/03/28/2026-03-28-08-31-11_bridging-the-gap-ancient-cultures-for-everyone.md"
+    },
+    {
       "title": "A Time-Traveling Safari Through Nature's Playground",
       "date": "2026-03-28T05:16:41.592Z",
       "theme": "neon-nights",
@@ -2984,6 +3001,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 177,
-  "lastBuilt": "2026-03-28T05:22:17.407Z"
+  "total": 178,
+  "lastBuilt": "2026-03-28T08:31:11.385Z"
 }
