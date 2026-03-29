@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Lingua Laugh-ter: A Critical Introduction to Modern Life's Fascinating Tongue Twist",
+      "date": "2026-03-29T20:17:50.445Z",
+      "theme": "paper-ink",
+      "topic": "Linguistics and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Exploring the art of language, one tongue-twister at a time.",
+      "readingTime": "Approx. 4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "linguistics",
+        "narrative",
+        "critical",
+        "philosophy"
+      ],
+      "path": "2026/03/29/2026-03-29-20-25-11_linguistics-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Unraveling the Psychological Knot: A Celebratory Exploration",
       "date": "2026-03-29T16:20:26.607Z",
       "theme": "sunset-vibes",
@@ -3137,6 +3154,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 186,
-  "lastBuilt": "2026-03-29T16:26:05.077Z"
+  "total": 187,
+  "lastBuilt": "2026-03-29T20:25:11.848Z"
 }
