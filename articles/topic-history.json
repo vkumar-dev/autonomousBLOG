@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Philosophy: Practical Applications and Insights",
+      "date": "2026-03-29T08:26:10.722Z",
+      "title": "Philosophy Architects: Crafting Your Own Mind Palace",
+      "contentType": "article"
+    },
+    {
       "topic": "Science: Myths vs Reality",
       "date": "2026-03-29T05:30:30.922Z",
       "title": "Science: Myths vs. Reality: A Delightful Deep Dive",
@@ -1027,5 +1033,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-29T08:26:10.565Z"
+  "lastUpdated": "2026-03-29T12:25:52.551Z"
 }
