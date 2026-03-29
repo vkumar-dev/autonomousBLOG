@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Geology Explained: Technical Deep Dive",
+      "date": "2026-03-29T12:25:52.766Z",
+      "title": "Rock Solid: A Cosmic Comedy Tour of Geology",
+      "contentType": "article"
+    },
+    {
       "topic": "Philosophy: Practical Applications and Insights",
       "date": "2026-03-29T08:26:10.722Z",
       "title": "Philosophy Architects: Crafting Your Own Mind Palace",
@@ -1033,5 +1039,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-29T12:25:52.551Z"
+  "lastUpdated": "2026-03-29T16:20:26.454Z"
 }
