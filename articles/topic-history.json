@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Science: Myths vs Reality",
+      "date": "2026-03-29T05:30:30.922Z",
+      "title": "Science: Myths vs. Reality: A Delightful Deep Dive",
+      "contentType": "article"
+    },
+    {
       "topic": "Anthropology Explained: Debate & Critique",
       "date": "2026-03-29T01:07:40.650Z",
       "title": "Anthropology's Dueling Banjos: A Balanced Approach to Debating the Debate",
@@ -1021,5 +1027,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-29T05:30:30.759Z"
+  "lastUpdated": "2026-03-29T08:26:10.565Z"
 }
