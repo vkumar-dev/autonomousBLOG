@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Anthropology's Dueling Banjos: A Balanced Approach to Debating the Debate",
+      "date": "2026-03-29T01:07:40.650Z",
+      "theme": "minimalist-clean",
+      "topic": "Anthropology Explained: Debate & Critique",
+      "contentType": "article",
+      "excerpt": "A lively exploration of anthropological debates, served with a side of wit and wisdom.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "anthropology",
+        "debate",
+        "balanced",
+        "linguistics"
+      ],
+      "path": "2026/03/29/2026-03-29-01-13-42_anthropology-explained-debate-critique.md"
+    },
+    {
       "title": "A Cosmic Dance: The Linguistic Twirl of Space & Astronomy",
       "date": "2026-03-28T20:15:59.686Z",
       "theme": "cotton-candy",
@@ -3052,6 +3069,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 181,
-  "lastBuilt": "2026-03-28T20:22:13.475Z"
+  "total": 182,
+  "lastBuilt": "2026-03-29T01:13:42.923Z"
 }
