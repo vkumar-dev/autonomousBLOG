@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Geology: Lesser-Known Facts and Stories",
+      "date": "2026-03-30T05:54:15.603Z",
+      "title": "The Rocky Road to Riches: A Geologist's Tale of Lesser-Known Facts and Unearthed Fortunes",
+      "contentType": "article"
+    },
+    {
       "topic": "Nature: Myths vs Reality",
       "date": "2026-03-30T01:08:25.400Z",
       "title": "Nature's Code Red: Unveiling the Myths from History's Closet",
@@ -1057,5 +1063,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-30T05:54:15.429Z"
+  "lastUpdated": "2026-03-30T09:01:37.695Z"
 }
