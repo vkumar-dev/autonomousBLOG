@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Cryptography: Practical Applications and Insights",
+      "date": "2026-03-30T12:44:57.120Z",
+      "title": "Crypto Clairvoyant: A Celebratory Dive into Cryptography's Practical Applications",
+      "contentType": "article"
+    },
+    {
       "topic": "Unraveling the Complexity of Anthropology",
       "date": "2026-03-30T09:01:37.882Z",
       "title": "Anthropology Unveiled: An Inquisitive Look at the Science of Humanity",
@@ -1069,5 +1075,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-30T12:44:56.980Z"
+  "lastUpdated": "2026-03-30T16:44:09.020Z"
 }
