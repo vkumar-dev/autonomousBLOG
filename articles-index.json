@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Rocky Road to Riches: A Geologist's Tale of Lesser-Known Facts and Unearthed Fortunes",
+      "date": "2026-03-30T05:54:15.603Z",
+      "theme": "aurora",
+      "topic": "Geology: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Unveil the lesser-known geological tales that'll make you rethink your career choices.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "geology",
+        "historical",
+        "economics"
+      ],
+      "path": "2026/03/30/2026-03-30-06-00-25_geology-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Nature's Code Red: Unveiling the Myths from History's Closet",
       "date": "2026-03-30T01:08:25.400Z",
       "theme": "aurora",
@@ -3170,6 +3186,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 188,
-  "lastBuilt": "2026-03-30T01:14:20.465Z"
+  "total": 189,
+  "lastBuilt": "2026-03-30T06:00:25.839Z"
 }
