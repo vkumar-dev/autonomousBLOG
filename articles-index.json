@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Nature's Code Red: Unveiling the Myths from History's Closet",
+      "date": "2026-03-30T01:08:25.400Z",
+      "theme": "aurora",
+      "topic": "Nature: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Dive into history's closet for a laugh, a thought, and some nature facts that'll make you reconsider your Netflix queue.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "nature",
+        "historical programming",
+        "case study"
+      ],
+      "path": "2026/03/30/2026-03-30-01-14-20_nature-myths-vs-reality.md"
+    },
+    {
       "title": "Lingua Laugh-ter: A Critical Introduction to Modern Life's Fascinating Tongue Twist",
       "date": "2026-03-29T20:17:50.445Z",
       "theme": "paper-ink",
@@ -3154,6 +3170,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 187,
-  "lastBuilt": "2026-03-29T20:25:11.848Z"
+  "total": 188,
+  "lastBuilt": "2026-03-30T01:14:20.465Z"
 }
