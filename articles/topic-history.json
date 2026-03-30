@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Unraveling the Complexity of Anthropology",
+      "date": "2026-03-30T09:01:37.882Z",
+      "title": "Anthropology Unveiled: An Inquisitive Look at the Science of Humanity",
+      "contentType": "article"
+    },
+    {
       "topic": "Geology: Lesser-Known Facts and Stories",
       "date": "2026-03-30T05:54:15.603Z",
       "title": "The Rocky Road to Riches: A Geologist's Tale of Lesser-Known Facts and Unearthed Fortunes",
@@ -1063,5 +1069,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-30T09:01:37.695Z"
+  "lastUpdated": "2026-03-30T12:44:56.980Z"
 }

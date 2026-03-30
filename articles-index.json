@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Crypto Clairvoyant: A Celebratory Dive into Cryptography's Practical Applications",
+      "date": "2026-03-30T12:44:57.120Z",
+      "theme": "ocean-breeze",
+      "topic": "Cryptography: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Dive into the world of cryptography, where secrets are kept safe, identities remain anonymous, and algorithms dance a delicate ballet of codes and ciphers.",
+      "readingTime": "approximately 8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "cryptography",
+        "practical applications",
+        "tech trivia"
+      ],
+      "path": "2026/03/30/2026-03-30-12-53-03_cryptography-practical-applications-and-insights.md"
+    },
+    {
       "title": "Anthropology Unveiled: An Inquisitive Look at the Science of Humanity",
       "date": "2026-03-30T09:01:37.882Z",
       "theme": "industrial",
@@ -3203,6 +3219,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 190,
-  "lastBuilt": "2026-03-30T09:07:37.389Z"
+  "total": 191,
+  "lastBuilt": "2026-03-30T12:53:04.074Z"
 }
