@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Painting on Pottery: The Art & Design Roots Unearthed",
+      "date": "2026-03-30T20:32:16.534Z",
+      "theme": "neon-nights",
+      "topic": "Art & Design Explained: Conceptual Overview",
+      "contentType": "article",
+      "excerpt": "A journey through the annals of art history, uncovering how ancient pottery became the canvas for human expression.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "art & design",
+        "conceptual",
+        "ancient",
+        "psychology"
+      ],
+      "path": "2026/03/30/2026-03-30-20-37-53_art-design-explained-conceptual-overview.md"
+    },
+    {
       "title": "Literary Cosmos: Ancient Tales for Modern Minds",
       "date": "2026-03-30T16:44:09.189Z",
       "theme": "ocean-breeze",
@@ -3236,6 +3253,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 192,
-  "lastBuilt": "2026-03-30T16:51:00.360Z"
+  "total": 193,
+  "lastBuilt": "2026-03-30T20:37:53.848Z"
 }
