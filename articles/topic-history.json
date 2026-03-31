@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Understanding Geology Through Before-After Comparison",
+      "date": "2026-03-31T16:44:40.503Z",
+      "title": "Rocky Road to Rock-Solid Knowledge: A Geological Journey",
+      "contentType": "article"
+    },
+    {
       "topic": "Architecture: Myths vs Reality",
       "date": "2026-03-31T12:43:56.713Z",
       "title": "Architectural Myths: Building the Bridge Between Fiction and Reality",
@@ -1111,5 +1117,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-31T16:44:40.343Z"
+  "lastUpdated": "2026-03-31T20:30:48.663Z"
 }

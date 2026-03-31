@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unveiling the Bricks & Brushes: A Laughable Look at Art & Design's DNA",
+      "date": "2026-03-31T20:30:48.830Z",
+      "theme": "minimalist-clean",
+      "topic": "Exploring the Foundations of Art & Design",
+      "contentType": "article",
+      "excerpt": "Delve into the world of art and design, where architecture meets Picasso in a whirlwind of humor.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "art & design",
+        "conceptual",
+        "balanced",
+        "architecture"
+      ],
+      "path": "2026/03/31/2026-03-31-20-37-02_exploring-the-foundations-of-art-design.md"
+    },
+    {
       "title": "Rocky Road to Rock-Solid Knowledge: A Geological Journey",
       "date": "2026-03-31T16:44:40.503Z",
       "theme": "sunset-vibes",
@@ -3338,6 +3355,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 198,
-  "lastBuilt": "2026-03-31T16:50:30.154Z"
+  "total": 199,
+  "lastBuilt": "2026-03-31T20:37:02.815Z"
 }
