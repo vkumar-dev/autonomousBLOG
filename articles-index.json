@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Rocky Road to Rock-Solid Knowledge: A Geological Journey",
+      "date": "2026-03-31T16:44:40.503Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Geology Through Before-After Comparison",
+      "contentType": "article",
+      "excerpt": "Discover the fascinating world of geology with our before-and-after comparison guide. Buckle up for a rollicking ride!",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "geology",
+        "comparative",
+        "scientific",
+        "science"
+      ],
+      "path": "2026/03/31/2026-03-31-16-50-30_understanding-geology-through-before-after-comparison.md"
+    },
+    {
       "title": "Architectural Myths: Building the Bridge Between Fiction and Reality",
       "date": "2026-03-31T12:43:56.713Z",
       "theme": "paper-ink",
@@ -3321,6 +3338,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 197,
-  "lastBuilt": "2026-03-31T12:50:42.268Z"
+  "total": 198,
+  "lastBuilt": "2026-03-31T16:50:30.154Z"
 }
