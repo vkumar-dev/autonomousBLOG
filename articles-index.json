@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Bridging the Chasm: Philosophy for the People, By the People, and About the People",
+      "date": "2026-03-31T01:06:41.473Z",
+      "theme": "forest-calm",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "A journey through the history of philosophy, where the wise and the witty meet.",
+      "readingTime": "5 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "philosophy",
+        "conceptual",
+        "historical",
+        "science"
+      ],
+      "path": "2026/03/31/2026-03-31-01-12-33_bridging-the-gap-philosophy-for-everyone.md"
+    },
+    {
       "title": "Painting on Pottery: The Art & Design Roots Unearthed",
       "date": "2026-03-30T20:32:16.534Z",
       "theme": "neon-nights",
@@ -3253,6 +3270,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 193,
-  "lastBuilt": "2026-03-30T20:37:53.848Z"
+  "total": 194,
+  "lastBuilt": "2026-03-31T01:12:33.962Z"
 }
