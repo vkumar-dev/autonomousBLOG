@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: A Dance of Myths and Reality",
+      "date": "2026-03-31T05:30:15.272Z",
+      "theme": "ocean-breeze",
+      "topic": "Ancient Cultures: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A humorous exploration of ancient cultures, separating the myth from the reality.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "ancient cultures",
+        "debate",
+        "skeptical",
+        "literature"
+      ],
+      "path": "2026/03/31/2026-03-31-05-35-54_ancient-cultures-myths-vs-reality.md"
+    },
+    {
       "title": "Bridging the Chasm: Philosophy for the People, By the People, and About the People",
       "date": "2026-03-31T01:06:41.473Z",
       "theme": "forest-calm",
@@ -3270,6 +3287,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 194,
-  "lastBuilt": "2026-03-31T01:12:33.962Z"
+  "total": 195,
+  "lastBuilt": "2026-03-31T05:35:54.399Z"
 }

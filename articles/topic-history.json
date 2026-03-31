@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "{{TOPIC}}",
+      "date": "2026-03-31T01:06:41.473Z",
+      "title": "Bridging the Chasm: Philosophy for the People, By the People, and About the People",
+      "contentType": "article"
+    },
+    {
       "topic": "Art & Design Explained: Conceptual Overview",
       "date": "2026-03-30T20:32:16.534Z",
       "title": "Painting on Pottery: The Art & Design Roots Unearthed",
@@ -1087,5 +1093,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-31T01:06:41.318Z"
+  "lastUpdated": "2026-03-31T05:30:15.116Z"
 }
