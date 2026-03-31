@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Architectural Myths: Building the Bridge Between Fiction and Reality",
+      "date": "2026-03-31T12:43:56.713Z",
+      "theme": "paper-ink",
+      "topic": "Architecture: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the gap between architectural myths and the reality of construction.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "architecture",
+        "tutorial",
+        "practical",
+        "tech trivia"
+      ],
+      "path": "2026/03/31/2026-03-31-12-50-42_architecture-myths-vs-reality.md"
+    },
+    {
       "title": "Space & Astronomy: A Cosmic Dance Through Time",
       "date": "2026-03-31T08:44:18.764Z",
       "theme": "cotton-candy",
@@ -3304,6 +3321,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 196,
-  "lastBuilt": "2026-03-31T08:49:56.587Z"
+  "total": 197,
+  "lastBuilt": "2026-03-31T12:50:42.268Z"
 }
