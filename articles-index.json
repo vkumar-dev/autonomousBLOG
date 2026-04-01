@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Literary Lagoon: Diving Deeper into the Depths of Literature",
+      "date": "2026-04-01T08:51:49.431Z",
+      "theme": "forest-calm",
+      "topic": "The Hidden Depths of Literature",
+      "contentType": "article",
+      "excerpt": "Discover the unseen layers of literature that make us laugh, cry, and question our existence. Dive in!",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "literature",
+        "comparative",
+        "practical",
+        "psychology"
+      ],
+      "path": "2026/04/01/2026-04-01-08-58-10_the-hidden-depths-of-literature.md"
+    },
+    {
       "title": "Rock On! A Geological Guffaw at the Roots of Technology",
       "date": "2026-04-01T05:50:13.757Z",
       "theme": "matrix-code",
@@ -3389,6 +3406,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 201,
-  "lastBuilt": "2026-04-01T05:56:27.148Z"
+  "total": 202,
+  "lastBuilt": "2026-04-01T08:58:10.469Z"
 }
