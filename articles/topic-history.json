@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Anthropology",
+      "date": "2026-04-01T16:42:33.256Z",
+      "title": "Dancing with Bones: A Celebratory Spin on Anthropology",
+      "contentType": "article"
+    },
+    {
       "topic": "Literature and Its Impact on Modern Life",
       "date": "2026-04-01T12:45:44.863Z",
       "title": "The Great Unraveling: Literature's Threads in Modern Life",
@@ -1147,5 +1153,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-01T16:42:33.104Z"
+  "lastUpdated": "2026-04-01T20:32:25.218Z"
 }
