@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Great Unraveling: Literature's Threads in Modern Life",
+      "date": "2026-04-01T12:45:44.863Z",
+      "theme": "matrix-code",
+      "topic": "Literature and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "A rollicking exploration of literature's influence on modern life, with a dash of wit and a whole lot of wordplay.",
+      "readingTime": "4 minutes",
+      "wordCount": 798,
+      "keywords": [
+        "literature",
+        "exploratory",
+        "theoretical",
+        "tech trivia"
+      ],
+      "path": "2026/04/01/2026-04-01-12-51-43_literature-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Literary Lagoon: Diving Deeper into the Depths of Literature",
       "date": "2026-04-01T08:51:49.431Z",
       "theme": "forest-calm",
@@ -3406,6 +3423,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 202,
-  "lastBuilt": "2026-04-01T08:58:10.469Z"
+  "total": 203,
+  "lastBuilt": "2026-04-01T12:51:43.764Z"
 }
