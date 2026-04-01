@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Rock On! A Geological Guffaw at the Roots of Technology",
+      "date": "2026-04-01T05:50:13.757Z",
+      "theme": "matrix-code",
+      "topic": "Unraveling the Complexity of Technology",
+      "contentType": "article",
+      "excerpt": "Exploring technology's roots through a hilarious, historical geological lens.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "technology",
+        "practical",
+        "historical",
+        "geology"
+      ],
+      "path": "2026/04/01/2026-04-01-05-56-26_unraveling-the-complexity-of-technology.md"
+    },
+    {
       "title": "Time Travel Through Architecture: A Skeptical Guide",
       "date": "2026-04-01T01:13:27.062Z",
       "theme": "matrix-code",
@@ -3372,6 +3389,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 200,
-  "lastBuilt": "2026-04-01T01:19:18.375Z"
+  "total": 201,
+  "lastBuilt": "2026-04-01T05:56:27.148Z"
 }
