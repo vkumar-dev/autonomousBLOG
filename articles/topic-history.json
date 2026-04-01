@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Exploring the Foundations of Art & Design",
+      "date": "2026-03-31T20:30:48.830Z",
+      "title": "Unveiling the Bricks & Brushes: A Laughable Look at Art & Design's DNA",
+      "contentType": "article"
+    },
+    {
       "topic": "Understanding Geology Through Before-After Comparison",
       "date": "2026-03-31T16:44:40.503Z",
       "title": "Rocky Road to Rock-Solid Knowledge: A Geological Journey",
@@ -1117,5 +1123,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-03-31T20:30:48.663Z"
+  "lastUpdated": "2026-04-01T01:13:26.908Z"
 }

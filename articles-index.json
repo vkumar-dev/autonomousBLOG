@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time Travel Through Architecture: A Skeptical Guide",
+      "date": "2026-04-01T01:13:27.062Z",
+      "theme": "matrix-code",
+      "topic": "Architecture: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "From pyramids to skyscrapers, let's take a skeptical look at the history of architecture.",
+      "readingTime": "3 minutes",
+      "wordCount": 580,
+      "keywords": [
+        "architecture",
+        "reference",
+        "skeptical",
+        "nature"
+      ],
+      "path": "2026/04/01/2026-04-01-01-19-18_architecture-a-journey-through-time.md"
+    },
+    {
       "title": "Unveiling the Bricks & Brushes: A Laughable Look at Art & Design's DNA",
       "date": "2026-03-31T20:30:48.830Z",
       "theme": "minimalist-clean",
@@ -3355,6 +3372,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 199,
-  "lastBuilt": "2026-03-31T20:37:02.815Z"
+  "total": 200,
+  "lastBuilt": "2026-04-01T01:19:18.375Z"
 }
