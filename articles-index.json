@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Gordian Knot of Architecture: A Pragmatic Exploration",
+      "date": "2026-04-02T05:26:46.681Z",
+      "theme": "aurora",
+      "topic": "Unraveling the Complexity of Architecture",
+      "contentType": "article",
+      "excerpt": "Embark on a rollercoaster ride through history, as we untangle the intricate web of architecture from ancient cultures to modern marvels.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "architecture",
+        "timeline",
+        "practical",
+        "ancient cultures"
+      ],
+      "path": "2026/04/02/2026-04-02-05-33-56_unraveling-the-complexity-of-architecture.md"
+    },
+    {
       "title": "Time-Travel Architecture: A Futuristic Lesson in History's Hinges",
       "date": "2026-04-02T01:03:21.033Z",
       "theme": "neon-nights",
@@ -3457,6 +3474,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 205,
-  "lastBuilt": "2026-04-02T01:10:18.204Z"
+  "total": 206,
+  "lastBuilt": "2026-04-02T05:33:56.969Z"
 }
