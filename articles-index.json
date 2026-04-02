@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Temporal Tea Party: A Philosophical Ride Through History",
+      "date": "2026-04-02T16:42:22.460Z",
+      "theme": "industrial",
+      "topic": "History: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "From the dawn of civilization to the digital age, strap in for a philosophical ride through time. No history buff left behind!",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "history",
+        "narrative",
+        "philosophical",
+        "linguistics"
+      ],
+      "path": "2026/04/02/2026-04-02-16-48-07_history-a-journey-through-time.md"
+    },
+    {
       "title": "Ancient Mathematics: Time-Traveling Through the Ages 🚀🧮",
       "date": "2026-04-02T12:40:47.141Z",
       "theme": "cotton-candy",
@@ -3508,6 +3525,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 208,
-  "lastBuilt": "2026-04-02T12:48:55.256Z"
+  "total": 209,
+  "lastBuilt": "2026-04-02T16:48:07.236Z"
 }
