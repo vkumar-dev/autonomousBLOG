@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "Unraveling the Complexity of Architecture",
+      "date": "2026-04-02T05:26:46.681Z",
+      "title": "Unraveling the Gordian Knot of Architecture: A Pragmatic Exploration",
+      "contentType": "article"
+    },
+    {
       "topic": "History Explained: Case Study",
       "date": "2026-04-02T01:03:21.033Z",
       "title": "Time-Travel Architecture: A Futuristic Lesson in History's Hinges",
@@ -1159,5 +1165,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-02T05:26:46.521Z"
+  "lastUpdated": "2026-04-02T08:42:34.047Z"
 }

@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Art of Laughter: A Deep Dive into the Hilarious Depths of Art & Design",
+      "date": "2026-04-02T08:42:34.209Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Art & Design",
+      "contentType": "article",
+      "excerpt": "Dive into the hilarious world of art and design, where science meets satire.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "art & design",
+        "comparative",
+        "celebratory",
+        "science"
+      ],
+      "path": "2026/04/02/2026-04-02-08-48-52_the-hidden-depths-of-art-design.md"
+    },
+    {
       "title": "Unraveling the Gordian Knot of Architecture: A Pragmatic Exploration",
       "date": "2026-04-02T05:26:46.681Z",
       "theme": "aurora",
@@ -3474,6 +3491,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 206,
-  "lastBuilt": "2026-04-02T05:33:56.969Z"
+  "total": 207,
+  "lastBuilt": "2026-04-02T08:48:52.342Z"
 }
