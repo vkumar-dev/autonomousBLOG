@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time-Travel Architecture: A Futuristic Lesson in History's Hinges",
+      "date": "2026-04-02T01:03:21.033Z",
+      "theme": "neon-nights",
+      "topic": "History Explained: Case Study",
+      "contentType": "article",
+      "excerpt": "Journey through the annals of architecture, as we leapfrog from history's hinges to a futuristic understanding.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "history",
+        "case",
+        "futuristic",
+        "architecture"
+      ],
+      "path": "2026/04/02/2026-04-02-01-10-17_history-explained-case-study.md"
+    },
+    {
       "title": "Dancing with Bones: A Celebratory Spin on Anthropology",
       "date": "2026-04-01T16:42:33.256Z",
       "theme": "industrial",
@@ -3440,6 +3457,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 204,
-  "lastBuilt": "2026-04-01T20:42:25.425Z"
+  "total": 205,
+  "lastBuilt": "2026-04-02T01:10:18.204Z"
 }
