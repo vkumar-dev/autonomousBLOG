@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Mathematics: Time-Traveling Through the Ages 🚀🧮",
+      "date": "2026-04-02T12:40:47.141Z",
+      "theme": "cotton-candy",
+      "topic": "Ancient Cultures Explained: Timeline & Evolution",
+      "contentType": "article",
+      "excerpt": "Journey through the millennia with us as we explore ancient mathematics, unraveling mysteries that boggle modern minds.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "ancient cultures",
+        "timeline",
+        "mathematics",
+        "evolution"
+      ],
+      "path": "2026/04/02/2026-04-02-12-48-55_ancient-cultures-explained-timeline-evolution.md"
+    },
+    {
       "title": "The Art of Laughter: A Deep Dive into the Hilarious Depths of Art & Design",
       "date": "2026-04-02T08:42:34.209Z",
       "theme": "sunset-vibes",
@@ -3491,6 +3508,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 207,
-  "lastBuilt": "2026-04-02T08:48:52.342Z"
+  "total": 208,
+  "lastBuilt": "2026-04-02T12:48:55.256Z"
 }
