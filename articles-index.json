@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Anthropology Unmasked: A Fun-tastic Exploration of the Scientific Self",
+      "date": "2026-04-03T08:38:21.479Z",
+      "theme": "ocean-breeze",
+      "topic": "Anthropology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of anthropology, where science and culture collide in a riotous dance. Get ready for a rollercoaster ride through time!",
+      "readingTime": "Approx. 5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "anthropology",
+        "scientific",
+        "technology",
+        "reference"
+      ],
+      "path": "2026/04/03/2026-04-03-08-44-23_anthropology-practical-applications-and-insights.md"
+    },
+    {
       "title": "The Ever-Blooming Fields of Optimism: A Raucous Expedition Through Science's History",
       "date": "2026-04-03T05:28:15.585Z",
       "theme": "industrial",
@@ -3576,6 +3593,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 212,
-  "lastBuilt": "2026-04-03T05:35:00.846Z"
+  "total": 213,
+  "lastBuilt": "2026-04-03T08:44:23.709Z"
 }
