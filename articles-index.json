@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: Time Travel Through the Pages of History (with a Splash of Wit)",
+      "date": "2026-04-03T12:33:27.325Z",
+      "theme": "sunset-vibes",
+      "topic": "Ancient Cultures: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Journey through the annals of history, with a side of laughs and a dash of irony.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "ancient cultures",
+        "tutorial",
+        "practical",
+        "literature"
+      ],
+      "path": "2026/04/03/2026-04-03-12-39-41_ancient-cultures-a-journey-through-time.md"
+    },
+    {
       "title": "Anthropology Unmasked: A Fun-tastic Exploration of the Scientific Self",
       "date": "2026-04-03T08:38:21.479Z",
       "theme": "ocean-breeze",
@@ -3593,6 +3610,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 213,
-  "lastBuilt": "2026-04-03T08:44:23.709Z"
+  "total": 214,
+  "lastBuilt": "2026-04-03T12:39:41.610Z"
 }
