@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Architecture Unleashed: A Deep Dive into the Hidden Depths of Design",
+      "date": "2026-04-03T20:21:25.340Z",
+      "theme": "minimalist-clean",
+      "topic": "The Hidden Depths of Architecture",
+      "contentType": "article",
+      "excerpt": "Exploring the intricate web of design, technology, and wit in architecture.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "architecture",
+        "tutorial",
+        "critical",
+        "technology"
+      ],
+      "path": "2026/04/03/2026-04-03-20-27-25_the-hidden-depths-of-architecture.md"
+    },
+    {
       "title": "Ancient Cultures: Myth vs. Mundane - A Modern Take on Antiquated Exaggerations",
       "date": "2026-04-03T16:25:00.850Z",
       "theme": "matrix-code",
@@ -3627,6 +3644,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 215,
-  "lastBuilt": "2026-04-03T16:31:05.469Z"
+  "total": 216,
+  "lastBuilt": "2026-04-03T20:27:26.088Z"
 }
