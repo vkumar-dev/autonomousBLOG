@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: Myth vs. Mundane - A Modern Take on Antiquated Exaggerations",
+      "date": "2026-04-03T16:25:00.850Z",
+      "theme": "matrix-code",
+      "topic": "Ancient Cultures: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Join us as we dive into the grandeur and grime of ancient cultures, separating myth from reality, and finding humor in our collective past.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "ancient cultures",
+        "biography",
+        "modern",
+        "biology"
+      ],
+      "path": "2026/04/03/2026-04-03-16-31-05_ancient-cultures-myths-vs-reality.md"
+    },
+    {
       "title": "Ancient Cultures: Time Travel Through the Pages of History (with a Splash of Wit)",
       "date": "2026-04-03T12:33:27.325Z",
       "theme": "sunset-vibes",
@@ -3610,6 +3627,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 214,
-  "lastBuilt": "2026-04-03T12:39:41.610Z"
+  "total": 215,
+  "lastBuilt": "2026-04-03T16:31:05.469Z"
 }
