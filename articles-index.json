@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Economics: A Tutorial on Modern Life's Hidden Predecessors",
+      "date": "2026-04-03T01:06:15.749Z",
+      "theme": "forest-calm",
+      "topic": "Economics and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "A comical exploration of how ancient economics influences our modern lives.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "economics",
+        "tutorial",
+        "ancient",
+        "economics"
+      ],
+      "path": "2026/04/03/2026-04-03-01-12-17_economics-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Tech Trivia Tango: A Dance of Discovery Through Comparative Analysis",
       "date": "2026-04-02T20:22:41.990Z",
       "theme": "paper-ink",
@@ -3542,6 +3559,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 210,
-  "lastBuilt": "2026-04-02T20:28:26.456Z"
+  "total": 211,
+  "lastBuilt": "2026-04-03T01:12:17.302Z"
 }
