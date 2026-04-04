@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Time-Traveling Through the Laughterium: Ancient Cultures Decoded",
+      "date": "2026-04-04T01:00:25.853Z",
+      "theme": "forest-calm",
+      "topic": "Ancient Cultures: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Delve into the cosmic comedy of ancient civilizations, where theories meet tech trivia and history gets a well-deserved roast.",
+      "readingTime": "approx. 4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "ancient cultures",
+        "theory",
+        "theoretical",
+        "tech trivia"
+      ],
+      "path": "2026/04/04/2026-04-04-01-06-12_ancient-cultures-a-journey-through-time.md"
+    },
+    {
       "title": "Architecture Unleashed: A Deep Dive into the Hidden Depths of Design",
       "date": "2026-04-03T20:21:25.340Z",
       "theme": "minimalist-clean",
@@ -3644,6 +3661,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 216,
-  "lastBuilt": "2026-04-03T20:27:26.088Z"
+  "total": 217,
+  "lastBuilt": "2026-04-04T01:06:12.989Z"
 }

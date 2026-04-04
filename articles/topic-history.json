@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Hidden Depths of Architecture",
+      "date": "2026-04-03T20:21:25.340Z",
+      "title": "Architecture Unleashed: A Deep Dive into the Hidden Depths of Design",
+      "contentType": "article"
+    },
+    {
       "topic": "Ancient Cultures: Myths vs Reality",
       "date": "2026-04-03T16:25:00.850Z",
       "title": "Ancient Cultures: Myth vs. Mundane - A Modern Take on Antiquated Exaggerations",
@@ -1219,5 +1225,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-03T20:21:25.177Z"
+  "lastUpdated": "2026-04-04T01:00:25.685Z"
 }
