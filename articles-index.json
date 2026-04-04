@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Art & Design: A Brushful of Genes - An Exciting Exploration from a Scientific Perspective",
+      "date": "2026-04-04T05:16:41.933Z",
+      "theme": "cotton-candy",
+      "topic": "Art & Design, Case, Scientific, Biology",
+      "contentType": "article",
+      "excerpt": "Discover the surprising connection between art and design, and our very own biology.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "art & design",
+        "case",
+        "scientific",
+        "biology"
+      ],
+      "path": "2026/04/04/2026-04-04-05-22-34_art-design-a-scientific-perspective.md"
+    },
+    {
       "title": "Time-Traveling Through the Laughterium: Ancient Cultures Decoded",
       "date": "2026-04-04T01:00:25.853Z",
       "theme": "forest-calm",
@@ -3661,6 +3678,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 217,
-  "lastBuilt": "2026-04-04T01:06:12.989Z"
+  "total": 218,
+  "lastBuilt": "2026-04-04T05:22:34.734Z"
 }
