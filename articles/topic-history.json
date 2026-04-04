@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "History: Myths vs Reality",
+      "date": "2026-04-04T08:26:11.522Z",
+      "title": "Rewriting History: Myths vs Reality",
+      "contentType": "article"
+    },
+    {
       "topic": "Art & Design, Case, Scientific, Biology",
       "date": "2026-04-04T05:16:41.933Z",
       "title": "Art & Design: A Brushful of Genes - An Exciting Exploration from a Scientific Perspective",
@@ -1237,5 +1243,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-04T08:26:11.357Z"
+  "lastUpdated": "2026-04-04T12:25:36.356Z"
 }
