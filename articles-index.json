@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Rewriting History: Myths vs Reality",
+      "date": "2026-04-04T08:26:11.522Z",
+      "theme": "forest-calm",
+      "topic": "History: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unveil the truth behind popular historical myths—with a dash of humor!",
+      "readingTime": "4 mins",
+      "wordCount": 800,
+      "keywords": [
+        "history",
+        "biography",
+        "balanced",
+        "philosophy"
+      ],
+      "path": "2026/04/04/2026-04-04-08-31-57_history-myths-vs-reality.md"
+    },
+    {
       "title": "Art & Design: A Brushful of Genes - An Exciting Exploration from a Scientific Perspective",
       "date": "2026-04-04T05:16:41.933Z",
       "theme": "cotton-candy",
@@ -3678,6 +3695,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 218,
-  "lastBuilt": "2026-04-04T05:22:34.734Z"
+  "total": 219,
+  "lastBuilt": "2026-04-04T08:31:57.637Z"
 }
