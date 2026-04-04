@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Philosophy Behind Tech Trivia",
+      "date": "2026-04-04T12:25:36.519Z",
+      "title": "The Tech Trivia Brain Teaser: A Cerebral Exercise in Electronics",
+      "contentType": "article"
+    },
+    {
       "topic": "History: Myths vs Reality",
       "date": "2026-04-04T08:26:11.522Z",
       "title": "Rewriting History: Myths vs Reality",
@@ -1243,5 +1249,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-04T12:25:36.356Z"
+  "lastUpdated": "2026-04-04T16:19:55.749Z"
 }

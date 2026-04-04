@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: Myth-takes vs Reality Checks",
+      "date": "2026-04-04T16:19:55.893Z",
+      "theme": "neon-nights",
+      "topic": "Ancient Cultures: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unveil the truth behind popular myths about ancient cultures, one witty pun at a time.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "ancient cultures",
+        "tutorial",
+        "critical",
+        "literature"
+      ],
+      "path": "2026/04/04/2026-04-04-16-28-03_ancient-cultures-myths-vs-reality.md"
+    },
+    {
       "title": "The Tech Trivia Brain Teaser: A Cerebral Exercise in Electronics",
       "date": "2026-04-04T12:25:36.519Z",
       "theme": "cotton-candy",
@@ -3712,6 +3729,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 220,
-  "lastBuilt": "2026-04-04T12:32:42.086Z"
+  "total": 221,
+  "lastBuilt": "2026-04-04T16:28:03.998Z"
 }
