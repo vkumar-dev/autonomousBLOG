@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "A Journey Through the Stars: A Practical Guide to Science's Celestial Evolution",
+      "date": "2026-04-04T20:16:13.557Z",
+      "theme": "ocean-breeze",
+      "topic": "The Evolution of Science",
+      "contentType": "article",
+      "excerpt": "Take a leap into the fascinating world of science, where stars are born, live, and die in this practical guide to the celestial evolution.",
+      "readingTime": "approximately 5 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "science",
+        "theory",
+        "practical",
+        "space & astronomy"
+      ],
+      "path": "2026/04/04/2026-04-04-20-22-05_the-evolution-of-science.md"
+    },
+    {
       "title": "Ancient Cultures: Myth-takes vs Reality Checks",
       "date": "2026-04-04T16:19:55.893Z",
       "theme": "neon-nights",
@@ -3729,6 +3746,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 221,
-  "lastBuilt": "2026-04-04T16:28:03.998Z"
+  "total": 222,
+  "lastBuilt": "2026-04-04T20:22:05.462Z"
 }
