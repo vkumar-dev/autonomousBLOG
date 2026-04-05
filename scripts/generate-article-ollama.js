@@ -145,15 +145,6 @@ ${content}`
     fs.unlinkSync(TOPIC_FILE);
   }
 
-  // Rebuild articles list and content cache
-  const { buildArticlesList } = require('./build-articles-list');
-  const { buildArticlesContent } = require('./build-articles-content');
-  
-  console.log('Rebuilding articles list and content cache...');
-  buildArticlesList();
-  buildArticlesContent();
-  console.log('✅ Articles list and content cache updated');
-
   return { file: articleFile, theme };
 }
 
