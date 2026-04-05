@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Science Explained: A Pessimistic Reference Guide to the Absurdity of Nature",
+      "date": "2026-04-05T08:29:52.227Z",
+      "theme": "industrial",
+      "topic": "Science, reference, pessimistic, nature",
+      "contentType": "article",
+      "excerpt": "Unravel the absurdity of science with a healthy dose of skepticism and sarcasm.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "science",
+        "reference",
+        "pessimistic",
+        "nature"
+      ],
+      "path": "2026/04/05/2026-04-05-08-35-36_science-explained-reference-guide.md"
+    },
+    {
       "title": "The Art of Deception: A Hilarious Dive into the Cryptic Depths of Cryptography",
       "date": "2026-04-05T05:31:33.548Z",
       "theme": "forest-calm",
@@ -3780,6 +3797,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 224,
-  "lastBuilt": "2026-04-05T05:37:42.589Z"
+  "total": 225,
+  "lastBuilt": "2026-04-05T08:35:36.264Z"
 }

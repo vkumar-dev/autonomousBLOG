@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "topic": "The Hidden Depths of Cryptography",
+      "date": "2026-04-05T05:31:33.548Z",
+      "title": "The Art of Deception: A Hilarious Dive into the Cryptic Depths of Cryptography",
+      "contentType": "article"
+    },
+    {
       "topic": "Bridging the Gap: Biology for Everyone",
       "date": "2026-04-05T01:08:38.831Z",
       "title": "The Genetic Tango: Navigating the Dance Floor of Biology",
@@ -1267,5 +1273,5 @@
       "contentType": "article"
     }
   ],
-  "lastUpdated": "2026-04-05T05:31:33.385Z"
+  "lastUpdated": "2026-04-05T08:29:52.069Z"
 }
