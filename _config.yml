@@ -25,9 +25,10 @@ keep_files:
   - prompts
   - articles-index.json
   - articles-content.json
-  - articles-list.json
   - index.html
   - view-article.html
+  - articles-list.html
+  - docs
 
 # No processing of markdown
 markdown: kramdown
