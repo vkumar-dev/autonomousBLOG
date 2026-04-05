@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Genetic Tango: Navigating the Dance Floor of Biology",
+      "date": "2026-04-05T01:08:38.831Z",
+      "theme": "cotton-candy",
+      "topic": "Bridging the Gap: Biology for Everyone",
+      "contentType": "article",
+      "excerpt": "Unravel the mysteries of biology with a dash of humor and a pinch of snark.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "biology",
+        "case",
+        "critical",
+        "linguistics"
+      ],
+      "path": "2026/04/05/2026-04-05-01-14-42_bridging-the-gap-biology-for-everyone.md"
+    },
+    {
       "title": "A Journey Through the Stars: A Practical Guide to Science's Celestial Evolution",
       "date": "2026-04-04T20:16:13.557Z",
       "theme": "ocean-breeze",
@@ -3746,6 +3763,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 222,
-  "lastBuilt": "2026-04-04T20:22:05.462Z"
+  "total": 223,
+  "lastBuilt": "2026-04-05T01:14:42.912Z"
 }
