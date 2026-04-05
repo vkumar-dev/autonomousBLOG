@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * Random Blog Generator
- * Selects random combinations from matrices to create unique blog topics
- * No time-dependency, no duplicate checking needed
+ * Random Blog Generator (Matrix Edition)
+ * Selects one random value from each dimension in the matrix config.
+ * Relies on the high number of permutations to ensure uniqueness.
  */
 
 const fs = require('fs');
@@ -11,24 +11,11 @@ const path = require('path');
 
 const CONFIG_FILE = path.join(__dirname, 'random-blog-generator-config.json');
 const TOPIC_OUTPUT = path.join(__dirname, '..', 'selected-topic.json');
-const HISTORY_FILE = path.join(__dirname, '..', 'articles', 'topic-history.json');
 
-// Load configuration matrices
+// Load configuration matrix
 function loadConfig() {
   const configText = fs.readFileSync(CONFIG_FILE, 'utf8');
   return JSON.parse(configText);
-}
-
-// Load history
-function loadHistory() {
-  if (fs.existsSync(HISTORY_FILE)) {
-    try {
-      return JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
-    } catch (e) {
-      return { topics: [] };
-    }
-  }
-  return { topics: [] };
 }
 
 // Pick random element from array
@@ -36,35 +23,21 @@ function pickRandom(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
 
-// Generate random topic
+// Generate random topic based on matrix parameters
 function generateRandomTopic() {
   const config = loadConfig();
-  const history = loadHistory();
   
-  // Get recently used categories (last 10)
-  const recentCategories = history.topics.slice(0, 10).map(t => {
-    // Attempt to extract category from topic title if not explicitly stored
-    const parts = t.topic.split(':');
-    return parts.length > 1 ? parts[0].trim() : null;
-  }).filter(Boolean);
-
-  // Filter out recent categories to ensure variety
-  let availableCategories = config.categories.filter(c => !recentCategories.includes(c));
-  
-  // If we ran out of categories, just use them all again
-  if (availableCategories.length === 0) {
-    availableCategories = config.categories;
-  }
-
-  const category = pickRandom(availableCategories);
+  // Random selection from each dimension
+  const category = pickRandom(config.categories);
   const genre = pickRandom(config.genres);
   const style = pickRandom(config.writingStyles);
   const method = pickRandom(config.storytellingMethods);
   const perspective = pickRandom(config.perspectives);
   const depth = pickRandom(config.depthLevels);
   const audience = pickRandom(config.targetAudiences);
+  const angleSelection = pickRandom(config.angles);
   
-  // Expanded and more varied topic templates
+  // Topic templates - variety of ways to phrase the title
   const templates = [
     `${category}: A ${perspective} Perspective`,
     `The Hidden Depths of ${category}`,
@@ -80,21 +53,15 @@ function generateRandomTopic() {
     `${category}: A Journey Through Time`,
     `Unraveling the Complexity of ${category}`,
     `${category}: Practical Applications and Insights`,
-    `The Intersection of ${category} and Modern Culture`,
-    `${category} in the Digital Age: A ${perspective} Analysis`,
-    `Why ${category} Matters More Than Ever`,
-    `Rethinking ${category}: ${genre} for ${audience}`
+    `${category} in the Modern Era: A ${perspective} Approach`,
+    `The Intersection of ${category} and ${genre}`,
+    `Why ${category} Matters for ${audience}`,
+    `Rethinking ${category}: A ${perspective} Breakdown`,
+    `How ${category} Shapes Our World`,
+    `The Future of ${category}: ${genre}`
   ];
   
-  let selectedTopic = pickRandom(templates);
-
-  // Check if this exact topic title was already used
-  const usedTitles = history.topics.map(t => t.topic);
-  let attempts = 0;
-  while (usedTitles.includes(selectedTopic) && attempts < 20) {
-    selectedTopic = pickRandom(templates);
-    attempts++;
-  }
+  const selectedTopic = pickRandom(templates);
   
   // Determine word count based on depth level
   const wordCountMap = {
@@ -103,18 +70,11 @@ function generateRandomTopic() {
     'Advanced Exploration': 1200,
     'Expert Deep Dive': 1500,
     'Popular Science': 800,
-    'Academic Research': 1400
+    'Academic Research': 1400,
+    'Thought Experiment': 1000
   };
   
   const estimatedWords = wordCountMap[depth] || 900;
-  
-  // Generate keywords from components
-  const keywords = [
-    category.toLowerCase(),
-    genre.toLowerCase().split(' ')[0],
-    perspective.toLowerCase(),
-    pickRandom(config.categories).toLowerCase()
-  ];
   
   const topicData = {
     topic: selectedTopic,
@@ -125,12 +85,12 @@ function generateRandomTopic() {
     perspective: perspective,
     depthLevel: depth,
     targetAudience: audience,
-    tone: style.includes('Academic') ? 'formal' : 
-          style.includes('Casual') ? 'casual' :
-          style.includes('Humorous') ? 'humorous' : 'professional',
-    type: 'educational',
-    angle: `A ${depth.toLowerCase()} exploration from a ${perspective.toLowerCase()} perspective targeting ${audience.toLowerCase()}`,
-    keywords: keywords,
+    angle: angleSelection,
+    tone: style.toLowerCase().includes('humorous') ? 'humorous' : 
+          style.toLowerCase().includes('formal') ? 'formal' :
+          style.toLowerCase().includes('casual') ? 'casual' : 'professional',
+    type: genre,
+    keywords: [category, perspective, genre],
     estimatedWords: estimatedWords
   };
   
@@ -141,18 +101,12 @@ function generateRandomTopic() {
 try {
   const topic = generateRandomTopic();
   
-  console.log('🎲 Generated Random Topic:');
+  console.log('🎲 Matrix Topic Selection Complete:');
   console.log(`   Topic: ${topic.topic}`);
   console.log(`   Category: ${topic.category}`);
   console.log(`   Genre: ${topic.genre}`);
-  console.log(`   Style: ${topic.writingStyle}`);
-  console.log(`   Method: ${topic.storytellingMethod}`);
+  console.log(`   Perspective: ${topic.perspective}`);
   console.log(`   Audience: ${topic.targetAudience}`);
-  console.log(`   Depth: ${topic.depthLevel}`);
-  console.log(`   Words: ~${topic.estimatedWords}`);
-  
-  // Output as JSON for GitHub Actions
-  console.log('\n' + JSON.stringify(topic));
   
   // Save to file for next step
   fs.writeFileSync(TOPIC_OUTPUT, JSON.stringify(topic, null, 2));
