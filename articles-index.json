@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "The Biology Buffet: A Smorgasbord of Lesser-Known Trivia",
+      "date": "2026-04-05T16:21:35.308Z",
+      "theme": "matrix-code",
+      "topic": "Biology: Comparative, Scientific, Tech Trivia",
+      "contentType": "article",
+      "excerpt": "Get ready to impress your friends and baffle your family with these lesser-known biology facts!",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "biology",
+        "comparative",
+        "scientific",
+        "tech trivia"
+      ],
+      "path": "2026/04/05/2026-04-05-16-27-18_biology-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Science Explained: A Pessimistic Reference Guide to the Absurdity of Nature",
       "date": "2026-04-05T08:29:52.227Z",
       "theme": "industrial",
@@ -3797,6 +3814,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 225,
-  "lastBuilt": "2026-04-05T12:37:31.595Z"
+  "total": 226,
+  "lastBuilt": "2026-04-05T16:27:18.533Z"
 }
