@@ -35,3 +35,6 @@ selected-topic.json
 # Temporary files
 tmp/
 temp/
+
+# Python cache files
+__pycache__/
