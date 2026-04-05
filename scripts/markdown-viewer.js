@@ -161,7 +161,7 @@ class MarkdownViewer {
   }
 
   /**
-   * Convert markdown to HTML (simple)
+   * Convert markdown to HTML (improved)
    */
   markdownToHtml(markdown) {
     let html = markdown
@@ -169,6 +169,25 @@ class MarkdownViewer {
       .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
       .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
       .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+      // Alert Boxes (Note/Tip)
+      .replace(/^> \[!NOTE\]\n> (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-note">
+          <div class="alert-icon">ℹ️</div>
+          <div class="alert-content">
+            <span class="alert-title">Note</span>
+            ${content}
+          </div>
+        </div>`;
+      })
+      .replace(/^> \[!TIP\]\n> (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-tip">
+          <div class="alert-icon">💡</div>
+          <div class="alert-content">
+            <span class="alert-title">Pro Tip</span>
+            ${content}
+          </div>
+        </div>`;
+      })
       // Bold and italic
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/__(.*?)__/g, '<strong>$1</strong>')
@@ -180,13 +199,19 @@ class MarkdownViewer {
       .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
       // Inline code
       .replace(/`(.*?)`/g, '<code>$1</code>')
+      // Blockquotes (must be after alerts to avoid double processing)
+      .replace(/^> (.*?)$/gm, (match, content) => {
+        if (content.startsWith('[!')) return match; // Skip alerts
+        return `<blockquote>${content}</blockquote>`;
+      })
       // Lists
       .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
       .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
       // Paragraphs
       .replace(/\n\n/g, '</p><p>')
-      .replace(/^(?!<[hp])/gm, '<p>')
-      .replace(/$/gm, '</p>');
+      .replace(/^(?!<[hpulb])/gm, '<p>') // Added 'u', 'l', 'b' to skip <ul> <li> <blockquote>
+      .replace(/$/gm, '</p>')
+      .replace(/<p><\/p>/g, '');
 
     return html;
   }
