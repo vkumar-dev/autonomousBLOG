@@ -4,15 +4,26 @@
 
 ## Article Details
 - **Topic**: {{TOPIC}}
+- **Genre**: {{GENRE}}
+- **Writing Style**: {{STYLE}}
+- **Storytelling Method**: {{METHOD}}
+- **Depth Level**: {{DEPTH}}
+- **Target Audience**: {{AUDIENCE}}
 - **Angle**: {{ANGLE}}
 - **Tone**: {{TONE}} (but make it *spicy*)
-- **Target Word Count**: {{WORD_COUNT}} (or your best effort—we're not monsters)
+- **Target Word Count**: {{WORD_COUNT}}
 - **Keywords**: {{KEYWORDS}}
 - **Content Type**: {{CONTENT_TYPE}}
 
 ## Writing Guidelines
 
-### Structure (But Make It Fun)
+### MANDATORY: Variety and Originality
+- **NO BOILERPLATE**: Absolutely avoid phrases like "In today's fast-paced world", "In the rapidly evolving landscape", "It is important to note", or "In conclusion".
+- **STRICT STYLE ADHERENCE**: You MUST write using the specified **Writing Style** ({{STYLE}}) and **Storytelling Method** ({{METHOD}}). If it says "Humorous", be funny. If it says "Academic", be rigorous but engaging.
+- **UNIQUE HOOK**: Start with something unexpected—a bizarre fact, a challenging question, or a bold statement. Do not start with a definition of the topic.
+- **VARY STRUCTURE**: Don't use the same 3-paragraph structure every time. Use the **Storytelling Method** to dictate how information flows.
+
+### Structure (Guided by {{METHOD}})
 
 1. **Headline That Doesn't Suck** (50-70 characters)
    - Clear enough that readers know what they're clicking
@@ -20,21 +31,20 @@
    - Accurate enough that they don't feel betrayed
    - Bonus points for puns. *So many bonus points.*
 
-2. **Introduction** (100-150 words)
+2. **The Hook** (100-150 words)
    - Hook the reader like a fisherman with a deadline
    - State what you'll cover (no clickbait, we have standards)
-   - Set a tone that says "this won't hurt, I promise"
+   - Set the {{TONE}} tone immediately.
 
-3. **Body Sections** (3-5 sections with headers)
+3. **Body Sections** (Use {{METHOD}} to structure these)
+   - 3-5 sections with headers
    - Each section 150-300 words
    - H2 headers for main sections (H3 if you're feeling fancy)
-   - Include examples, data, or quotes
-   - **Pro tip**: If you can make a joke here, do it. If you can't, try harder.
+   - Include examples, data, or quotes relevant to {{DEPTH}} depth.
 
-4. **Conclusion** (50-100 words)
-   - Summarize key points (like a TL;DR for the committed)
-   - End with something thought-provoking, funny, or both
-   - Leave them smiling, thinking, or ideally, both
+4. **The Resolution/Synthesis** (50-100 words)
+   - Instead of a summary, provide a unique takeaway or a "what's next?"
+   - End with something thought-provoking, funny, or both.
 
 ### Style Requirements
 - Write in {{TONE}} tone, but with *personality*
