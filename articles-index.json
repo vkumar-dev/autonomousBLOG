@@ -17,6 +17,22 @@
       "path": "2026/04/05/2026-04-05-20-26-58_history-in-the-modern-era-a-ancient-approach.md"
     },
     {
+      "title": "The Artful Architecture of Our World: A Philosophical Inquiry",
+      "date": "2026-04-06T01:08:50.609Z",
+      "theme": "cotton-candy",
+      "topic": "How Art & Design Shapes Our World",
+      "contentType": "article",
+      "excerpt": "From the Sistine Chapel to the iPhone, a contemplative exploration of how art and design have shaped our lives.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Art & Design",
+        "Optimistic",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/06/2026-04-06-01-14-01_how-art-design-shapes-our-world.md"
+    },
+    {
       "title": "The Biology Buffet: A Smorgasbord of Lesser-Known Trivia",
       "date": "2026-04-05T16:21:35.308Z",
       "theme": "matrix-code",
@@ -3830,6 +3846,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 227,
-  "lastBuilt": "2026-04-05T20:26:58.509Z"
+  "total": 228,
+  "lastBuilt": "2026-04-06T01:14:01.512Z"
 }
