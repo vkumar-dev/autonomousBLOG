@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Reloaded: Unraveling the Metaphysical Maelstrom",
+      "date": "2045-10-31T23:59:59.999Z",
+      "theme": "neon-futurism",
+      "topic": "The Future of Metaphysics: Speculative Future",
+      "contentType": "article",
+      "excerpt": "Dive into the kaleidoscope of possibilities as we explore the mind-bending future of metaphysics.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Metaphysics",
+        "Theoretical",
+        "Speculative Future"
+      ],
+      "path": "2026/04/07/2026-04-07-05-37-15_the-future-of-metaphysics-speculative-future.md"
+    },
+    {
       "title": "Time Travelers with Calculators: Rewriting History's Rulebook",
       "date": "2026-10-31T12:34:56.789Z",
       "theme": "timeless",
@@ -3925,6 +3941,6 @@
       "path": "2026/02/26/2026-02-27-16-34-51_digital-privacy-updates.md"
     }
   ],
-  "total": 233,
-  "lastBuilt": "2026-04-07T01:11:56.120Z"
+  "total": 234,
+  "lastBuilt": "2026-04-07T05:37:15.303Z"
 }
