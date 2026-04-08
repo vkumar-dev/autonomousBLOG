@@ -107,16 +107,18 @@ class ArticleFeed {
     return `
       <article class="reel-article ${isLatest ? 'is-latest' : ''}">
         <div class="reel-shell">
-          <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-maximize" target="_blank" title="Read full article">
-            ⤢
-          </a>
-          <div class="reel-meta">
-            ${isLatest ? '<span class="latest-pill">Latest</span>' : ''}
-            <span>${this.escapeHtml(article.contentType || 'article')}</span>
-            <span>•</span>
-            <span title="${this.escapeHtml(timeInfo.relativeTime)}">${this.escapeHtml(timeInfo.dateTime)}</span>
-            <span>•</span>
-            <span>${article.readingTime || 5} min read</span>
+          <div class="reel-header">
+            <div class="reel-meta">
+              ${isLatest ? '<span class="latest-pill">Latest</span>' : ''}
+              <span>${this.escapeHtml(article.contentType || 'article')}</span>
+              <span>•</span>
+              <span title="${this.escapeHtml(timeInfo.relativeTime)}">${this.escapeHtml(timeInfo.dateTime)}</span>
+              <span>•</span>
+              <span>${article.readingTime || 5} min read</span>
+            </div>
+            <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-maximize" target="_blank" title="Read full article">
+              ⤢
+            </a>
           </div>
 
           <h2 class="reel-title">${this.escapeHtml(article.title)}</h2>
