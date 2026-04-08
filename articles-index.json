@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Morality Muddle: A Crash Course for the Curious",
+      "date": "2026-04-08T16:54:41.000Z",
+      "theme": "cotton-candy",
+      "topic": "Bridging the Gap: Ethics & Morality for Everyone",
+      "contentType": "article",
+      "excerpt": "A brief dive into the chaotic world of ethics and morality, where even philosophers are left scratching their heads.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Ethics & Morality",
+        "Ethical",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/08/2026-04-08-16-54-41_bridging-the-gap-ethics-morality-for-everyone.md"
+    },
+    {
       "title": "Cryptography: The Key to Modern Life's Secrets - Or Is It?",
       "date": "2026-04-08T12:52:37.000Z",
       "theme": "sunset-vibes",
@@ -4004,6 +4020,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 238,
-  "lastBuilt": "2026-04-08T12:52:37.131Z"
+  "total": 239,
+  "lastBuilt": "2026-04-08T16:54:41.766Z"
 }
