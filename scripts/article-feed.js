@@ -107,6 +107,9 @@ class ArticleFeed {
     return `
       <article class="reel-article ${isLatest ? 'is-latest' : ''}">
         <div class="reel-shell">
+          <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-maximize" target="_blank" title="Read full article">
+            ⤢
+          </a>
           <div class="reel-meta">
             ${isLatest ? '<span class="latest-pill">Latest</span>' : ''}
             <span>${this.escapeHtml(article.contentType || 'article')}</span>
@@ -119,12 +122,6 @@ class ArticleFeed {
           <h2 class="reel-title">${this.escapeHtml(article.title)}</h2>
 
           <div class="reel-content">${htmlContent}</div>
-
-          <div class="reel-footer">
-            <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-view-full" target="_blank">
-              Read Full Article →
-            </a>
-          </div>
         </div>
       </article>
     `;

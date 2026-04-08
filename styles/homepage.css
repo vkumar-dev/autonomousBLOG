@@ -319,30 +319,39 @@ body.theme-loaded {
   border-radius: 0 8px 8px 0;
 }
 
-.reel-footer {
-  text-align: center;
-  padding-top: 1.5rem;
-  margin-top: 1.5rem;
-  border-top: 1px solid var(--card-border, rgba(0, 0, 0, 0.08));
+.reel-shell {
+  position: relative;
 }
 
-.btn-view-full {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, var(--accent-primary, #3b82f6), var(--accent-secondary, #8b5cf6));
-  color: #fff;
-  border-radius: 999px;
+.btn-maximize {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--card-bg, #fff) 80%, transparent);
+  backdrop-filter: blur(8px);
+  color: var(--text-primary, #111827);
+  opacity: 0.5;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 1.1rem;
+  line-height: 1;
+  border: 1px solid var(--card-border, rgba(0, 0, 0, 0.08));
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-view-full:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+.reel-shell:hover .btn-maximize {
+  opacity: 1;
+}
+
+.btn-maximize:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .loading-state,
