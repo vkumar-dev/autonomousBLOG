@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Cryptography: The Key to Modern Life's Secrets - Or Is It?",
+      "date": "2026-04-08T12:52:37.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Cryptography and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "From Caesar's cipher to quantum encryption, cryptography has been the silent guardian of our digital world. But at what cost?",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Cryptography",
+        "Local",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/04/08/2026-04-08-12-52-37_cryptography-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "A Sociological Time Machine: Buckle Up!",
       "date": "2026-04-08T05:48:12.000Z",
       "theme": "neon-nights",
@@ -3988,6 +4004,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 237,
-  "lastBuilt": "2026-04-08T08:53:18.198Z"
+  "total": 238,
+  "lastBuilt": "2026-04-08T12:52:37.131Z"
 }
