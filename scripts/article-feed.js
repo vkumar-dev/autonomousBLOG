@@ -55,7 +55,10 @@ class ArticleFeed {
     const feedContainer = document.getElementById('articles-grid');
     if (!feedContainer) return;
 
-    feedContainer.innerHTML = '<div id="scroll-sentinel"></div>';
+    // Don't wipe out existing content (e.g. featured article) — append sentinel after it
+    const sentinel = document.createElement('div');
+    sentinel.id = 'scroll-sentinel';
+    feedContainer.appendChild(sentinel);
     this.setupIntersectionObserver();
     this.loadMoreArticles();
   }
