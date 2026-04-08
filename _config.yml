@@ -1,5 +1,6 @@
 # GitHub Pages configuration
-# We use .nojekyll to disable Jekyll, but keeping this as fallback
+title: autonomousBLOG
+description: An AI-powered autonomous blog that generates and publishes content automatically via GitHub Actions.
 
 # Exclude all content directories to prevent Jekyll processing
 exclude:
