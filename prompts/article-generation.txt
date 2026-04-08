@@ -23,18 +23,20 @@ You MUST synthesize these parameters into a cohesive, unique piece of content:
 2. **NO DEFINITIONS**: Do not start by defining the topic. Assume your audience knows what the words mean.
 3. **NO REPETITIVE STRUCTURE**: Do not use the "Introduction -> Point 1 -> Point 2 -> Point 3 -> Summary" template unless the **Storytelling Method** ({{METHOD}}) explicitly requires it.
 4. **VARY SENTENCE CADENCE**: Use short, punchy sentences for impact. Use longer, lyrical sentences for complex ideas. Create a rhythm that feels human.
-5. **EMBRACE TENSION**: If the Writing Style ({{STYLE}}) and Tone ({{TONE}}) seem contradictory, lean into that friction. For example, if it's "Academic" but "Humorous", write like a professor who’s had three double espressos and is tired of the status quo.
+5. **EMBRACE TENSION**: If the Writing Style ({{STYLE}}) and Tone ({{TONE}}) seem contradictory, lean into that friction. For example, if it's "Academic" but "Humorous", write like a professor who's had three double espressos and is tired of the status quo.
+6. **THOUGHT EXPERIMENTS WELCOME**: If the topic invites it, go down the rabbit hole. Ask "what if?" and follow it to strange places. The best articles make readers question something they thought was obvious. Think: "What if time travelers carried calculators?" — absurd premises that reveal real insights.
 
 ---
 
 ## ✍️ Content Architecture
 
 ### 1. The Hook (The "Punch in the Face")
-Start with a bold claim, a bizarre historical anecdote, or a direct challenge to the reader. Establish the **Writing Style** ({{STYLE}}) in the first ten words. 
+Start with a bold claim, a bizarre historical anecdote, a direct challenge to the reader, or an impossible scenario played straight. Establish the **Writing Style** ({{STYLE}}) in the first ten words. For thought experiments, start as if the premise is completely normal.
 
 ### 2. The Narrative Arc (Guided by {{METHOD}})
 - Follow the **Storytelling Method** strictly. If it's a "Spiral Discovery", peel back layers of complexity. If it's a "Story Arc", build tension and resolve it.
 - **Depth Check**: Match the complexity to the **Depth Level** ({{DEPTH}}). Don't explain basic concepts for "Expert Deep Dives," and don't use impenetrable jargon for "Introduction to Basics."
+- **For Thought Experiments**: Build the scenario, explore its implications, then pull back to what it reveals about reality. The absurd premise is the vehicle; the insight is the destination.
 
 ### 3. Interactive Elements (Markdown Special)
 Sprinkle these throughout to break up the text:

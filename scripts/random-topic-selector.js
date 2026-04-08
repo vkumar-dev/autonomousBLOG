@@ -58,7 +58,20 @@ function generateRandomTopic() {
     `Why ${category} Matters for ${audience}`,
     `Rethinking ${category}: A ${perspective} Breakdown`,
     `How ${category} Shapes Our World`,
-    `The Future of ${category}: ${genre}`
+    `The Future of ${category}: ${genre}`,
+    // Metaphysical & thought experiment templates
+    `What If ${category} Worked Backwards?`,
+    `The ${category} Paradox: When Logic Breaks`,
+    `Time Travelers with ${category}: A Counterfactual Journey`,
+    `Could ${category} Exist Without Itself?`,
+    `The Impossibility of ${category}: A Thought Experiment`,
+    `${category} in an Alternate Universe`,
+    `If ${category} Had No Rules: A Speculative Exploration`,
+    `The Consciousness of ${category}: A Metaphysical Inquiry`,
+    `${category}: What We Can Never Know`,
+    `Computing the Incomputable: A ${category} Experiment`,
+    `The ${category} That Defies Intuition`,
+    `What ${category} Reveals About Reality`
   ];
   
   const selectedTopic = pickRandom(templates);

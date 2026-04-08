@@ -1,20 +1,24 @@
 {
   "categories": [
-    "Philosophy", "History", "Programming", "Technology", "Science", 
-    "Tech Trivia", "Ancient Cultures", "Psychology", "Mathematics", "Nature", 
-    "Economics", "Space & Astronomy", "Biology", "Architecture", "Literature", 
+    "Philosophy", "History", "Programming", "Technology", "Science",
+    "Tech Trivia", "Ancient Cultures", "Psychology", "Mathematics", "Nature",
+    "Economics", "Space & Astronomy", "Biology", "Architecture", "Literature",
     "Art & Design", "Linguistics", "Anthropology", "Geology", "Cryptography",
     "Sociology", "Oceanography", "Robotics", "Neuroscience", "Music Theory",
-    "Game Design", "Sustainability", "Urban Planning", "Forensics", "Metaphysics"
+    "Game Design", "Sustainability", "Urban Planning", "Forensics", "Metaphysics",
+    "Consciousness Studies", "Epistemology", "Logic & Reasoning", "Ethics & Morality",
+    "Ontology", "Phenomenology", "Existentialism", "Cognitive Science"
   ],
   "genres": [
-    "Educational Essay", "Historical Analysis", "Technical Deep Dive", 
-    "Exploratory Investigation", "Comparative Study", "Case Study", 
-    "Timeline & Evolution", "Biography", "Theory & Practice", 
-    "Debate & Critique", "Tutorial", "Reference Guide", 
+    "Educational Essay", "Historical Analysis", "Technical Deep Dive",
+    "Exploratory Investigation", "Comparative Study", "Case Study",
+    "Timeline & Evolution", "Biography", "Theory & Practice",
+    "Debate & Critique", "Tutorial", "Reference Guide",
     "Narrative History", "Conceptual Overview", "Practical Guide",
     "Speculative Future", "Myth-Busting", "Philosophical Inquiry",
-    "Scientific Breakdown", "Cultural Critique"
+    "Scientific Breakdown", "Cultural Critique", "Thought Experiment",
+    "Counterfactual History", "Paradox Exploration", "Mind-Bending Scenario",
+    "What-If Analysis", "Alternate Reality", "Conceptual Puzzle"
   ],
   "writingStyles": [
     "Academic & Formal", "Conversational & Casual", "Journalistic & Objective", 
@@ -33,10 +37,12 @@
     "Personal Anecdote", "Reverse Chronology", "Metaphorical Journey"
   ],
   "perspectives": [
-    "Historical", "Modern", "Ancient", "Futuristic", "Scientific", 
-    "Philosophical", "Practical", "Theoretical", "Critical", "Celebratory", 
-    "Skeptical", "Optimistic", "Pessimistic", "Balanced", "Outsider", 
-    "Insider", "Global", "Local", "Ethical", "Economic"
+    "Historical", "Modern", "Ancient", "Futuristic", "Scientific",
+    "Philosophical", "Practical", "Theoretical", "Critical", "Celebratory",
+    "Skeptical", "Optimistic", "Pessimistic", "Balanced", "Outsider",
+    "Insider", "Global", "Local", "Ethical", "Economic",
+    "Metaphysical", "Existential", "Absurdist", "Phenomenological",
+    "Speculative", "Counterfactual", "Paradoxical"
   ],
   "depthLevels": [
     "Introduction to Basics", "Intermediate Understanding", "Advanced Exploration", 
@@ -51,6 +57,11 @@
     "The unexpected connection", "A forgotten history", "The future implications",
     "A controversial take", "The hidden mechanics", "A human-centric view",
     "The ethical dilemma", "A technical breakdown", "The cultural impact",
-    "A journey of discovery", "The economic reality", "A psychological perspective"
+    "A journey of discovery", "The economic reality", "A psychological perspective",
+    "What if the opposite were true?", "A paradox that breaks intuition",
+    "An alternate timeline where...", "The impossible made plausible",
+    "A thought experiment gone wrong", "The metaphysical implications of...",
+    "If we could compute the incomputable", "A counterfactual that changes everything",
+    "The consciousness puzzle", "Reality as we don't know it"
   ]
 }
