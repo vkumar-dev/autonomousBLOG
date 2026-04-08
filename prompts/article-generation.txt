@@ -53,14 +53,13 @@ Sprinkle these throughout to break up the text:
 
 ## 🛠 Output Format
 
-Return ONLY the article in this exact Markdown format. **CRITICAL: You MUST NOT invent or change the `date` field. Use the exact `{{DATE}}` value provided in the parameters. Do NOT use fictional, future, or creative dates.**
+Return ONLY the article in this exact Markdown format.
 
 ```markdown
 ---
 title: "A Headline That Hooks and Challenges"
-date: "{{DATE}}"
-theme: "{{THEME}}"
 topic: "{{TOPIC}}"
+theme: "{{THEME}}"
 wordCount: {{WORD_COUNT}}
 readingTime: {{READING_TIME}}
 excerpt: "A one-sentence meta description that would make a social media manager weep with joy."

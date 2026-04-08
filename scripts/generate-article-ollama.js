@@ -104,7 +104,6 @@ async function generateArticle() {
       ? topicData.keywords.join(', ')
       : topicData.keywords || 'technology')
     .replace('{{CONTENT_TYPE}}', topicData.type || 'article')
-    .replace('{{DATE}}', now.toISOString())
     .replace('{{THEME}}', theme);
 
   // Generate with Ollama (NO FALLBACK)

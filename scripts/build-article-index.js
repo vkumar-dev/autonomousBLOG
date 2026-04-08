@@ -52,6 +52,20 @@ function extractFrontmatter(content) {
 }
 
 /**
+ * Extract ISO date from article filename
+ * Filenames follow: YYYY-MM-DD-HH-mm-ss_slug.md
+ * Returns UTC ISO string — always use filename, NOT frontmatter, for dates
+ */
+function dateFromFilename(filename) {
+  const match = filename.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/);
+  if (!match) return null;
+
+  const [, year, month, day, hour, min, sec] = match;
+  const date = new Date(Date.UTC(+year, +month - 1, +day, +hour, +min, +sec));
+  return isNaN(date.getTime()) ? null : date.toISOString();
+}
+
+/**
  * Extract excerpt from content (first paragraph after frontmatter)
  */
 function extractExcerpt(content, frontmatter) {
@@ -105,13 +119,14 @@ function buildArticleIndex() {
       } else if (file.endsWith('.md')) {
         const content = fs.readFileSync(filePath, 'utf8');
         const frontmatter = extractFrontmatter(content);
-        
+
         if (frontmatter && frontmatter.title) {
           const articlePath = path.join(relativePath, file).replace(/\\/g, '/');
-          
+          const dateFromName = dateFromFilename(file);
+
           articles.push({
             title: frontmatter.title,
-            date: frontmatter.date,
+            date: dateFromName || frontmatter.date || new Date(0).toISOString(),
             theme: frontmatter.theme || 'default',
             topic: frontmatter.topic || '',
             contentType: frontmatter.contentType || 'article',
