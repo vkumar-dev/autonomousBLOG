@@ -117,9 +117,14 @@ class ArticleFeed {
           </div>
 
           <h2 class="reel-title">${this.escapeHtml(article.title)}</h2>
-          ${article.excerpt ? `<p class="reel-excerpt">${this.escapeHtml(article.excerpt)}</p>` : ''}
 
           <div class="reel-content">${htmlContent}</div>
+
+          <div class="reel-footer">
+            <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-view-full" target="_blank">
+              Read Full Article →
+            </a>
+          </div>
         </div>
       </article>
     `;
@@ -128,17 +133,56 @@ class ArticleFeed {
   markdownToHtml(markdown) {
     const escaped = this.escapeHtml(markdown);
 
-    return escaped
+    let html = escaped
+      // Alert Boxes: > [!NOTE] and > [!TIP]
+      .replace(/^&gt; \[!NOTE\]\n&gt; (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-note">
+          <div class="alert-icon">ℹ️</div>
+          <div class="alert-content">
+            <span class="alert-title">Note</span>
+            ${content}
+          </div>
+        </div>`;
+      })
+      .replace(/^&gt; \[!TIP\]\n&gt; (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-tip">
+          <div class="alert-icon">💡</div>
+          <div class="alert-content">
+            <span class="alert-title">Pro Tip</span>
+            ${content}
+          </div>
+        </div>`;
+      })
+      // Headers
       .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
       .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
       .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+      // Bold and italic
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      // Blockquotes (must be after alerts, and skip alert patterns)
+      .replace(/^&gt; (.*?)$/gm, (match, content) => {
+        if (content.startsWith('[!')) return match;
+        return `<blockquote>${content}</blockquote>`;
+      })
+      // Code blocks
+      .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+      // Inline code
       .replace(/`(.*?)`/g, '<code>$1</code>')
+      // Links
       .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+      // Lists
+      .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
+      // Paragraphs
       .replace(/(?:\r?\n){2,}/g, '</p><p>')
       .replace(/^(.+)$/gm, '<p>$1</p>')
-      .replace(/<p><\/p>/g, '');
+      .replace(/<p><\/p>/g, '')
+      // Clean up blockquotes/ alerts inside paragraphs
+      .replace(/<p>(<blockquote[\s\S]*?<\/blockquote>)<\/p>/g, '$1')
+      .replace(/<p>(<div class="alert[\s\S]*?<\/div>)<\/p>/g, '$1');
+
+    return html;
   }
 
   formatDate(dateString) {
