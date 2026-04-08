@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Biology's Rearview Mirror: Reverse-Engineering Evolution",
+      "date": "2026-04-08T20:34:57.000Z",
+      "theme": "aurora",
+      "topic": "What If Biology Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "In a world where we can sequence genes faster than we can say 'double helix', what if we started studying evolution from the end instead of the beginning?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Biology",
+        "Theoretical",
+        "Historical Analysis"
+      ],
+      "path": "2026/04/08/2026-04-08-20-34-57_what-if-biology-worked-backwards.md"
+    },
+    {
       "title": "Morality Muddle: A Crash Course for the Curious",
       "date": "2026-04-08T16:54:41.000Z",
       "theme": "cotton-candy",
@@ -4020,6 +4036,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 239,
-  "lastBuilt": "2026-04-08T16:54:41.766Z"
+  "total": 240,
+  "lastBuilt": "2026-04-08T20:34:57.335Z"
 }
