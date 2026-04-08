@@ -53,7 +53,7 @@ Sprinkle these throughout to break up the text:
 
 ## 🛠 Output Format
 
-Return ONLY the article in this exact Markdown format:
+Return ONLY the article in this exact Markdown format. **CRITICAL: You MUST NOT invent or change the `date` field. Use the exact `{{DATE}}` value provided in the parameters. Do NOT use fictional, future, or creative dates.**
 
 ```markdown
 ---
