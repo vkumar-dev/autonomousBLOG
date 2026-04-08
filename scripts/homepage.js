@@ -19,11 +19,9 @@ class Homepage {
         return;
       }
 
-      // Render and load latest article content
-      await this.renderLatestArticle(this.articles[0]);
-
+      // Hand over ALL articles to the reel feed for uniform rendering
       if (window.articleFeed) {
-        window.articleFeed.initializeWithArticles(this.articles.slice(1), this.contentCache);
+        await window.articleFeed.initializeWithArticles(this.articles, this.contentCache);
       }
 
       const countElement = document.getElementById('articles-count');
