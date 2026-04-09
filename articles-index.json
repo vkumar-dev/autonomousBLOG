@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unseen Hand: Demystifying Metaphysics for the Time-Traveling Barista",
+      "date": "2026-04-09T01:03:57.000Z",
+      "theme": "aurora",
+      "topic": "Bridging the Gap: Metaphysics for Everyone",
+      "contentType": "article",
+      "excerpt": "A journey through time and space to unravel the knotty, yet tantalizing world of metaphysics.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Metaphysics",
+        "Historical",
+        "Historical Analysis"
+      ],
+      "path": "2026/04/09/2026-04-09-01-03-57_bridging-the-gap-metaphysics-for-everyone.md"
+    },
+    {
       "title": "Biology's Rearview Mirror: Reverse-Engineering Evolution",
       "date": "2026-04-08T20:34:57.000Z",
       "theme": "aurora",
@@ -4036,6 +4052,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 240,
-  "lastBuilt": "2026-04-08T20:34:57.335Z"
+  "total": 241,
+  "lastBuilt": "2026-04-09T01:03:57.663Z"
 }
