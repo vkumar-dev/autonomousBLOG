@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Philosophy Matters: The Unexpected Matrix Code for Hobbyists",
+      "date": "2026-04-09T20:43:16.000Z",
+      "theme": "forest-calm",
+      "topic": "Why Philosophy Matters for Enthusiasts & Hobbyists",
+      "contentType": "article",
+      "excerpt": "Uncover the hidden paradoxes that will shake your worldview and elevate your hobbies.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Philosophy",
+        "Paradoxical",
+        "Myth-Busting"
+      ],
+      "path": "2026/04/09/2026-04-09-20-43-16_why-philosophy-matters-for-enthusiasts-hobbyists.md"
+    },
+    {
       "title": "Why Biology Matters for Couch Potatoes and Garden Gnomes",
       "date": "2026-04-09T12:58:58.000Z",
       "theme": "cotton-candy",
@@ -4100,6 +4116,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 244,
-  "lastBuilt": "2026-04-09T17:01:42.383Z"
+  "total": 245,
+  "lastBuilt": "2026-04-09T20:43:16.912Z"
 }
