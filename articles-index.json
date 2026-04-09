@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Biology Matters for Couch Potatoes and Garden Gnomes",
+      "date": "2026-04-09T12:58:58.000Z",
+      "theme": "cotton-candy",
+      "topic": "Why Biology Matters for Enthusiasts & Hobbyists",
+      "contentType": "article",
+      "excerpt": "Dive into the enchanting world of biology, where even a couch potato can discover the secrets of life.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Biology",
+        "Outsider",
+        "Educational Essay"
+      ],
+      "path": "2026/04/09/2026-04-09-12-58-58_why-biology-matters-for-enthusiasts-hobbyists.md"
+    },
+    {
       "title": "An Alternate Universe History Lesson: When Computers Dreamt of the Uncomputable",
       "date": "2026-04-09T09:02:53.000Z",
       "theme": "matrix-code",
@@ -4084,6 +4100,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 243,
-  "lastBuilt": "2026-04-09T09:02:53.815Z"
+  "total": 244,
+  "lastBuilt": "2026-04-09T12:58:58.716Z"
 }
