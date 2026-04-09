@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Incomputable Pasts: The Dawn of Cognitive Science",
+      "date": "2026-04-09T05:49:05.000Z",
+      "theme": "neon-nights",
+      "topic": "Cognitive Science: A Historical Perspective",
+      "contentType": "article",
+      "excerpt": "A journey through the annals of cognitive science, where incomputable mysteries were transformed into computable knowledge.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Cognitive Science",
+        "Historical",
+        "Case Study"
+      ],
+      "path": "2026/04/09/2026-04-09-05-49-05_cognitive-science-a-historical-perspective.md"
+    },
+    {
       "title": "The Unseen Hand: Demystifying Metaphysics for the Time-Traveling Barista",
       "date": "2026-04-09T01:03:57.000Z",
       "theme": "aurora",
@@ -4052,6 +4068,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 241,
-  "lastBuilt": "2026-04-09T01:03:57.663Z"
+  "total": 242,
+  "lastBuilt": "2026-04-09T05:49:05.897Z"
 }
