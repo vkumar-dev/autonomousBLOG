@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "An Alternate Universe History Lesson: When Computers Dreamt of the Uncomputable",
+      "date": "2026-04-09T09:02:53.000Z",
+      "theme": "matrix-code",
+      "topic": "History in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "In a world where computers could dream, what would be left for mathematicians to do?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "History",
+        "Economic",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/04/09/2026-04-09-09-02-53_history-in-an-alternate-universe.md"
+    },
+    {
       "title": "Incomputable Pasts: The Dawn of Cognitive Science",
       "date": "2026-04-09T05:49:05.000Z",
       "theme": "neon-nights",
@@ -4068,6 +4084,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 242,
-  "lastBuilt": "2026-04-09T05:49:05.897Z"
+  "total": 243,
+  "lastBuilt": "2026-04-09T09:02:53.815Z"
 }
