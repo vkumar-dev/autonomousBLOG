@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "In the Future, We'll Be Playing Space Cowboys and Aliens",
+      "date": "2026-04-10T09:03:33.000Z",
+      "theme": "aurora",
+      "topic": "Space & Astronomy in the Modern Era: A Futuristic Approach",
+      "contentType": "article",
+      "excerpt": "A look back at history to peer into the future of space exploration, where the impossible becomes plausible.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Space & Astronomy",
+        "Futuristic"
+      ],
+      "path": "2026/04/10/2026-04-10-09-03-33_space-astronomy-in-the-modern-era-a-futuristic-approach.md"
+    },
+    {
       "title": "What if Epistemology was Local?",
       "date": "2026-04-10T05:58:29.000Z",
       "theme": "forest-calm",
@@ -4132,6 +4147,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 246,
-  "lastBuilt": "2026-04-10T05:58:29.117Z"
+  "total": 247,
+  "lastBuilt": "2026-04-10T09:03:33.372Z"
 }
