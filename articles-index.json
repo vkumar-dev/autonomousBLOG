@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Mathematics: The Code Behind Reality, or How to Outwit the Matrix",
+      "date": "2026-04-10T12:43:51.000Z",
+      "theme": "matrix-code",
+      "topic": "Mathematics: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Discover how mathematics, the language of the universe, can help you outsmart the Matrix.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Mathematics",
+        "Absurdist",
+        "Practical Guide"
+      ],
+      "path": "2026/04/10/2026-04-10-12-43-51_mathematics-practical-applications-and-insights.md"
+    },
+    {
       "title": "In the Future, We'll Be Playing Space Cowboys and Aliens",
       "date": "2026-04-10T09:03:33.000Z",
       "theme": "aurora",
@@ -4147,6 +4163,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 247,
-  "lastBuilt": "2026-04-10T09:03:33.372Z"
+  "total": 248,
+  "lastBuilt": "2026-04-10T12:43:51.283Z"
 }
