@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What if Epistemology was Local?",
+      "date": "2026-04-10T05:58:29.000Z",
+      "theme": "forest-calm",
+      "topic": "The Evolution of Epistemology",
+      "contentType": "article",
+      "excerpt": "Exploring the mind-bending implications of a world where knowledge is defined by geography.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Epistemology",
+        "Local",
+        "Case Study"
+      ],
+      "path": "2026/04/10/2026-04-10-05-58-29_the-evolution-of-epistemology.md"
+    },
+    {
       "title": "Why Philosophy Matters: The Unexpected Matrix Code for Hobbyists",
       "date": "2026-04-09T20:43:16.000Z",
       "theme": "forest-calm",
@@ -4116,6 +4132,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 245,
-  "lastBuilt": "2026-04-10T01:14:54.700Z"
+  "total": 246,
+  "lastBuilt": "2026-04-10T05:58:29.117Z"
 }
