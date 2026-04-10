@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Geology: The Hidden Time Traveler",
+      "date": "2026-04-10T20:28:06.000Z",
+      "theme": "minimalist-clean",
+      "topic": "How Geology Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Imagine, if you will, a world without geologists. A planet where every mountain, every river, every beach is shrouded in mystery. It's a terrifying...",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Geology",
+        "Global",
+        "Reference Guide"
+      ],
+      "path": "2026/04/10/2026-04-10-20-28-06_how-geology-shapes-our-world.md"
+    },
+    {
       "title": "In Phenomenology's Shadow: The Paradox of Our Everyday Lives",
       "date": "2026-04-10T16:43:48.000Z",
       "theme": "sunset-vibes",
@@ -4179,6 +4195,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 249,
-  "lastBuilt": "2026-04-10T16:43:48.135Z"
+  "total": 250,
+  "lastBuilt": "2026-04-10T20:28:06.179Z"
 }
