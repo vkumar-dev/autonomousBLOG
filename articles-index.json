@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Logic Crumbles: A Psychological Perspective",
+      "date": "2026-04-11T20:25:34.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Ethics & Morality Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Exploring the darker side of human logic, where ethics and morality dance precariously on the edge.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Ethics & Morality",
+        "Pessimistic",
+        "Thought Experiment"
+      ],
+      "path": "2026/04/11/2026-04-11-20-25-34_the-ethics-morality-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "The Day Forensics Became Fiction",
       "date": "2026-04-11T16:26:31.000Z",
       "theme": "forest-calm",
@@ -4259,6 +4275,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 254,
-  "lastBuilt": "2026-04-11T16:26:31.301Z"
+  "total": 255,
+  "lastBuilt": "2026-04-11T20:25:34.799Z"
 }
