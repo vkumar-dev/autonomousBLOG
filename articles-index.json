@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Day Forensics Became Fiction",
+      "date": "2026-04-11T16:26:31.000Z",
+      "theme": "forest-calm",
+      "topic": "How Forensics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Explore the fascinating world where forensic science flips reality on its head.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Forensics",
+        "Speculative",
+        "Conceptual Overview"
+      ],
+      "path": "2026/04/11/2026-04-11-16-26-31_how-forensics-shapes-our-world.md"
+    },
+    {
       "title": "Unraveling the Enigma of Consciousness: A Philosophical Tango",
       "date": "2026-04-11T08:34:17.000Z",
       "theme": "matrix-code",
@@ -4243,6 +4259,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 253,
-  "lastBuilt": "2026-04-11T12:33:05.663Z"
+  "total": 254,
+  "lastBuilt": "2026-04-11T16:26:31.301Z"
 }
