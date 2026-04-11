@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Enigma of Consciousness: A Philosophical Tango",
+      "date": "2026-04-11T08:34:17.000Z",
+      "theme": "matrix-code",
+      "topic": "The Metaphysics That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Dive into a poetic exploration of the consciousness puzzle, where the absurd meets the profound.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Metaphysics",
+        "Philosophical",
+        "Theory & Practice"
+      ],
+      "path": "2026/04/11/2026-04-11-08-34-17_the-metaphysics-that-defies-intuition.md"
+    },
+    {
       "title": "The Symphony of Uncomputable Notes",
       "date": "2026-04-11T05:25:29.000Z",
       "theme": "night-fairy",
@@ -4227,6 +4243,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 252,
-  "lastBuilt": "2026-04-11T05:25:30.038Z"
+  "total": 253,
+  "lastBuilt": "2026-04-11T08:34:17.441Z"
 }
