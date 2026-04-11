@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Symphony of Uncomputable Notes",
+      "date": "2026-04-11T05:25:29.000Z",
+      "theme": "night-fairy",
+      "topic": "Rethinking Music Theory: An Ancient Breakdown",
+      "contentType": "article",
+      "excerpt": "Dive into the mind-bending realm where Pythagoras and computers intertwine, challenging our understanding of music.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Music Theory",
+        "Ancient",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/04/11/2026-04-11-05-25-29_rethinking-music-theory-a-ancient-breakdown.md"
+    },
+    {
       "title": "The Matrix Within: Where Quantum Physics Meets Your Morning Coffee",
       "date": "2026-04-11T01:10:00.000Z",
       "theme": "aurora",
@@ -4211,6 +4227,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 251,
-  "lastBuilt": "2026-04-11T01:10:00.129Z"
+  "total": 252,
+  "lastBuilt": "2026-04-11T05:25:30.038Z"
 }
