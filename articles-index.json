@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Within: Where Quantum Physics Meets Your Morning Coffee",
+      "date": "2026-04-11T01:10:00.000Z",
+      "theme": "aurora",
+      "topic": "The Metaphysics That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Exploring the mind-bending intersections of metaphysics, quantum physics, and your morning caffeine fix.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Metaphysics",
+        "Skeptical",
+        "Theory & Practice"
+      ],
+      "path": "2026/04/11/2026-04-11-01-10-00_the-metaphysics-that-defies-intuition.md"
+    },
+    {
       "title": "Geology: The Hidden Time Traveler",
       "date": "2026-04-10T20:28:06.000Z",
       "theme": "minimalist-clean",
@@ -4195,6 +4211,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 250,
-  "lastBuilt": "2026-04-10T20:28:06.179Z"
+  "total": 251,
+  "lastBuilt": "2026-04-11T01:10:00.129Z"
 }
