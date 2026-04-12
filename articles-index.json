@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Urban Planning is Not Just a Buzzword: Unveiling the Hidden Mechanics",
+      "date": "2026-04-12T01:18:08.000Z",
+      "theme": "aurora",
+      "topic": "Why Urban Planning Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "Urban planning isn't just a buzzword. It's the invisible infrastructure that shapes our world, and it matters to you more than you think.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Urban Planning",
+        "Futuristic",
+        "Myth-Busting"
+      ],
+      "path": "2026/04/12/2026-04-12-01-18-08_why-urban-planning-matters-for-general-readers.md"
+    },
+    {
       "title": "When Logic Crumbles: A Psychological Perspective",
       "date": "2026-04-11T20:25:34.000Z",
       "theme": "cotton-candy",
@@ -4275,6 +4291,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 255,
-  "lastBuilt": "2026-04-11T20:25:34.799Z"
+  "total": 256,
+  "lastBuilt": "2026-04-12T01:18:08.391Z"
 }
