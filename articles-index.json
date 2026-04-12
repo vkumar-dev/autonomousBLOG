@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Cosmos Calling: Why Space & Astronomy Are Essential to Academics",
+      "date": "2026-04-12T05:54:24.000Z",
+      "theme": "aurora",
+      "topic": "Why Space & Astronomy Matters for Academics",
+      "contentType": "article",
+      "excerpt": "Ignoring the stars might mean missing out on the most profound revelations of our time. Here's why space and astronomy are indispensable to academia.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Space & Astronomy",
+        "Paradoxical"
+      ],
+      "path": "2026/04/12/2026-04-12-05-54-24_why-space-astronomy-matters-for-academics.md"
+    },
+    {
       "title": "Urban Planning is Not Just a Buzzword: Unveiling the Hidden Mechanics",
       "date": "2026-04-12T01:18:08.000Z",
       "theme": "aurora",
@@ -4291,6 +4306,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 256,
-  "lastBuilt": "2026-04-12T01:18:08.391Z"
+  "total": 257,
+  "lastBuilt": "2026-04-12T05:54:25.042Z"
 }
