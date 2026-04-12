@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Hidden Riches of Economic Folly",
+      "date": "2026-04-12T16:28:08.000Z",
+      "theme": "neon-nights",
+      "topic": "Economics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "A tour through the strange, twisted alleys of economic history where common sense was never an asset.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Economics",
+        "Practical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/04/12/2026-04-12-16-28-08_economics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Existential Economic Paradox: An Outsider's Perspective",
       "date": "2026-04-12T12:36:46.000Z",
       "theme": "matrix-code",
@@ -4338,6 +4354,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 259,
-  "lastBuilt": "2026-04-12T12:36:46.269Z"
+  "total": 260,
+  "lastBuilt": "2026-04-12T16:28:08.429Z"
 }
