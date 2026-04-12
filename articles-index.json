@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Existential Economic Paradox: An Outsider's Perspective",
+      "date": "2026-04-12T12:36:46.000Z",
+      "theme": "matrix-code",
+      "topic": "Existentialism in the Modern Era: A Outsider Approach",
+      "contentType": "article",
+      "excerpt": "Welcome to the existential economic paradox, where the pursuit of wealth leads us down a rabbit hole of absurdity and self-questioning.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Existentialism",
+        "Outsider",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/04/12/2026-04-12-12-36-46_existentialism-in-the-modern-era-a-outsider-approach.md"
+    },
+    {
       "title": "Welcome to a Balanced Universe: The Matrix of Metaphysics",
       "date": "2026-04-12T08:40:31.000Z",
       "theme": "aurora",
@@ -4322,6 +4338,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 258,
-  "lastBuilt": "2026-04-12T08:40:31.865Z"
+  "total": 259,
+  "lastBuilt": "2026-04-12T12:36:46.269Z"
 }
