@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Welcome to a Balanced Universe: The Matrix of Metaphysics",
+      "date": "2026-04-12T08:40:31.000Z",
+      "theme": "aurora",
+      "topic": "How Metaphysics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Imagine a world where metaphysics isn't just philosophy but a tangible force. Welcome to ours.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Metaphysics",
+        "Balanced",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/12/2026-04-12-08-40-31_how-metaphysics-shapes-our-world.md"
+    },
+    {
       "title": "The Cosmos Calling: Why Space & Astronomy Are Essential to Academics",
       "date": "2026-04-12T05:54:24.000Z",
       "theme": "aurora",
@@ -4306,6 +4322,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 257,
-  "lastBuilt": "2026-04-12T05:54:25.042Z"
+  "total": 258,
+  "lastBuilt": "2026-04-12T08:40:31.865Z"
 }
