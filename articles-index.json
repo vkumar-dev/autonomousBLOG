@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Meet the Madman Who Mapped Consciousness: Edward John Eyre",
+      "date": "2026-04-12T20:26:27.000Z",
+      "theme": "industrial",
+      "topic": "Phenomenology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Unravel the extraordinary life of a Victorian polymath who dared to chart the unchartable.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Phenomenology",
+        "Ancient",
+        "Biography"
+      ],
+      "path": "2026/04/12/2026-04-12-20-26-27_phenomenology-practical-applications-and-insights.md"
+    },
+    {
       "title": "The Hidden Riches of Economic Folly",
       "date": "2026-04-12T16:28:08.000Z",
       "theme": "neon-nights",
@@ -4354,6 +4370,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 260,
-  "lastBuilt": "2026-04-12T16:28:08.429Z"
+  "total": 261,
+  "lastBuilt": "2026-04-12T20:26:27.223Z"
 }
