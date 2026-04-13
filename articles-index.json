@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Time Traveling Maestros: A Counterfactual Symphony",
+      "date": "2026-04-13T16:58:08.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Time Travelers with Music Theory: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Imagine Beethoven fiddling with a DeLorean, or Bach traversing the multiverse. What would our music history look like if composers could time travel?",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Music Theory",
+        "Counterfactual",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/13/2026-04-13-16-58-08_time-travelers-with-music-theory-a-counterfactual-journey.md"
+    },
+    {
       "title": "When Cryptography's Logic Unravels: A Tale of Modern Misadventures",
       "date": "2026-04-13T12:59:17.000Z",
       "theme": "minimalist-clean",
@@ -4433,6 +4449,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 265,
-  "lastBuilt": "2026-04-13T12:59:17.920Z"
+  "total": 266,
+  "lastBuilt": "2026-04-13T16:58:08.613Z"
 }
