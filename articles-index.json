@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Global Game of Sustainability: A Paradoxical Puzzle",
+      "date": "2026-04-13T06:13:10.000Z",
+      "theme": "industrial",
+      "topic": "Sustainability: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Unravel the unexpected twists and turns of sustainability, where the obvious is not always as it seems.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Sustainability",
+        "Global"
+      ],
+      "path": "2026/04/13/2026-04-13-06-13-10_sustainability-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "In an Alternate Universe Where Logic and Reasoning Rule Supreme",
       "date": "2026-04-13T01:19:27.000Z",
       "theme": "neon-nights",
@@ -4386,6 +4401,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 262,
-  "lastBuilt": "2026-04-13T01:19:27.166Z"
+  "total": 263,
+  "lastBuilt": "2026-04-13T06:13:10.362Z"
 }
