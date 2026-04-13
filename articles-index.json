@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Universe Where Logic and Reasoning Rule Supreme",
+      "date": "2026-04-13T01:19:27.000Z",
+      "theme": "neon-nights",
+      "topic": "Logic & Reasoning in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Welcome to a universe where logical fallacies don't exist, and every argument is airtight. But how did we get here? And what can we learn from this impossible reality?",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Logic & Reasoning",
+        "Speculative",
+        "Counterfactual History"
+      ],
+      "path": "2026/04/13/2026-04-13-01-19-27_logic-reasoning-in-an-alternate-universe.md"
+    },
+    {
       "title": "Meet the Madman Who Mapped Consciousness: Edward John Eyre",
       "date": "2026-04-12T20:26:27.000Z",
       "theme": "industrial",
@@ -4370,6 +4386,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 261,
-  "lastBuilt": "2026-04-12T20:26:27.223Z"
+  "total": 262,
+  "lastBuilt": "2026-04-13T01:19:27.166Z"
 }
