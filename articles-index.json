@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Timeline, Galileo was a Time Traveler",
+      "date": "2026-04-13T20:46:57.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Space & Astronomy, Historical",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration of what the world would look like if one of history's greatest minds had access to modern astronomy tools.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Space & Astronomy",
+        "Historical"
+      ],
+      "path": "2026/04/13/2026-04-13-20-46-57_space-astronomy-in-the-modern-era-a-historical-approach.md"
+    },
+    {
       "title": "The Time Traveling Maestros: A Counterfactual Symphony",
       "date": "2026-04-13T16:58:08.000Z",
       "theme": "sunset-vibes",
@@ -4449,6 +4464,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 266,
-  "lastBuilt": "2026-04-13T16:58:08.613Z"
+  "total": 267,
+  "lastBuilt": "2026-04-13T20:46:57.986Z"
 }
