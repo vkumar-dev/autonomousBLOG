@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "History: The Unconscious Director",
+      "date": "2026-04-13T09:28:43.000Z",
+      "theme": "aurora",
+      "topic": "The Consciousness of History: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "What if history had a mind of its own? Dive into the mind-bending implications of sentient timelines.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "History",
+        "Historical",
+        "Cultural Critique"
+      ],
+      "path": "2026/04/13/2026-04-13-09-28-43_the-consciousness-of-history-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "The Global Game of Sustainability: A Paradoxical Puzzle",
       "date": "2026-04-13T06:13:10.000Z",
       "theme": "industrial",
@@ -4401,6 +4417,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 263,
-  "lastBuilt": "2026-04-13T06:13:10.362Z"
+  "total": 264,
+  "lastBuilt": "2026-04-13T09:28:43.810Z"
 }
