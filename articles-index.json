@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Cryptography's Logic Unravels: A Tale of Modern Misadventures",
+      "date": "2026-04-13T12:59:17.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Cryptography Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "In a world where algorithms rule, we explore the cryptographic conundrum that leaves even the sharpest minds scratching their heads.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Cryptography",
+        "Modern",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/04/13/2026-04-13-12-59-17_the-cryptography-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "History: The Unconscious Director",
       "date": "2026-04-13T09:28:43.000Z",
       "theme": "aurora",
@@ -4417,6 +4433,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 264,
-  "lastBuilt": "2026-04-13T09:28:43.810Z"
+  "total": 265,
+  "lastBuilt": "2026-04-13T12:59:17.920Z"
 }
