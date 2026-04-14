@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Computing the Incomputable: A Cognitive Science Experiment",
+      "date": "2026-04-14T20:45:43.000Z",
+      "theme": "robot-revolution",
+      "topic": "Cognitive Science",
+      "contentType": "article",
+      "excerpt": "A thought experiment that challenges the boundaries of computational ethics.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Cognitive Science",
+        "Ethical",
+        "Tutorial"
+      ],
+      "path": "2026/04/14/2026-04-14-20-45-43_computing-the-incomputable-a-cognitive-science-experiment.md"
+    },
+    {
       "title": "In 2100, Anthropologists Will Study Us Like Cavemen",
       "date": "2026-04-14T16:59:11.000Z",
       "theme": "neon-nights",
@@ -4544,6 +4560,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 272,
-  "lastBuilt": "2026-04-14T16:59:11.845Z"
+  "total": 273,
+  "lastBuilt": "2026-04-14T20:45:43.233Z"
 }
