@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Technology Had No Rules: A Wild Ride Through the Ethical Chaos",
+      "date": "2026-04-14T09:12:40.000Z",
+      "theme": "forest-calm",
+      "topic": "If Technology Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Ever wondered what a world without technology's constraints would look like? Buckle up, because it's about to get wild!",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Technology",
+        "Ethical",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/04/14/2026-04-14-09-12-40_if-technology-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "Welcome to Your Absurd Existentialism Primer",
       "date": "2026-04-14T05:59:26.000Z",
       "theme": "grunge",
@@ -4496,6 +4512,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 269,
-  "lastBuilt": "2026-04-14T05:59:26.544Z"
+  "total": 270,
+  "lastBuilt": "2026-04-14T09:12:40.911Z"
 }
