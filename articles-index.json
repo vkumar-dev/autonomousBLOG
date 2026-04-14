@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Welcome to Your Absurd Existentialism Primer",
+      "date": "2026-04-14T05:59:26.000Z",
+      "theme": "grunge",
+      "topic": "Exploring the Foundations of Existentialism",
+      "contentType": "article",
+      "excerpt": "A one-sentence dive into the strange world of existentialist philosophy, perfect for enthusiasts who love to question reality.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Existentialism",
+        "Global",
+        "Tutorial"
+      ],
+      "path": "2026/04/14/2026-04-14-05-59-26_exploring-the-foundations-of-existentialism.md"
+    },
+    {
       "title": "The Cosmos is a Joke: A Journey Through the Impossible",
       "date": "2026-04-14T01:17:55.000Z",
       "theme": "cotton-candy",
@@ -4480,6 +4496,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 268,
-  "lastBuilt": "2026-04-14T01:17:55.141Z"
+  "total": 269,
+  "lastBuilt": "2026-04-14T05:59:26.544Z"
 }
