@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In 2100, Anthropologists Will Study Us Like Cavemen",
+      "date": "2026-04-14T16:59:11.000Z",
+      "theme": "neon-nights",
+      "topic": "The Future of Anthropology: Case Study",
+      "contentType": "article",
+      "excerpt": "Will our selfies and Netflix binge habits shape the way future anthropologists understand humanity? Here's a glimpse into our distant, yet not so distant future.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Anthropology",
+        "Historical",
+        "Case Study"
+      ],
+      "path": "2026/04/14/2026-04-14-16-59-11_the-future-of-anthropology-case-study.md"
+    },
+    {
       "title": "The Oracle of Delphi's Matrix Code: A Moral Maze",
       "date": "2026-04-14T12:58:34.000Z",
       "theme": "paper-ink",
@@ -4528,6 +4544,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 271,
-  "lastBuilt": "2026-04-14T12:58:34.372Z"
+  "total": 272,
+  "lastBuilt": "2026-04-14T16:59:11.845Z"
 }
