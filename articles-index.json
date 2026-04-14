@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cosmos is a Joke: A Journey Through the Impossible",
+      "date": "2026-04-14T01:17:55.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Impossibility of Space & Astronomy: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if the universe is a cosmic stand-up act? Dive into the absurdity of space and astronomy with us.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Space & Astronomy",
+        "Absurdist",
+        "Educational Essay"
+      ],
+      "path": "2026/04/14/2026-04-14-01-17-55_the-impossibility-of-space-astronomy-a-thought-experiment.md"
+    },
+    {
       "title": "In an Alternate Timeline, Galileo was a Time Traveler",
       "date": "2026-04-13T20:46:57.000Z",
       "theme": "sunset-vibes",
@@ -4464,6 +4480,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 267,
-  "lastBuilt": "2026-04-13T20:46:57.986Z"
+  "total": 268,
+  "lastBuilt": "2026-04-14T01:17:55.141Z"
 }
