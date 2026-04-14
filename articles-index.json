@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oracle of Delphi's Matrix Code: A Moral Maze",
+      "date": "2026-04-14T12:58:34.000Z",
+      "theme": "paper-ink",
+      "topic": "What Ethics & Morality Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Delving into the moral labyrinth of a world where algorithms decide ethics.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Ethics & Morality",
+        "Ethical",
+        "Speculative Future"
+      ],
+      "path": "2026/04/14/2026-04-14-12-58-34_what-ethics-morality-reveals-about-reality.md"
+    },
+    {
       "title": "If Technology Had No Rules: A Wild Ride Through the Ethical Chaos",
       "date": "2026-04-14T09:12:40.000Z",
       "theme": "forest-calm",
@@ -4512,6 +4528,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 270,
-  "lastBuilt": "2026-04-14T09:12:40.911Z"
+  "total": 271,
+  "lastBuilt": "2026-04-14T12:58:34.372Z"
 }
