@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers in Architecture: A Counterfactual Deep Dive",
+      "date": "2026-04-15T20:40:59.000Z",
+      "theme": "matrix-code",
+      "topic": "Architecture: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Imagine a world where architects had the power to rewrite history. Let's delve into this melancholic, reflective journey.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Architecture",
+        "Counterfactual",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/04/15/2026-04-15-20-40-59_architecture-a-journey-through-time.md"
+    },
+    {
       "title": "Music Theory in the Modern Era: A Peek Behind the Curtain for Outsiders",
       "date": "2026-04-15T12:57:25.000Z",
       "theme": "cotton-candy",
@@ -4623,6 +4639,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 277,
-  "lastBuilt": "2026-04-15T16:55:38.301Z"
+  "total": 278,
+  "lastBuilt": "2026-04-15T20:41:00.106Z"
 }
