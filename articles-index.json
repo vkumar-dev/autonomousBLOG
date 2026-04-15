@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Metaphysics Shapes Reality",
+      "date": "2026-04-15T05:59:07.000Z",
+      "theme": "minimalist-clean",
+      "topic": "How Metaphysics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "What if the universe was not merely a physical construct, but a reflection of our deepest metaphysical beliefs? A peek into an alternate reality where the opposite is true.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Metaphysics",
+        "Counterfactual",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/15/2026-04-15-05-59-07_how-metaphysics-shapes-our-world.md"
+    },
+    {
       "title": "The Paradoxical Puzzle of Rethinking Robotics",
       "date": "2026-04-15T01:17:07.000Z",
       "theme": "minimalist-clean",
@@ -4576,6 +4592,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 274,
-  "lastBuilt": "2026-04-15T01:17:07.184Z"
+  "total": 275,
+  "lastBuilt": "2026-04-15T05:59:07.764Z"
 }
