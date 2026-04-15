@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Music Theory in the Modern Era: A Peek Behind the Curtain for Outsiders",
+      "date": "2026-04-15T12:57:25.000Z",
+      "theme": "cotton-candy",
+      "topic": "Music Theory in the Modern Era: A Outsider Approach",
+      "contentType": "article",
+      "excerpt": "Ever wondered how a popstar's hit turns the charts upside down? Buckle up as we unravel the hidden mechanics of music theory in the modern era.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Music Theory",
+        "Outsider"
+      ],
+      "path": "2026/04/15/2026-04-15-12-57-25_music-theory-in-the-modern-era-a-outsider-approach.md"
+    },
+    {
       "title": "The Unsolved Riddles of Forensic Science",
       "date": "2026-04-15T09:16:02.000Z",
       "theme": "sunset-vibes",
@@ -4608,6 +4623,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 276,
-  "lastBuilt": "2026-04-15T09:16:02.998Z"
+  "total": 277,
+  "lastBuilt": "2026-04-15T12:57:25.918Z"
 }
