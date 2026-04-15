@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Paradoxical Puzzle of Rethinking Robotics",
+      "date": "2026-04-15T01:17:07.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Rethinking Robotics: A Paradoxical Breakdown",
+      "contentType": "article",
+      "excerpt": "Welcome to the labyrinth of paradoxes, where machines question their masters and gears turn on themselves. Buckle up!",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Robotics",
+        "Paradoxical",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/15/2026-04-15-01-17-07_rethinking-robotics-a-paradoxical-breakdown.md"
+    },
+    {
       "title": "Computing the Incomputable: A Cognitive Science Experiment",
       "date": "2026-04-14T20:45:43.000Z",
       "theme": "robot-revolution",
@@ -4560,6 +4576,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 273,
-  "lastBuilt": "2026-04-14T20:45:43.233Z"
+  "total": 274,
+  "lastBuilt": "2026-04-15T01:17:07.184Z"
 }
