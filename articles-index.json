@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Secrets are Public Knowledge: A Deep Dive into Cryptography's Dark Corners",
+      "date": "2026-04-16T13:03:09.000Z",
+      "theme": "neon-nights",
+      "topic": "Cryptography: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the thrilling, if somewhat eccentric, world of cryptography. Where the unbreakable becomes the standard.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Cryptography",
+        "Futuristic",
+        "Practical Guide"
+      ],
+      "path": "2026/04/16/2026-04-16-13-03-09_cryptography-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "How Anthropology Shaped Iowa Cornfields - And What It Means For Your Future",
       "date": "2026-04-16T09:15:06.000Z",
       "theme": "aurora",
@@ -4687,6 +4703,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 281,
-  "lastBuilt": "2026-04-16T09:15:06.955Z"
+  "total": 282,
+  "lastBuilt": "2026-04-16T13:03:09.169Z"
 }
