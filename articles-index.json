@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Land of Pixels and Polygons: Game Design's Hidden Mechanics",
+      "date": "2026-04-16T01:21:45.000Z",
+      "theme": "neon-nights",
+      "topic": "Game Design: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "From the bizarre to the brilliant, we delve into the fascinating nooks of game design that will make you question your pixels.",
+      "readingTime": "6 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Game Design",
+        "Insider",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/16/2026-04-16-01-21-45_game-design-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Time Travelers in Architecture: A Counterfactual Deep Dive",
       "date": "2026-04-15T20:40:59.000Z",
       "theme": "matrix-code",
@@ -4639,6 +4655,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 278,
-  "lastBuilt": "2026-04-15T20:41:00.106Z"
+  "total": 279,
+  "lastBuilt": "2026-04-16T01:21:45.390Z"
 }
