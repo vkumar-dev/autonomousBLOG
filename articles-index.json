@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Philosophy Matters to the Drunken Barfly",
+      "date": "2026-04-16T06:00:02.000Z",
+      "theme": "cotton-candy",
+      "topic": "Why Philosophy Matters for Enthusiasts & Hobbyists",
+      "contentType": "article",
+      "excerpt": "Discover how Socrates' love for a good debate can save you from a pointless bar argument.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Philosophy",
+        "Local",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/04/16/2026-04-16-06-00-02_why-philosophy-matters-for-enthusiasts-hobbyists.md"
+    },
+    {
       "title": "In the Land of Pixels and Polygons: Game Design's Hidden Mechanics",
       "date": "2026-04-16T01:21:45.000Z",
       "theme": "neon-nights",
@@ -4655,6 +4671,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 279,
-  "lastBuilt": "2026-04-16T01:21:45.390Z"
+  "total": 280,
+  "lastBuilt": "2026-04-16T06:00:02.146Z"
 }
