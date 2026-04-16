@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "How Anthropology Shaped Iowa Cornfields - And What It Means For Your Future",
+      "date": "2026-04-16T09:15:06.000Z",
+      "theme": "aurora",
+      "topic": "How Anthropology Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Imagine a future where farmers aren't just cultivating crops; they're curating art installations. Welcome to the brave new world of agro-anthropolo...",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Anthropology",
+        "Speculative",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/16/2026-04-16-09-15-06_how-anthropology-shapes-our-world.md"
+    },
+    {
       "title": "Why Philosophy Matters to the Drunken Barfly",
       "date": "2026-04-16T06:00:02.000Z",
       "theme": "cotton-candy",
@@ -4671,6 +4687,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 280,
-  "lastBuilt": "2026-04-16T06:00:02.146Z"
+  "total": 281,
+  "lastBuilt": "2026-04-16T09:15:06.955Z"
 }
