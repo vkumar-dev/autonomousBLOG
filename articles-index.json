@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "If Sociology Had No Rules: A Chaos Theory Party",
+      "date": "2026-04-16T20:41:51.000Z",
+      "theme": "matrix-code",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "A speculative exploration into the unexpected connections between sociology, local communities, and a world without rules.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "{{KEYWORDS}}"
+      ],
+      "path": "2026/04/16/2026-04-16-20-41-51_if-sociology-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "Time Travelers with Programming Skills: The Unseen Architects of our Past",
       "date": "2026-04-16T17:06:28.000Z",
       "theme": "paper-ink",
@@ -4719,6 +4733,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 283,
-  "lastBuilt": "2026-04-16T17:06:28.742Z"
+  "total": 284,
+  "lastBuilt": "2026-04-16T20:41:51.124Z"
 }
