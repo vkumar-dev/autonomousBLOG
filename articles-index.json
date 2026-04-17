@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Logic Breaks Down: A Scientific Tango with Chaos",
+      "date": "2026-04-17T16:45:04.000Z",
+      "theme": "aurora",
+      "topic": "The Science Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "In a world where science is our compass, what happens when the very foundations of logic crumble beneath our feet?",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Science",
+        "Scientific",
+        "Tutorial"
+      ],
+      "path": "2026/04/17/2026-04-17-16-45-04_the-science-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "The Anthropologist's Paradox: A Thought Experiment",
       "date": "2026-04-17T12:52:27.000Z",
       "theme": "minimalist-clean",
@@ -4781,6 +4797,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 287,
-  "lastBuilt": "2026-04-17T12:52:27.886Z"
+  "total": 288,
+  "lastBuilt": "2026-04-17T16:45:04.233Z"
 }
