@@ -1,0 +1,100 @@
+name: Autonomous Article Generation (GitHub Models)
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install --no-save gray-matter node-fetch@2
+
+      - name: Install GitHub Models extension
+        run: |
+          gh extension install github/gh-models
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Select random topic
+        id: topic
+        run: |
+          echo "🎲 Generating random topic..."
+          node scripts/random-topic-selector.js
+          # Topic is saved to selected-topic.json by the script
+          TOPIC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-topic.json')).topic)")
+          echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+          echo "✅ Generated topic: $TOPIC"
+
+      - name: Generate article with GitHub Models
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_MODEL: 'openai/gpt-4o-mini'
+        run: |
+          echo "✍️  Generating article with GitHub Models..."
+          node scripts/generate-article-gh.js
+          echo "✅ Article generation complete"
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'autonomousBLOG Bot'
+          git config --global user.email 'autonomousblog@github-actions.local'
+
+      - name: Build article index and content cache
+        run: |
+          echo "🔨 Building article index..."
+          node scripts/build-article-index.js
+          echo "✅ Article index built"
+          
+          echo "🔨 Building content cache..."
+          node scripts/build-articles-content.js
+          echo "✅ Content cache built"
+        continue-on-error: true
+
+      - name: Commit and push article with index
+        run: |
+          git add articles/ articles-index.json articles-content.json
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "🤖 Auto-generated article (GitHub Models): $(date -u +%Y-%m-%d)"
+          
+          if git push origin main; then
+            echo "✅ Article committed and pushed"
+          else
+            echo "⚠️  Push failed (may need to pull first)"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Show summary
+        if: always()
+        run: |
+          echo "📊 Workflow Summary:"
+          echo "   Article topic: ${{ steps.topic.outputs.topic }}"
+          echo "   Model: openai/gpt-4o-mini"
+          echo "   Status: Complete"
