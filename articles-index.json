@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Biology's Hidden Chapters: A Global Paradox",
+      "date": "2026-04-17T09:11:33.000Z",
+      "theme": "neon-nights",
+      "topic": "Rethinking Biology: A Global Breakdown",
+      "contentType": "article",
+      "excerpt": "Discover the forgotten history of biology that challenges our understanding of life.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Biology",
+        "Global",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/17/2026-04-17-09-11-33_rethinking-biology-a-global-breakdown.md"
+    },
+    {
       "title": "The Sustainable Utopia That Wasn't: A Thought Experiment",
       "date": "2026-04-17T06:02:30.000Z",
       "theme": "ocean-breeze",
@@ -4749,6 +4765,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 285,
-  "lastBuilt": "2026-04-17T06:02:30.628Z"
+  "total": 286,
+  "lastBuilt": "2026-04-17T09:11:33.372Z"
 }
