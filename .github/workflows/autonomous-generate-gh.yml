@@ -35,7 +35,7 @@ jobs:
         run: |
           gh extension install github/gh-models
         env:
-          GH_TOKEN: ${{ secrets.GH_MODELS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Select random topic
         id: topic
@@ -49,13 +49,10 @@ jobs:
 
       - name: Generate article with GitHub Models
         env:
-          GH_TOKEN: ${{ secrets.GH_MODELS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_MODEL: 'openai/gpt-4o-mini'
         run: |
           echo "✍️  Generating article with GitHub Models..."
-          if [ -z "${{ secrets.GH_MODELS_TOKEN }}" ]; then
-            echo "⚠️  GH_MODELS_TOKEN not found, falling back to GITHUB_TOKEN. If this fails with 403, please add a PAT with 'read:enterprise' or 'read:user' scopes as GH_MODELS_TOKEN."
-          fi
           node scripts/generate-article-gh.js
           echo "✅ Article generation complete"
 
