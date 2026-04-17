@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Anthropologist's Paradox: A Thought Experiment",
+      "date": "2026-04-17T12:52:27.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Impossibility of Anthropology: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if every human was an alien to every other? Welcome to the world of anthropology.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Anthropology",
+        "Counterfactual",
+        "Thought Experiment"
+      ],
+      "path": "2026/04/17/2026-04-17-12-52-27_the-impossibility-of-anthropology-a-thought-experiment.md"
+    },
+    {
       "title": "Biology's Hidden Chapters: A Global Paradox",
       "date": "2026-04-17T09:11:33.000Z",
       "theme": "neon-nights",
@@ -4765,6 +4781,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 286,
-  "lastBuilt": "2026-04-17T09:11:33.372Z"
+  "total": 287,
+  "lastBuilt": "2026-04-17T12:52:27.886Z"
 }
