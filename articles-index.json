@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Cryptographic Time Bomb Ticking Among Us",
+      "date": "2026-04-17T20:38:06.000Z",
+      "theme": "forest-calm",
+      "topic": "Cryptography: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Exploring the lesser-known facts and stories in the world of modern cryptography, where even a thought experiment can lead to a digital time bomb among us.",
+      "readingTime": "5 min",
+      "wordCount": 800,
+      "keywords": [
+        "Cryptography",
+        "Modern",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/04/17/2026-04-17-20-38-06_cryptography-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "When Logic Breaks Down: A Scientific Tango with Chaos",
       "date": "2026-04-17T16:45:04.000Z",
       "theme": "aurora",
@@ -4797,6 +4813,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 288,
-  "lastBuilt": "2026-04-17T16:45:04.233Z"
+  "total": 289,
+  "lastBuilt": "2026-04-17T20:38:06.389Z"
 }
