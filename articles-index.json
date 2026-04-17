@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sustainable Utopia That Wasn't: A Thought Experiment",
+      "date": "2026-04-17T06:02:30.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Impossibility of Sustainability: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Imagine a world where sustainability was not just achievable, but the norm. Sounds wonderful, doesn't it? But what if I told you that this world is a mirage?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Sustainability",
+        "Practical",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/04/17/2026-04-17-06-02-30_the-impossibility-of-sustainability-a-thought-experiment.md"
+    },
+    {
       "title": "If Sociology Had No Rules: A Chaos Theory Party",
       "date": "2026-04-16T20:41:51.000Z",
       "theme": "matrix-code",
@@ -4733,6 +4749,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 284,
-  "lastBuilt": "2026-04-17T01:17:47.531Z"
+  "total": 285,
+  "lastBuilt": "2026-04-17T06:02:30.628Z"
 }
