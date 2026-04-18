@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forensic Oracles of Our Reality",
+      "date": "2026-04-18T20:27:48.000Z",
+      "theme": "matrix-code",
+      "topic": "How Forensics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "From CSI to quantum cryptography, forensics is the unsung oracle of our reality. But what if we could compute the incomputable?",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Forensics",
+        "Speculative",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/18/2026-04-18-20-27-48_how-forensics-shapes-our-world.md"
+    },
+    {
       "title": "The Biological Matrix: Where Cells Dream of Becoming Conscious",
       "date": "2026-04-18T12:36:59.000Z",
       "theme": "ocean-breeze",
@@ -4861,6 +4877,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 292,
-  "lastBuilt": "2026-04-18T16:30:31.295Z"
+  "total": 293,
+  "lastBuilt": "2026-04-18T20:27:49.020Z"
 }
