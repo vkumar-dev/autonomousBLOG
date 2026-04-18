@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Biological Matrix: Where Cells Dream of Becoming Conscious",
+      "date": "2026-04-18T12:36:59.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Consciousness of Biology: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Exploring the bizarre idea that cells could one day achieve consciousness, and what it would mean for our understanding of life.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Biology",
+        "Modern",
+        "Educational Essay"
+      ],
+      "path": "2026/04/18/2026-04-18-12-36-59_the-consciousness-of-biology-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "The Technological Time Paradox: Past, Present, and Future",
       "date": "2026-04-18T08:39:31.000Z",
       "theme": "aurora",
@@ -4845,6 +4861,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 291,
-  "lastBuilt": "2026-04-18T08:39:31.170Z"
+  "total": 292,
+  "lastBuilt": "2026-04-18T12:37:00.040Z"
 }
