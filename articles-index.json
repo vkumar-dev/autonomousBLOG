@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Technological Time Paradox: Past, Present, and Future",
+      "date": "2026-04-18T08:39:31.000Z",
+      "theme": "aurora",
+      "topic": "Exploring the Foundations of Technology",
+      "contentType": "article",
+      "excerpt": "A journey through time to uncover the ironic interplay between technology's roots and its relentless march forward.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Technology",
+        "Outsider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/18/2026-04-18-08-39-31_exploring-the-foundations-of-technology.md"
+    },
+    {
       "title": "If Ontology Had No Rules: A Speculative Exploration",
       "date": "2026-04-18T01:12:41.000Z",
       "theme": "paper-ink",
@@ -4829,6 +4845,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 290,
-  "lastBuilt": "2026-04-18T05:34:19.442Z"
+  "total": 291,
+  "lastBuilt": "2026-04-18T08:39:31.170Z"
 }
