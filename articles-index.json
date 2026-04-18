@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Ontology Had No Rules: A Speculative Exploration",
+      "date": "2026-04-18T01:12:41.000Z",
+      "theme": "paper-ink",
+      "topic": "Ontology Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "A glimpse into a world where ontologies dance to their own beat.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Ontology",
+        "Theoretical",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/18/2026-04-18-01-12-41_if-ontology-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "A Cryptographic Time Bomb Ticking Among Us",
       "date": "2026-04-17T20:38:06.000Z",
       "theme": "forest-calm",
@@ -4813,6 +4829,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 289,
-  "lastBuilt": "2026-04-17T20:38:06.389Z"
+  "total": 290,
+  "lastBuilt": "2026-04-18T01:12:42.004Z"
 }
