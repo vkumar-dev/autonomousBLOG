@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Morgue of Ideas: Where Forensics and Antiquity Collide",
+      "date": "2026-04-19T12:36:22.000Z",
+      "theme": "matrix-code",
+      "topic": "Forensics Explained: Biography",
+      "contentType": "article",
+      "excerpt": "A journey into the dark, dusty corners of history where forensic science and ancient mysteries intertwine.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Forensics",
+        "Ancient",
+        "Biography"
+      ],
+      "path": "2026/04/19/2026-04-19-12-36-22_forensics-explained-biography.md"
+    },
+    {
       "title": "Time Travelers with Calculators: The Great Celestial Hoax",
       "date": "2026-04-19T08:46:25.000Z",
       "theme": "minimalist-clean",
@@ -4925,6 +4941,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 296,
-  "lastBuilt": "2026-04-19T08:46:26.071Z"
+  "total": 297,
+  "lastBuilt": "2026-04-19T12:36:22.492Z"
 }
