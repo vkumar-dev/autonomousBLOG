@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking the Ocean's Depth: A Counterfactual Expedition",
+      "date": "2026-04-19T20:27:37.000Z",
+      "theme": "nautical",
+      "topic": "Rethinking Oceanography: A Counterfactual Breakdown",
+      "contentType": "article",
+      "excerpt": "What if the ocean's depth was a mere footnote in our understanding of its mysteries?",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Oceanography",
+        "Counterfactual",
+        "Reference Guide"
+      ],
+      "path": "2026/04/19/2026-04-19-20-27-37_rethinking-oceanography-a-counterfactual-breakdown.md"
+    },
+    {
       "title": "In the Morgue of Ideas: Where Forensics and Antiquity Collide",
       "date": "2026-04-19T12:36:22.000Z",
       "theme": "matrix-code",
@@ -4941,6 +4957,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 297,
-  "lastBuilt": "2026-04-19T16:30:43.588Z"
+  "total": 298,
+  "lastBuilt": "2026-04-19T20:27:37.697Z"
 }
