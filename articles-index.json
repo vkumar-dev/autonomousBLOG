@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Knotty Knoll of Metaphysics: A Spicy Tale for the Insatiably Curious",
+      "date": "2026-04-19T01:21:14.000Z",
+      "theme": "cotton-candy",
+      "topic": "Metaphysics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Dive into the tangled web of metaphysical wonders, where time, space, and reality become as malleable as a cat's curiosity.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Metaphysics",
+        "Futuristic",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/04/19/2026-04-19-01-21-14_metaphysics-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Forensic Oracles of Our Reality",
       "date": "2026-04-18T20:27:48.000Z",
       "theme": "matrix-code",
@@ -4877,6 +4893,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 293,
-  "lastBuilt": "2026-04-18T20:27:49.020Z"
+  "total": 294,
+  "lastBuilt": "2026-04-19T01:21:14.202Z"
 }
