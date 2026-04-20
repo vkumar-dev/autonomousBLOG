@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Astronomers Become Quantum Computers: The Cosmic Calculation Paradox",
+      "date": "2026-04-20T16:56:17.000Z",
+      "theme": "paper-ink",
+      "topic": "The Space & Astronomy Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "What if quantum computers could solve the universe's mysteries? Buckle up for a cosmic calculation paradox.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Space & Astronomy",
+        "Paradoxical",
+        "Speculative Future"
+      ],
+      "path": "2026/04/20/2026-04-20-16-56-17_the-space-astronomy-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "Phenomenology: The Self-Replicating Mirage",
       "date": "2026-04-20T13:04:19.000Z",
       "theme": "minimalist-clean",
@@ -5021,6 +5037,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 302,
-  "lastBuilt": "2026-04-20T13:04:19.703Z"
+  "total": 303,
+  "lastBuilt": "2026-04-20T16:56:17.673Z"
 }
