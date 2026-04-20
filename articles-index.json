@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Urban Planet, Zoning Laws Ruled with an Iron Fist",
+      "date": "2026-04-20T20:39:34.000Z",
+      "theme": "aurora",
+      "topic": "Urban Planning: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "What if zoning laws were as strict as they are today, but in a world where every citizen had the power to change them at will?",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Urban Planning",
+        "Paradoxical",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/20/2026-04-20-20-39-34_urban-planning-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "When Astronomers Become Quantum Computers: The Cosmic Calculation Paradox",
       "date": "2026-04-20T16:56:17.000Z",
       "theme": "paper-ink",
@@ -5037,6 +5053,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 303,
-  "lastBuilt": "2026-04-20T16:56:17.673Z"
+  "total": 304,
+  "lastBuilt": "2026-04-20T20:39:34.807Z"
 }
