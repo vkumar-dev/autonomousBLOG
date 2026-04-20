@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Grand Geological Dilemma: Are We Just Players in Gaia's Cosmic Game?",
+      "date": "2026-04-20T06:13:15.000Z",
+      "theme": "neon-nights",
+      "topic": "The Philosophy Behind Geology",
+      "contentType": "article",
+      "excerpt": "Are we mere spectators or architects of our planet's fate? Dive into the enigmatic world of geology and unravel its philosophical mysteries.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Geology",
+        "Balanced",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/20/2026-04-20-06-13-15_the-philosophy-behind-geology.md"
+    },
+    {
       "title": "When Machines Dream of Shakespeare: Unraveling the Complexity of Literature",
       "date": "2026-04-20T01:20:34.000Z",
       "theme": "minimalist-clean",
@@ -4973,6 +4989,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 299,
-  "lastBuilt": "2026-04-20T01:20:34.956Z"
+  "total": 300,
+  "lastBuilt": "2026-04-20T06:13:15.944Z"
 }
