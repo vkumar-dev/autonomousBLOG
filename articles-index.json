@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Economics Had No Rules: A Game of Infinite Monkey Cages",
+      "date": "2026-04-21T01:18:18.000Z",
+      "theme": "industrial",
+      "topic": "If Economics Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where economists are outlawed, and infinite monkeys are given typewriters. What would the economic principles they produce look like?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Economics",
+        "Economic",
+        "Debate & Critique"
+      ],
+      "path": "2026/04/21/2026-04-21-01-18-18_if-economics-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "In an Urban Planet, Zoning Laws Ruled with an Iron Fist",
       "date": "2026-04-20T20:39:34.000Z",
       "theme": "aurora",
@@ -5053,6 +5069,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 304,
-  "lastBuilt": "2026-04-20T20:39:34.807Z"
+  "total": 305,
+  "lastBuilt": "2026-04-21T01:18:18.894Z"
 }
