@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Welcome to the Theater of Consciousness: A Seat for One",
+      "date": "2026-04-21T09:21:09.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Impossibility of Consciousness Studies: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration into the labyrinthine world of consciousness studies, where even the most seasoned researchers find themselves lost in a paradoxical maze.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Consciousness Studies",
+        "Insider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/21/2026-04-21-09-21-09_the-impossibility-of-consciousness-studies-a-thought-experiment.md"
+    },
+    {
       "title": "In an alternate timeline where Linguistics was the Matrix...",
       "date": "2026-04-21T06:02:26.000Z",
       "theme": "forest-calm",
@@ -5085,6 +5101,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 306,
-  "lastBuilt": "2026-04-21T06:02:26.658Z"
+  "total": 307,
+  "lastBuilt": "2026-04-21T09:21:09.949Z"
 }
