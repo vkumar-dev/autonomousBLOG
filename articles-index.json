@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Art of Illusion: A Thought Experiment",
+      "date": "2026-04-21T12:58:27.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Impossibility of Art & Design: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if the Mona Lisa was a hologram? Ponder the hidden mechanics behind art and design in this melancholic exploration.",
+      "readingTime": "6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Art & Design",
+        "Historical"
+      ],
+      "path": "2026/04/21/2026-04-21-12-58-27_the-impossibility-of-art-design-a-thought-experiment.md"
+    },
+    {
       "title": "Welcome to the Theater of Consciousness: A Seat for One",
       "date": "2026-04-21T09:21:09.000Z",
       "theme": "sunset-vibes",
@@ -5101,6 +5116,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 307,
-  "lastBuilt": "2026-04-21T09:21:09.949Z"
+  "total": 308,
+  "lastBuilt": "2026-04-21T12:58:27.488Z"
 }
