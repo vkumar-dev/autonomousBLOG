@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an alternate timeline where Linguistics was the Matrix...",
+      "date": "2026-04-21T06:02:26.000Z",
+      "theme": "forest-calm",
+      "topic": "Linguistics: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A world where our words hold the power of life and death. Welcome to the linguistic Matrix.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Linguistics",
+        "Metaphysical",
+        "Practical Guide"
+      ],
+      "path": "2026/04/21/2026-04-21-06-02-26_linguistics-myths-vs-reality.md"
+    },
+    {
       "title": "If Economics Had No Rules: A Game of Infinite Monkey Cages",
       "date": "2026-04-21T01:18:18.000Z",
       "theme": "industrial",
@@ -5069,6 +5085,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 305,
-  "lastBuilt": "2026-04-21T01:18:18.894Z"
+  "total": 306,
+  "lastBuilt": "2026-04-21T06:02:26.658Z"
 }
