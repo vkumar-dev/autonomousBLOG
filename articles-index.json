@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Science for the Absurd: Bridging the Gap Between Academia and the Absurdist",
+      "date": "2026-04-21T20:44:21.000Z",
+      "theme": "matrix-code",
+      "topic": "Bridging the Gap: Science for Everyone",
+      "contentType": "article",
+      "excerpt": "A journey into the absurd, where science becomes philosophy, and philosophers become mad scientists.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Science",
+        "Absurdist",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/21/2026-04-21-20-44-21_bridging-the-gap-science-for-everyone.md"
+    },
+    {
       "title": "Quantum Cats and the Science of Parallel Worlds",
       "date": "2026-04-21T16:53:38.000Z",
       "theme": "matrix-code",
@@ -5132,6 +5148,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 309,
-  "lastBuilt": "2026-04-21T16:53:38.649Z"
+  "total": 310,
+  "lastBuilt": "2026-04-21T20:44:21.189Z"
 }
