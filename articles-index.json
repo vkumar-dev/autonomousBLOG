@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Quantum Cats and the Science of Parallel Worlds",
+      "date": "2026-04-21T16:53:38.000Z",
+      "theme": "matrix-code",
+      "topic": "Science in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Ever wondered what science would look like if it was as unpredictable and intriguing as the universe itself? Let's dive in.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Science",
+        "Optimistic",
+        "Reference Guide"
+      ],
+      "path": "2026/04/21/2026-04-21-16-53-38_science-in-an-alternate-universe.md"
+    },
+    {
       "title": "The Art of Illusion: A Thought Experiment",
       "date": "2026-04-21T12:58:27.000Z",
       "theme": "sunset-vibes",
@@ -5116,6 +5132,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 308,
-  "lastBuilt": "2026-04-21T12:58:27.488Z"
+  "total": 309,
+  "lastBuilt": "2026-04-21T16:53:38.649Z"
 }
