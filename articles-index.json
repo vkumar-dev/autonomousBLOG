@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Urban Planetarium: Navigating the Stars of Cities Yet Unborn",
+      "date": "2026-04-22T01:20:22.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Impossibility of Urban Planning: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Exploring the cosmic chaos and celestial calamity that awaits our unborn cities - a journey through the constellations of urban planning.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Urban Planning",
+        "Modern",
+        "Reference Guide"
+      ],
+      "path": "2026/04/22/2026-04-22-01-20-22_the-impossibility-of-urban-planning-a-thought-experiment.md"
+    },
+    {
       "title": "Science for the Absurd: Bridging the Gap Between Academia and the Absurdist",
       "date": "2026-04-21T20:44:21.000Z",
       "theme": "matrix-code",
@@ -5148,6 +5164,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 310,
-  "lastBuilt": "2026-04-21T20:44:21.189Z"
+  "total": 311,
+  "lastBuilt": "2026-04-22T01:20:22.779Z"
 }
