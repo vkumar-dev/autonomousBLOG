@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Urban World Where Time Flows Backwards",
+      "date": "2026-04-22T06:00:21.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Urban Planning: A Counterfactual Perspective",
+      "contentType": "article",
+      "excerpt": "Explore the ethical dilemmas of urban planning in a world where time moves backwards.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Urban Planning",
+        "Counterfactual",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/04/22/2026-04-22-06-00-21_urban-planning-a-counterfactual-perspective.md"
+    },
+    {
       "title": "The Urban Planetarium: Navigating the Stars of Cities Yet Unborn",
       "date": "2026-04-22T01:20:22.000Z",
       "theme": "sunset-vibes",
@@ -5164,6 +5180,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 311,
-  "lastBuilt": "2026-04-22T01:20:22.779Z"
+  "total": 312,
+  "lastBuilt": "2026-04-22T06:00:21.840Z"
 }
