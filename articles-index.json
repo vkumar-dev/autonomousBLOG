@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Psychology's Hidden Mechanics: A Counterfactual Tale of Minds Unraveled",
+      "date": "2026-04-22T09:13:47.000Z",
+      "theme": "paper-ink",
+      "topic": "Exploring the Foundations of Psychology",
+      "contentType": "article",
+      "excerpt": "Unveil the hidden mechanics that shaped psychology, from the asylum to the mind palace.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Psychology",
+        "Counterfactual",
+        "Narrative History"
+      ],
+      "path": "2026/04/22/2026-04-22-09-13-47_exploring-the-foundations-of-psychology.md"
+    },
+    {
       "title": "In an Urban World Where Time Flows Backwards",
       "date": "2026-04-22T06:00:21.000Z",
       "theme": "minimalist-clean",
@@ -5180,6 +5196,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 312,
-  "lastBuilt": "2026-04-22T06:00:21.840Z"
+  "total": 313,
+  "lastBuilt": "2026-04-22T09:13:47.970Z"
 }
