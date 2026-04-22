@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cryptography That Makes Schrödinger's Cat Look Like Child's Play",
+      "date": "2026-04-22T16:52:54.000Z",
+      "theme": "neon-nights",
+      "topic": "The Cryptography That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "A dive into the enigmatic world of counterfactual cryptography, where secrets live in multiple states simultaneously.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Cryptography",
+        "Counterfactual",
+        "Conceptual Overview"
+      ],
+      "path": "2026/04/22/2026-04-22-16-52-54_the-cryptography-that-defies-intuition.md"
+    },
+    {
       "title": "In a World Without Math: A Counterfactual History",
       "date": "2026-04-22T12:58:24.000Z",
       "theme": "paper-ink",
@@ -5212,6 +5228,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 314,
-  "lastBuilt": "2026-04-22T12:58:24.692Z"
+  "total": 315,
+  "lastBuilt": "2026-04-22T16:52:54.207Z"
 }
