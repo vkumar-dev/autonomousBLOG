@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Ontology Had No Rules: A Dive into Chaos and Creation",
+      "date": "2026-04-22T20:47:34.000Z",
+      "theme": "neon-nights",
+      "topic": "If Ontology Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where everything has no definition, where ontology is a free-for-all. Welcome to the party.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Ontology",
+        "Practical",
+        "Educational Essay"
+      ],
+      "path": "2026/04/22/2026-04-22-20-47-34_if-ontology-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "The Cryptography That Makes Schrödinger's Cat Look Like Child's Play",
       "date": "2026-04-22T16:52:54.000Z",
       "theme": "neon-nights",
@@ -5228,6 +5244,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 315,
-  "lastBuilt": "2026-04-22T16:52:54.207Z"
+  "total": 316,
+  "lastBuilt": "2026-04-22T20:47:34.963Z"
 }
