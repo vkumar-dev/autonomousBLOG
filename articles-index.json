@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Mathematics: The Ancient Secret to Modern Dominance",
+      "date": "2026-04-23T06:03:34.000Z",
+      "theme": "cotton-candy",
+      "topic": "Bridging the Gap: Mathematics for Everyone",
+      "contentType": "article",
+      "excerpt": "Delve into the ancient roots of mathematics and how it has shaped our modern world.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Mathematics",
+        "Ancient"
+      ],
+      "path": "2026/04/23/2026-04-23-06-03-34_bridging-the-gap-mathematics-for-everyone.md"
+    },
+    {
       "title": "Time Travelers: Quantum Chrononauts of Our Past and Future",
       "date": "2026-04-23T01:24:19.000Z",
       "theme": "sunset-vibes",
@@ -5260,6 +5275,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 317,
-  "lastBuilt": "2026-04-23T01:24:20.100Z"
+  "total": 318,
+  "lastBuilt": "2026-04-23T06:03:35.105Z"
 }
