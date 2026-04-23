@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "What If the Cosmos Spun in Reverse?",
+      "date": "2026-04-23T12:59:29.000Z",
+      "theme": "cotton-candy",
+      "topic": "What If Space & Astronomy Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "A tongue-in-cheek exploration of what life would be like if our universe obeyed the laws of thermodynamics in reverse.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Space & Astronomy",
+        "Global"
+      ],
+      "path": "2026/04/23/2026-04-23-12-59-29_what-if-space-astronomy-worked-backwards.md"
+    },
+    {
       "title": "Could Sociology Exist Without Itself? A Puzzle for the Modern Mind",
       "date": "2026-04-23T09:21:47.000Z",
       "theme": "industrial",
@@ -5291,6 +5306,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 319,
-  "lastBuilt": "2026-04-23T09:21:47.805Z"
+  "total": 320,
+  "lastBuilt": "2026-04-23T12:59:30.060Z"
 }
