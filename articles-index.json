@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Culture is Quantifiable",
+      "date": "2026-04-23T20:48:18.000Z",
+      "theme": "paper-ink",
+      "topic": "The Anthropology That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Discover the mind-bending anthropological theory that challenges our understanding of human culture.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Anthropology",
+        "Speculative",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/04/23/2026-04-23-20-48-18_the-anthropology-that-defies-intuition.md"
+    },
+    {
       "title": "What if Atlantis was the First Civilization?",
       "date": "2026-04-23T17:12:42.000Z",
       "theme": "cotton-candy",
@@ -5322,6 +5338,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 321,
-  "lastBuilt": "2026-04-23T17:12:42.489Z"
+  "total": 322,
+  "lastBuilt": "2026-04-23T20:48:19.021Z"
 }
