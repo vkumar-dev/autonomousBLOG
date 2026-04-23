@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers: Quantum Chrononauts of Our Past and Future",
+      "date": "2026-04-23T01:24:19.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Metaphysics: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "A tantalizing exploration of the strange and wondrous possibilities that await those who dare to defy linear time.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Metaphysics",
+        "Balanced",
+        "Narrative History"
+      ],
+      "path": "2026/04/23/2026-04-23-01-24-19_metaphysics-a-journey-through-time.md"
+    },
+    {
       "title": "If Ontology Had No Rules: A Dive into Chaos and Creation",
       "date": "2026-04-22T20:47:34.000Z",
       "theme": "neon-nights",
@@ -5244,6 +5260,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 316,
-  "lastBuilt": "2026-04-22T20:47:34.963Z"
+  "total": 317,
+  "lastBuilt": "2026-04-23T01:24:20.100Z"
 }
