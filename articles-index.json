@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Could Sociology Exist Without Itself? A Puzzle for the Modern Mind",
+      "date": "2026-04-23T09:21:47.000Z",
+      "theme": "industrial",
+      "topic": "Could Sociology Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A tongue-in-cheek exploration of whether sociology, the study of society and social behavior, can survive without... well, itself.",
+      "readingTime": "6 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Sociology",
+        "Pessimistic",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/23/2026-04-23-09-21-47_could-sociology-exist-without-itself.md"
+    },
+    {
       "title": "Mathematics: The Ancient Secret to Modern Dominance",
       "date": "2026-04-23T06:03:34.000Z",
       "theme": "cotton-candy",
@@ -5275,6 +5291,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 318,
-  "lastBuilt": "2026-04-23T06:03:35.105Z"
+  "total": 319,
+  "lastBuilt": "2026-04-23T09:21:47.805Z"
 }
