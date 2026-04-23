@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What if Atlantis was the First Civilization?",
+      "date": "2026-04-23T17:12:42.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Evolution of Ancient Cultures",
+      "contentType": "article",
+      "excerpt": "Dive into an alternate reality where the lost city of Atlantis wasn't a myth, but the cradle of civilization.",
+      "readingTime": "8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Ancient Cultures",
+        "Skeptical",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/23/2026-04-23-17-12-42_the-evolution-of-ancient-cultures.md"
+    },
+    {
       "title": "What If the Cosmos Spun in Reverse?",
       "date": "2026-04-23T12:59:29.000Z",
       "theme": "cotton-candy",
@@ -5306,6 +5322,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 320,
-  "lastBuilt": "2026-04-23T12:59:30.060Z"
+  "total": 321,
+  "lastBuilt": "2026-04-23T17:12:42.489Z"
 }
