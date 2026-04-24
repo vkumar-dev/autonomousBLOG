@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Why Every Tech-Savvy Reader Needs to Master Psychology",
+      "date": "2026-04-24T09:27:35.000Z",
+      "theme": "matrix-code",
+      "topic": "Bridging the Gap: Psychology for Everyone",
+      "contentType": "article",
+      "excerpt": "Discover why understanding psychology is essential in our technology-driven world. Prepare to question everything.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Psychology",
+        "Pessimistic",
+        "Debate & Critique"
+      ],
+      "path": "2026/04/24/2026-04-24-09-27-35_bridging-the-gap-psychology-for-everyone.md"
+    },
+    {
       "title": "Rethinking Reality: A Matrix of Our Own Making",
       "date": "2026-04-24T06:06:11.000Z",
       "theme": "forest-calm",
@@ -5369,6 +5385,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 324,
-  "lastBuilt": "2026-04-24T06:06:11.375Z"
+  "total": 325,
+  "lastBuilt": "2026-04-24T09:27:36.062Z"
 }
