@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Ethics: A Global Game of Moral Chess",
+      "date": "2026-04-24T01:22:48.000Z",
+      "theme": "cotton-candy",
+      "topic": "What Ethics & Morality Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Dive into the mind-bending scenario of a global game of moral chess, where ethics and morality reveal the intricate fabric of our reality.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Ethics & Morality",
+        "Global"
+      ],
+      "path": "2026/04/24/2026-04-24-01-22-48_what-ethics-morality-reveals-about-reality.md"
+    },
+    {
       "title": "In a World Where Culture is Quantifiable",
       "date": "2026-04-23T20:48:18.000Z",
       "theme": "paper-ink",
@@ -5338,6 +5353,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 322,
-  "lastBuilt": "2026-04-23T20:48:19.021Z"
+  "total": 323,
+  "lastBuilt": "2026-04-24T01:22:48.613Z"
 }
