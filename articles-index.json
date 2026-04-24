@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Reality: A Matrix of Our Own Making",
+      "date": "2026-04-24T06:06:11.000Z",
+      "theme": "forest-calm",
+      "topic": "Rethinking Technology: A Philosophical Breakdown",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical implications of technology, one absurd scenario at a time.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Technology",
+        "Philosophical",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/24/2026-04-24-06-06-11_rethinking-technology-a-philosophical-breakdown.md"
+    },
+    {
       "title": "The Matrix of Ethics: A Global Game of Moral Chess",
       "date": "2026-04-24T01:22:48.000Z",
       "theme": "cotton-candy",
@@ -5353,6 +5369,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 323,
-  "lastBuilt": "2026-04-24T01:22:48.613Z"
+  "total": 324,
+  "lastBuilt": "2026-04-24T06:06:11.375Z"
 }
