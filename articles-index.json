@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociological Paradox of Global Harmony",
+      "date": "2026-04-25T16:33:00.000Z",
+      "theme": "neon-nights",
+      "topic": "Sociology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Exploring the peculiar paradox that arises when we strive for global unity, but find ourselves more divided than ever.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Sociology",
+        "Global",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/25/2026-04-25-16-33-00_sociology-practical-applications-and-insights.md"
+    },
+    {
       "title": "Mathematics Without Borders: A Counterfactual Expedition",
       "date": "2026-04-25T12:38:36.000Z",
       "theme": "neon-nights",
@@ -5465,6 +5481,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 330,
-  "lastBuilt": "2026-04-25T12:38:36.402Z"
+  "total": 331,
+  "lastBuilt": "2026-04-25T16:33:01.470Z"
 }
