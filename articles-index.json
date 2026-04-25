@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Forensics: A Global Catastrophe Waiting to Happen",
+      "date": "2026-04-25T08:44:40.000Z",
+      "theme": "paper-ink",
+      "topic": "Time Travelers with Forensics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "What if time travelers, armed with forensic tools, decided to meddle in the past? This thought experiment reveals the chaos we'd face.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Forensics",
+        "Global",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/04/25/2026-04-25-08-44-40_time-travelers-with-forensics-a-counterfactual-journey.md"
+    },
+    {
       "title": "The Game of Life: Where Art and Science Collide",
       "date": "2026-04-25T05:48:26.000Z",
       "theme": "industrial",
@@ -5433,6 +5449,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 328,
-  "lastBuilt": "2026-04-25T05:48:26.701Z"
+  "total": 329,
+  "lastBuilt": "2026-04-25T08:44:40.335Z"
 }
