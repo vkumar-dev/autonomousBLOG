@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Game of Life: Where Art and Science Collide",
+      "date": "2026-04-25T05:48:26.000Z",
+      "theme": "industrial",
+      "topic": "Game Design and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "In a world where our reality is increasingly indistinguishable from a well-designed game, it's time to question the architects of our digital playground.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Game Design",
+        "Absurdist",
+        "Theory & Practice"
+      ],
+      "path": "2026/04/25/2026-04-25-05-48-26_game-design-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "In an Alternate Reality, Quantum Cryptography and the Rabbit Hole",
       "date": "2026-04-25T01:14:15.000Z",
       "theme": "paper-ink",
@@ -5417,6 +5433,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 327,
-  "lastBuilt": "2026-04-25T01:14:15.550Z"
+  "total": 328,
+  "lastBuilt": "2026-04-25T05:48:26.701Z"
 }
