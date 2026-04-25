@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Reality, Quantum Cryptography and the Rabbit Hole",
+      "date": "2026-04-25T01:14:15.000Z",
+      "theme": "paper-ink",
+      "topic": "The Intersection of Cryptography and Alternate Reality",
+      "contentType": "article",
+      "excerpt": "Dive into a world where quantum cryptography reigns, and the secrets of alternate realities are unveiled.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Cryptography",
+        "Practical",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/25/2026-04-25-01-14-15_the-intersection-of-cryptography-and-alternate-reality.md"
+    },
+    {
       "title": "Time Travelers and Literature: The Plot Twist No One Saw Coming",
       "date": "2026-04-24T12:55:49.000Z",
       "theme": "matrix-code",
@@ -5401,6 +5417,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 326,
-  "lastBuilt": "2026-04-24T20:39:40.228Z"
+  "total": 327,
+  "lastBuilt": "2026-04-25T01:14:15.550Z"
 }
