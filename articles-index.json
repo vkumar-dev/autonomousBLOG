@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Mathematics Without Borders: A Counterfactual Expedition",
+      "date": "2026-04-25T12:38:36.000Z",
+      "theme": "neon-nights",
+      "topic": "If Mathematics Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where mathematics had no rules, and chaos reigned supreme. Welcome to the absurdity of our minds run wild.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Mathematics",
+        "Balanced",
+        "Case Study"
+      ],
+      "path": "2026/04/25/2026-04-25-12-38-36_if-mathematics-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "Time Travelers with Forensics: A Global Catastrophe Waiting to Happen",
       "date": "2026-04-25T08:44:40.000Z",
       "theme": "paper-ink",
@@ -5449,6 +5465,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 329,
-  "lastBuilt": "2026-04-25T08:44:40.335Z"
+  "total": 330,
+  "lastBuilt": "2026-04-25T12:38:36.402Z"
 }
