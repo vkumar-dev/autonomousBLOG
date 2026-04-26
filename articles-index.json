@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Architecture's Invisible Hands Shaping Our Reality",
+      "date": "2026-04-26T01:23:25.000Z",
+      "theme": "aurora",
+      "topic": "Architecture and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "From drone-patrolled cornfields to subterranean data centers, architecture's influence is everywhere. But can it shape our consciousness?",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Architecture",
+        "Local",
+        "Educational Essay"
+      ],
+      "path": "2026/04/26/2026-04-26-01-23-25_architecture-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Sociological Paradox of Global Harmony",
       "date": "2026-04-25T16:33:00.000Z",
       "theme": "neon-nights",
@@ -5481,6 +5497,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 331,
-  "lastBuilt": "2026-04-25T20:31:34.954Z"
+  "total": 332,
+  "lastBuilt": "2026-04-26T01:23:25.426Z"
 }
