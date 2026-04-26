@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: Time-Traveling Trendsetters",
+      "date": "2026-04-26T20:30:54.000Z",
+      "theme": "neon-nights",
+      "topic": "Ancient Cultures and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Meet the global trendsetters who've been influencing us for millennia, without even knowing it.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Ancient Cultures",
+        "Global",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/04/26/2026-04-26-20-30-54_ancient-cultures-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Designing Games That Make Economists Cry: An Exploratory Investigation into Counterintuitive Game Design",
       "date": "2026-04-26T16:34:05.000Z",
       "theme": "neon-nights",
@@ -5545,6 +5561,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 335,
-  "lastBuilt": "2026-04-26T16:34:05.519Z"
+  "total": 336,
+  "lastBuilt": "2026-04-26T20:30:54.535Z"
 }
