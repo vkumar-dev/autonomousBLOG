@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code: A Debate on Understanding Science Through Question-Answer Format",
+      "date": "2026-04-26T12:41:14.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Understanding Science Through Question-Answer Format",
+      "contentType": "article",
+      "excerpt": "A head-to-head showdown between the titans of thought, unraveling the complexities of science with wit and wonder.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Science",
+        "Existential",
+        "Debate & Critique"
+      ],
+      "path": "2026/04/26/2026-04-26-12-41-14_understanding-science-through-question-answer-format.md"
+    },
+    {
       "title": "The Paradox of Reality's Logic: A Dance with Absurdity",
       "date": "2026-04-26T08:53:05.000Z",
       "theme": "forest-calm",
@@ -5513,6 +5529,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 333,
-  "lastBuilt": "2026-04-26T08:53:05.730Z"
+  "total": 334,
+  "lastBuilt": "2026-04-26T12:41:14.315Z"
 }
