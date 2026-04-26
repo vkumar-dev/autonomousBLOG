@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Paradox of Reality's Logic: A Dance with Absurdity",
+      "date": "2026-04-26T08:53:05.000Z",
+      "theme": "forest-calm",
+      "topic": "What Logic & Reasoning Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "A tantalizing glimpse into the paradoxical nature of our understanding of reality, and how logic might just be leading us astray.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Logic & Reasoning",
+        "Historical",
+        "Speculative Future"
+      ],
+      "path": "2026/04/26/2026-04-26-08-53-05_what-logic-reasoning-reveals-about-reality.md"
+    },
+    {
       "title": "Architecture's Invisible Hands Shaping Our Reality",
       "date": "2026-04-26T01:23:25.000Z",
       "theme": "aurora",
@@ -5497,6 +5513,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 332,
-  "lastBuilt": "2026-04-26T06:07:10.771Z"
+  "total": 333,
+  "lastBuilt": "2026-04-26T08:53:05.730Z"
 }
