@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Designing Games That Make Economists Cry: An Exploratory Investigation into Counterintuitive Game Design",
+      "date": "2026-04-26T16:34:05.000Z",
+      "theme": "neon-nights",
+      "topic": "The Game Design That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Exploring the world of game design that makes economists weep and mathematicians squirm - where intuition goes out the window and logic takes a detour.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Game Design",
+        "Economic",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/04/26/2026-04-26-16-34-05_the-game-design-that-defies-intuition.md"
+    },
+    {
       "title": "The Matrix Code: A Debate on Understanding Science Through Question-Answer Format",
       "date": "2026-04-26T12:41:14.000Z",
       "theme": "sunset-vibes",
@@ -5529,6 +5545,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 334,
-  "lastBuilt": "2026-04-26T12:41:14.315Z"
+  "total": 335,
+  "lastBuilt": "2026-04-26T16:34:05.519Z"
 }
