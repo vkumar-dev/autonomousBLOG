@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Time Travelers Carry Calculators, and Other Counterfactual Paradoxes",
+      "date": "2026-04-27T20:52:23.000Z",
+      "theme": "matrix-code",
+      "topic": "Science: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Dive into the tantalizing world of counterfactual paradoxes, where time travelers carry calculators, and quantum physics spins on its head.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Science",
+        "Counterfactual",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/27/2026-04-27-20-52-23_science-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Oceanographer's Guide to Debunking Aquatic Myths: Or How I Learned to Stop Worrying and Love the Salty Truth",
       "date": "2026-04-27T17:21:06.000Z",
       "theme": "nautical",
@@ -5625,6 +5641,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 340,
-  "lastBuilt": "2026-04-27T17:21:06.224Z"
+  "total": 341,
+  "lastBuilt": "2026-04-27T20:52:23.267Z"
 }
