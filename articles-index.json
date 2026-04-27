@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oceanographer's Guide to Debunking Aquatic Myths: Or How I Learned to Stop Worrying and Love the Salty Truth",
+      "date": "2026-04-27T17:21:06.000Z",
+      "theme": "nautical",
+      "topic": "Oceanography: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Dive deep into the mesmerizing world of oceanography, where facts and folklore collide. Prepare to have your sea legs tested!",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Oceanography",
+        "Insider",
+        "Thought Experiment"
+      ],
+      "path": "2026/04/27/2026-04-27-17-21-06_oceanography-myths-vs-reality.md"
+    },
+    {
       "title": "Literature: The Time Traveler's Secret Weapon",
       "date": "2026-04-27T13:17:27.000Z",
       "theme": "paper-ink",
@@ -5609,6 +5625,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 339,
-  "lastBuilt": "2026-04-27T13:17:27.283Z"
+  "total": 340,
+  "lastBuilt": "2026-04-27T17:21:06.224Z"
 }
