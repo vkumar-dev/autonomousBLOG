@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Literature: The Time Traveler's Secret Weapon",
+      "date": "2026-04-27T13:17:27.000Z",
+      "theme": "paper-ink",
+      "topic": "How Literature Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Discover how books have been the unsung heroes in shaping our understanding of time.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Literature",
+        "Philosophical",
+        "Paradox Exploration"
+      ],
+      "path": "2026/04/27/2026-04-27-13-17-27_how-literature-shapes-our-world.md"
+    },
+    {
       "title": "Rethinking Literature: The Matrix of Existential Dread",
       "date": "2026-04-27T10:07:33.000Z",
       "theme": "aurora",
@@ -5593,6 +5609,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 338,
-  "lastBuilt": "2026-04-27T10:07:33.833Z"
+  "total": 339,
+  "lastBuilt": "2026-04-27T13:17:27.283Z"
 }
