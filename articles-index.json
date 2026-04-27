@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Reality, Art is the New Economic Powerhouse",
+      "date": "2026-04-27T01:26:15.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Art & Design",
+      "contentType": "article",
+      "excerpt": "What if in a parallel universe, the Mona Lisa was worth more than gold?",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Art & Design",
+        "Economic",
+        "Alternate Reality"
+      ],
+      "path": "2026/04/27/2026-04-27-01-26-15_art-design-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Ancient Cultures: Time-Traveling Trendsetters",
       "date": "2026-04-26T20:30:54.000Z",
       "theme": "neon-nights",
@@ -5561,6 +5577,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 336,
-  "lastBuilt": "2026-04-26T20:30:54.535Z"
+  "total": 337,
+  "lastBuilt": "2026-04-27T01:26:15.982Z"
 }
