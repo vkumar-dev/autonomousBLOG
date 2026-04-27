@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Literature: The Matrix of Existential Dread",
+      "date": "2026-04-27T10:07:33.000Z",
+      "theme": "aurora",
+      "topic": "Rethinking Literature: A Existential Breakdown",
+      "contentType": "article",
+      "excerpt": "In a world where AI can write this essay, what does that mean for the future of literature?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Literature",
+        "Existential",
+        "Educational Essay"
+      ],
+      "path": "2026/04/27/2026-04-27-10-07-33_rethinking-literature-a-existential-breakdown.md"
+    },
+    {
       "title": "In an Alternate Reality, Art is the New Economic Powerhouse",
       "date": "2026-04-27T01:26:15.000Z",
       "theme": "ocean-breeze",
@@ -5577,6 +5593,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 337,
-  "lastBuilt": "2026-04-27T06:26:33.372Z"
+  "total": 338,
+  "lastBuilt": "2026-04-27T10:07:33.833Z"
 }
