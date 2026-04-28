@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers Carry Calculators: A Counterfactual Journey into Tech Trivia",
+      "date": "2026-04-28T13:31:30.000Z",
+      "theme": "matrix-code",
+      "topic": "Time Travelers with Tech Trivia: A Counterfutural Biography",
+      "contentType": "article",
+      "excerpt": "Imagine a world where time travelers roamed the earth, armed not with swords or wands, but calculators. Welcome to our peculiar journey into tech trivia.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Tech Trivia",
+        "Futuristic",
+        "Biography"
+      ],
+      "path": "2026/04/28/2026-04-28-13-31-30_time-travelers-with-tech-trivia-a-counterfactual-journey.md"
+    },
+    {
       "title": "The Ocean's Great Deception: Myth vs Reality",
       "date": "2026-04-28T10:09:09.000Z",
       "theme": "cotton-candy",
@@ -5673,6 +5689,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 343,
-  "lastBuilt": "2026-04-28T10:09:09.454Z"
+  "total": 344,
+  "lastBuilt": "2026-04-28T13:31:30.153Z"
 }
