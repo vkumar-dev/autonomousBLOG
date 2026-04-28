@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Game Design: The Overlooked Piece of the Academic Puzzle",
+      "date": "2026-04-28T01:30:52.000Z",
+      "theme": "cotton-candy",
+      "topic": "Why Game Design Matters for Academics",
+      "contentType": "article",
+      "excerpt": "Discover how a humble game designer might outsmart an esteemed academic.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Game Design",
+        "Historical",
+        "What-If Analysis"
+      ],
+      "path": "2026/04/28/2026-04-28-01-30-52_why-game-design-matters-for-academics.md"
+    },
+    {
       "title": "Why Time Travelers Carry Calculators, and Other Counterfactual Paradoxes",
       "date": "2026-04-27T20:52:23.000Z",
       "theme": "matrix-code",
@@ -5641,6 +5657,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 341,
-  "lastBuilt": "2026-04-27T20:52:23.267Z"
+  "total": 342,
+  "lastBuilt": "2026-04-28T01:30:52.552Z"
 }
