@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Computing the Incomputable: A Challenge to the Oracle of Silicon Valley",
+      "date": "2026-04-28T21:01:59.000Z",
+      "theme": "matrix-code",
+      "topic": "Computing the Incomputable: A Phenomenology Experiment",
+      "contentType": "article",
+      "excerpt": "A tantalizing glimpse into a thought experiment that defies logic and pushes the boundaries of computational possibility.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Phenomenology",
+        "Modern",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/28/2026-04-28-21-01-59_computing-the-incomputable-a-phenomenology-experiment.md"
+    },
+    {
       "title": "Anthropology in the Modern Era: A Historical Approach",
       "date": "2026-04-28T17:31:41.000Z",
       "theme": "sunset-vibes",
@@ -5705,6 +5721,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 345,
-  "lastBuilt": "2026-04-28T17:31:41.411Z"
+  "total": 346,
+  "lastBuilt": "2026-04-28T21:02:00.024Z"
 }
