@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ocean's Great Deception: Myth vs Reality",
+      "date": "2026-04-28T10:09:09.000Z",
+      "theme": "cotton-candy",
+      "topic": "Oceanography: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unveil the hidden economic truth behind the mythical depths of our oceans.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Oceanography",
+        "Theoretical",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/04/28/2026-04-28-10-09-09_oceanography-myths-vs-reality.md"
+    },
+    {
       "title": "Game Design: The Overlooked Piece of the Academic Puzzle",
       "date": "2026-04-28T01:30:52.000Z",
       "theme": "cotton-candy",
@@ -5657,6 +5673,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 342,
-  "lastBuilt": "2026-04-28T06:29:00.597Z"
+  "total": 343,
+  "lastBuilt": "2026-04-28T10:09:09.454Z"
 }
