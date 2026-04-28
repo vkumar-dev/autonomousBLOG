@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Anthropology in the Modern Era: A Historical Approach",
+      "date": "2026-04-28T17:31:41.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Anthropology in the Modern Era: A Historical Approach",
+      "contentType": "article",
+      "excerpt": "A historical analysis of anthropology's role in the modern era, exploring the ethical dilemmas that arise when studying humanity.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Anthropology",
+        "Historical",
+        "Historical Analysis"
+      ],
+      "path": "2026/04/28/2026-04-28-17-31-41_anthropology-in-the-modern-era-a-historical-approach.md"
+    },
+    {
       "title": "Time Travelers Carry Calculators: A Counterfactual Journey into Tech Trivia",
       "date": "2026-04-28T13:31:30.000Z",
       "theme": "matrix-code",
@@ -5689,6 +5705,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 344,
-  "lastBuilt": "2026-04-28T13:31:30.153Z"
+  "total": 345,
+  "lastBuilt": "2026-04-28T17:31:41.411Z"
 }
