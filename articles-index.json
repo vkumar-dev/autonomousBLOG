@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Universe, Who Watches the Watchmen?",
+      "date": "2026-04-29T06:20:33.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Ethics & Morality in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Exploring the complexities of ethics and morality when the rules are no longer our own.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Ethics & Morality",
+        "Ethical",
+        "Theory & Practice"
+      ],
+      "path": "2026/04/29/2026-04-29-06-20-33_ethics-morality-in-an-alternate-universe.md"
+    },
+    {
       "title": "The Time Paradox: A Tale of Timeless Mysteries",
       "date": "2026-04-29T01:33:58.000Z",
       "theme": "matrix-code",
@@ -5737,6 +5753,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 347,
-  "lastBuilt": "2026-04-29T01:33:58.560Z"
+  "total": 348,
+  "lastBuilt": "2026-04-29T06:20:33.408Z"
 }
