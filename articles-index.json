@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Urban Planner's New Plaything: Algorithmic Cityscapes",
+      "date": "2026-04-29T20:52:12.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Future of Urban Planning: Conceptual Overview",
+      "contentType": "article",
+      "excerpt": "Welcome to the future, where urban planners are armed with more than just blueprints and rulers.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Urban Planning",
+        "Celebratory",
+        "Conceptual Overview"
+      ],
+      "path": "2026/04/29/2026-04-29-20-52-12_the-future-of-urban-planning-conceptual-overview.md"
+    },
+    {
       "title": "Why Ancient Cultures Are Still Kicking Our Modern Butts",
       "date": "2026-04-29T17:19:20.000Z",
       "theme": "ocean-breeze",
@@ -5769,6 +5785,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 349,
-  "lastBuilt": "2026-04-29T17:19:21.115Z"
+  "total": 350,
+  "lastBuilt": "2026-04-29T20:52:12.666Z"
 }
