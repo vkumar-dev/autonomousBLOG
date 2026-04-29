@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Time Paradox: A Tale of Timeless Mysteries",
+      "date": "2026-04-29T01:33:58.000Z",
+      "theme": "matrix-code",
+      "topic": "Metaphysics: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Dive into the bizarre, the beautiful, and the bewildering world of time travel.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Metaphysics",
+        "Insider",
+        "Debate & Critique"
+      ],
+      "path": "2026/04/29/2026-04-29-01-33-58_metaphysics-a-journey-through-time.md"
+    },
+    {
       "title": "Computing the Incomputable: A Challenge to the Oracle of Silicon Valley",
       "date": "2026-04-28T21:01:59.000Z",
       "theme": "matrix-code",
@@ -5721,6 +5737,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 346,
-  "lastBuilt": "2026-04-28T21:02:00.024Z"
+  "total": 347,
+  "lastBuilt": "2026-04-29T01:33:58.560Z"
 }
