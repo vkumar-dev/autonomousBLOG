@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Ancient Cultures Are Still Kicking Our Modern Butts",
+      "date": "2026-04-29T17:19:20.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Ancient Cultures Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "Forget the pyramids and the Parthenon. It's time to learn why ancient cultures are still giving us a run for our money.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Ancient Cultures",
+        "Philosophical",
+        "Conceptual Overview"
+      ],
+      "path": "2026/04/29/2026-04-29-17-19-20_why-ancient-cultures-matters-for-general-readers.md"
+    },
+    {
       "title": "In an Alternate Universe, Who Watches the Watchmen?",
       "date": "2026-04-29T06:20:33.000Z",
       "theme": "sunset-vibes",
@@ -5753,6 +5769,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 348,
-  "lastBuilt": "2026-04-29T13:19:25.510Z"
+  "total": 349,
+  "lastBuilt": "2026-04-29T17:19:21.115Z"
 }
