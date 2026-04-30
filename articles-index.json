@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Anthropology of Anti-Anthropologists",
+      "date": "2026-04-30T20:52:19.000Z",
+      "theme": "forest-calm",
+      "topic": "The Future of Anthropology: Philosophical Inquiry",
+      "contentType": "article",
+      "excerpt": "Exploring the intriguing possibility that our understanding of anthropology might be upside down.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Anthropology",
+        "Celebratory",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/04/30/2026-04-30-20-52-19_the-future-of-anthropology-philosophical-inquiry.md"
+    },
+    {
       "title": "The Forensic Lab Rat in a Mouse Maze",
       "date": "2026-04-30T17:12:06.000Z",
       "theme": "aurora",
@@ -5849,6 +5865,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 354,
-  "lastBuilt": "2026-04-30T17:12:06.568Z"
+  "total": 355,
+  "lastBuilt": "2026-04-30T20:52:19.512Z"
 }
