@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Chip Off the Old Block: Empowering Every John Doe with Robotics",
+      "date": "2026-04-30T01:32:11.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Bridging the Gap: Robotics for Everyone",
+      "contentType": "article",
+      "excerpt": "A philosophical exploration of the future where robots are as commonplace as smartphones.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Robotics",
+        "Optimistic",
+        "Reference Guide"
+      ],
+      "path": "2026/04/30/2026-04-30-01-32-11_bridging-the-gap-robotics-for-everyone.md"
+    },
+    {
       "title": "The Urban Planner's New Plaything: Algorithmic Cityscapes",
       "date": "2026-04-29T20:52:12.000Z",
       "theme": "minimalist-clean",
@@ -5785,6 +5801,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 350,
-  "lastBuilt": "2026-04-29T20:52:12.666Z"
+  "total": 351,
+  "lastBuilt": "2026-04-30T01:32:12.102Z"
 }
