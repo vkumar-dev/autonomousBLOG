@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Nature's Lost Fortune: How Modern Life Paid the Price",
+      "date": "2026-04-30T10:00:49.000Z",
+      "theme": "industrial",
+      "topic": "Nature and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "In a world where concrete jungles reign, what if we've been paying for nature with our economic prosperity?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Nature",
+        "Global",
+        "Educational Essay"
+      ],
+      "path": "2026/04/30/2026-04-30-10-00-49_nature-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "A Chip Off the Old Block: Empowering Every John Doe with Robotics",
       "date": "2026-04-30T01:32:11.000Z",
       "theme": "sunset-vibes",
@@ -5801,6 +5817,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 351,
-  "lastBuilt": "2026-04-30T06:25:43.107Z"
+  "total": 352,
+  "lastBuilt": "2026-04-30T10:00:49.982Z"
 }
