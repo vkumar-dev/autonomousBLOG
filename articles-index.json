@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forensic Lab Rat in a Mouse Maze",
+      "date": "2026-04-30T17:12:06.000Z",
+      "theme": "aurora",
+      "topic": "The Impossibility of Forensics: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into a mind-bending exploration of the cultural impact when forensic science meets its limits.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Forensics",
+        "Ethical",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/04/30/2026-04-30-17-12-06_the-impossibility-of-forensics-a-thought-experiment.md"
+    },
+    {
       "title": "Tech Trivia: A Journey Through Time - Where Algorithms Dream and Nightmares Code",
       "date": "2026-04-30T13:19:10.000Z",
       "theme": "matrix-code",
@@ -5833,6 +5849,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 353,
-  "lastBuilt": "2026-04-30T13:19:10.469Z"
+  "total": 354,
+  "lastBuilt": "2026-04-30T17:12:06.568Z"
 }
