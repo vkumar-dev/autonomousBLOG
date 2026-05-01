@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cognitive Science Matrix: A Mind-Bending Journey Through Time and Thought",
+      "date": "2026-05-01T16:47:50.000Z",
+      "theme": "paper-ink",
+      "topic": "The Philosophy Behind Cognitive Science",
+      "contentType": "article",
+      "excerpt": "Peel back the layers of cognitive science, one mind-bending discovery at a time.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Cognitive Science",
+        "Economic",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/01/2026-05-01-16-47-50_the-philosophy-behind-cognitive-science.md"
+    },
+    {
       "title": "What If Programmers Were Mad Scientists?",
       "date": "2026-05-01T12:52:07.000Z",
       "theme": "paper-ink",
@@ -5913,6 +5929,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 358,
-  "lastBuilt": "2026-05-01T12:52:07.344Z"
+  "total": 359,
+  "lastBuilt": "2026-05-01T16:47:50.918Z"
 }
