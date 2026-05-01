@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Space & Astronomy Matters (Even for the Space Cadets Among Us)",
+      "date": "2026-05-01T20:45:05.000Z",
+      "theme": "neon-nights",
+      "topic": "Why Space & Astronomy Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "Discover the hidden mechanics behind why space and astronomy are more than just celestial bedtime stories.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Space & Astronomy",
+        "Philosophical",
+        "Practical Guide"
+      ],
+      "path": "2026/05/01/2026-05-01-20-45-05_why-space-astronomy-matters-for-general-readers.md"
+    },
+    {
       "title": "The Cognitive Science Matrix: A Mind-Bending Journey Through Time and Thought",
       "date": "2026-05-01T16:47:50.000Z",
       "theme": "paper-ink",
@@ -5929,6 +5945,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 359,
-  "lastBuilt": "2026-05-01T16:47:50.918Z"
+  "total": 360,
+  "lastBuilt": "2026-05-01T20:45:05.612Z"
 }
