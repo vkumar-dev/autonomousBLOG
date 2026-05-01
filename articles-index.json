@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Programmers Were Mad Scientists?",
+      "date": "2026-05-01T12:52:07.000Z",
+      "theme": "paper-ink",
+      "topic": "What If Programming Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Exploring the unexpected connection between ancient alchemy and modern programming.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Programming",
+        "Ancient",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/01/2026-05-01-12-52-07_what-if-programming-worked-backwards.md"
+    },
+    {
       "title": "In the City of Mirrors: A Counterfactual History of Urban Planning",
       "date": "2026-05-01T09:29:17.000Z",
       "theme": "forest-calm",
@@ -5897,6 +5913,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 357,
-  "lastBuilt": "2026-05-01T09:29:17.375Z"
+  "total": 358,
+  "lastBuilt": "2026-05-01T12:52:07.344Z"
 }
