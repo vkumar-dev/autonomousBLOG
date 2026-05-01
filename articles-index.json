@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the City of Mirrors: A Counterfactual History of Urban Planning",
+      "date": "2026-05-01T09:29:17.000Z",
+      "theme": "forest-calm",
+      "topic": "The Impossibility of Urban Planning: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if urban planning were not a human endeavor, but a metaphysical puzzle?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Urban Planning",
+        "Existential",
+        "Counterfactual History"
+      ],
+      "path": "2026/05/01/2026-05-01-09-29-17_the-impossibility-of-urban-planning-a-thought-experiment.md"
+    },
+    {
       "title": "Could Consciousness Studies Exist Without Itself?",
       "date": "2026-05-01T06:36:03.000Z",
       "theme": "sunset-vibes",
@@ -5881,6 +5897,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 356,
-  "lastBuilt": "2026-05-01T06:36:03.934Z"
+  "total": 357,
+  "lastBuilt": "2026-05-01T09:29:17.375Z"
 }
