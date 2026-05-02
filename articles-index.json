@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "What If Anthropology Had Gone Balanced?",
+      "date": "2026-05-02T16:41:09.000Z",
+      "theme": "cotton-candy",
+      "topic": "Exploring the Foundations of Anthropology",
+      "contentType": "article",
+      "excerpt": "Imagine a world where anthropologists were paid in barter, and cultural exchange was the currency.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Anthropology",
+        "Balanced"
+      ],
+      "path": "2026/05/02/2026-05-02-16-41-09_exploring-the-foundations-of-anthropology.md"
+    },
+    {
       "title": "Ancient Cultures: Economic Time Travelers",
       "date": "2026-05-02T09:00:32.000Z",
       "theme": "sunset-vibes",
@@ -5993,6 +6008,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 363,
-  "lastBuilt": "2026-05-02T12:44:10.680Z"
+  "total": 364,
+  "lastBuilt": "2026-05-02T16:41:09.718Z"
 }
