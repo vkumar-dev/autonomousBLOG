@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code: When Consciousness Goes Binary",
+      "date": "2026-05-02T06:04:22.000Z",
+      "theme": "matrix-code",
+      "topic": "The Metaphysics Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Unravel the paradox of a conscious machine and the economic implications for our species.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Metaphysics",
+        "Economic",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/02/2026-05-02-06-04-22_the-metaphysics-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "What If Anthropology Was Turned Upside Down?",
       "date": "2026-05-02T01:26:32.000Z",
       "theme": "midnight-mystery",
@@ -5961,6 +5977,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 361,
-  "lastBuilt": "2026-05-02T01:26:32.662Z"
+  "total": 362,
+  "lastBuilt": "2026-05-02T06:04:22.164Z"
 }
