@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Anthropology Was Turned Upside Down?",
+      "date": "2026-05-02T01:26:32.000Z",
+      "theme": "midnight-mystery",
+      "topic": "What If Anthropology Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Imagine a world where anthropologists dig up the future to uncover our past. Buckle up!",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Anthropology",
+        "Optimistic",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/05/02/2026-05-02-01-26-32_what-if-anthropology-worked-backwards.md"
+    },
+    {
       "title": "Why Space & Astronomy Matters (Even for the Space Cadets Among Us)",
       "date": "2026-05-01T20:45:05.000Z",
       "theme": "neon-nights",
@@ -5945,6 +5961,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 360,
-  "lastBuilt": "2026-05-01T20:45:05.612Z"
+  "total": 361,
+  "lastBuilt": "2026-05-02T01:26:32.662Z"
 }
