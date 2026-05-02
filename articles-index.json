@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures: Economic Time Travelers",
+      "date": "2026-05-02T09:00:32.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Evolution of Ancient Cultures",
+      "contentType": "article",
+      "excerpt": "Join us on a journey to the past, where ancient cultures serve as economic time travelers.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Ancient Cultures",
+        "Practical",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/02/2026-05-02-09-00-32_the-evolution-of-ancient-cultures.md"
+    },
+    {
       "title": "The Matrix Code: When Consciousness Goes Binary",
       "date": "2026-05-02T06:04:22.000Z",
       "theme": "matrix-code",
@@ -5977,6 +5993,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 362,
-  "lastBuilt": "2026-05-02T06:04:22.164Z"
+  "total": 363,
+  "lastBuilt": "2026-05-02T09:00:32.552Z"
 }
