@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Game Designer's Dilemma: Ancient Wisdom and Modern Fortune",
+      "date": "2026-05-03T09:15:49.000Z",
+      "theme": "paper-ink",
+      "topic": "Game Design: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "In a world where the line between reality and entertainment is blurred, what can we learn from an ancient board game about the economic realities of modern game design?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Game Design",
+        "Ancient Wisdom",
+        "Economic Reality"
+      ],
+      "path": "2026/05/03/2026-05-03-09-15-49_game-design-practical-applications-and-insights.md"
+    },
+    {
       "title": "Beyond Binary: Consciousness in an Alternate Universe",
       "date": "2026-05-03T06:25:14.000Z",
       "theme": "paper-ink",
@@ -6056,6 +6072,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 367,
-  "lastBuilt": "2026-05-03T06:25:14.737Z"
+  "total": 368,
+  "lastBuilt": "2026-05-03T09:15:49.188Z"
 }
