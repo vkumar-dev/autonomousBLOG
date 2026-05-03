@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Tyranny of Brick and Mortar",
+      "date": "2026-05-03T20:35:18.000Z",
+      "theme": "paper-ink",
+      "topic": "How Architecture Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Exploring the impact of architecture on society, one impossible scenario at a time.",
+      "readingTime": "6 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Architecture",
+        "Critical",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/03/2026-05-03-20-35-18_how-architecture-shapes-our-world.md"
+    },
+    {
       "title": "The Forgotten Ocean: A Thought Experiment on the Depths of Oceanography",
       "date": "2026-05-03T16:39:49.000Z",
       "theme": "ocean-breeze",
@@ -6104,6 +6120,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 370,
-  "lastBuilt": "2026-05-03T16:39:49.458Z"
+  "total": 371,
+  "lastBuilt": "2026-05-03T20:35:18.610Z"
 }
