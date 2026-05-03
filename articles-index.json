@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Misguided Matrix of Researchers: Why Biology is Not Just Another Simulation",
+      "date": "2026-05-03T12:44:04.000Z",
+      "theme": "forest-calm",
+      "topic": "Why Biology Matters for Researchers",
+      "contentType": "article",
+      "excerpt": "Dispelling myths about the role of biology in research and revealing why it's more than just a code to be cracked.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Biology",
+        "Scientific",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/03/2026-05-03-12-44-04_why-biology-matters-for-researchers.md"
+    },
+    {
       "title": "The Game Designer's Dilemma: Ancient Wisdom and Modern Fortune",
       "date": "2026-05-03T09:15:49.000Z",
       "theme": "paper-ink",
@@ -6072,6 +6088,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 368,
-  "lastBuilt": "2026-05-03T09:15:49.188Z"
+  "total": 369,
+  "lastBuilt": "2026-05-03T12:44:04.883Z"
 }
