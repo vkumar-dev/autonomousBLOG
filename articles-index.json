@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Beyond Binary: Consciousness in an Alternate Universe",
+      "date": "2026-05-03T06:25:14.000Z",
+      "theme": "paper-ink",
+      "topic": "Consciousness Studies in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical implications of a universe where consciousness transcends our current understanding.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Consciousness Studies",
+        "Speculative",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/03/2026-05-03-06-25-14_consciousness-studies-in-an-alternate-universe.md"
+    },
+    {
       "title": "The Outsider's Guide to Anthropology: Unraveling the Paradox of Consciousness",
       "date": "2026-05-03T01:30:00.000Z",
       "theme": "matrix-code",
@@ -6040,6 +6056,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 366,
-  "lastBuilt": "2026-05-03T01:30:00.907Z"
+  "total": 367,
+  "lastBuilt": "2026-05-03T06:25:14.737Z"
 }
