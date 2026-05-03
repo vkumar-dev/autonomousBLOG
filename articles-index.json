@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forgotten Ocean: A Thought Experiment on the Depths of Oceanography",
+      "date": "2026-05-03T16:39:49.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Unraveling the Complexity of Oceanography",
+      "contentType": "article",
+      "excerpt": "Dive into the deep blue, where ancient secrets lie buried and forgotten.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Oceanography",
+        "Existential",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/03/2026-05-03-16-39-49_unraveling-the-complexity-of-oceanography.md"
+    },
+    {
       "title": "The Misguided Matrix of Researchers: Why Biology is Not Just Another Simulation",
       "date": "2026-05-03T12:44:04.000Z",
       "theme": "forest-calm",
@@ -6088,6 +6104,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 369,
-  "lastBuilt": "2026-05-03T12:44:04.883Z"
+  "total": 370,
+  "lastBuilt": "2026-05-03T16:39:49.458Z"
 }
