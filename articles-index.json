@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Outsider's Guide to Anthropology: Unraveling the Paradox of Consciousness",
+      "date": "2026-05-03T01:30:00.000Z",
+      "theme": "matrix-code",
+      "topic": "Anthropology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Delve into the mind-bending world of anthropology, where an outsider's perspective sheds new light on the paradox of consciousness.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Anthropology",
+        "Outsider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/03/2026-05-03-01-30-00_anthropology-practical-applications-and-insights.md"
+    },
+    {
       "title": "In a Parallel Universe Where Psychology is the Economic Driver",
       "date": "2026-05-02T20:34:23.000Z",
       "theme": "minimalist-clean",
@@ -6024,6 +6040,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 365,
-  "lastBuilt": "2026-05-02T20:34:23.725Z"
+  "total": 366,
+  "lastBuilt": "2026-05-03T01:30:00.907Z"
 }
