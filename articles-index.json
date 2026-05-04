@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Sustainability Heist",
+      "date": "2026-05-04T21:00:59.000Z",
+      "theme": "industrial",
+      "topic": "Sustainability: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Uncover the truth behind the green facade, where sustainability meets profit and myth meets reality.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Sustainability",
+        "Economic",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/05/04/2026-05-04-21-00-59_sustainability-myths-vs-reality.md"
+    },
+    {
       "title": "The Matrix Rebooted: A Thought Experiment",
       "date": "2026-05-04T17:24:29.000Z",
       "theme": "neon-nights",
@@ -6198,6 +6214,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 376,
-  "lastBuilt": "2026-05-04T17:24:30.021Z"
+  "total": 377,
+  "lastBuilt": "2026-05-04T21:00:59.406Z"
 }
