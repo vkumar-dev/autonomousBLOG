@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Could Anthropology Exist Without Itself?",
+      "date": "2026-05-04T10:08:32.000Z",
+      "theme": "matrix-code",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of anthropological self-reflection.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "{{KEYWORDS}}"
+      ],
+      "path": "2026/05/04/2026-05-04-10-08-32_could-anthropology-exist-without-itself.md"
+    },
+    {
       "title": "The Linguistic Matrix: Can Machines Comprehend Absurdism?",
       "date": "2026-05-04T06:37:50.000Z",
       "theme": "neon-nights",
@@ -6152,6 +6166,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 373,
-  "lastBuilt": "2026-05-04T06:37:50.874Z"
+  "total": 374,
+  "lastBuilt": "2026-05-04T10:08:32.769Z"
 }
