@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Rebooted: A Thought Experiment",
+      "date": "2026-05-04T17:24:29.000Z",
+      "theme": "neon-nights",
+      "topic": "The Impossibility of Existentialism: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into a rabbit hole where the Matrix meets existentialism, and discover what it means to truly be.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Existentialism",
+        "Paradoxical",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/04/2026-05-04-17-24-29_the-impossibility-of-existentialism-a-thought-experiment.md"
+    },
+    {
       "title": "The Whispering Wind: Ancient Nature's Symphony Unheard",
       "date": "2026-05-04T13:21:22.000Z",
       "theme": "sunset-vibes",
@@ -6182,6 +6198,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 375,
-  "lastBuilt": "2026-05-04T13:21:22.629Z"
+  "total": 376,
+  "lastBuilt": "2026-05-04T17:24:30.021Z"
 }
