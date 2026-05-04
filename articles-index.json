@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Morality Was Quantified",
+      "date": "2026-05-04T01:29:50.000Z",
+      "theme": "matrix-code",
+      "topic": "Ethics & Morality: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "What if we lived in a world where morality had a numerical value? Buckle up as we explore the absurdities and implications of this thought experiment.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Ethics & Morality",
+        "Phenomenological",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/04/2026-05-04-01-29-50_ethics-morality-myths-vs-reality.md"
+    },
+    {
       "title": "The Tyranny of Brick and Mortar",
       "date": "2026-05-03T20:35:18.000Z",
       "theme": "paper-ink",
@@ -6120,6 +6136,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 371,
-  "lastBuilt": "2026-05-03T20:35:18.610Z"
+  "total": 372,
+  "lastBuilt": "2026-05-04T01:29:50.815Z"
 }
