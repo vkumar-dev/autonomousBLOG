@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Linguistic Matrix: Can Machines Comprehend Absurdism?",
+      "date": "2026-05-04T06:37:50.000Z",
+      "theme": "neon-nights",
+      "topic": "Computing the Incomputable: A Linguistics Experiment",
+      "contentType": "article",
+      "excerpt": "Exploring the wild world of linguistic absurdity, where machines are challenged to decipher the incomprehensible.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Linguistics",
+        "Absurdist",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/04/2026-05-04-06-37-50_computing-the-incomputable-a-linguistics-experiment.md"
+    },
+    {
       "title": "In a World Where Morality Was Quantified",
       "date": "2026-05-04T01:29:50.000Z",
       "theme": "matrix-code",
@@ -6136,6 +6152,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 372,
-  "lastBuilt": "2026-05-04T01:29:50.815Z"
+  "total": 373,
+  "lastBuilt": "2026-05-04T06:37:50.874Z"
 }
