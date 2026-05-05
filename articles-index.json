@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Cognitive Science for the Uninitiated: A Peek Behind the Curtains",
+      "date": "2026-05-05T06:15:16.000Z",
+      "theme": "cotton-candy",
+      "topic": "Bridging the Gap: Cognitive Science for Everyone",
+      "contentType": "article",
+      "excerpt": "Dive into the fascinating world of cognitive science, where paradoxes and mysteries abound. Brace yourself for a mind-bending journey.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Cognitive Science",
+        "Paradoxical",
+        "Educational Essay"
+      ],
+      "path": "2026/05/05/2026-05-05-06-15-16_bridging-the-gap-cognitive-science-for-everyone.md"
+    },
+    {
       "title": "Logic & Reasoning: The Unsung Heroes of a Paradoxical World",
       "date": "2026-05-05T01:28:45.000Z",
       "theme": "ocean-breeze",
@@ -6230,6 +6246,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 378,
-  "lastBuilt": "2026-05-05T01:28:45.554Z"
+  "total": 379,
+  "lastBuilt": "2026-05-05T06:15:16.967Z"
 }
