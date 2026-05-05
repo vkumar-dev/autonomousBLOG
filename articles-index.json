@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unfathomable Mind: A Glimpse at the Depths of Psychology",
+      "date": "2026-05-05T09:55:52.000Z",
+      "theme": "matrix-code",
+      "topic": "Psychology: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "Delve into the abyss of human psyche with us, as we explore the mysteries that even the sharpest minds can't quite grasp.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Psychology",
+        "Practical",
+        "Biography"
+      ],
+      "path": "2026/05/05/2026-05-05-09-55-52_psychology-what-we-can-never-know.md"
+    },
+    {
       "title": "Cognitive Science for the Uninitiated: A Peek Behind the Curtains",
       "date": "2026-05-05T06:15:16.000Z",
       "theme": "cotton-candy",
@@ -6246,6 +6262,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 379,
-  "lastBuilt": "2026-05-05T06:15:16.967Z"
+  "total": 380,
+  "lastBuilt": "2026-05-05T09:55:53.034Z"
 }
