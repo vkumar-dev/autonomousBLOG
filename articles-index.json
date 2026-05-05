@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Could Economics Exist Without Itself? A Thought Experiment for the Mad Economists Among Us",
+      "date": "2026-05-05T13:07:31.000Z",
+      "theme": "forest-calm",
+      "topic": "Could Economics Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A tantalizing question that will make your fellow researchers squirm in their seats.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Economics",
+        "Practical",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/05/2026-05-05-13-07-31_could-economics-exist-without-itself.md"
+    },
+    {
       "title": "The Unfathomable Mind: A Glimpse at the Depths of Psychology",
       "date": "2026-05-05T09:55:52.000Z",
       "theme": "matrix-code",
@@ -6262,6 +6278,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 380,
-  "lastBuilt": "2026-05-05T09:55:53.034Z"
+  "total": 381,
+  "lastBuilt": "2026-05-05T13:07:31.280Z"
 }
