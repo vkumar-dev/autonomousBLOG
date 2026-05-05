@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Case Study: The Mind's Matrix - When Code Meets Psyche",
+      "date": "2026-05-05T17:16:34.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Intersection of Programming and Case Study",
+      "contentType": "article",
+      "excerpt": "Dive into the intriguing world where lines of code meet the human psyche, and discover the peculiar balance that keeps the digital universe spinning.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Programming",
+        "Balanced",
+        "Case Study"
+      ],
+      "path": "2026/05/05/2026-05-05-17-16-34_the-intersection-of-programming-and-case-study.md"
+    },
+    {
       "title": "Could Economics Exist Without Itself? A Thought Experiment for the Mad Economists Among Us",
       "date": "2026-05-05T13:07:31.000Z",
       "theme": "forest-calm",
@@ -6278,6 +6294,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 381,
-  "lastBuilt": "2026-05-05T13:07:31.280Z"
+  "total": 382,
+  "lastBuilt": "2026-05-05T17:16:34.713Z"
 }
