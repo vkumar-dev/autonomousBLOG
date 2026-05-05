@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Logic & Reasoning: The Unsung Heroes of a Paradoxical World",
+      "date": "2026-05-05T01:28:45.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Logic & Reasoning for Everyone",
+      "contentType": "article",
+      "excerpt": "In a world riddled with paradoxes, logic and reasoning are the unsung heroes. Here's why.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Logic & Reasoning",
+        "Speculative",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/05/2026-05-05-01-28-45_bridging-the-gap-logic-reasoning-for-everyone.md"
+    },
+    {
       "title": "The Great Sustainability Heist",
       "date": "2026-05-04T21:00:59.000Z",
       "theme": "industrial",
@@ -6214,6 +6230,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 377,
-  "lastBuilt": "2026-05-04T21:00:59.406Z"
+  "total": 378,
+  "lastBuilt": "2026-05-05T01:28:45.554Z"
 }
