@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Universe, Programmers Built Civilizations Before Humans Did",
+      "date": "2026-05-06T13:27:23.000Z",
+      "theme": "cotton-candy",
+      "topic": "Programming in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Imagine a world where code was the first spark of civilization, and silicon minds ruled the earth before humans took their first breath.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Programming",
+        "Historical Analysis",
+        "Local"
+      ],
+      "path": "2026/05/06/2026-05-06-13-27-23_programming-in-an-alternate-universe.md"
+    },
+    {
       "title": "Metaphysics: The Unspoken Cultural Revolution",
       "date": "2026-05-06T06:28:46.000Z",
       "theme": "minimalist-clean",
@@ -6341,6 +6357,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 385,
-  "lastBuilt": "2026-05-06T10:13:07.861Z"
+  "total": 386,
+  "lastBuilt": "2026-05-06T13:27:23.247Z"
 }
