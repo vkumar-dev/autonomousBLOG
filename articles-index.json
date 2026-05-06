@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Green Siren's Deceit: Debunking Sustainability Myths",
+      "date": "2026-05-06T21:05:14.000Z",
+      "theme": "aurora",
+      "topic": "The Evolution of Sustainability",
+      "contentType": "article",
+      "excerpt": "Unravel the tangled web of misconceptions surrounding sustainability and join us on a journey to reveal its true economic reality.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Sustainability",
+        "Ethical",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/06/2026-05-06-21-05-14_the-evolution-of-sustainability.md"
+    },
+    {
       "title": "Decoding the Linguistic Matrix: A Tutorial for Outsiders",
       "date": "2026-05-06T17:23:58.000Z",
       "theme": "aurora",
@@ -6369,6 +6385,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 387,
-  "lastBuilt": "2026-05-06T17:23:58.266Z"
+  "total": 388,
+  "lastBuilt": "2026-05-06T21:05:15.095Z"
 }
