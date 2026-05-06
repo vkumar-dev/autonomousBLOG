@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "A World Without Rules: A Speculative Journey into the Aesthetic Unknown",
+      "date": "2026-05-06T01:26:54.000Z",
+      "theme": "industrial",
+      "topic": "If Art & Design Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where Michelangelo was free to paint the Sistine Chapel with neon graffiti. Welcome to our thought experiment.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Art & Design",
+        "Insider"
+      ],
+      "path": "2026/05/06/2026-05-06-01-26-54_if-art-design-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "Why Sociology is Just Philosophy in Overalls",
       "date": "2026-05-05T20:55:46.000Z",
       "theme": "industrial",
@@ -6310,6 +6325,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 383,
-  "lastBuilt": "2026-05-05T20:55:46.867Z"
+  "total": 384,
+  "lastBuilt": "2026-05-06T01:26:54.806Z"
 }
