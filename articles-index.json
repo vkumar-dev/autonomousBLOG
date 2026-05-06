@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Metaphysics: The Unspoken Cultural Revolution",
+      "date": "2026-05-06T06:28:46.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Exploring the Foundations of Metaphysics",
+      "contentType": "article",
+      "excerpt": "Unravel the hidden cultural impact of metaphysics through a historical lens, revealing surprising connections that will make you question everything.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Metaphysics",
+        "Scientific",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/06/2026-05-06-06-28-46_exploring-the-foundations-of-metaphysics.md"
+    },
+    {
       "title": "A World Without Rules: A Speculative Journey into the Aesthetic Unknown",
       "date": "2026-05-06T01:26:54.000Z",
       "theme": "industrial",
@@ -6325,6 +6341,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 384,
-  "lastBuilt": "2026-05-06T01:26:54.806Z"
+  "total": 385,
+  "lastBuilt": "2026-05-06T06:28:46.432Z"
 }
