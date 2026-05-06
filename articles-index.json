@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Decoding the Linguistic Matrix: A Tutorial for Outsiders",
+      "date": "2026-05-06T17:23:58.000Z",
+      "theme": "aurora",
+      "topic": "The Intersection of Linguistics and Tutorial",
+      "contentType": "article",
+      "excerpt": "Unlock the secrets of linguistics with a spicy twist. No definitions, no dry content, just a wild ride through language.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": "Linguistics, Outsider, Tutorial",
+      "path": "2026/05/06/2026-05-06-17-23-58_the-intersection-of-linguistics-and-tutorial.md"
+    },
+    {
       "title": "In an Alternate Universe, Programmers Built Civilizations Before Humans Did",
       "date": "2026-05-06T13:27:23.000Z",
       "theme": "cotton-candy",
@@ -6357,6 +6369,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 386,
-  "lastBuilt": "2026-05-06T13:27:23.247Z"
+  "total": 387,
+  "lastBuilt": "2026-05-06T17:23:58.266Z"
 }
