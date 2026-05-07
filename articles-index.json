@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Art & Design in an Alternate Universe: The Absurd Mechanics of Creativity",
+      "date": "2026-05-07T20:59:54.000Z",
+      "theme": "aurora",
+      "topic": "Art & Design in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "In a world where the creative process is as mechanical as clockwork, we explore the absurd implications for art and design.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Art & Design",
+        "Absurdist",
+        "Cultural Critique"
+      ],
+      "path": "2026/05/07/2026-05-07-20-59-54_art-design-in-an-alternate-universe.md"
+    },
+    {
       "title": "Rewriting the Past: A Futuristic Perspective on History",
       "date": "2026-05-07T17:34:16.000Z",
       "theme": "ocean-breeze",
@@ -6465,6 +6481,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 393,
-  "lastBuilt": "2026-05-07T17:34:17.083Z"
+  "total": 394,
+  "lastBuilt": "2026-05-07T20:59:54.346Z"
 }
