@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Balancing Act of Being: A Thought Experiment",
+      "date": "2026-05-07T01:33:18.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Impossibility of Ontology: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into the rabbit hole and question the very nature of existence. Welcome to ontological chaos.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Ontology",
+        "Balanced",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/07/2026-05-07-01-33-18_the-impossibility-of-ontology-a-thought-experiment.md"
+    },
+    {
       "title": "The Green Siren's Deceit: Debunking Sustainability Myths",
       "date": "2026-05-06T21:05:14.000Z",
       "theme": "aurora",
@@ -6385,6 +6401,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 388,
-  "lastBuilt": "2026-05-06T21:05:15.095Z"
+  "total": 389,
+  "lastBuilt": "2026-05-07T01:33:18.549Z"
 }
