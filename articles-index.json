@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Metaphysics: The Tangible Invisible",
+      "date": "2026-05-07T10:17:28.000Z",
+      "theme": "neon-nights",
+      "topic": "What Metaphysics Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "An exploration of the paradoxical realm where science and philosophy intertwine, challenging our understanding of reality.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Metaphysics",
+        "Scientific",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/07/2026-05-07-10-17-28_what-metaphysics-reveals-about-reality.md"
+    },
+    {
       "title": "The Cosmic Game of Tetris: Unraveling the Past and Shaping the Future",
       "date": "2026-05-07T06:33:39.000Z",
       "theme": "forest-calm",
@@ -6417,6 +6433,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 390,
-  "lastBuilt": "2026-05-07T06:33:39.229Z"
+  "total": 391,
+  "lastBuilt": "2026-05-07T10:17:28.499Z"
 }
