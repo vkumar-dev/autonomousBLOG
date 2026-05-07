@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Linguistic Matrix: When Language Lost its Meaning",
+      "date": "2026-05-07T13:27:05.000Z",
+      "theme": "neon-nights",
+      "topic": "Exploring the Foundations of Linguistics",
+      "contentType": "article",
+      "excerpt": "What if the building blocks of language were designed to deceive us? A thought experiment on the strange origins of linguistics.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Linguistics",
+        "Optimistic",
+        "Debate & Critique"
+      ],
+      "path": "2026/05/07/2026-05-07-13-27-05_exploring-the-foundations-of-linguistics.md"
+    },
+    {
       "title": "Metaphysics: The Tangible Invisible",
       "date": "2026-05-07T10:17:28.000Z",
       "theme": "neon-nights",
@@ -6433,6 +6449,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 391,
-  "lastBuilt": "2026-05-07T10:17:28.499Z"
+  "total": 392,
+  "lastBuilt": "2026-05-07T13:27:05.910Z"
 }
