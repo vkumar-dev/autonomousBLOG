@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rewriting the Past: A Futuristic Perspective on History",
+      "date": "2026-05-07T17:34:16.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Rethinking History: A Futuristic Breakdown",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the past isn't set in stone, but rather a living, breathing organism subject to the whims of the future. Welcome to our reimagined history lesson.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "History",
+        "Futuristic",
+        "Narrative History"
+      ],
+      "path": "2026/05/07/2026-05-07-17-34-16_rethinking-history-a-futuristic-breakdown.md"
+    },
+    {
       "title": "The Linguistic Matrix: When Language Lost its Meaning",
       "date": "2026-05-07T13:27:05.000Z",
       "theme": "neon-nights",
@@ -6449,6 +6465,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 392,
-  "lastBuilt": "2026-05-07T13:27:05.910Z"
+  "total": 393,
+  "lastBuilt": "2026-05-07T17:34:17.083Z"
 }
