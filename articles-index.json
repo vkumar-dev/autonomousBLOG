@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cosmic Game of Tetris: Unraveling the Past and Shaping the Future",
+      "date": "2026-05-07T06:33:39.000Z",
+      "theme": "forest-calm",
+      "topic": "Space & Astronomy: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Imagine a world where we've been playing Tetris with the universe all along. Buckle up as we explore the past, present, and future of space exploration through the lens of the cosmic game.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Space & Astronomy",
+        "Global",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/07/2026-05-07-06-33-39_space-astronomy-practical-applications-and-insights.md"
+    },
+    {
       "title": "The Balancing Act of Being: A Thought Experiment",
       "date": "2026-05-07T01:33:18.000Z",
       "theme": "minimalist-clean",
@@ -6401,6 +6417,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 389,
-  "lastBuilt": "2026-05-07T01:33:18.549Z"
+  "total": 390,
+  "lastBuilt": "2026-05-07T06:33:39.229Z"
 }
