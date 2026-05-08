@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Myth of the Unstoppable Robot: A Tale of Ancient Proportions",
+      "date": "2026-05-08T20:50:00.000Z",
+      "theme": "neon-nights",
+      "topic": "Exploring the Foundations of Robotics",
+      "contentType": "article",
+      "excerpt": "Delve into the ancient myths that shaped our modern understanding (or misunderstanding) of robotics.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Robotics",
+        "Ancient",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/08/2026-05-08-20-50-00_exploring-the-foundations-of-robotics.md"
+    },
+    {
       "title": "Geology: The Enigma That Even God Cannot Solve",
       "date": "2026-05-08T17:04:35.000Z",
       "theme": "sunset-vibes",
@@ -6545,6 +6561,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 398,
-  "lastBuilt": "2026-05-08T17:04:36.140Z"
+  "total": 399,
+  "lastBuilt": "2026-05-08T20:50:00.353Z"
 }
