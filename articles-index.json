@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Nature's Great Balancing Act: A Guide to Keeping the Planet Spinning",
+      "date": "2026-05-08T01:35:32.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Nature Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "From swarming drones in Iowa cornfields to the quantum entanglement of a hummingbird's wings, dive into nature's most intricate balancing acts.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Nature",
+        "Balanced",
+        "Reference Guide"
+      ],
+      "path": "2026/05/08/2026-05-08-01-35-32_nature-explained-reference-guide.md"
+    },
+    {
       "title": "Art & Design in an Alternate Universe: The Absurd Mechanics of Creativity",
       "date": "2026-05-07T20:59:54.000Z",
       "theme": "aurora",
@@ -6481,6 +6497,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 394,
-  "lastBuilt": "2026-05-07T20:59:54.346Z"
+  "total": 395,
+  "lastBuilt": "2026-05-08T01:35:32.796Z"
 }
