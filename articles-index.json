@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "title": "Art & Design: A Rivalry Through Time",
+      "date": "2026-05-08T05:55:19.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Art & Design",
+      "contentType": "article",
+      "excerpt": "A riveting exploration of how Art and Design have been dueling for dominance throughout history.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Art",
+        "Design",
+        "Practical",
+        "Cultural Critique"
+      ],
+      "path": "2026/05/08/2026-05-08-05-55-19_art-design-a-journey-through-time.md"
+    },
+    {
       "title": "Nature's Great Balancing Act: A Guide to Keeping the Planet Spinning",
       "date": "2026-05-08T01:35:32.000Z",
       "theme": "minimalist-clean",
@@ -6497,6 +6514,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 395,
-  "lastBuilt": "2026-05-08T01:35:32.796Z"
+  "total": 396,
+  "lastBuilt": "2026-05-08T05:55:19.406Z"
 }
