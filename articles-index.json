@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Geology: The Enigma That Even God Cannot Solve",
+      "date": "2026-05-08T17:04:35.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Geology",
+      "contentType": "article",
+      "excerpt": "Delve into the mysteries of geology, where even the divine is left guessing.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Geology",
+        "Outsider"
+      ],
+      "path": "2026/05/08/2026-05-08-17-04-35_geology-what-we-can-never-know.md"
+    },
+    {
       "title": "Geology: A Time Traveler's Guide to the Past",
       "date": "2026-05-08T13:08:22.000Z",
       "theme": "cotton-candy",
@@ -6530,6 +6545,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 397,
-  "lastBuilt": "2026-05-08T13:08:23.051Z"
+  "total": 398,
+  "lastBuilt": "2026-05-08T17:04:36.140Z"
 }
