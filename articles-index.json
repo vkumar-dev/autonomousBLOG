@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Geology: A Time Traveler's Guide to the Past",
+      "date": "2026-05-08T13:08:22.000Z",
+      "theme": "cotton-candy",
+      "topic": "Geology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating world of geology, where every rock tells a story dating back billions of years.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Geology",
+        "Critical",
+        "Biography"
+      ],
+      "path": "2026/05/08/2026-05-08-13-08-22_geology-a-journey-through-time.md"
+    },
+    {
       "title": "Art & Design: A Rivalry Through Time",
       "date": "2026-05-08T05:55:19.000Z",
       "theme": "sunset-vibes",
@@ -6514,6 +6530,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 396,
-  "lastBuilt": "2026-05-08T09:06:59.331Z"
+  "total": 397,
+  "lastBuilt": "2026-05-08T13:08:23.051Z"
 }
