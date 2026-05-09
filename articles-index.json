@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Logic's Labyrinthine Loops: Navigating the Mind's Matrix",
+      "date": "2026-05-09T12:50:55.000Z",
+      "theme": "matrix-code",
+      "topic": "The Hidden Depths of Logic & Reasoning",
+      "contentType": "article",
+      "excerpt": "Dive deep into the intricate world of logic, where ancient wisdom and modern science intertwine in a dance as ageless as time itself.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Logic & Reasoning",
+        "Ancient",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/05/09/2026-05-09-12-50-55_the-hidden-depths-of-logic-reasoning.md"
+    },
+    {
       "title": "If Literature Had No Rules: A Case Study in Chaos",
       "date": "2026-05-09T09:10:00.000Z",
       "theme": "minimalist-clean",
@@ -6609,6 +6625,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 402,
-  "lastBuilt": "2026-05-09T09:10:00.376Z"
+  "total": 403,
+  "lastBuilt": "2026-05-09T12:50:55.701Z"
 }
