@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Philosophy Matters (Even to the Economic Realists)",
+      "date": "2026-05-09T16:43:07.000Z",
+      "theme": "paper-ink",
+      "topic": "Why Philosophy Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "A journey through history, philosophy, and economics - proving that the love of wisdom is more than just an ivory tower pastime.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Philosophy",
+        "Historical",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/09/2026-05-09-16-43-07_why-philosophy-matters-for-general-readers.md"
+    },
+    {
       "title": "Logic's Labyrinthine Loops: Navigating the Mind's Matrix",
       "date": "2026-05-09T12:50:55.000Z",
       "theme": "matrix-code",
@@ -6625,6 +6641,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 403,
-  "lastBuilt": "2026-05-09T12:50:55.701Z"
+  "total": 404,
+  "lastBuilt": "2026-05-09T16:43:08.181Z"
 }
