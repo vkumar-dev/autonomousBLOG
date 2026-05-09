@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Literature Had No Rules: A Case Study in Chaos",
+      "date": "2026-05-09T09:10:00.000Z",
+      "theme": "minimalist-clean",
+      "topic": "If Literature Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the rules of literature are discarded, and the consequences for our understanding of storytelling. Welcome to chaos.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Literature",
+        "Outsider",
+        "Case Study"
+      ],
+      "path": "2026/05/09/2026-05-09-09-10-00_if-literature-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "The Age of Psychology: A Dystopian Fable",
       "date": "2026-05-09T06:13:33.000Z",
       "theme": "neon-nights",
@@ -6593,6 +6609,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 401,
-  "lastBuilt": "2026-05-09T06:13:33.823Z"
+  "total": 402,
+  "lastBuilt": "2026-05-09T09:10:00.376Z"
 }
