@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Age of Psychology: A Dystopian Fable",
+      "date": "2026-05-09T06:13:33.000Z",
+      "theme": "neon-nights",
+      "topic": "Psychology in the Modern Era: A Pessimistic Approach",
+      "contentType": "article",
+      "excerpt": "In a world where emotions are commodified, could our very humanity be at stake?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Psychology",
+        "Pessimistic",
+        "Debate & Critique"
+      ],
+      "path": "2026/05/09/2026-05-09-06-13-33_psychology-in-the-modern-era-a-pessimistic-approach.md"
+    },
+    {
       "title": "The Linguistic Matrix: Can We Code Mother Tongues?",
       "date": "2026-05-09T01:35:39.000Z",
       "theme": "cotton-candy",
@@ -6577,6 +6593,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 400,
-  "lastBuilt": "2026-05-09T01:35:39.909Z"
+  "total": 401,
+  "lastBuilt": "2026-05-09T06:13:33.823Z"
 }
