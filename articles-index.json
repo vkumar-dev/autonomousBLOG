@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ocean's Paradoxical Paradigm Shift",
+      "date": "2026-05-09T20:36:15.000Z",
+      "theme": "matrix-code",
+      "topic": "Exploring the Foundations of Oceanography",
+      "contentType": "article",
+      "excerpt": "Delve into the ocean's depths and unravel its paradoxical nature, as we shed light on the foundational principles of oceanography.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Oceanography",
+        "Paradoxical",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/05/09/2026-05-09-20-36-15_exploring-the-foundations-of-oceanography.md"
+    },
+    {
       "title": "Why Philosophy Matters (Even to the Economic Realists)",
       "date": "2026-05-09T16:43:07.000Z",
       "theme": "paper-ink",
@@ -6641,6 +6657,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 404,
-  "lastBuilt": "2026-05-09T16:43:08.181Z"
+  "total": 405,
+  "lastBuilt": "2026-05-09T20:36:15.396Z"
 }
