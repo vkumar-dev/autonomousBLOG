@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Linguistic Matrix: Can We Code Mother Tongues?",
+      "date": "2026-05-09T01:35:39.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Evolution of Linguistics",
+      "contentType": "article",
+      "excerpt": "Dive into a conceptual odyssey as we explore the tantalizing possibility that linguistics, the lifeblood of human communication, might one day be encapsulated in algorithms.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Linguistics",
+        "Celebratory",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/09/2026-05-09-01-35-39_the-evolution-of-linguistics.md"
+    },
+    {
       "title": "The Myth of the Unstoppable Robot: A Tale of Ancient Proportions",
       "date": "2026-05-08T20:50:00.000Z",
       "theme": "neon-nights",
@@ -6561,6 +6577,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 399,
-  "lastBuilt": "2026-05-08T20:50:00.353Z"
+  "total": 400,
+  "lastBuilt": "2026-05-09T01:35:39.909Z"
 }
