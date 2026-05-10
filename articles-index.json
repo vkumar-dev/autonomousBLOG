@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Economics in an Alternate Universe Where Numbers Dance to Our Tune",
+      "date": "2026-05-10T20:39:52.000Z",
+      "theme": "forest-calm",
+      "topic": "Economics in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Imagine a world where you could compute the uncomputable, and economics was just another tap-dance routine. Let's slip on our dancing shoes and take a peek.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Economics",
+        "Ancient",
+        "What-If Analysis"
+      ],
+      "path": "2026/05/10/2026-05-10-20-39-52_economics-in-an-alternate-universe.md"
+    },
+    {
       "title": "In a World Without Code: The Unseen Apocalypse",
       "date": "2026-05-10T16:46:16.000Z",
       "theme": "aurora",
@@ -6737,6 +6753,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 410,
-  "lastBuilt": "2026-05-10T16:46:16.724Z"
+  "total": 411,
+  "lastBuilt": "2026-05-10T20:39:52.543Z"
 }
