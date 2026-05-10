@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Past Unveiling the Present: A Revelation of Reality's Illusion",
+      "date": "2026-05-10T12:51:57.000Z",
+      "theme": "industrial",
+      "topic": "What History Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Delving into history, we uncover the mind-bending revelations that challenge our understanding of reality and question the very fabric of our existence.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "History",
+        "Economic",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/05/10/2026-05-10-12-51-57_what-history-reveals-about-reality.md"
+    },
+    {
       "title": "The Oceans Ain't What They Sea(m)!",
       "date": "2026-05-10T09:23:47.000Z",
       "theme": "minimalist-clean",
@@ -6705,6 +6721,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 408,
-  "lastBuilt": "2026-05-10T09:23:47.383Z"
+  "total": 409,
+  "lastBuilt": "2026-05-10T12:51:57.664Z"
 }
