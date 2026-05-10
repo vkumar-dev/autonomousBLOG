@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Code Whispered Secrets: Lesser-Known Facts and Stories",
+      "date": "2026-05-10T06:32:40.000Z",
+      "theme": "matrix-code",
+      "topic": "Programming",
+      "contentType": "article",
+      "excerpt": "Unveil the lesser-known facts and stories that have shaped programming, shattering preconceived notions.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Programming",
+        "Optimistic",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/10/2026-05-10-06-32-40_programming-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "Time Travelers with Oceanography: A Counterfactual Journey",
       "date": "2026-05-10T01:33:14.000Z",
       "theme": "neon-nights",
@@ -6673,6 +6689,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 406,
-  "lastBuilt": "2026-05-10T01:33:14.738Z"
+  "total": 407,
+  "lastBuilt": "2026-05-10T06:32:40.507Z"
 }
