@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oceans Ain't What They Sea(m)!",
+      "date": "2026-05-10T09:23:47.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Oceanography: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A tongue-twisting look at the financial waves beneath the sea surface.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Oceanography",
+        "Modern",
+        "Debate & Critique"
+      ],
+      "path": "2026/05/10/2026-05-10-09-23-47_oceanography-myths-vs-reality.md"
+    },
+    {
       "title": "When Code Whispered Secrets: Lesser-Known Facts and Stories",
       "date": "2026-05-10T06:32:40.000Z",
       "theme": "matrix-code",
@@ -6689,6 +6705,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 407,
-  "lastBuilt": "2026-05-10T06:32:40.507Z"
+  "total": 408,
+  "lastBuilt": "2026-05-10T09:23:47.383Z"
 }
