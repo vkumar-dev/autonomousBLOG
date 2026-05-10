@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Oceanography: A Counterfactual Journey",
+      "date": "2026-05-10T01:33:14.000Z",
+      "theme": "neon-nights",
+      "topic": "Time Travelers with Oceanography",
+      "contentType": "article",
+      "excerpt": "Imagine if history's most intrepid time travelers doubled as oceanographers. Buckle up for a wild ride!",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Oceanography",
+        "Local",
+        "Practical Guide"
+      ],
+      "path": "2026/05/10/2026-05-10-01-33-14_time-travelers-with-oceanography-a-counterfactual-journey.md"
+    },
+    {
       "title": "The Ocean's Paradoxical Paradigm Shift",
       "date": "2026-05-09T20:36:15.000Z",
       "theme": "matrix-code",
@@ -6657,6 +6673,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 405,
-  "lastBuilt": "2026-05-09T20:36:15.396Z"
+  "total": 406,
+  "lastBuilt": "2026-05-10T01:33:14.738Z"
 }
