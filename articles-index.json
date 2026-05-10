@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Without Code: The Unseen Apocalypse",
+      "date": "2026-05-10T16:46:16.000Z",
+      "theme": "aurora",
+      "topic": "Programming and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Imagine a world without algorithms. A world where AI is but a forgotten legend and the internet is reduced to a sea of static. Welcome to our counterfactual exploration.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Programming",
+        "Counterfactual",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/10/2026-05-10-16-46-16_programming-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Past Unveiling the Present: A Revelation of Reality's Illusion",
       "date": "2026-05-10T12:51:57.000Z",
       "theme": "industrial",
@@ -6721,6 +6737,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 409,
-  "lastBuilt": "2026-05-10T12:51:57.664Z"
+  "total": 410,
+  "lastBuilt": "2026-05-10T16:46:16.724Z"
 }
