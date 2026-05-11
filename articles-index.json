@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Reality, Where Art is a Crime",
+      "date": "2026-05-11T17:54:35.000Z",
+      "theme": "cyberpunk",
+      "topic": "Art & Design: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "Exploring the ethical dilemma of art in a world where creativity is outlawed.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Art & Design",
+        "Counterfactual",
+        "Alternate Reality"
+      ],
+      "path": "2026/05/11/2026-05-11-17-54-35_art-design-what-we-can-never-know.md"
+    },
+    {
       "title": "What If Logic & Reasoning Worked Backwards?",
       "date": "2026-05-11T10:56:32.000Z",
       "theme": "matrix-code",
@@ -6784,6 +6800,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 413,
-  "lastBuilt": "2026-05-11T10:56:32.912Z"
+  "total": 414,
+  "lastBuilt": "2026-05-11T17:54:35.458Z"
 }
