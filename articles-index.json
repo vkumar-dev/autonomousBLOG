@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Art & Design in 2023: Ancient Wisdom Reimagined",
+      "date": "2026-05-11T01:52:24.000Z",
+      "theme": "cotton-candy",
+      "topic": "Art & Design in the Modern Era: A Ancient Approach",
+      "contentType": "article",
+      "excerpt": "Step back in time and leap forward into the future with us, as we unravel the mysteries of ancient art and design techniques that are shaping modern aesthetics.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Art & Design",
+        "Ancient"
+      ],
+      "path": "2026/05/11/2026-05-11-01-52-24_art-design-in-the-modern-era-a-ancient-approach.md"
+    },
+    {
       "title": "Economics in an Alternate Universe Where Numbers Dance to Our Tune",
       "date": "2026-05-10T20:39:52.000Z",
       "theme": "forest-calm",
@@ -6753,6 +6768,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 411,
-  "lastBuilt": "2026-05-10T20:39:52.543Z"
+  "total": 412,
+  "lastBuilt": "2026-05-11T01:52:24.843Z"
 }
