@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Logic & Reasoning Worked Backwards?",
+      "date": "2026-05-11T10:56:32.000Z",
+      "theme": "matrix-code",
+      "topic": "Logic & Reasoning",
+      "contentType": "article",
+      "excerpt": "Delve into the mind-bending world of retrograde logic and reasoning, where the impossible becomes possible.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Logic & Reasoning",
+        "Historical",
+        "Biography"
+      ],
+      "path": "2026/05/11/2026-05-11-10-56-32_what-if-logic-reasoning-worked-backwards.md"
+    },
+    {
       "title": "Art & Design in 2023: Ancient Wisdom Reimagined",
       "date": "2026-05-11T01:52:24.000Z",
       "theme": "cotton-candy",
@@ -6768,6 +6784,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 412,
-  "lastBuilt": "2026-05-11T07:03:00.636Z"
+  "total": 413,
+  "lastBuilt": "2026-05-11T10:56:32.912Z"
 }
