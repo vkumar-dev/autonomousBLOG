@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Cryptography's Impossible Paradox: The Uncomputable Enigma",
+      "date": "2026-05-11T21:13:12.000Z",
+      "theme": "neon-nights",
+      "topic": "Computing the Incomputable: A Cryptography Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into a historical analysis of cryptography's most confounding paradox, exploring the battle between man and machine in an attempt to unlock the uncomputable.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Cryptography",
+        "Modern",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/11/2026-05-11-21-13-12_computing-the-incomputable-a-cryptography-experiment.md"
+    },
+    {
       "title": "In an Alternate Reality, Where Art is a Crime",
       "date": "2026-05-11T17:54:35.000Z",
       "theme": "cyberpunk",
@@ -6800,6 +6816,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 414,
-  "lastBuilt": "2026-05-11T17:54:35.458Z"
+  "total": 415,
+  "lastBuilt": "2026-05-11T21:13:12.953Z"
 }
