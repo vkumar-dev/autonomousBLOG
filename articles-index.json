@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Urban Planning's Unholy Trinity: The Paradoxes that Shape our Cities",
+      "date": "2026-05-12T17:56:56.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Exploring the Foundations of Urban Planning",
+      "contentType": "article",
+      "excerpt": "Discover how three seemingly contradictory principles govern the design of our bustling metropolises.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Urban Planning",
+        "Celebratory",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/12/2026-05-12-17-56-56_exploring-the-foundations-of-urban-planning.md"
+    },
+    {
       "title": "The Geological Time Capsules Buried Beneath Our Feet",
       "date": "2026-05-12T13:35:48.000Z",
       "theme": "minimalist-clean",
@@ -6879,6 +6895,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 419,
-  "lastBuilt": "2026-05-12T13:35:48.716Z"
+  "total": 420,
+  "lastBuilt": "2026-05-12T17:56:56.720Z"
 }
