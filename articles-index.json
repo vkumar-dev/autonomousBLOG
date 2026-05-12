@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Musical Paradox: Where Math and Emotion Tango",
+      "date": "2026-05-12T10:24:45.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Music Theory",
+      "contentType": "article",
+      "excerpt": "Dive into the delightful, baffling world where numbers and melodies dance in perfect harmony.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Music Theory",
+        "Celebratory",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/12/2026-05-12-10-24-45_the-hidden-depths-of-music-theory.md"
+    },
+    {
       "title": "From Loom to Quantum: A Tale of Technological Evolution",
       "date": "2026-05-12T06:35:51.000Z",
       "theme": "paper-ink",
@@ -6847,6 +6863,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 417,
-  "lastBuilt": "2026-05-12T06:35:51.636Z"
+  "total": 418,
+  "lastBuilt": "2026-05-12T10:24:45.139Z"
 }
