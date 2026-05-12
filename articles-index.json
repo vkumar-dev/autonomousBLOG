@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Art & Design: The Outsider's Blueprint to the Matrix",
+      "date": "2026-05-12T01:34:04.000Z",
+      "theme": "neon-nights",
+      "topic": "Exploring the Foundations of Art & Design",
+      "contentType": "article",
+      "excerpt": "Dare to question the fundamental principles of art and design. Discover the hidden mechanics that separate the prodigious from the ordinary.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Art & Design",
+        "Outsider"
+      ],
+      "path": "2026/05/12/2026-05-12-01-34-04_exploring-the-foundations-of-art-design.md"
+    },
+    {
       "title": "Cryptography's Impossible Paradox: The Uncomputable Enigma",
       "date": "2026-05-11T21:13:12.000Z",
       "theme": "neon-nights",
@@ -6816,6 +6831,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 415,
-  "lastBuilt": "2026-05-11T21:13:12.953Z"
+  "total": 416,
+  "lastBuilt": "2026-05-12T01:34:04.427Z"
 }
