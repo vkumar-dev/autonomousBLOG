@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Geological Time Capsules Buried Beneath Our Feet",
+      "date": "2026-05-12T13:35:48.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Hidden Depths of Geology",
+      "contentType": "article",
+      "excerpt": "Discover the forgotten history hidden beneath our feet and unravel the mysteries of geology.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Geology",
+        "Ancient",
+        "Tutorial"
+      ],
+      "path": "2026/05/12/2026-05-12-13-35-48_the-hidden-depths-of-geology.md"
+    },
+    {
       "title": "The Musical Paradox: Where Math and Emotion Tango",
       "date": "2026-05-12T10:24:45.000Z",
       "theme": "sunset-vibes",
@@ -6863,6 +6879,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 418,
-  "lastBuilt": "2026-05-12T10:24:45.139Z"
+  "total": 419,
+  "lastBuilt": "2026-05-12T13:35:48.716Z"
 }
