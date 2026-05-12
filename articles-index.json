@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "From Loom to Quantum: A Tale of Technological Evolution",
+      "date": "2026-05-12T06:35:51.000Z",
+      "theme": "paper-ink",
+      "topic": "Rethinking Technology: A Scientific Breakdown",
+      "contentType": "article",
+      "excerpt": "Discover how the humble loom's journey echoes our own technological timeline, illuminating the impossible made plausible.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Technology",
+        "Scientific",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/05/12/2026-05-12-06-35-51_rethinking-technology-a-scientific-breakdown.md"
+    },
+    {
       "title": "Art & Design: The Outsider's Blueprint to the Matrix",
       "date": "2026-05-12T01:34:04.000Z",
       "theme": "neon-nights",
@@ -6831,6 +6847,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 416,
-  "lastBuilt": "2026-05-12T01:34:04.427Z"
+  "total": 417,
+  "lastBuilt": "2026-05-12T06:35:51.636Z"
 }
