@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mind's Evolution: A Historical Tango with Metaphysics",
+      "date": "2026-05-13T01:51:45.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Future of Cognitive Science: Historical Analysis",
+      "contentType": "article",
+      "excerpt": "A dance through time revealing the cultural impact of our ever-evolving understanding of cognition.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Cognitive Science",
+        "Metaphysical",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/13/2026-05-13-01-51-45_the-future-of-cognitive-science-historical-analysis.md"
+    },
+    {
       "title": "Urban Planning's Unholy Trinity: The Paradoxes that Shape our Cities",
       "date": "2026-05-12T17:56:56.000Z",
       "theme": "sunset-vibes",
@@ -6895,6 +6911,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 420,
-  "lastBuilt": "2026-05-12T21:13:14.769Z"
+  "total": 421,
+  "lastBuilt": "2026-05-13T01:51:45.595Z"
 }
