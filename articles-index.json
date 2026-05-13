@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Anthropology in Rewind: The Reluctant Evolution",
+      "date": "2026-05-13T06:46:38.000Z",
+      "theme": "paper-ink",
+      "topic": "Anthropology in the Modern Era: A Pessimistic Approach",
+      "contentType": "article",
+      "excerpt": "A pessimistic perspective on anthropology's reluctant evolution in the modern era.",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Anthropology",
+        "Pessimistic"
+      ],
+      "path": "2026/05/13/2026-05-13-06-46-38_anthropology-in-the-modern-era-a-pessimistic-approach.md"
+    },
+    {
       "title": "The Mind's Evolution: A Historical Tango with Metaphysics",
       "date": "2026-05-13T01:51:45.000Z",
       "theme": "cotton-candy",
@@ -6911,6 +6926,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 421,
-  "lastBuilt": "2026-05-13T01:51:45.595Z"
+  "total": 422,
+  "lastBuilt": "2026-05-13T06:46:38.655Z"
 }
