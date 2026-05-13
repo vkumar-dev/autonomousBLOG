@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Forensics: The Economic Detective Game",
+      "date": "2026-05-13T10:16:54.000Z",
+      "theme": "forest-calm",
+      "topic": "Understanding Forensics Through Question-Answer Format",
+      "contentType": "article",
+      "excerpt": "Unravel the economic mysteries with this interactive forensic tutorial.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Forensics",
+        "Economic"
+      ],
+      "path": "2026/05/13/2026-05-13-10-16-54_understanding-forensics-through-question-answer-format.md"
+    },
+    {
       "title": "Anthropology in Rewind: The Reluctant Evolution",
       "date": "2026-05-13T06:46:38.000Z",
       "theme": "paper-ink",
@@ -6926,6 +6941,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 422,
-  "lastBuilt": "2026-05-13T06:46:38.655Z"
+  "total": 423,
+  "lastBuilt": "2026-05-13T10:16:54.115Z"
 }
