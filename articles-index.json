@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Grand Illusionists: The Unknowables of Game Design",
+      "date": "2026-05-13T17:58:52.000Z",
+      "theme": "neon-noir",
+      "topic": "Game Design: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration of the limits of game design, and the secrets that will remain locked away.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Game Design",
+        "Skeptical",
+        "Comparative Study"
+      ],
+      "path": "2026/05/13/2026-05-13-17-58-52_game-design-what-we-can-never-know.md"
+    },
+    {
       "title": "Nature's Eternal Self-Replication: A Paradox to Ponder",
       "date": "2026-05-13T14:01:53.000Z",
       "theme": "neon-nights",
@@ -6957,6 +6973,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 424,
-  "lastBuilt": "2026-05-13T14:01:53.752Z"
+  "total": 425,
+  "lastBuilt": "2026-05-13T17:58:52.544Z"
 }
