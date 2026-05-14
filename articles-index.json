@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unseen Puppeteers: A Biographical Ode to Our Silicon Masters",
+      "date": "2026-05-14T06:44:28.000Z",
+      "theme": "neon-nights",
+      "topic": "Technology: A Critical Perspective",
+      "contentType": "article",
+      "excerpt": "In a world where our digital overlords dance unseen, we take a metaphysical gaze at the men and women who breathed life into them.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Technology",
+        "Critical",
+        "Biography"
+      ],
+      "path": "2026/05/14/2026-05-14-06-44-28_technology-a-critical-perspective.md"
+    },
+    {
       "title": "Ancient Algorithms: Unraveling the Riddle of the Sphinx",
       "date": "2026-05-14T01:55:25.000Z",
       "theme": "ocean-breeze",
@@ -7004,6 +7020,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 427,
-  "lastBuilt": "2026-05-14T01:55:25.841Z"
+  "total": 428,
+  "lastBuilt": "2026-05-14T06:44:28.375Z"
 }
