@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Ocean Upside Down: A Tale of Reverse Tides",
+      "date": "2026-05-14T21:07:21.000Z",
+      "theme": "sunset-vibes",
+      "topic": "What If Oceanography Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the ocean flows upwards, defying gravity and challenging our understanding of currents. Join us in this mind-bending exploration.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Oceanography",
+        "Absurdist",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/05/14/2026-05-14-21-07-21_what-if-oceanography-worked-backwards.md"
+    },
+    {
       "title": "When Morality Meets Machines: A Dance of Discord",
       "date": "2026-05-14T17:34:25.000Z",
       "theme": "aurora",
@@ -7052,6 +7068,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 430,
-  "lastBuilt": "2026-05-14T17:34:25.255Z"
+  "total": 431,
+  "lastBuilt": "2026-05-14T21:07:21.901Z"
 }
