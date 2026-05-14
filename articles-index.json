@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Ancient Algorithms: Unraveling the Riddle of the Sphinx",
+      "date": "2026-05-14T01:55:25.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Computing the Incomputable: A Ancient Cultures Experiment",
+      "contentType": "article",
+      "excerpt": "A tantalizing glimpse into the futuristic mathematical minds of ancient civilizations.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Ancient Cultures",
+        "Futuristic",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/14/2026-05-14-01-55-25_computing-the-incomputable-a-ancient-cultures-experiment.md"
+    },
+    {
       "title": "Ethics & Morality: The Last Frontier of Individuality",
       "date": "2026-05-13T21:18:56.000Z",
       "theme": "forest-calm",
@@ -6988,6 +7004,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 426,
-  "lastBuilt": "2026-05-13T21:18:56.879Z"
+  "total": 427,
+  "lastBuilt": "2026-05-14T01:55:25.841Z"
 }
