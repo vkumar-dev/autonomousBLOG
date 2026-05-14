@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Morality Meets Machines: A Dance of Discord",
+      "date": "2026-05-14T17:34:25.000Z",
+      "theme": "aurora",
+      "topic": "The Ethics & Morality Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "In a world where algorithms rule, who decides what's right and wrong? Let's dive into the matrix of morality.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Ethics & Morality",
+        "Economic",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/05/14/2026-05-14-17-34-25_the-ethics-morality-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "Consciousness Studies: The Unseen Maestro of Our World",
       "date": "2026-05-14T10:08:11.000Z",
       "theme": "forest-calm",
@@ -7036,6 +7052,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 429,
-  "lastBuilt": "2026-05-14T13:26:52.417Z"
+  "total": 430,
+  "lastBuilt": "2026-05-14T17:34:25.255Z"
 }
