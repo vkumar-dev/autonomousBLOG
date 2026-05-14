@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Consciousness Studies: The Unseen Maestro of Our World",
+      "date": "2026-05-14T10:08:11.000Z",
+      "theme": "forest-calm",
+      "topic": "How Consciousness Studies Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Delve into the uncharted realms of consciousness studies and discover the maestro behind our world.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Consciousness Studies",
+        "Celebratory",
+        "Reference Guide"
+      ],
+      "path": "2026/05/14/2026-05-14-10-08-11_how-consciousness-studies-shapes-our-world.md"
+    },
+    {
       "title": "The Unseen Puppeteers: A Biographical Ode to Our Silicon Masters",
       "date": "2026-05-14T06:44:28.000Z",
       "theme": "neon-nights",
@@ -7020,6 +7036,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 428,
-  "lastBuilt": "2026-05-14T06:44:28.375Z"
+  "total": 429,
+  "lastBuilt": "2026-05-14T10:08:11.765Z"
 }
