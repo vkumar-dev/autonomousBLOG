@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Ancient Age of DNA, One Man's Code Cracked the Book of Life",
+      "date": "2026-05-15T10:16:37.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Unraveling the Complexity of Biology",
+      "contentType": "article",
+      "excerpt": "Imagine a world where biology is nothing more than a series of cryptic sequences. In this parallel universe, one man, armed with little more than his wit and a love for puzzles, deciphers the code that holds life itself.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Biology",
+        "Ancient",
+        "Biography"
+      ],
+      "path": "2026/05/15/2026-05-15-10-16-37_unraveling-the-complexity-of-biology.md"
+    },
+    {
       "title": "Forensics: Buried Treasures of Modernity",
       "date": "2026-05-15T06:58:04.000Z",
       "theme": "ocean-breeze",
@@ -7100,6 +7116,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 433,
-  "lastBuilt": "2026-05-15T06:58:04.203Z"
+  "total": 434,
+  "lastBuilt": "2026-05-15T10:16:37.823Z"
 }
