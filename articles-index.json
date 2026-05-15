@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Forensics: Buried Treasures of Modernity",
+      "date": "2026-05-15T06:58:04.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Forensics for Everyone",
+      "contentType": "article",
+      "excerpt": "Dusty archives and cutting-edge labs. A journey through time unveils forensics' unexpected lineage.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Forensics",
+        "Modern",
+        "Debate & Critique"
+      ],
+      "path": "2026/05/15/2026-05-15-06-58-04_bridging-the-gap-forensics-for-everyone.md"
+    },
+    {
       "title": "In an Altered Reality, Ancient Wisdom Echoes Modern Metaphysics",
       "date": "2026-05-15T01:53:28.000Z",
       "theme": "sunset-vibes",
@@ -7084,6 +7100,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 432,
-  "lastBuilt": "2026-05-15T01:53:28.450Z"
+  "total": 433,
+  "lastBuilt": "2026-05-15T06:58:04.203Z"
 }
