@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Altered Reality, Ancient Wisdom Echoes Modern Metaphysics",
+      "date": "2026-05-15T01:53:28.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Metaphysics in the Modern Era: An Ancient Approach",
+      "contentType": "article",
+      "excerpt": "In a world where quantum leaps and wormholes are no longer fantasy, we find echoes of ancient wisdom in the modern metaphysical landscape.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Metaphysics",
+        "Ancient",
+        "Alternate Reality"
+      ],
+      "path": "2026/05/15/2026-05-15-01-53-28_metaphysics-in-the-modern-era-a-ancient-approach.md"
+    },
+    {
       "title": "In an Ocean Upside Down: A Tale of Reverse Tides",
       "date": "2026-05-14T21:07:21.000Z",
       "theme": "sunset-vibes",
@@ -7068,6 +7084,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 431,
-  "lastBuilt": "2026-05-14T21:07:21.901Z"
+  "total": 432,
+  "lastBuilt": "2026-05-15T01:53:28.450Z"
 }
