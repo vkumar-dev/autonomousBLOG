@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Linguistics: A Counterfactual Tongue Twister",
+      "date": "2026-05-15T20:52:46.000Z",
+      "theme": "industrial",
+      "topic": "Time Travelers with Linguistics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "What if time travelers spoke a language so complex, it could bend the fabric of spacetime? Let's take a trip down the linguistic rabbit hole.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Linguistics",
+        "Counterfactual",
+        "Comparative Study"
+      ],
+      "path": "2026/05/15/2026-05-15-20-52-46_time-travelers-with-linguistics-a-counterfactual-journey.md"
+    },
+    {
       "title": "In an Alternate Reality, Sustainability Was Never a Choice",
       "date": "2026-05-15T17:23:39.000Z",
       "theme": "aurora",
@@ -7148,6 +7164,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 436,
-  "lastBuilt": "2026-05-15T17:23:39.367Z"
+  "total": 437,
+  "lastBuilt": "2026-05-15T20:52:47.047Z"
 }
