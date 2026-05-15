@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Reality, Sustainability Was Never a Choice",
+      "date": "2026-05-15T17:23:39.000Z",
+      "theme": "aurora",
+      "topic": "The Philosophy Behind Sustainability",
+      "contentType": "article",
+      "excerpt": "Explore a counterfactual history where sustainability was not an option, but a necessity. How did our society evolve, and what can we learn from this fictional past?",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Sustainability",
+        "Phenomenological",
+        "Counterfactual History"
+      ],
+      "path": "2026/05/15/2026-05-15-17-23-39_the-philosophy-behind-sustainability.md"
+    },
+    {
       "title": "The Cosmos Whispers Back: A Metaphysical Ode to Our Future in Space",
       "date": "2026-05-15T13:25:59.000Z",
       "theme": "matrix-code",
@@ -7132,6 +7148,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 435,
-  "lastBuilt": "2026-05-15T13:25:59.202Z"
+  "total": 436,
+  "lastBuilt": "2026-05-15T17:23:39.367Z"
 }
