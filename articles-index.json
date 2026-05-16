@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Enigma of Consciousness: A Computational Perspective",
+      "date": "2026-05-16T16:46:30.000Z",
+      "theme": "paper-ink",
+      "topic": "The Intersection of Consciousness Studies and Conceptual Puzzle",
+      "contentType": "article",
+      "excerpt": "Dive into the paradoxical world where quantum physics meets philosophy, and ponder upon the question: can we compute the incomputable?",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Consciousness Studies",
+        "Insider",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/16/2026-05-16-16-46-30_the-intersection-of-consciousness-studies-and-conceptual-puzzle.md"
+    },
+    {
       "title": "The Matrix Paradox: When Logic Breaks",
       "date": "2026-05-16T12:54:51.000Z",
       "theme": "paper-ink",
@@ -7226,6 +7242,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 441,
-  "lastBuilt": "2026-05-16T12:54:52.182Z"
+  "total": 442,
+  "lastBuilt": "2026-05-16T16:46:30.182Z"
 }
