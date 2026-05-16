@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Existentialism Lost and Found: A Forgotten History",
+      "date": "2026-05-16T01:34:12.000Z",
+      "theme": "forest-calm",
+      "topic": "The Evolution of Existentialism",
+      "contentType": "article",
+      "excerpt": "Dive into the forgotten history of existentialism, where the absurd meets the practical.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Existentialism",
+        "Practical",
+        "Comparative Study"
+      ],
+      "path": "2026/05/16/2026-05-16-01-34-12_the-evolution-of-existentialism.md"
+    },
+    {
       "title": "Time Travelers with Linguistics: A Counterfactual Tongue Twister",
       "date": "2026-05-15T20:52:46.000Z",
       "theme": "industrial",
@@ -7164,6 +7180,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 437,
-  "lastBuilt": "2026-05-15T20:52:47.047Z"
+  "total": 438,
+  "lastBuilt": "2026-05-16T01:34:12.361Z"
 }
