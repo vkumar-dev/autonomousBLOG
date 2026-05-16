@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Rethinking History: A Economic Breakdown",
+      "date": "2026-05-16T09:23:16.000Z",
+      "theme": "industrial",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of economic history, with a twist.",
+      "readingTime": "{{READING_TIME}}",
+      "wordCount": "{{WORD_COUNT}}",
+      "keywords": [
+        "{{KEYWORDS}}"
+      ],
+      "path": "2026/05/16/2026-05-16-09-23-16_rethinking-history-a-economic-breakdown.md"
+    },
+    {
       "title": "The Ontological Odyssey: Unraveling the Paradox of Existence",
       "date": "2026-05-16T06:19:26.000Z",
       "theme": "aurora",
@@ -7196,6 +7210,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 439,
-  "lastBuilt": "2026-05-16T06:19:26.793Z"
+  "total": 440,
+  "lastBuilt": "2026-05-16T09:23:16.492Z"
 }
