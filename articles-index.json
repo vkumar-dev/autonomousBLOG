@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ontological Odyssey: Unraveling the Paradox of Existence",
+      "date": "2026-05-16T06:19:26.000Z",
+      "theme": "aurora",
+      "topic": "The Hidden Depths of Ontology",
+      "contentType": "article",
+      "excerpt": "Dive into the tangled web of ontology and untangle a paradox that'll make your brain feel like a plate of spaghetti.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Ontology",
+        "Theoretical",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/16/2026-05-16-06-19-26_the-hidden-depths-of-ontology.md"
+    },
+    {
       "title": "Existentialism Lost and Found: A Forgotten History",
       "date": "2026-05-16T01:34:12.000Z",
       "theme": "forest-calm",
@@ -7180,6 +7196,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 438,
-  "lastBuilt": "2026-05-16T01:34:12.361Z"
+  "total": 439,
+  "lastBuilt": "2026-05-16T06:19:26.793Z"
 }
