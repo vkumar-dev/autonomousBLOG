@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Paradox: When Logic Breaks",
+      "date": "2026-05-16T12:54:51.000Z",
+      "theme": "paper-ink",
+      "topic": "The Existentialism Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Exploring a paradox that challenges our understanding of reality and existence.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Existentialism",
+        "Ancient",
+        "Counterfactual History"
+      ],
+      "path": "2026/05/16/2026-05-16-12-54-51_the-existentialism-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "Rethinking History: A Economic Breakdown",
       "date": "2026-05-16T09:23:16.000Z",
       "theme": "industrial",
@@ -7210,6 +7226,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 440,
-  "lastBuilt": "2026-05-16T09:23:16.492Z"
+  "total": 441,
+  "lastBuilt": "2026-05-16T12:54:52.182Z"
 }
