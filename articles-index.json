@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Existentialism's Hidden Chapters: A Forgotten Insider's Tale",
+      "date": "2026-05-17T20:42:57.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Evolution of Existentialism",
+      "contentType": "article",
+      "excerpt": "A rare glimpse into the evolution of existentialism, as told by an insider with a wicked sense of humor.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Existentialism",
+        "Insider",
+        "Comparative Study"
+      ],
+      "path": "2026/05/17/2026-05-17-20-42-57_the-evolution-of-existentialism.md"
+    },
+    {
       "title": "The Architecture of Reality: Or How I Learned to Stop Worrying and Love the Temples of Time",
       "date": "2026-05-17T09:32:33.000Z",
       "theme": "forest-calm",
@@ -7290,6 +7306,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 445,
-  "lastBuilt": "2026-05-17T16:48:12.618Z"
+  "total": 446,
+  "lastBuilt": "2026-05-17T20:42:57.466Z"
 }
