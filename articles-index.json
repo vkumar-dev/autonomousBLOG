@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forgotten Linguist Who Balanced the Universe",
+      "date": "2026-05-17T01:50:57.000Z",
+      "theme": "industrial",
+      "topic": "Linguistics: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Discover the life and work of an unsung hero who brought order to the chaotic world of linguistics.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Linguistics",
+        "Balanced",
+        "Biography"
+      ],
+      "path": "2026/05/17/2026-05-17-01-50-57_linguistics-practical-applications-and-insights.md"
+    },
+    {
       "title": "Unraveling the Enigma of Consciousness: A Computational Perspective",
       "date": "2026-05-16T16:46:30.000Z",
       "theme": "paper-ink",
@@ -7242,6 +7258,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 442,
-  "lastBuilt": "2026-05-16T20:41:22.133Z"
+  "total": 443,
+  "lastBuilt": "2026-05-17T01:50:58.131Z"
 }
