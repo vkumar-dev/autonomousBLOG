@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Architecture of Reality: Or How I Learned to Stop Worrying and Love the Temples of Time",
+      "date": "2026-05-17T09:32:33.000Z",
+      "theme": "forest-calm",
+      "topic": "What Architecture Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Ever wondered why your local library looks like a Greek temple? Or why your university resembles a medieval cathedral? In this tutorial, we'll explore the unexpected connection between architecture and reality.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Architecture",
+        "Scientific",
+        "Tutorial"
+      ],
+      "path": "2026/05/17/2026-05-17-09-32-33_what-architecture-reveals-about-reality.md"
+    },
+    {
       "title": "The Unseen Symphony of Quantum Entanglement: A Dance of Consciousness",
       "date": "2026-05-17T06:44:15.000Z",
       "theme": "sunset-vibes",
@@ -7274,6 +7290,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 444,
-  "lastBuilt": "2026-05-17T06:44:15.497Z"
+  "total": 445,
+  "lastBuilt": "2026-05-17T09:32:33.293Z"
 }
