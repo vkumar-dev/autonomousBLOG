@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Consciousness: A Metaphysical Maze",
+      "date": "2026-05-18T17:56:07.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Consciousness of Epistemology: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Dare to question reality in this poetic exploration of epistemology's labyrinthine mysteries.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Epistemology",
+        "Global",
+        "What-If Analysis"
+      ],
+      "path": "2026/05/18/2026-05-18-17-56-07_the-consciousness-of-epistemology-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "Art & Design: The Unsung Heroes of Tomorrow's Technocracy",
       "date": "2026-05-18T14:53:50.000Z",
       "theme": "ocean-breeze",
@@ -7368,6 +7384,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 450,
-  "lastBuilt": "2026-05-18T14:53:50.728Z"
+  "total": 451,
+  "lastBuilt": "2026-05-18T17:56:08.118Z"
 }
