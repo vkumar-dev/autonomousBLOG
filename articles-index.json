@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Age of AI, Are We All Just Silicon Puppets?",
+      "date": "2026-05-18T07:58:11.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Ontology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "A philosophical exploration of ontology across time, and the role AI plays in shaping our understanding of reality.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Ontology",
+        "Metaphysical",
+        "Comparative Study"
+      ],
+      "path": "2026/05/18/2026-05-18-07-58-11_ontology-a-journey-through-time.md"
+    },
+    {
       "title": "The Sentient Rocks of Antiquity: A Forgotten History",
       "date": "2026-05-18T01:59:26.000Z",
       "theme": "paper-ink",
@@ -7322,6 +7338,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 447,
-  "lastBuilt": "2026-05-18T01:59:26.700Z"
+  "total": 448,
+  "lastBuilt": "2026-05-18T07:58:11.209Z"
 }
