@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Art & Design: The Unsung Heroes of Tomorrow's Technocracy",
+      "date": "2026-05-18T14:53:50.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Why Art & Design Matters for Beginners",
+      "contentType": "article",
+      "excerpt": "Ignite your creative fire and explore the uncharted territories of Art & Design, where the future of humanity is being painted.",
+      "readingTime": "5 min read",
+      "wordCount": 1000,
+      "keywords": [
+        "Art & Design",
+        "Insider"
+      ],
+      "path": "2026/05/18/2026-05-18-14-53-50_why-art-design-matters-for-beginners.md"
+    },
+    {
       "title": "The Unanswerable Questions of Biology: A Cautionary Tale for the Curious",
       "date": "2026-05-18T11:41:41.000Z",
       "theme": "minimalist-clean",
@@ -7353,6 +7368,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 449,
-  "lastBuilt": "2026-05-18T11:41:41.230Z"
+  "total": 450,
+  "lastBuilt": "2026-05-18T14:53:50.728Z"
 }
