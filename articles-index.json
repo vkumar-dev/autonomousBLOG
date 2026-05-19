@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Age of Incomputable Minds: A Cognitive Science Experiment Gone Awry",
+      "date": "2026-05-19T21:14:23.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Computing the Incomputable: A Cognitive Science Experiment",
+      "contentType": "article",
+      "excerpt": "What if cognitive science decided to build an AI that couldn't be beaten at tic-tac-toe? The results were... unexpected.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Cognitive Science",
+        "Practical",
+        "What-If Analysis"
+      ],
+      "path": "2026/05/19/2026-05-19-21-14-23_computing-the-incomputable-a-cognitive-science-experiment.md"
+    },
+    {
       "title": "Cognitive Science: The Unexpected Connection to Ancient Times",
       "date": "2026-05-19T18:00:04.000Z",
       "theme": "forest-calm",
@@ -7464,6 +7480,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 456,
-  "lastBuilt": "2026-05-19T18:00:04.595Z"
+  "total": 457,
+  "lastBuilt": "2026-05-19T21:14:24.212Z"
 }
