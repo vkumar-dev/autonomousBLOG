@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Tech: The Calculator Conundrum",
+      "date": "2026-05-19T14:29:49.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Time Travelers with Technology: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Imagine a world where time travelers, armed with calculators, rewrite history. What if our past is riddled with silent interventions?",
+      "readingTime": "4 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Technology",
+        "Historical",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/19/2026-05-19-14-29-49_time-travelers-with-technology-a-counterfactual-journey.md"
+    },
+    {
       "title": "In an alternate timeline, anthropology is obsolete: A philosophical inquiry",
       "date": "2026-05-19T10:58:08.000Z",
       "theme": "industrial",
@@ -7432,6 +7448,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 454,
-  "lastBuilt": "2026-05-19T10:58:08.230Z"
+  "total": 455,
+  "lastBuilt": "2026-05-19T14:29:50.021Z"
 }
