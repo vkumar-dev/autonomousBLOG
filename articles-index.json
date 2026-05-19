@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Cognitive Science: The Unexpected Connection to Ancient Times",
+      "date": "2026-05-19T18:00:04.000Z",
+      "theme": "forest-calm",
+      "topic": "Cognitive Science Explained: Timeline & Evolution",
+      "contentType": "article",
+      "excerpt": "Delve into the fascinating history of cognitive science, where ancient wisdom meets modern research.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Cognitive Science",
+        "Ancient",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/05/19/2026-05-19-18-00-04_cognitive-science-explained-timeline-evolution.md"
+    },
+    {
       "title": "Time Travelers with Tech: The Calculator Conundrum",
       "date": "2026-05-19T14:29:49.000Z",
       "theme": "minimalist-clean",
@@ -7448,6 +7464,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 455,
-  "lastBuilt": "2026-05-19T14:29:50.021Z"
+  "total": 456,
+  "lastBuilt": "2026-05-19T18:00:04.595Z"
 }
