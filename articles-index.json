@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an alternate timeline, anthropology is obsolete: A philosophical inquiry",
+      "date": "2026-05-19T10:58:08.000Z",
+      "theme": "industrial",
+      "topic": "Anthropology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Exploring the repercussions of a world where anthropological studies are no longer necessary.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Anthropology",
+        "Balanced",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/05/19/2026-05-19-10-58-08_anthropology-a-journey-through-time.md"
+    },
+    {
       "title": "Tech Trivia: Can Your Brain Outsmart the Incomputable?",
       "date": "2026-05-19T07:39:42.000Z",
       "theme": "aurora",
@@ -7416,6 +7432,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 453,
-  "lastBuilt": "2026-05-19T07:39:42.133Z"
+  "total": 454,
+  "lastBuilt": "2026-05-19T10:58:08.230Z"
 }
