@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Sociology's Great Uncomputable Conundrum: A Thought Experiment",
+      "date": "2026-05-19T02:00:39.000Z",
+      "theme": "forest-calm",
+      "topic": "Computing the Incomputable: A Sociology Experiment",
+      "contentType": "article",
+      "excerpt": "A whimsical exploration of sociological complexities that'll leave you questioning your own existence.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Sociology",
+        "Existential",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/05/19/2026-05-19-02-00-39_computing-the-incomputable-a-sociology-experiment.md"
+    },
+    {
       "title": "The Matrix of Consciousness: A Metaphysical Maze",
       "date": "2026-05-18T17:56:07.000Z",
       "theme": "ocean-breeze",
@@ -7384,6 +7400,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 451,
-  "lastBuilt": "2026-05-18T21:04:56.443Z"
+  "total": 452,
+  "lastBuilt": "2026-05-19T02:00:39.531Z"
 }
