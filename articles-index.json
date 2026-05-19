@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Tech Trivia: Can Your Brain Outsmart the Incomputable?",
+      "date": "2026-05-19T07:39:42.000Z",
+      "theme": "aurora",
+      "topic": "Computing the Incomputable: A Tech Trivia Experiment",
+      "contentType": "article",
+      "excerpt": "A tantalizing tussle between human intellect and the uncomputable. Who will emerge victorious?",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Tech Trivia",
+        "Pessimistic",
+        "Educational Essay"
+      ],
+      "path": "2026/05/19/2026-05-19-07-39-42_computing-the-incomputable-a-tech-trivia-experiment.md"
+    },
+    {
       "title": "Sociology's Great Uncomputable Conundrum: A Thought Experiment",
       "date": "2026-05-19T02:00:39.000Z",
       "theme": "forest-calm",
@@ -7400,6 +7416,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 452,
-  "lastBuilt": "2026-05-19T02:00:39.531Z"
+  "total": 453,
+  "lastBuilt": "2026-05-19T07:39:42.133Z"
 }
