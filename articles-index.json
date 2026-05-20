@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code Unraveled: A Tale of Absurdity and Enlightenment",
+      "date": "2026-05-20T10:45:08.000Z",
+      "theme": "cotton-candy",
+      "topic": "Technology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Dive into the rabbit hole as we explore the enigmatic matrix of technology, unraveling its absurdities and shedding light on its hidden implications.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Technology",
+        "Absurdist",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/20/2026-05-20-10-45-08_technology-practical-applications-and-insights.md"
+    },
+    {
       "title": "Game Design Unraveled: A Scientific Breakdown for the Paradoxical Beginner",
       "date": "2026-05-20T07:38:38.000Z",
       "theme": "matrix-code",
@@ -7512,6 +7528,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 459,
-  "lastBuilt": "2026-05-20T07:38:38.908Z"
+  "total": 460,
+  "lastBuilt": "2026-05-20T10:45:08.756Z"
 }
