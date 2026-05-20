@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Game Design Unraveled: A Scientific Breakdown for the Paradoxical Beginner",
+      "date": "2026-05-20T07:38:38.000Z",
+      "theme": "matrix-code",
+      "topic": "Unraveling the Complexity of Game Design",
+      "contentType": "article",
+      "excerpt": "Welcome to the rabbit hole, where games are more than just fun. Join us as we dissect the paradoxical world of game design.",
+      "readingTime": "3 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Game Design",
+        "Paradoxical",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/05/20/2026-05-20-07-38-38_unraveling-the-complexity-of-game-design.md"
+    },
+    {
       "title": "How 17th Century Dutch Economics Predicted Modern Financial Paradoxes",
       "date": "2026-05-20T02:00:35.000Z",
       "theme": "industrial",
@@ -7496,6 +7512,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 458,
-  "lastBuilt": "2026-05-20T02:00:35.603Z"
+  "total": 459,
+  "lastBuilt": "2026-05-20T07:38:38.908Z"
 }
