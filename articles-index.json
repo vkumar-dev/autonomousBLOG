@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "How 17th Century Dutch Economics Predicted Modern Financial Paradoxes",
+      "date": "2026-05-20T02:00:35.000Z",
+      "theme": "industrial",
+      "topic": "Understanding Economics Through Historical Context",
+      "contentType": "article",
+      "excerpt": "Discover the unexpected connection between the tulip mania of the 17th century and the financial crises of today.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Economics",
+        "Absurdist",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/20/2026-05-20-02-00-35_understanding-economics-through-historical-context.md"
+    },
+    {
       "title": "In the Age of Incomputable Minds: A Cognitive Science Experiment Gone Awry",
       "date": "2026-05-19T21:14:23.000Z",
       "theme": "minimalist-clean",
@@ -7480,6 +7496,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 457,
-  "lastBuilt": "2026-05-19T21:14:24.212Z"
+  "total": 458,
+  "lastBuilt": "2026-05-20T02:00:35.603Z"
 }
