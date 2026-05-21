@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Earth's Riddles: A Geologist's Guide to Unraveling Reality",
+      "date": "2026-05-21T01:59:03.000Z",
+      "theme": "minimalist-clean",
+      "topic": "What Geology Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "From the swirling layers of rock beneath our feet to the shifting sands above, geology holds a mirror to our understanding of reality. But what if our interpretations are as shaky as the cliffs we dare to climb?",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Geology",
+        "Outsider",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/05/21/2026-05-21-01-59-03_what-geology-reveals-about-reality.md"
+    },
+    {
       "title": "The Mysteries of the Mind's Maze: What We'll Never Know (No Matter How Advanced Our Technology)",
       "date": "2026-05-20T21:32:26.000Z",
       "theme": "paper-ink",
@@ -7576,6 +7592,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 463,
-  "lastBuilt": "2026-05-20T21:32:26.173Z"
+  "total": 464,
+  "lastBuilt": "2026-05-21T01:59:03.749Z"
 }
