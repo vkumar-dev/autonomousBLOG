@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Oracle of Osmond: Predicting the Unpredictable",
+      "date": "2026-05-21T17:55:21.000Z",
+      "theme": "paper-ink",
+      "topic": "Bridging the Gap: Science for Everyone",
+      "contentType": "article",
+      "excerpt": "If you thought weather forecasts were spotty, wait until you see our predictions about the future of science.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Science",
+        "Speculative Future"
+      ],
+      "path": "2026/05/21/2026-05-21-17-55-21_bridging-the-gap-science-for-everyone.md"
+    },
+    {
       "title": "The Consciousness Paradox: Your Symphony Is Playing Itself",
       "date": "2026-05-21T14:38:41.000Z",
       "theme": "ocean-breeze",
@@ -7624,6 +7639,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 466,
-  "lastBuilt": "2026-05-21T14:38:41.964Z"
+  "total": 467,
+  "lastBuilt": "2026-05-21T17:55:21.556Z"
 }
