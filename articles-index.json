@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Phenomenon of Reality: A Thought Experiment Gone Wrong",
+      "date": "2026-05-21T21:25:55.000Z",
+      "theme": "sunset-vibes",
+      "topic": "What Nature Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "A thought experiment reveals the unexpected ways nature bends our understanding of reality.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Nature",
+        "Phenomenological",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/21/2026-05-21-21-25-55_what-nature-reveals-about-reality.md"
+    },
+    {
       "title": "The Oracle of Osmond: Predicting the Unpredictable",
       "date": "2026-05-21T17:55:21.000Z",
       "theme": "paper-ink",
@@ -7639,6 +7655,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 467,
-  "lastBuilt": "2026-05-21T17:55:21.556Z"
+  "total": 468,
+  "lastBuilt": "2026-05-21T21:25:55.382Z"
 }
