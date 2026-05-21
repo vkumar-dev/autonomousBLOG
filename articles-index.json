@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Programming Had No Rules: A Headlong Plunge into Chaos",
+      "date": "2026-05-21T07:44:03.000Z",
+      "theme": "cotton-candy",
+      "topic": "If Programming Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the rules of programming no longer apply, and chaos reigns. Let's dive in!",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Programming",
+        "Phenomenological",
+        "Tutorial"
+      ],
+      "path": "2026/05/21/2026-05-21-07-44-03_if-programming-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "The Earth's Riddles: A Geologist's Guide to Unraveling Reality",
       "date": "2026-05-21T01:59:03.000Z",
       "theme": "minimalist-clean",
@@ -7592,6 +7608,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 464,
-  "lastBuilt": "2026-05-21T01:59:03.749Z"
+  "total": 465,
+  "lastBuilt": "2026-05-21T07:44:03.747Z"
 }
