@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Consciousness Paradox: Your Symphony Is Playing Itself",
+      "date": "2026-05-21T14:38:41.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Consciousness of Music Theory: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A journey into the self-aware melodies that confound science and tickle the imagination.",
+      "readingTime": "8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Music Theory",
+        "Optimistic",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/21/2026-05-21-14-38-41_the-consciousness-of-music-theory-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "If Programming Had No Rules: A Headlong Plunge into Chaos",
       "date": "2026-05-21T07:44:03.000Z",
       "theme": "cotton-candy",
@@ -7608,6 +7624,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 465,
-  "lastBuilt": "2026-05-21T11:02:34.230Z"
+  "total": 466,
+  "lastBuilt": "2026-05-21T14:38:41.964Z"
 }
