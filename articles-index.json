@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Forensic Labyrinth: A Tale of the Unravelable",
+      "date": "2026-05-22T17:38:04.000Z",
+      "theme": "industrial",
+      "topic": "The Impossibility of Forensics: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "A journey into the tangled world of forensic science, where truth can be as elusive as a ghost.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": "Forensics, Outsider, Narrative History",
+      "path": "2026/05/22/2026-05-22-17-38-04_the-impossibility-of-forensics-a-thought-experiment.md"
+    },
+    {
       "title": "Phenomenology and Practice: The Impossible Intersection",
       "date": "2026-05-22T14:12:08.000Z",
       "theme": "cotton-candy",
@@ -7719,6 +7731,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 472,
-  "lastBuilt": "2026-05-22T14:12:08.772Z"
+  "total": 473,
+  "lastBuilt": "2026-05-22T17:38:04.515Z"
 }
