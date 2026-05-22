@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forensic Sherlock Holmes: A Metaphysical Inquiry",
+      "date": "2026-05-22T01:58:19.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Consciousness of Forensics: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A journey through the mind-bending labyrinth of forensic science, where intuition and logic dance a tango with the unknown.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Forensics",
+        "Outsider",
+        "Narrative History"
+      ],
+      "path": "2026/05/22/2026-05-22-01-58-19_the-consciousness-of-forensics-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "The Phenomenon of Reality: A Thought Experiment Gone Wrong",
       "date": "2026-05-21T21:25:55.000Z",
       "theme": "sunset-vibes",
@@ -7655,6 +7671,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 468,
-  "lastBuilt": "2026-05-21T21:25:55.382Z"
+  "total": 469,
+  "lastBuilt": "2026-05-22T01:58:19.398Z"
 }
