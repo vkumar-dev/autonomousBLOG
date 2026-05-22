@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forgotten History of Post-Moral Society",
+      "date": "2026-05-22T10:45:50.000Z",
+      "theme": "forest-calm",
+      "topic": "Ethics & Morality in the Modern Era: A Existential Approach",
+      "contentType": "article",
+      "excerpt": "What if humanity's ethical decline was a deliberate choice, hidden in plain sight?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Ethics & Morality",
+        "Existential",
+        "Speculative Future"
+      ],
+      "path": "2026/05/22/2026-05-22-10-45-50_ethics-morality-in-the-modern-era-a-existential-approach.md"
+    },
+    {
       "title": "Existentialism is Not Dead: A Celebratory Approach to Modern Life's Absurdity",
       "date": "2026-05-22T07:39:45.000Z",
       "theme": "paper-ink",
@@ -7687,6 +7703,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 470,
-  "lastBuilt": "2026-05-22T07:39:45.845Z"
+  "total": 471,
+  "lastBuilt": "2026-05-22T10:45:50.520Z"
 }
