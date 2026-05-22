@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Existentialism is Not Dead: A Celebratory Approach to Modern Life's Absurdity",
+      "date": "2026-05-22T07:39:45.000Z",
+      "theme": "paper-ink",
+      "topic": "Existentialism in the Modern Era: A Celebratory Approach",
+      "contentType": "article",
+      "excerpt": "Join us as we take a journey through the labyrinth of modern existence, finding solace in the absurdity and celebrating the human spirit.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Existentialism",
+        "Celebratory",
+        "Tutorial"
+      ],
+      "path": "2026/05/22/2026-05-22-07-39-45_existentialism-in-the-modern-era-a-celebratory-approach.md"
+    },
+    {
       "title": "The Forensic Sherlock Holmes: A Metaphysical Inquiry",
       "date": "2026-05-22T01:58:19.000Z",
       "theme": "cotton-candy",
@@ -7671,6 +7687,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 469,
-  "lastBuilt": "2026-05-22T01:58:19.398Z"
+  "total": 470,
+  "lastBuilt": "2026-05-22T07:39:45.845Z"
 }
