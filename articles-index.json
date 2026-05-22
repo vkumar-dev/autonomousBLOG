@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Phenomenology and Practice: The Impossible Intersection",
+      "date": "2026-05-22T14:12:08.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Intersection of Phenomenology and Theory & Practice",
+      "contentType": "article",
+      "excerpt": "In a world where science and philosophy intertwine, we delve into the bizarre, yet plausible, intersection of phenomenology and practice.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Phenomenology",
+        "Pessimistic",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/22/2026-05-22-14-12-08_the-intersection-of-phenomenology-and-theory-practice.md"
+    },
+    {
       "title": "The Forgotten History of Post-Moral Society",
       "date": "2026-05-22T10:45:50.000Z",
       "theme": "forest-calm",
@@ -7703,6 +7719,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 471,
-  "lastBuilt": "2026-05-22T10:45:50.520Z"
+  "total": 472,
+  "lastBuilt": "2026-05-22T14:12:08.772Z"
 }
