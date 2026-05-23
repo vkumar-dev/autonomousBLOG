@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Insider Who Turned Sustainability Upside Down",
+      "date": "2026-05-23T09:36:26.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Sustainability That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Meet the unlikely hero who flipped sustainability on its head, leaving tech-savvy readers scratching their heads and industry experts rethinking their assumptions.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Sustainability",
+        "Insider",
+        "Biography"
+      ],
+      "path": "2026/05/23/2026-05-23-09-36-26_the-sustainability-that-defies-intuition.md"
+    },
+    {
       "title": "The Architect's Dilemma: A Conscious Conundrum",
       "date": "2026-05-23T06:32:21.000Z",
       "theme": "sunset-vibes",
@@ -7778,6 +7794,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 476,
-  "lastBuilt": "2026-05-23T06:32:21.365Z"
+  "total": 477,
+  "lastBuilt": "2026-05-23T09:36:26.856Z"
 }
