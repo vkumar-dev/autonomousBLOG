@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Universe, Where Newton Never Discovered Gravity",
+      "date": "2026-05-23T20:43:10.000Z",
+      "theme": "cotton-candy",
+      "topic": "What Space & Astronomy Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the psychological implications of a world without Newton's laws of motion.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Space",
+        "Astronomy",
+        "Counterfactual History"
+      ],
+      "path": "2026/05/23/2026-05-23-20-43-10_what-space-astronomy-reveals-about-reality.md"
+    },
+    {
       "title": "The Oceanography That Defies Intuition: A Bottomless Rabbithole",
       "date": "2026-05-23T16:48:55.000Z",
       "theme": "neon-nights",
@@ -7810,6 +7826,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 478,
-  "lastBuilt": "2026-05-23T16:48:55.982Z"
+  "total": 479,
+  "lastBuilt": "2026-05-23T20:43:10.935Z"
 }
