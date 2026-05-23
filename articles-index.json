@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Mind's Matrix: Where Psychology and Alternate Realities Intertwine",
+      "date": "2026-05-23T01:49:58.000Z",
+      "theme": "forest-calm",
+      "topic": "The Intersection of Psychology and Alternate Reality",
+      "contentType": "article",
+      "excerpt": "A journey into the labyrinth of human consciousness, where alternate realities intersect with our deepest psychological impulses.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Psychology",
+        "Futuristic",
+        "Alternate Reality"
+      ],
+      "path": "2026/05/23/2026-05-23-01-49-58_the-intersection-of-psychology-and-alternate-reality.md"
+    },
+    {
       "title": "Welcome to the Multiverse of Metaphysical Marvels: Where Wonder Never Ends",
       "date": "2026-05-22T21:08:44.000Z",
       "theme": "industrial",
@@ -7746,6 +7762,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 474,
-  "lastBuilt": "2026-05-22T21:08:44.259Z"
+  "total": 475,
+  "lastBuilt": "2026-05-23T01:49:59.144Z"
 }
