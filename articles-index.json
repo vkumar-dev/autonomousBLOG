@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oceanography That Defies Intuition: A Bottomless Rabbithole",
+      "date": "2026-05-23T16:48:55.000Z",
+      "theme": "neon-nights",
+      "topic": "The Oceanography That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Join us on a journey to the deep sea, where the laws of physics are just suggestions.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Oceanography",
+        "Absurdist",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/23/2026-05-23-16-48-55_the-oceanography-that-defies-intuition.md"
+    },
+    {
       "title": "The Insider Who Turned Sustainability Upside Down",
       "date": "2026-05-23T09:36:26.000Z",
       "theme": "cotton-candy",
@@ -7794,6 +7810,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 477,
-  "lastBuilt": "2026-05-23T12:57:37.835Z"
+  "total": 478,
+  "lastBuilt": "2026-05-23T16:48:55.982Z"
 }
