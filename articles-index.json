@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Architect's Dilemma: A Conscious Conundrum",
+      "date": "2026-05-23T06:32:21.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Architecture",
+      "contentType": "article",
+      "excerpt": "Exploring the tantalizing tension between the conscious and unconscious in architectural design.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Architecture",
+        "Critical",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/23/2026-05-23-06-32-21_the-hidden-depths-of-architecture.md"
+    },
+    {
       "title": "In the Mind's Matrix: Where Psychology and Alternate Realities Intertwine",
       "date": "2026-05-23T01:49:58.000Z",
       "theme": "forest-calm",
@@ -7762,6 +7778,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 475,
-  "lastBuilt": "2026-05-23T01:49:59.144Z"
+  "total": 476,
+  "lastBuilt": "2026-05-23T06:32:21.365Z"
 }
