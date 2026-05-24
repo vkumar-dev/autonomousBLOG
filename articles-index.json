@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Epistemology Outlaw: A Rant from the Fringe",
+      "date": "2026-05-24T20:45:35.000Z",
+      "theme": "matrix-code",
+      "topic": "The Philosophy Behind Epistemology",
+      "contentType": "article",
+      "excerpt": "Meet the rogue philosopher who's been questioning everything you thought was true.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Epistemology",
+        "Outsider"
+      ],
+      "path": "2026/05/24/2026-05-24-20-45-35_the-philosophy-behind-epistemology.md"
+    },
+    {
       "title": "Mathematics: The Algorithm that Ruled the World",
       "date": "2026-05-24T16:50:55.000Z",
       "theme": "cotton-candy",
@@ -7905,6 +7920,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 484,
-  "lastBuilt": "2026-05-24T16:50:55.922Z"
+  "total": 485,
+  "lastBuilt": "2026-05-24T20:45:35.983Z"
 }
