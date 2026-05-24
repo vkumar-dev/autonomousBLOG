@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Nature of Control: Unraveling the Puzzle of Local Ecosystems",
+      "date": "2026-05-24T12:58:37.000Z",
+      "theme": "aurora",
+      "topic": "The Future of Nature: Conceptual Puzzle",
+      "contentType": "article",
+      "excerpt": "A journey into the hidden mechanics of local ecosystems, where technology and nature intertwine in surprising ways.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Nature",
+        "Local",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/24/2026-05-24-12-58-37_the-future-of-nature-conceptual-puzzle.md"
+    },
+    {
       "title": "In Game Design, the Unseen Billion-Dollar Chessboard",
       "date": "2026-05-24T09:51:50.000Z",
       "theme": "ocean-breeze",
@@ -7873,6 +7889,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 482,
-  "lastBuilt": "2026-05-24T09:51:51.009Z"
+  "total": 483,
+  "lastBuilt": "2026-05-24T12:58:37.749Z"
 }
