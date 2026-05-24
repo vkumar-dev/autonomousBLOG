@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Mathematics: The Algorithm that Ruled the World",
+      "date": "2026-05-24T16:50:55.000Z",
+      "theme": "cotton-candy",
+      "topic": "Rethinking Mathematics: A Theoretical Breakdown",
+      "contentType": "article",
+      "excerpt": "A brief journey into a future where mathematics has taken over the world, and what it means for our cultural identity.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Mathematics",
+        "Theoretical",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/24/2026-05-24-16-50-55_rethinking-mathematics-a-theoretical-breakdown.md"
+    },
+    {
       "title": "The Nature of Control: Unraveling the Puzzle of Local Ecosystems",
       "date": "2026-05-24T12:58:37.000Z",
       "theme": "aurora",
@@ -7889,6 +7905,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 483,
-  "lastBuilt": "2026-05-24T12:58:37.749Z"
+  "total": 484,
+  "lastBuilt": "2026-05-24T16:50:55.922Z"
 }
