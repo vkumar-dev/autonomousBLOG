@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Biologist's Ethical Dilemma: A Tale of Two Genes",
+      "date": "2026-05-24T06:58:17.000Z",
+      "theme": "matrix-code",
+      "topic": "Biology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "A gripping exploration of the ethical quandary faced by biologists when confronted with the power to manipulate life at its most fundamental level.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Biology",
+        "Ethical"
+      ],
+      "path": "2026/05/24/2026-05-24-06-58-17_biology-practical-applications-and-insights.md"
+    },
+    {
       "title": "In the Kingdom of Biology, Facts You Won't Find in Textbooks",
       "date": "2026-05-24T01:56:42.000Z",
       "theme": "aurora",
@@ -7842,6 +7857,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 480,
-  "lastBuilt": "2026-05-24T01:56:42.334Z"
+  "total": 481,
+  "lastBuilt": "2026-05-24T06:58:17.226Z"
 }
