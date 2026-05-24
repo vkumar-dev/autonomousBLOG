@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In Game Design, the Unseen Billion-Dollar Chessboard",
+      "date": "2026-05-24T09:51:50.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Game Design: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Step into the world of game design's economic underbelly, where billion-dollar ideas are born from the most unexpected places.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Game Design",
+        "Speculative",
+        "Conceptual Overview"
+      ],
+      "path": "2026/05/24/2026-05-24-09-51-50_game-design-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Biologist's Ethical Dilemma: A Tale of Two Genes",
       "date": "2026-05-24T06:58:17.000Z",
       "theme": "matrix-code",
@@ -7857,6 +7873,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 481,
-  "lastBuilt": "2026-05-24T06:58:17.226Z"
+  "total": 482,
+  "lastBuilt": "2026-05-24T09:51:51.009Z"
 }
