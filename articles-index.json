@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Kingdom of Biology, Facts You Won't Find in Textbooks",
+      "date": "2026-05-24T01:56:42.000Z",
+      "theme": "aurora",
+      "topic": "Biology: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Dive into the lesser-known, bizarre, and downright fascinating corners of biology.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Biology",
+        "Skeptical",
+        "Educational Essay"
+      ],
+      "path": "2026/05/24/2026-05-24-01-56-42_biology-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "In an Alternate Universe, Where Newton Never Discovered Gravity",
       "date": "2026-05-23T20:43:10.000Z",
       "theme": "cotton-candy",
@@ -7826,6 +7842,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 479,
-  "lastBuilt": "2026-05-23T20:43:10.935Z"
+  "total": 480,
+  "lastBuilt": "2026-05-24T01:56:42.334Z"
 }
