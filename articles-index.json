@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Art and Design in 2075: The Matrix of Our Aesthetic Future",
+      "date": "2026-05-25T14:31:32.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Evolution of Art & Design",
+      "contentType": "article",
+      "excerpt": "An exploration into the future implications of our ever-evolving artistic landscape.",
+      "readingTime": "6 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Art & Design",
+        "Celebratory"
+      ],
+      "path": "2026/05/25/2026-05-25-14-31-32_the-evolution-of-art-design.md"
+    },
+    {
       "title": "Bones that Lie and Blood that Speaks Truth: A Forgotten History of Forensics",
       "date": "2026-05-25T08:14:58.000Z",
       "theme": "ocean-breeze",
@@ -7952,6 +7967,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 487,
-  "lastBuilt": "2026-05-25T08:14:58.869Z"
+  "total": 488,
+  "lastBuilt": "2026-05-25T14:31:32.835Z"
 }
