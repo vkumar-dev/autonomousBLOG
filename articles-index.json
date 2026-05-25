@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Utopia of Unbuilt Skyscrapers",
+      "date": "2026-05-25T17:32:15.000Z",
+      "theme": "paper-ink",
+      "topic": "Architecture and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Exploring the tantalizing possibilities of skyscrapers that never saw daylight.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Architecture",
+        "Global"
+      ],
+      "path": "2026/05/25/2026-05-25-17-32-15_architecture-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Art and Design in 2075: The Matrix of Our Aesthetic Future",
       "date": "2026-05-25T14:31:32.000Z",
       "theme": "cotton-candy",
@@ -7967,6 +7982,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 488,
-  "lastBuilt": "2026-05-25T14:31:32.835Z"
+  "total": 489,
+  "lastBuilt": "2026-05-25T17:32:15.650Z"
 }
