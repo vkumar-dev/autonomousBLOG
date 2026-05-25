@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Parameters: A Conscious Metaphysical Dilemma",
+      "date": "2026-05-25T02:02:53.000Z",
+      "theme": "paper-ink",
+      "topic": "The Consciousness of Metaphysics: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Unravel the paradoxes of consciousness in a metaphysical inquiry that's as entertaining as it is enlightening.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Metaphysics",
+        "Existential",
+        "Myth-Busting"
+      ],
+      "path": "2026/05/25/2026-05-25-02-02-53_the-consciousness-of-metaphysics-a-metaphysical-inquiry.md"
+    },
+    {
       "title": "The Epistemology Outlaw: A Rant from the Fringe",
       "date": "2026-05-24T20:45:35.000Z",
       "theme": "matrix-code",
@@ -7920,6 +7936,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 485,
-  "lastBuilt": "2026-05-24T20:45:35.983Z"
+  "total": 486,
+  "lastBuilt": "2026-05-25T02:02:53.591Z"
 }
