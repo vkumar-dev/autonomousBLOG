@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Bones that Lie and Blood that Speaks Truth: A Forgotten History of Forensics",
+      "date": "2026-05-25T08:14:58.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Forensics That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Discover the strange history of forensics that turns the detective's intuition on its head.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Forensics",
+        "Celebratory",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/05/25/2026-05-25-08-14-58_the-forensics-that-defies-intuition.md"
+    },
+    {
       "title": "The Matrix Parameters: A Conscious Metaphysical Dilemma",
       "date": "2026-05-25T02:02:53.000Z",
       "theme": "paper-ink",
@@ -7936,6 +7952,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 486,
-  "lastBuilt": "2026-05-25T02:02:53.591Z"
+  "total": 487,
+  "lastBuilt": "2026-05-25T08:14:58.869Z"
 }
