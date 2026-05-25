@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Counterfactual Circus of Modern Economics",
+      "date": "2026-05-25T21:04:09.000Z",
+      "theme": "neon-nights",
+      "topic": "Economics in the Modern Era: A Counterfactual Approach",
+      "contentType": "article",
+      "excerpt": "Step right up, ladies and gentlemen! Welcome to the grand counterfactual circus of modern economics.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Economics",
+        "Counterfactual",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/25/2026-05-25-21-04-09_economics-in-the-modern-era-a-counterfactual-approach.md"
+    },
+    {
       "title": "The Utopia of Unbuilt Skyscrapers",
       "date": "2026-05-25T17:32:15.000Z",
       "theme": "paper-ink",
@@ -7982,6 +7998,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 489,
-  "lastBuilt": "2026-05-25T17:32:15.650Z"
+  "total": 490,
+  "lastBuilt": "2026-05-25T21:04:09.745Z"
 }
