@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If History Was a Simulation? A Theoretical Perspective for Researchers",
+      "date": "2026-05-26T01:56:50.000Z",
+      "theme": "matrix-code",
+      "topic": "History: A Theoretical Perspective",
+      "contentType": "article",
+      "excerpt": "A wild and thought-provoking exploration of the implications if history was a simulation, challenging the very foundations of our understanding of the past.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "History",
+        "Theoretical",
+        "What-If Analysis"
+      ],
+      "path": "2026/05/26/2026-05-26-01-56-50_history-a-theoretical-perspective.md"
+    },
+    {
       "title": "The Great Counterfactual Circus of Modern Economics",
       "date": "2026-05-25T21:04:09.000Z",
       "theme": "neon-nights",
@@ -7998,6 +8014,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 490,
-  "lastBuilt": "2026-05-25T21:04:09.745Z"
+  "total": 491,
+  "lastBuilt": "2026-05-26T01:56:50.855Z"
 }
