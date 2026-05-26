@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Cryptography Worked Backwards?",
+      "date": "2026-05-26T18:20:43.000Z",
+      "theme": "ocean-breeze",
+      "topic": "What If Cryptography Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Dare to question the foundations of digital security with us.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Cryptography",
+        "Outsider",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/05/26/2026-05-26-18-20-43_what-if-cryptography-worked-backwards.md"
+    },
+    {
       "title": "The Psychologist's Secret Dossier: A Peek into Tomorrow",
       "date": "2026-05-26T14:34:51.000Z",
       "theme": "minimalist-clean",
@@ -8030,6 +8046,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 492,
-  "lastBuilt": "2026-05-26T14:34:51.252Z"
+  "total": 493,
+  "lastBuilt": "2026-05-26T18:20:43.261Z"
 }
