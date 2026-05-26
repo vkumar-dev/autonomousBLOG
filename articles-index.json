@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Psychologist's Secret Dossier: A Peek into Tomorrow",
+      "date": "2026-05-26T14:34:51.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Psychology: An Insider Perspective",
+      "contentType": "article",
+      "excerpt": "A sneak peek into the mind of a future psychologist, armed with cutting-edge insights and a dash of Wildean wit.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Psychology",
+        "Insider",
+        "Speculative Future"
+      ],
+      "path": "2026/05/26/2026-05-26-14-34-51_psychology-a-insider-perspective.md"
+    },
+    {
       "title": "What If History Was a Simulation? A Theoretical Perspective for Researchers",
       "date": "2026-05-26T01:56:50.000Z",
       "theme": "matrix-code",
@@ -8014,6 +8030,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 491,
-  "lastBuilt": "2026-05-26T07:40:23.925Z"
+  "total": 492,
+  "lastBuilt": "2026-05-26T14:34:51.252Z"
 }
