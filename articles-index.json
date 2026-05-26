@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code of Ethics: A Time-Traveling Paradox",
+      "date": "2026-05-26T21:30:15.000Z",
+      "theme": "matrix-code",
+      "topic": "Science: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Imagine if time travelers carried calculators. What would happen? Let's dive into the ethical implications.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Science",
+        "Ethical",
+        "Comparative Study"
+      ],
+      "path": "2026/05/26/2026-05-26-21-30-15_science-practical-applications-and-insights.md"
+    },
+    {
       "title": "What If Cryptography Worked Backwards?",
       "date": "2026-05-26T18:20:43.000Z",
       "theme": "ocean-breeze",
@@ -8046,6 +8062,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 493,
-  "lastBuilt": "2026-05-26T18:20:43.261Z"
+  "total": 494,
+  "lastBuilt": "2026-05-26T21:30:15.822Z"
 }
