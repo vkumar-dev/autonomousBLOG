@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Existentialism: The Paradoxical Economy",
+      "date": "2026-05-27T07:58:56.000Z",
+      "theme": "matrix-code",
+      "topic": "Existentialism and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Dive into the paradox of modern life, where existential crises meet economic realities.",
+      "readingTime": "8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Existentialism",
+        "Celebratory",
+        "Paradox Exploration"
+      ],
+      "path": "2026/05/27/2026-05-27-07-58-56_existentialism-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "Robots Have Already Won the Battle for Supremacy, Humans Just Haven't Noticed Yet",
       "date": "2026-05-27T02:04:09.000Z",
       "theme": "industrial",
@@ -8078,6 +8094,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 495,
-  "lastBuilt": "2026-05-27T02:04:09.542Z"
+  "total": 496,
+  "lastBuilt": "2026-05-27T07:58:56.329Z"
 }
