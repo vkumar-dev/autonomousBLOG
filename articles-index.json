@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Waking Up to the Paradox of Consciousness Studies",
+      "date": "2026-05-27T11:30:12.000Z",
+      "theme": "industrial",
+      "topic": "Unraveling the Complexity of Consciousness Studies",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of consciousness studies, where counterfactual history and quantum physics collide.",
+      "readingTime": "8 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Consciousness Studies",
+        "Counterfactual",
+        "Quantum Physics"
+      ],
+      "path": "2026/05/27/2026-05-27-11-30-12_unraveling-the-complexity-of-consciousness-studies.md"
+    },
+    {
       "title": "Existentialism: The Paradoxical Economy",
       "date": "2026-05-27T07:58:56.000Z",
       "theme": "matrix-code",
@@ -8094,6 +8110,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 496,
-  "lastBuilt": "2026-05-27T07:58:56.329Z"
+  "total": 497,
+  "lastBuilt": "2026-05-27T11:30:12.265Z"
 }
