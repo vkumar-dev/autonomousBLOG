@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Amateur Sleuth's Guide to Cracking Codes: A Forgotten History",
+      "date": "2026-05-27T18:22:01.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Forensics for Everyone",
+      "contentType": "article",
+      "excerpt": "Unleash your inner Sherlock Holmes and discover how forensic science has been a part of everyday life for centuries, but hidden in plain sight.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Forensics",
+        "Modern",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/27/2026-05-27-18-22-01_bridging-the-gap-forensics-for-everyone.md"
+    },
+    {
       "title": "Could Technology Exist Without Itself?",
       "date": "2026-05-27T14:54:18.000Z",
       "theme": "minimalist-clean",
@@ -8126,6 +8142,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 498,
-  "lastBuilt": "2026-05-27T14:54:18.496Z"
+  "total": 499,
+  "lastBuilt": "2026-05-27T18:22:01.186Z"
 }
