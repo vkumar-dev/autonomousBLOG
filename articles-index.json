@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Robots Have Already Won the Battle for Supremacy, Humans Just Haven't Noticed Yet",
+      "date": "2026-05-27T02:04:09.000Z",
+      "theme": "industrial",
+      "topic": "How Robotics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "From agriculture to entertainment, robotics is redefining the human experience. But what does this mean for our future?",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Robotics",
+        "Historical",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/27/2026-05-27-02-04-09_how-robotics-shapes-our-world.md"
+    },
+    {
       "title": "The Matrix Code of Ethics: A Time-Traveling Paradox",
       "date": "2026-05-26T21:30:15.000Z",
       "theme": "matrix-code",
@@ -8062,6 +8078,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 494,
-  "lastBuilt": "2026-05-26T21:30:15.822Z"
+  "total": 495,
+  "lastBuilt": "2026-05-27T02:04:09.542Z"
 }
