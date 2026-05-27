@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "When Neurons Rebel: A Logical Uprising",
+      "date": "2026-05-27T21:36:52.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Neuroscience Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "A delightful exploration of the neuroscience paradox that will leave you questioning everything.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": [
+        "Neuroscience",
+        "Outsider"
+      ],
+      "path": "2026/05/27/2026-05-27-21-36-52_the-neuroscience-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "The Amateur Sleuth's Guide to Cracking Codes: A Forgotten History",
       "date": "2026-05-27T18:22:01.000Z",
       "theme": "ocean-breeze",
@@ -8142,6 +8157,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 499,
-  "lastBuilt": "2026-05-27T18:22:01.186Z"
+  "total": 500,
+  "lastBuilt": "2026-05-27T21:36:53.138Z"
 }
