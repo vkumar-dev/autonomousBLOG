@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Geological Gold Rush of 2300: What If We Mined the Earth's Interior?",
+      "date": "2026-05-28T18:35:06.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Geology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Dive into a thought experiment that will challenge your understanding of geology, economics, and the very fabric of our planet.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Geology",
+        "Economic",
+        "What-If Analysis"
+      ],
+      "path": "2026/05/28/2026-05-28-18-35-06_geology-practical-applications-and-insights.md"
+    },
+    {
       "title": "The Great Ontology Mythbusting Extravaganza",
       "date": "2026-05-28T15:04:21.000Z",
       "theme": "matrix-code",
@@ -8217,6 +8233,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 504,
-  "lastBuilt": "2026-05-28T15:04:21.419Z"
+  "total": 505,
+  "lastBuilt": "2026-05-28T18:35:06.430Z"
 }
