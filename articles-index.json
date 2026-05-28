@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Welcome to Your Matrix: Navigating Philosophy in an Altered Reality",
+      "date": "2026-05-28T07:51:02.000Z",
+      "theme": "matrix-code",
+      "topic": "Philosophy in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Dive into the rabbit hole of philosophy, where reality is a mere code to be deciphered.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Philosophy",
+        "Local",
+        "Practical Guide"
+      ],
+      "path": "2026/05/28/2026-05-28-07-51-02_philosophy-in-an-alternate-universe.md"
+    },
+    {
       "title": "The Greenhouse Effect: A Historical Prank Gone Wrong?",
       "date": "2026-05-28T01:35:56.000Z",
       "theme": "aurora",
@@ -8173,6 +8189,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 501,
-  "lastBuilt": "2026-05-28T01:35:56.339Z"
+  "total": 502,
+  "lastBuilt": "2026-05-28T07:51:02.549Z"
 }
