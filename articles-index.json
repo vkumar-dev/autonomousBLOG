@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Meet Husserl and Heidegger: The Unlikely Phenomenological Duo",
+      "date": "2026-05-28T11:31:12.000Z",
+      "theme": "industrial",
+      "topic": "Philosophy: A Phenomenological Perspective",
+      "contentType": "article",
+      "excerpt": "A whirlwind tour of the lives and ideas of two philosophers who revolutionized our understanding of consciousness.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Philosophy",
+        "Phenomenological",
+        "Biography"
+      ],
+      "path": "2026/05/28/2026-05-28-11-31-12_philosophy-a-phenomenological-perspective.md"
+    },
+    {
       "title": "Welcome to Your Matrix: Navigating Philosophy in an Altered Reality",
       "date": "2026-05-28T07:51:02.000Z",
       "theme": "matrix-code",
@@ -8189,6 +8205,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 502,
-  "lastBuilt": "2026-05-28T07:51:02.549Z"
+  "total": 503,
+  "lastBuilt": "2026-05-28T11:31:12.226Z"
 }
