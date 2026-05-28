@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Great Ontology Mythbusting Extravaganza",
+      "date": "2026-05-28T15:04:21.000Z",
+      "theme": "matrix-code",
+      "topic": "Ontology: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Prepare to have your ontological assumptions challenged as we delve into the paradoxical world of myths and reality.",
+      "readingTime": "5 minutes",
+      "wordCount": 800,
+      "keywords": "Ontology, Paradoxical, Tutorial",
+      "path": "2026/05/28/2026-05-28-15-04-21_ontology-myths-vs-reality.md"
+    },
+    {
       "title": "Meet Husserl and Heidegger: The Unlikely Phenomenological Duo",
       "date": "2026-05-28T11:31:12.000Z",
       "theme": "industrial",
@@ -8205,6 +8217,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 503,
-  "lastBuilt": "2026-05-28T11:31:12.226Z"
+  "total": 504,
+  "lastBuilt": "2026-05-28T15:04:21.419Z"
 }
