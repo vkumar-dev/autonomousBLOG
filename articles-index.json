@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Greenhouse Effect: A Historical Prank Gone Wrong?",
+      "date": "2026-05-28T01:35:56.000Z",
+      "theme": "aurora",
+      "topic": "Why Nature Matters for Beginners",
+      "contentType": "article",
+      "excerpt": "A playful exploration of the origins of our obsession with controlling nature, and why it matters more than ever before.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Nature",
+        "Futuristic",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/28/2026-05-28-01-35-56_why-nature-matters-for-beginners.md"
+    },
+    {
       "title": "When Neurons Rebel: A Logical Uprising",
       "date": "2026-05-27T21:36:52.000Z",
       "theme": "ocean-breeze",
@@ -8157,6 +8173,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 500,
-  "lastBuilt": "2026-05-27T21:36:53.138Z"
+  "total": 501,
+  "lastBuilt": "2026-05-28T01:35:56.339Z"
 }
