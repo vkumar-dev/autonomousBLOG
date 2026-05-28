@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Codex Unwritten: A Counterfactual History of Cryptography",
+      "date": "2026-05-28T21:54:47.000Z",
+      "theme": "paper-ink",
+      "topic": "The Evolution of Cryptography",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the Magna Carta was written in an unbreakable code. How different would history be today?",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Cryptography",
+        "Counterfactual History",
+        "Ethical"
+      ],
+      "path": "2026/05/28/2026-05-28-21-54-47_the-evolution-of-cryptography.md"
+    },
+    {
       "title": "The Geological Gold Rush of 2300: What If We Mined the Earth's Interior?",
       "date": "2026-05-28T18:35:06.000Z",
       "theme": "sunset-vibes",
@@ -8233,6 +8249,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 505,
-  "lastBuilt": "2026-05-28T18:35:06.430Z"
+  "total": 506,
+  "lastBuilt": "2026-05-28T21:54:47.908Z"
 }
