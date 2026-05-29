@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix: A Mirror of Our Own Making",
+      "date": "2026-05-29T14:36:24.000Z",
+      "theme": "ocean-breeze",
+      "topic": "What Ontology Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the concept of ontology, we find ourselves staring into a mirror that reveals more than just our reflection.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Ontology",
+        "Philosophical",
+        "Cultural Critique"
+      ],
+      "path": "2026/05/29/2026-05-29-14-36-24_what-ontology-reveals-about-reality.md"
+    },
+    {
       "title": "Urban Planning: The Great Myth-Busting",
       "date": "2026-05-29T11:06:22.000Z",
       "theme": "cotton-candy",
@@ -8297,6 +8313,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 509,
-  "lastBuilt": "2026-05-29T11:06:22.569Z"
+  "total": 510,
+  "lastBuilt": "2026-05-29T14:36:24.291Z"
 }
