@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Swarm of Drones and the Illusion of Time",
+      "date": "2026-05-29T01:56:37.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Phenomenology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Dive into a thought experiment where drones rewrite the rules of time, and discover the hidden mechanics beneath our everyday experiences.",
+      "readingTime": "4 minutes",
+      "wordCount": 600,
+      "keywords": [
+        "Phenomenology",
+        "Ethical",
+        "Thought Experiment"
+      ],
+      "path": "2026/05/29/2026-05-29-01-56-37_phenomenology-a-journey-through-time.md"
+    },
+    {
       "title": "The Codex Unwritten: A Counterfactual History of Cryptography",
       "date": "2026-05-28T21:54:47.000Z",
       "theme": "paper-ink",
@@ -8249,6 +8265,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 506,
-  "lastBuilt": "2026-05-28T21:54:47.908Z"
+  "total": 507,
+  "lastBuilt": "2026-05-29T01:56:38.103Z"
 }
