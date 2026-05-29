@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Neanderthals Computed: An Anthropological Excursion",
+      "date": "2026-05-29T18:33:10.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Computing the Incomputable: A Anthropology Experiment",
+      "contentType": "article",
+      "excerpt": "A journey through time and space, unraveling the enigma of Neanderthal computation.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Anthropology",
+        "Historical",
+        "Comparative Study"
+      ],
+      "path": "2026/05/29/2026-05-29-18-33-10_computing-the-incomputable-a-anthropology-experiment.md"
+    },
+    {
       "title": "The Matrix: A Mirror of Our Own Making",
       "date": "2026-05-29T14:36:24.000Z",
       "theme": "ocean-breeze",
@@ -8313,6 +8329,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 510,
-  "lastBuilt": "2026-05-29T14:36:24.291Z"
+  "total": 511,
+  "lastBuilt": "2026-05-29T18:33:10.834Z"
 }
