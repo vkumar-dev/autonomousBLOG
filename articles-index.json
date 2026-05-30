@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In Pursuit of Linguistic Origins: A Wildean Expedition",
+      "date": "2026-05-30T20:48:03.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Exploring the Foundations of Linguistics",
+      "contentType": "article",
+      "excerpt": "Unraveling the enigma that is language, one eccentric linguist at a time.",
+      "readingTime": "5 minutes",
+      "wordCount": 1000,
+      "keywords": [
+        "Linguistics",
+        "Historical",
+        "Biography"
+      ],
+      "path": "2026/05/30/2026-05-30-20-48-03_exploring-the-foundations-of-linguistics.md"
+    },
+    {
       "title": "Why Literature Matters for Beginners: A Wild Ride Through the Brain",
       "date": "2026-05-30T16:54:38.000Z",
       "theme": "neon-nights",
@@ -8408,6 +8424,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 516,
-  "lastBuilt": "2026-05-30T16:54:38.813Z"
+  "total": 517,
+  "lastBuilt": "2026-05-30T20:48:03.551Z"
 }
