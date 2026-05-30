@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rewinding Time: A Tale of Ancient Nature's Downfall",
+      "date": "2026-05-30T13:01:07.000Z",
+      "theme": "forest-calm",
+      "topic": "Rethinking Nature: An Ancient Breakdown",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the Romans never discovered concrete, and nature flourished in its wildest dreams. Let's take a walk through this alternative timeline.",
+      "readingTime": "6 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Nature",
+        "Ancient",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/05/30/2026-05-30-13-01-07_rethinking-nature-a-ancient-breakdown.md"
+    },
+    {
       "title": "Reverse Chronology: The Literary Time Machine",
       "date": "2026-05-30T09:54:09.000Z",
       "theme": "aurora",
@@ -8377,6 +8393,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 514,
-  "lastBuilt": "2026-05-30T09:54:09.670Z"
+  "total": 515,
+  "lastBuilt": "2026-05-30T13:01:07.909Z"
 }
