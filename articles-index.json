@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Logic Breaks Down: A Guide to the Meta-Paradox of Reason",
+      "date": "2026-05-30T01:52:56.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Logic & Reasoning Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Dive into the mind-bending world where logic turns against itself, and reason becomes a paradox. Welcome to the Meta-Paradox of Reason.",
+      "readingTime": "6 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Logic & Reasoning",
+        "Metaphysical",
+        "Practical Guide"
+      ],
+      "path": "2026/05/30/2026-05-30-01-52-56_the-logic-reasoning-paradox-when-logic-breaks.md"
+    },
+    {
       "title": "When Neanderthals Computed: An Anthropological Excursion",
       "date": "2026-05-29T18:33:10.000Z",
       "theme": "minimalist-clean",
@@ -8329,6 +8345,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 511,
-  "lastBuilt": "2026-05-29T21:36:45.878Z"
+  "total": 512,
+  "lastBuilt": "2026-05-30T01:52:56.638Z"
 }
