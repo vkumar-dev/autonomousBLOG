@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Reverse Chronology: The Literary Time Machine",
+      "date": "2026-05-30T09:54:09.000Z",
+      "theme": "aurora",
+      "topic": "What If Literature Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "A daring exploration of the ethical dilemmas that would arise if literature began at the end and worked its way to the beginning.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Literature",
+        "Speculative",
+        "Educational Essay"
+      ],
+      "path": "2026/05/30/2026-05-30-09-54-09_what-if-literature-worked-backwards.md"
+    },
+    {
       "title": "Time-Traveling Sociologists Unleash Chaos",
       "date": "2026-05-30T06:44:55.000Z",
       "theme": "sunset-vibes",
@@ -8361,6 +8377,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 513,
-  "lastBuilt": "2026-05-30T06:44:56.044Z"
+  "total": 514,
+  "lastBuilt": "2026-05-30T09:54:09.670Z"
 }
