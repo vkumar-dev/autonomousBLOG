@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time-Traveling Sociologists Unleash Chaos",
+      "date": "2026-05-30T06:44:55.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Sociology: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "A daring expedition of sociologists travel through time, only to find their theories in disarray.",
+      "readingTime": "7 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Sociology",
+        "Celebratory",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/30/2026-05-30-06-44-55_sociology-a-journey-through-time.md"
+    },
+    {
       "title": "When Logic Breaks Down: A Guide to the Meta-Paradox of Reason",
       "date": "2026-05-30T01:52:56.000Z",
       "theme": "sunset-vibes",
@@ -8345,6 +8361,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 512,
-  "lastBuilt": "2026-05-30T01:52:56.638Z"
+  "total": 513,
+  "lastBuilt": "2026-05-30T06:44:56.044Z"
 }
