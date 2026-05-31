@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unfathomable Depths of Music Theory: A Dive into the Unknowable",
+      "date": "2026-05-31T16:57:45.000Z",
+      "theme": "cotton-candy",
+      "topic": "Music Theory: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "From Pythagoras to quantum physics, music theory remains a tantalizing enigma. Dive in and lose yourself.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Music Theory",
+        "Scientific",
+        "Theory & Practice"
+      ],
+      "path": "2026/05/31/2026-05-31-16-57-45_music-theory-what-we-can-never-know.md"
+    },
+    {
       "title": "The Great Divide: Navigating the Labyrinth of Consciousness Studies",
       "date": "2026-05-31T13:11:47.000Z",
       "theme": "minimalist-clean",
@@ -8488,6 +8504,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 521,
-  "lastBuilt": "2026-05-31T13:11:47.673Z"
+  "total": 522,
+  "lastBuilt": "2026-05-31T16:57:45.771Z"
 }
