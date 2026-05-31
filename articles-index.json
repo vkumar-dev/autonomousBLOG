@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Nature's Digital Algorithm: A New Age of Agriculture",
+      "date": "2026-05-31T10:09:42.000Z",
+      "theme": "paper-ink",
+      "topic": "Nature and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Exploring the unexpected marriage of nature and technology in today's agriculture.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Nature",
+        "Speculative",
+        "Cultural Critique"
+      ],
+      "path": "2026/05/31/2026-05-31-10-09-42_nature-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "The Matrix Unraveled: A Tale of Practical Metaphysics",
       "date": "2026-05-31T07:41:35.000Z",
       "theme": "aurora",
@@ -8456,6 +8472,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 519,
-  "lastBuilt": "2026-05-31T07:41:35.587Z"
+  "total": 520,
+  "lastBuilt": "2026-05-31T10:09:42.643Z"
 }
