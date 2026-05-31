@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Uncharted Depths of Consciousness: Secrets Even Neo Can't Hack",
+      "date": "2026-05-31T20:51:04.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Consciousness Studies: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "Dive into the bewildering world of consciousness studies and uncover the hidden mechanics that make us more than just machines.",
+      "readingTime": "5 minutes",
+      "wordCount": 1200,
+      "keywords": [
+        "Consciousness Studies",
+        "Speculative",
+        "Historical Analysis"
+      ],
+      "path": "2026/05/31/2026-05-31-20-51-04_consciousness-studies-what-we-can-never-know.md"
+    },
+    {
       "title": "The Unfathomable Depths of Music Theory: A Dive into the Unknowable",
       "date": "2026-05-31T16:57:45.000Z",
       "theme": "cotton-candy",
@@ -8504,6 +8520,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 522,
-  "lastBuilt": "2026-05-31T16:57:45.771Z"
+  "total": 523,
+  "lastBuilt": "2026-05-31T20:51:04.228Z"
 }
