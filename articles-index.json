@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Divide: Navigating the Labyrinth of Consciousness Studies",
+      "date": "2026-05-31T13:11:47.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Understanding Consciousness Studies Through Metaphorical Journey",
+      "contentType": "article",
+      "excerpt": "Embark on a thrilling exploration through the intricate web of consciousness studies, where the boundaries between reality and illusion are blurred.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Consciousness Studies",
+        "Phenomenological",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/05/31/2026-05-31-13-11-47_understanding-consciousness-studies-through-metaphorical-journey.md"
+    },
+    {
       "title": "Nature's Digital Algorithm: A New Age of Agriculture",
       "date": "2026-05-31T10:09:42.000Z",
       "theme": "paper-ink",
@@ -8472,6 +8488,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 520,
-  "lastBuilt": "2026-05-31T10:09:42.643Z"
+  "total": 521,
+  "lastBuilt": "2026-05-31T13:11:47.673Z"
 }
