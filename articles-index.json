@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Unraveled: A Tale of Practical Metaphysics",
+      "date": "2026-05-31T07:41:35.000Z",
+      "theme": "aurora",
+      "topic": "Unraveling the Complexity of Metaphysics",
+      "contentType": "article",
+      "excerpt": "Embark on a poetic exploration of metaphysics, where reality and theory intertwine as we unravel the practical puzzles that defy comprehension.",
+      "readingTime": "7 minutes",
+      "wordCount": 1400,
+      "keywords": [
+        "Metaphysics",
+        "Practical",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/05/31/2026-05-31-07-41-35_unraveling-the-complexity-of-metaphysics.md"
+    },
+    {
       "title": "Game Design in the Modern Era: Existential Dilemmas and Solar-Powered Drone Maze Runners",
       "date": "2026-05-31T02:05:02.000Z",
       "theme": "neon-nights",
@@ -8440,6 +8456,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 518,
-  "lastBuilt": "2026-05-31T02:05:02.565Z"
+  "total": 519,
+  "lastBuilt": "2026-05-31T07:41:35.587Z"
 }
