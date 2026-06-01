@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What if Socrates Had a Chatbot?",
+      "date": "2026-06-01T17:14:06.000Z",
+      "theme": "aurora",
+      "topic": "Understanding Linguistics Through Problem-Solution Framework",
+      "contentType": "article",
+      "excerpt": "Dive into the counterfactual world where ancient philosophers had AI assistants and explore how it could have revolutionized linguistics.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Linguistics",
+        "Ancient",
+        "Counterfactual History"
+      ],
+      "path": "2026/06/01/2026-06-01-17-14-06_understanding-linguistics-through-problem-solution-framework.md"
+    },
+    {
       "title": "The Forest That Sings Silent Songs",
       "date": "2026-06-01T09:13:44.000Z",
       "theme": "forest-calm",
@@ -8552,6 +8568,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 525,
-  "lastBuilt": "2026-06-01T09:13:44.449Z"
+  "total": 526,
+  "lastBuilt": "2026-06-01T17:14:06.447Z"
 }
