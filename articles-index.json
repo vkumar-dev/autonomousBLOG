@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Codex: Unraveling the Metaphysical Puzzle Box",
+      "date": "2026-06-01T02:12:59.000Z",
+      "theme": "forest-calm",
+      "topic": "The Hidden Depths of Mathematics",
+      "contentType": "article",
+      "excerpt": "Embark on a whimsical journey into the enigmatic world of mathematics, where the impossible becomes plausible.",
+      "readingTime": "6 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Mathematics",
+        "Metaphysical",
+        "Reference Guide"
+      ],
+      "path": "2026/06/01/2026-06-01-02-12-59_the-hidden-depths-of-mathematics.md"
+    },
+    {
       "title": "The Uncharted Depths of Consciousness: Secrets Even Neo Can't Hack",
       "date": "2026-05-31T20:51:04.000Z",
       "theme": "ocean-breeze",
@@ -8520,6 +8536,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 523,
-  "lastBuilt": "2026-05-31T20:51:04.228Z"
+  "total": 524,
+  "lastBuilt": "2026-06-01T02:12:59.225Z"
 }
