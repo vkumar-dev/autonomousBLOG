@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Programmers: Puppeteers of Existence",
+      "date": "2026-06-01T22:33:55.000Z",
+      "theme": "paper-ink",
+      "topic": "The Impossibility of Programming: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dare to question the very foundation of your reality, and you'll find yourself at the mercy of the Matrix Programmers.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Programming",
+        "Existential",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/06/01/2026-06-01-22-33-55_the-impossibility-of-programming-a-thought-experiment.md"
+    },
+    {
       "title": "What if Socrates Had a Chatbot?",
       "date": "2026-06-01T17:14:06.000Z",
       "theme": "aurora",
@@ -8568,6 +8584,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 526,
-  "lastBuilt": "2026-06-01T17:14:06.447Z"
+  "total": 527,
+  "lastBuilt": "2026-06-01T22:33:55.669Z"
 }
