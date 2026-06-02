@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Robotics: An Insider's Guide to Paradoxical Puzzles",
+      "date": "2026-06-02T15:55:35.000Z",
+      "theme": "aurora",
+      "topic": "Time Travelers with Robotics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Imagine a world where time travelers, armed with cutting-edge robotics, are the architects of history. Here's your insider's guide to navigating their paradoxical puzzles.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Robotics",
+        "Insider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/06/02/2026-06-02-15-55-35_time-travelers-with-robotics-a-counterfactual-journey.md"
+    },
+    {
       "title": "If Psychology Had No Rules: A Wild Ride Through the Mind's Uncharted Territories",
       "date": "2026-06-02T08:22:28.000Z",
       "theme": "aurora",
@@ -8615,6 +8631,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 529,
-  "lastBuilt": "2026-06-02T08:22:28.269Z"
+  "total": 530,
+  "lastBuilt": "2026-06-02T15:55:35.751Z"
 }
