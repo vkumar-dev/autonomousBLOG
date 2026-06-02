@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If Psychology Had No Rules: A Wild Ride Through the Mind's Uncharted Territories",
+      "date": "2026-06-02T08:22:28.000Z",
+      "theme": "aurora",
+      "topic": "If Psychology Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "Imagine a world where psychology doesn't play by the rules. Buckle up as we dive into the madness, chaos, and unparalleled insights of such a universe.",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Psychology",
+        "Practical",
+        "What-If Analysis"
+      ],
+      "path": "2026/06/02/2026-06-02-08-22-28_if-psychology-had-no-rules-a-speculative-exploration.md"
+    },
+    {
       "title": "Can Machines Muddle Morality? A Tale of Two Ethicists",
       "date": "2026-06-02T02:13:05.000Z",
       "theme": "paper-ink",
@@ -8599,6 +8615,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 528,
-  "lastBuilt": "2026-06-02T02:13:05.429Z"
+  "total": 529,
+  "lastBuilt": "2026-06-02T08:22:28.269Z"
 }
