@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Can Machines Muddle Morality? A Tale of Two Ethicists",
+      "date": "2026-06-02T02:13:05.000Z",
+      "theme": "paper-ink",
+      "topic": "Ethics & Morality: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Explore the pessimistic question: if we could compute the incomputable, would it lead us down a rabbit hole of moral chaos?",
+      "readingTime": "7 minutes",
+      "wordCount": 1500,
+      "keywords": [
+        "Ethics & Morality",
+        "Pessimistic"
+      ],
+      "path": "2026/06/02/2026-06-02-02-13-05_ethics-morality-lesser-known-facts-and-stories.md"
+    },
+    {
       "title": "The Matrix Programmers: Puppeteers of Existence",
       "date": "2026-06-01T22:33:55.000Z",
       "theme": "paper-ink",
@@ -8584,6 +8599,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 527,
-  "lastBuilt": "2026-06-01T22:33:55.669Z"
+  "total": 528,
+  "lastBuilt": "2026-06-02T02:13:05.429Z"
 }
