@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Cosmos' Inscrutable Calculus: Unraveling the Layered Complexity of Space and Astronomy",
+      "date": "2026-06-03T22:27:54.000Z",
+      "theme": "paper-ink",
+      "topic": "Understanding Space & Astronomy Through Layered Complexity",
+      "contentType": "article",
+      "excerpt": "Embark on an intriguing journey through the cosmos, where even the most perplexing phenomena can be deciphered with a dash of wit and a sprinkle of scientific precision.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": "Space & Astronomy, Balanced, Practical Guide",
+      "path": "2026/06/03/2026-06-03-22-27-54_understanding-space-astronomy-through-layered-complexity.html"
+    },
+    {
       "title": "If Philosophy Had No Rules: A Speculative Exploration",
       "date": "2026-06-03T16:15:34.000Z",
       "theme": "neon-nights",
@@ -8707,6 +8719,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 535,
-  "lastBuilt": "2026-06-03T16:15:34.499Z"
+  "total": 536,
+  "lastBuilt": "2026-06-03T22:27:54.827Z"
 }
