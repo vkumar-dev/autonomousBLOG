@@ -62,8 +62,6 @@ Return ONLY the article in this exact Markdown format.
 title: "A Headline That Hooks and Challenges"
 topic: "{{TOPIC}}"
 theme: "{{THEME}}"
-wordCount: {{WORD_COUNT}}
-readingTime: {{READING_TIME}}
 excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
 keywords: [{{KEYWORDS}}]
 ---
@@ -89,7 +87,10 @@ keywords: [{{KEYWORDS}}]
 > [!TIP]
 > **The Bottom Line:** [One-sentence synthesis of why this matters to {{AUDIENCE}}]
 
-[Final thought - avoid "Conclusion" as a header. Use a thematic header instead.]
+## [A Thematic Pondering]
+[A final paragraph that synthesizes the article's core tension.]
+
+**Pondering Question:** [End with an interesting, preferably philosophical, question for the reader to ponder.]
 ```
 
 ---
