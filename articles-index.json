@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Architect of Our Doom: When Logic Isn't Enough",
+      "date": "2026-06-03T08:52:22.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Architecture Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "An architect once claimed he could build a house so complex, it would collapse under its own blueprints. Welcome to the world of paradoxes and logic.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Insider",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/06/03/2026-06-03-08-52-22_the-architecture-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "In a World Where Linguistics Is Computed",
       "date": "2026-06-03T02:20:27.000Z",
       "theme": "neon-futurism",
@@ -8679,6 +8695,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 533,
-  "lastBuilt": "2026-06-03T08:00:10.221Z"
+  "total": 534,
+  "lastBuilt": "2026-06-03T08:52:22.690Z"
 }
