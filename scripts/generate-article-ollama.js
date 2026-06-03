@@ -110,12 +110,13 @@ async function generateArticle() {
   console.log('🤖 Generating with Ollama...');
   let content = await callOllama(prompt, topicData);
 
-  // Clean up content - remove markdown code fences if present (with leading spaces)
-  content = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '').replace(/\n\s*```\s*$/i, '');
+  // Clean up content - remove code fences if present
+  content = content.replace(/^\s*```html\s*\n/i, '').replace(/^\s*```\s*\n/i, '').replace(/\n\s*```\s*$/i, '');
 
-  // Ensure content has frontmatter
+  // Ensure content has frontmatter (wrapped in HTML comments for .html files)
   const finalContent = !content.includes('---') 
-    ? `---
+    ? `<!--
+---
 title: "${topicData.topic}"
 date: "${now.toISOString()}"
 theme: "${theme}"
@@ -126,6 +127,7 @@ excerpt: "AI-generated article about ${topicData.topic}"
 contentType: "${topicData.type}"
 generated: "ollama"
 ---
+-->
 
 ${content}`
     : content;
@@ -135,7 +137,7 @@ ${content}`
   const timestamp = generateTimestamp();
   const slug = generateSlug(topicData.topic);
   const articleDir = path.join(ARTICLES_DIR, datePath);
-  const articleFile = path.join(articleDir, `${timestamp}_${slug}.md`);
+  const articleFile = path.join(articleDir, `${timestamp}_${slug}.html`);
 
   // Ensure directory exists
   fs.mkdirSync(articleDir, { recursive: true });
@@ -143,6 +145,7 @@ ${content}`
   // Write article
   fs.writeFileSync(articleFile, finalContent);
   console.log('✅ Article created:', articleFile);
+
 
   // Clean up topic file
   if (fs.existsSync(TOPIC_FILE)) {

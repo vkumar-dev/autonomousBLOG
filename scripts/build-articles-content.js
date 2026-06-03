@@ -39,7 +39,7 @@ function buildArticlesContent() {
       
       if (stat.isDirectory()) {
         walkDir(fullPath);
-      } else if (stat.isFile() && entry.endsWith('.md')) {
+      } else if (stat.isFile() && (entry.endsWith('.md') || entry.endsWith('.html'))) {
         const relativePath = path.relative(ARTICLES_DIR, fullPath);
         const content = readArticleContent(fullPath);
         

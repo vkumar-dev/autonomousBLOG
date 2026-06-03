@@ -55,9 +55,10 @@ Sprinkle these throughout to break up the text:
 
 ## 🛠 Output Format
 
-Return ONLY the article in this exact Markdown format.
+Return ONLY the article in this exact format. The content must be valid HTML5.
 
-```markdown
+```html
+<!--
 ---
 title: "A Headline That Hooks and Challenges"
 topic: "{{TOPIC}}"
@@ -65,33 +66,70 @@ theme: "{{THEME}}"
 excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
 keywords: [{{KEYWORDS}}]
 ---
+-->
 
-# Your Compelling Title
+<article class="ai-article">
+  <header class="article-header">
+    <h1>Your Compelling Title</h1>
+    <p class="lead">[Your unique hook paragraph]</p>
+  </header>
 
-[Your unique hook paragraph]
+  <section class="content-section">
+    <h2>[Section Header 1]</h2>
+    <p>[Content...]</p>
 
-## [Section Header 1]
-[Content...]
+    <aside class="fun-fact">
+      <span class="icon">ℹ️</span>
+      <div class="fact-text">[A witty aside or rare fact related to the topic]</div>
+    </aside>
+  </section>
 
-> [!NOTE]
-> [A witty aside or rare fact related to the topic]
+  <section class="content-section">
+    <h2>[Section Header 2]</h2>
+    <p>[Content...]</p>
 
-## [Section Header 2]
-[Content...]
+    <figure class="pull-quote">
+      <blockquote>"A particularly sharp pull-quote from your own writing."</blockquote>
+    </figure>
+  </section>
 
-> "A particularly sharp pull-quote from your own writing."
+  <section class="content-section">
+    <h2>[Section Header 3]</h2>
+    <p>[Content...]</p>
 
-## [Section Header 3]
-[Content...]
+    <div class="key-takeaway">
+      <span class="icon">💡</span>
+      <strong>The Bottom Line:</strong> [One-sentence synthesis of why this matters to {{AUDIENCE}}]
+    </div>
+  </section>
 
-> [!TIP]
-> **The Bottom Line:** [One-sentence synthesis of why this matters to {{AUDIENCE}}]
+  <footer class="thematic-pondering">
+    <h2>[A Thematic Pondering]</h2>
+    <p>[A final paragraph that synthesizes the article's core tension.]</p>
+    <div class="pondering-question">
+      <strong>Pondering Question:</strong> [End with an interesting, preferably philosophical, question for the reader to ponder.]
+    </div>
+  </footer>
+</article>
 
-## [A Thematic Pondering]
-[A final paragraph that synthesizes the article's core tension.]
-
-**Pondering Question:** [End with an interesting, preferably philosophical, question for the reader to ponder.]
+<style>
+  /* You can add article-specific styles here to be creative! */
+  .ai-article { line-height: 1.6; }
+  .lead { font-size: 1.25rem; font-weight: 500; }
+  .fun-fact { background: rgba(var(--accent-rgb), 0.1); border-left: 4px solid var(--accent-color); padding: 1rem; margin: 1.5rem 0; display: flex; gap: 1rem; }
+  .pull-quote { border: none; margin: 2rem 0; padding: 0; text-align: center; font-style: italic; font-size: 1.5rem; }
+  .key-takeaway { background: rgba(var(--accent-rgb), 0.05); border: 1px dashed var(--accent-color); padding: 1rem; margin: 1.5rem 0; }
+  .pondering-question { border-top: 2px solid var(--accent-color); margin-top: 2rem; padding-top: 1rem; font-size: 1.1rem; }
+</style>
 ```
+
+---
+
+## Creative Freedom Guidelines
+- **Use HTML5**: Feel free to use `<details>`, `<canvas>` (if you can write the JS), `<svg>`, or complex nested `<div>`s for layouts.
+- **Styling**: You have access to a `<style>` block. Use it to make the article unique. Use CSS variables like `var(--accent-color)` if you want to stay within theme, or define your own.
+- **Interactivity**: You can even add a small `<script>` block if it enhances the storytelling (e.g., a simple calculator or animation).
+
 
 ---
 

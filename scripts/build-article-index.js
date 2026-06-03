@@ -13,13 +13,16 @@ const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
 const INDEX_FILE = path.join(__dirname, '..', 'articles-index.json');
 
 /**
- * Extract frontmatter from markdown content
+ * Extract frontmatter from content
  */
 function extractFrontmatter(content) {
-  // Handle markdown code fences that might wrap the content (with leading spaces)
-  let cleanContent = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+  // Handle markdown code fences or html code fences
+  let cleanContent = content
+    .replace(/^\s*```(?:markdown|html)?\s*\n/i, '')
+    .replace(/^\s*```\s*\n/i, '');
   
-  const match = cleanContent.match(/^---\n([\s\S]*?)\n---/);
+  // Look for frontmatter in standard --- block or <!-- --- block
+  const match = cleanContent.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?/);
   if (!match) return null;
   
   const frontmatter = {};
@@ -53,7 +56,7 @@ function extractFrontmatter(content) {
 
 /**
  * Extract ISO date from article filename
- * Filenames follow: YYYY-MM-DD-HH-mm-ss_slug.md
+ * Filenames follow: YYYY-MM-DD-HH-mm-ss_slug.(md|html)
  * Returns UTC ISO string — always use filename, NOT frontmatter, for dates
  */
 function dateFromFilename(filename) {
@@ -66,24 +69,32 @@ function dateFromFilename(filename) {
 }
 
 /**
- * Extract excerpt from content (first paragraph after frontmatter)
+ * Extract excerpt from content
  */
 function extractExcerpt(content, frontmatter) {
   if (frontmatter && frontmatter.excerpt) {
     return frontmatter.excerpt;
   }
   
-  // Handle markdown code fences that might wrap the content (with leading spaces)
-  let cleanContent = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+  // Clean content
+  let cleanContent = content
+    .replace(/^\s*```(?:markdown|html)?\s*\n/i, '')
+    .replace(/^\s*```\s*\n/i, '');
   
-  // Remove frontmatter
-  const withoutFrontmatter = cleanContent.replace(/^---\n[\s\S]*?\n---\n/, '');
+  // Remove frontmatter (both formats)
+  const withoutFrontmatter = cleanContent.replace(/^(?:<!--\s*\n)?---\n[\s\S]*?\n---(?:\n\s*-->)?\n/, '');
   
-  // Get first paragraph
-  const lines = withoutFrontmatter.split('\n');
+  // If HTML, strip tags for excerpt
+  let textOnly = withoutFrontmatter;
+  if (withoutFrontmatter.includes('<')) {
+    textOnly = withoutFrontmatter.replace(/<[^>]*>/g, ' ');
+  }
+
+  // Get first non-empty block
+  const lines = textOnly.split('\n');
   for (const line of lines) {
     const trimmed = line.trim();
-    if (trimmed && !trimmed.startsWith('#')) {
+    if (trimmed && !trimmed.startsWith('#') && trimmed.length > 20) {
       // Truncate to 150 characters
       if (trimmed.length > 150) {
         return trimmed.slice(0, 147) + '...';
@@ -116,7 +127,7 @@ function buildArticleIndex() {
       
       if (stat.isDirectory()) {
         scanDirectory(filePath, path.join(relativePath, file));
-      } else if (file.endsWith('.md')) {
+      } else if (file.endsWith('.md') || file.endsWith('.html')) {
         const content = fs.readFileSync(filePath, 'utf8');
         const frontmatter = extractFrontmatter(content);
 
