@@ -61,7 +61,7 @@ async function callOllama(prompt, topicData) {
     temperature: 0.7,
     topP: 0.9,
     topK: 40,
-    numPredict: 1024, // Reduced from 2048 for faster generation
+    numPredict: 4096, // Increased to support long HTML articles without cutoff
     verbose: true
   });
 

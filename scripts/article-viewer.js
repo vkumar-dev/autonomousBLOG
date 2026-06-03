@@ -97,18 +97,19 @@ class ArticleViewer {
       .replace(/^\s*```\s*\n/i, '')
       .replace(/\n\s*```\s*$/i, '');
      
-     // Match standard --- block or <!-- --- block
-     const match = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?\n([\s\S]*)$/);
+     // Robust pattern for HTML with Frontmatter (handles truncated files)
+     // First try to find the frontmatter block
+     const frontmatterMatch = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?/);
      
-     if (!match) {
-       // Try without the extra newline after frontmatter
-       const simpleMatch = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?([\s\S]*)$/);
-       if (!simpleMatch) throw new Error('Invalid article format: missing frontmatter');
-       return { frontmatter: this.parseFrontmatterBlock(simpleMatch[1]), content: simpleMatch[2] };
+     if (!frontmatterMatch) {
+       // Fallback for very simple markdown or missing frontmatter
+       return { frontmatter: {}, content: cleaned };
      }
 
-     const frontmatter = this.parseFrontmatterBlock(match[1]);
-     const content = match[2];
+     const frontmatter = this.parseFrontmatterBlock(frontmatterMatch[1]);
+     
+     // Content is everything after the frontmatter match
+     let content = cleaned.slice(frontmatterMatch[0].length).trim();
 
      return { frontmatter, content };
    }
@@ -127,10 +128,10 @@ class ArticleViewer {
       const key = line.slice(0, colonIndex).trim();
       let value = line.slice(colonIndex + 1).trim();
 
-      // Remove quotes
+      // Remove quotes and handle basic multi-line or quoted strings
       value = value.replace(/^["']|["']$/g, '');
 
-      // Parse arrays
+      // Parse arrays [a, b, c]
       if (value.startsWith('[') && value.endsWith(']')) {
         value = value.slice(1, -1).split(',').map(v => v.trim().replace(/^["']|["']$/g, ''));
       }
@@ -142,11 +143,12 @@ class ArticleViewer {
   }
 
   /**
-   * Convert markdown to HTML
+   * Convert markdown to HTML (only if it's not already HTML)
    */
   markdownToHtml(markdown) {
-    // Check if it's already HTML (simple heuristic)
-    if (markdown.trim().startsWith('<') && markdown.includes('</')) {
+    // Simple heuristic: if it contains common HTML tags at the start or throughout, treat as HTML
+    const trimmed = markdown.trim();
+    if (trimmed.startsWith('<') || (trimmed.includes('<article') || trimmed.includes('<div') || trimmed.includes('<p'))) {
       return markdown;
     }
 
