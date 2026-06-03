@@ -89,13 +89,19 @@ class ArticleFeed {
   }
 
   createArticlePage(article, isLatest) {
-    const markdown = this.contentCache[article.path] || '';
-    // Strip markdown code fences and frontmatter
-    let contentOnly = markdown.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
-    contentOnly = contentOnly.replace(/^---[\s\S]*?---\n?/, '');
-    // Also strip any trailing code fence markers
-    contentOnly = contentOnly.replace(/^\s*```\s*$/gm, '');
-    const htmlContent = this.markdownToHtml(contentOnly);
+    const rawContent = this.contentCache[article.path] || '';
+    
+    // Clean code fences
+    let cleaned = rawContent
+      .replace(/^\s*```(?:markdown|html)?\s*\n/i, '')
+      .replace(/^\s*```\s*\n/i, '')
+      .replace(/\n\s*```\s*$/i, '');
+     
+    // Robust pattern for HTML with Frontmatter
+    const frontmatterMatch = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?/);
+    
+    const contentOnly = frontmatterMatch ? cleaned.slice(frontmatterMatch[0].length).trim() : cleaned;
+    const htmlContent = this.convertToHtml(contentOnly);
 
     const timeInfo = window.TimeFormatter
       ? window.TimeFormatter.getFullTimeInfo(article.date)
@@ -129,28 +135,21 @@ class ArticleFeed {
     `;
   }
 
-  markdownToHtml(markdown) {
-    const escaped = this.escapeHtml(markdown);
+  convertToHtml(content) {
+    // Check if it's already HTML
+    const trimmed = content.trim();
+    if (trimmed.startsWith('<') || (trimmed.includes('<article') || trimmed.includes('<div') || trimmed.includes('<p'))) {
+      return content;
+    }
 
-    let html = escaped
-      // Alert Boxes: > [!NOTE] and > [!TIP]
-      .replace(/^&gt; \[!NOTE\]\n&gt; (.*?)$/gm, (match, content) => {
-        return `<div class="alert alert-note">
-          <div class="alert-icon">ℹ️</div>
-          <div class="alert-content">
-            <span class="alert-title">Note</span>
-            ${content}
-          </div>
-        </div>`;
+    // Markdown conversion (preserving original logic but skipping pre-escaping)
+    let html = content
+      // Alert Boxes
+      .replace(/^> \[!NOTE\]\n> (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-note"><div class="alert-icon">ℹ️</div><div class="alert-content"><span class="alert-title">Note</span>${content}</div></div>`;
       })
-      .replace(/^&gt; \[!TIP\]\n&gt; (.*?)$/gm, (match, content) => {
-        return `<div class="alert alert-tip">
-          <div class="alert-icon">💡</div>
-          <div class="alert-content">
-            <span class="alert-title">Pro Tip</span>
-            ${content}
-          </div>
-        </div>`;
+      .replace(/^> \[!TIP\]\n> (.*?)$/gm, (match, content) => {
+        return `<div class="alert alert-tip"><div class="alert-icon">💡</div><div class="alert-content"><span class="alert-title">Pro Tip</span>${content}</div></div>`;
       })
       // Headers
       .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
@@ -159,8 +158,8 @@ class ArticleFeed {
       // Bold and italic
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      // Blockquotes (must be after alerts, and skip alert patterns)
-      .replace(/^&gt; (.*?)$/gm, (match, content) => {
+      // Blockquotes
+      .replace(/^> (.*?)$/gm, (match, content) => {
         if (content.startsWith('[!')) return match;
         return `<blockquote>${content}</blockquote>`;
       })
@@ -176,13 +175,11 @@ class ArticleFeed {
       // Paragraphs
       .replace(/(?:\r?\n){2,}/g, '</p><p>')
       .replace(/^(.+)$/gm, '<p>$1</p>')
-      .replace(/<p><\/p>/g, '')
-      // Clean up blockquotes/ alerts inside paragraphs
-      .replace(/<p>(<blockquote[\s\S]*?<\/blockquote>)<\/p>/g, '$1')
-      .replace(/<p>(<div class="alert[\s\S]*?<\/div>)<\/p>/g, '$1');
+      .replace(/<p><\/p>/g, '');
 
     return html;
   }
+
 
   formatDate(dateString) {
     const date = new Date(dateString);

@@ -83,32 +83,42 @@ class Homepage {
     };
   }
 
-  articleFromMarkdown(path, markdownContent) {
-    // Handle markdown code fences (with leading spaces)
-    let cleaned = markdownContent.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
+  articleFromMarkdown(path, rawContent) {
+    // Clean code fences
+    let cleaned = rawContent
+      .replace(/^\s*```(?:markdown|html)?\s*\n/i, '')
+      .replace(/^\s*```\s*\n/i, '')
+      .replace(/\n\s*```\s*$/i, '');
     
-    const frontmatterMatch = cleaned.match(/^---\n([\s\S]*?)\n---/);
-    const frontmatter = frontmatterMatch ? frontmatterMatch[1] : '';
-
-    const getField = (field) => {
-      const match = frontmatter.match(new RegExp(`^${field}:\\s*(.*)$`, 'mi'));
-      return match ? match[1].replace(/^"|"$/g, '').trim() : '';
+    // Robust pattern for HTML with Frontmatter (handles truncated files)
+    const frontmatterMatch = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?/);
+    
+    const getField = (field, block) => {
+      const match = block.match(new RegExp(`^${field}:\\s*(.*)$`, 'mi'));
+      return match ? match[1].replace(/^["']|["']$/g, '').trim() : '';
     };
 
-    const title = getField('title') || this.pathToTitle(path);
-    const date = getField('date') || this.dateFromPath(path);
+    const title = frontmatterMatch ? getField('title', frontmatterMatch[1]) : this.pathToTitle(path);
+    const date = frontmatterMatch ? getField('date', frontmatterMatch[1]) : this.dateFromPath(path);
+    const theme = frontmatterMatch ? getField('theme', frontmatterMatch[1]) : 'default';
 
-    const body = cleaned.replace(/^---[\s\S]*?---\n?/, '').trim();
-    const excerpt = body.split('\n').find((line) => line.trim() && !line.startsWith('#')) || '';
+    const body = frontmatterMatch ? cleaned.slice(frontmatterMatch[0].length).trim() : cleaned;
+    
+    // Extract excerpt: strip tags if HTML
+    let textOnly = body;
+    if (body.trim().startsWith('<')) {
+      textOnly = body.replace(/<[^>]*>/g, ' ');
+    }
+    const excerpt = textOnly.split('\n').find((line) => line.trim() && !line.startsWith('#')) || '';
 
     return {
       title,
       date,
       contentType: 'article',
       excerpt: excerpt.slice(0, 180),
-      readingTime: Math.max(1, Math.round(body.split(/\s+/).length / 200)),
+      readingTime: Math.max(1, Math.round(textOnly.split(/\s+/).length / 200)),
       path,
-      theme: 'default'
+      theme
     };
   }
 
@@ -116,7 +126,7 @@ class Homepage {
     return path
       .split('/')
       .pop()
-      .replace(/\.md$/, '')
+      .replace(/\.(md|html)$/, '')
       .replace(/^\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}_/, '')
       .replace(/[-_]/g, ' ')
       .replace(/\b\w/g, (char) => char.toUpperCase());
@@ -135,34 +145,23 @@ class Homepage {
     if (!this.articlesGrid) return;
 
     console.log(`[Homepage] Rendering latest article: ${article.title}`);
-    console.log(`[Homepage] Article path: ${article.path}`);
     
-    // Load article content
-    const content = this.contentCache[article.path];
-    if (!content) {
-      console.warn('Article content not found:', article.path);
-      console.log('[Homepage] Available keys:', Object.keys(this.contentCache));
+    const rawContent = this.contentCache[article.path];
+    if (!rawContent) {
       this.renderFeaturedArticle(article);
       return;
     }
 
-    console.log(`[Homepage] Content length: ${content.length} chars`);
+    // Parse the article
+    let cleaned = rawContent
+      .replace(/^\s*```(?:markdown|html)?\s*\n/i, '')
+      .replace(/^\s*```\s*\n/i, '')
+      .replace(/\n\s*```\s*$/i, '');
+      
+    const frontmatterMatch = cleaned.match(/^(?:<!--\s*\n)?---\n([\s\S]*?)\n---(?:\n\s*-->)?/);
 
-    // Parse the article - handle markdown code fences (with leading spaces)
-    let cleaned = content.replace(/^\s*```markdown\s*\n/i, '').replace(/^\s*```\s*\n/i, '');
-    const match = cleaned.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-
-    if (!match) {
-      console.warn('Invalid article format:', article.path);
-      console.log('[Homepage] Content preview:', content.substring(0, 200));
-      this.renderFeaturedArticle(article);
-      return;
-    }
-
-    const body = match[2];
-    console.log(`[Homepage] Article body length: ${body.length} chars`);
-    
-    const html = this.markdownToHtml(body);
+    const body = frontmatterMatch ? cleaned.slice(frontmatterMatch[0].length).trim() : cleaned;
+    const html = this.convertToHtml(body);
     const now = new Date(article.date);
 
     const formattedDate = now.toLocaleDateString('en-US', {
@@ -197,62 +196,29 @@ class Homepage {
     `;
 
     this.articlesGrid.innerHTML = latestHtml;
-    console.log('[Homepage] Article rendered successfully');
     
-    // Add reel-feed class if there are more articles to load
     if (this.articles.length > 1) {
       this.articlesGrid.classList.add('has-reel-feed');
     }
   }
 
-  renderFeaturedArticle(article) {
-    if (!this.articlesGrid) return;
+  convertToHtml(content) {
+    // Check if it's already HTML
+    const trimmed = content.trim();
+    if (trimmed.startsWith('<') || (trimmed.includes('<article') || trimmed.includes('<div') || trimmed.includes('<p'))) {
+      return content;
+    }
 
-    const featuredHtml = `
-      <div class="featured-article">
-        <div class="featured-header">
-          <span class="badge-new">Latest</span>
-          <span class="badge-theme">${article.theme || 'default'}</span>
-        </div>
-        <h2 class="featured-title">${article.title}</h2>
-        <p class="featured-excerpt">${article.excerpt}</p>
-        <div class="featured-meta">
-          <span class="meta-item">📖 ${article.readingTime} min read</span>
-          <span class="meta-item">🤖 AI Generated</span>
-          <span class="meta-item">📅 ${new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-        </div>
-        <a href="view-article.html?article=${encodeURIComponent(article.path)}" class="btn-read-featured">
-          Read Full Article →
-        </a>
-      </div>
-      <div class="articles-separator">
-        <span>More Articles</span>
-      </div>
-    `;
-
-    this.articlesGrid.innerHTML = featuredHtml;
-  }
-
-  markdownToHtml(markdown) {
-    // First, strip any remaining frontmatter that wasn't removed
-    let cleanMarkdown = markdown.replace(/^---\n[\s\S]*?\n---\n?/, '');
-    
-    // Strip markdown code fence markers
-    cleanMarkdown = cleanMarkdown.replace(/^\s*```\s*\n?/gm, '').replace(/^\s*```\s*$/gm, '');
-    
-    let html = cleanMarkdown
+    let html = content
       .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
       .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
       .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/__(.*?)__/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/_(.*?)_/g, '<em>$1</em>')
       .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
       .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
       .replace(/`(.*?)`/g, '<code>$1</code>')
       .replace(/^[\*\-] (.*?)$/gm, '<li>$1</li>')
-      .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
       .replace(/\n\n+/g, '</p><p>')
       .replace(/^(?!<[hpul])/gm, '<p>')
       .replace(/$/gm, '</p>')
@@ -260,6 +226,7 @@ class Homepage {
 
     return html;
   }
+
 
   renderEmptyState() {
     if (!this.articlesGrid) return;
