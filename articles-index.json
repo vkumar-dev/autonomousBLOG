@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "If Philosophy Had No Rules: A Speculative Exploration",
+      "date": "2026-06-03T16:15:34.000Z",
+      "theme": "neon-nights",
+      "topic": "If Philosophy Had No Rules: A Speculative Exploration",
+      "contentType": "Practical Guide",
+      "excerpt": "AI-generated article about If Philosophy Had No Rules: A Speculative Exploration",
+      "readingTime": 5,
+      "wordCount": 1000,
+      "keywords": [],
+      "path": "2026/06/03/2026-06-03-16-15-34_if-philosophy-had-no-rules-a-speculative-exploration.html"
+    },
+    {
       "title": "The Architect of Our Doom: When Logic Isn't Enough",
       "date": "2026-06-03T08:52:22.000Z",
       "theme": "cotton-candy",
@@ -8695,6 +8707,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 534,
-  "lastBuilt": "2026-06-03T08:52:22.690Z"
+  "total": 535,
+  "lastBuilt": "2026-06-03T16:15:34.499Z"
 }
