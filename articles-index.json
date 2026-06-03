@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Linguistics Is Computed",
+      "date": "2026-06-03T02:20:27.000Z",
+      "theme": "neon-futurism",
+      "topic": "Linguistics and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Imagine a world where the intricacies of human language are deciphered by machines. A world where our words could dance in binary, and dialects could be translated with a single touch.",
+      "readingTime": "5 minutes",
+      "wordCount": 900,
+      "keywords": [
+        "Linguistics",
+        "Speculative",
+        "Alternate Reality"
+      ],
+      "path": "2026/06/03/2026-06-03-02-20-27_linguistics-and-its-impact-on-modern-life.md"
+    },
+    {
       "title": "In an Alternate Universe of Forgotten Epistemology",
       "date": "2026-06-02T22:18:24.000Z",
       "theme": "paper-ink",
@@ -8663,6 +8679,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 532,
-  "lastBuilt": "2026-06-02T22:18:24.896Z"
+  "total": 533,
+  "lastBuilt": "2026-06-03T02:20:27.324Z"
 }
