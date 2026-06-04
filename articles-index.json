@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Science is the Secret Sauce of Academic Success",
+      "date": "2026-06-04T02:21:43.000Z",
+      "theme": "neon-nights",
+      "topic": "Why Science Matters for Academics",
+      "contentType": "article",
+      "excerpt": "A celebration of science as the key to unlocking academic excellence and intellectual curiosity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Celebratory",
+        "Educational Essay"
+      ],
+      "path": "2026/06/04/2026-06-04-02-21-43_why-science-matters-for-academics.html"
+    },
+    {
       "title": "The Cosmos' Inscrutable Calculus: Unraveling the Layered Complexity of Space and Astronomy",
       "date": "2026-06-03T22:27:54.000Z",
       "theme": "paper-ink",
@@ -8719,6 +8735,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 536,
-  "lastBuilt": "2026-06-03T22:27:54.827Z"
+  "total": 537,
+  "lastBuilt": "2026-06-04T02:21:43.287Z"
 }
