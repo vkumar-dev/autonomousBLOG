@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Codex: Where Epistemology and Narrative History Collide",
+      "date": "2026-06-05T21:22:36.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Intersection of Epistemology and Narrative History",
+      "contentType": "article",
+      "excerpt": "A deep dive into the tangled web of knowledge, storytelling, and reality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Metaphysical",
+        "Narrative History"
+      ],
+      "path": "2026/06/05/2026-06-05-21-22-36_the-intersection-of-epistemology-and-narrative-history.html"
+    },
+    {
       "title": "The Great Paradox of Knowledge: Logic & Reasoning's Unsolvable Enigma",
       "date": "2026-06-05T17:51:24.000Z",
       "theme": "ocean-breeze",
@@ -8783,6 +8799,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 540,
-  "lastBuilt": "2026-06-05T17:51:24.394Z"
+  "total": 541,
+  "lastBuilt": "2026-06-05T21:22:36.777Z"
 }
