@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Playground for Pondering Paradoxes",
+      "date": "2026-06-05T11:26:47.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Ontology: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "An exploration of ontological paradoxes that will leave you questioning the very nature of reality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ontology",
+        "Theoretical",
+        "Reference Guide"
+      ],
+      "path": "2026/06/05/2026-06-05-11-26-47_ontology-what-we-can-never-know.html"
+    },
+    {
       "title": "The Paradox of Nature's Existence Without Itself",
       "date": "2026-06-05T02:05:18.000Z",
       "theme": "sunset-vibes",
@@ -8751,6 +8767,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 538,
-  "lastBuilt": "2026-06-05T08:04:59.538Z"
+  "total": 539,
+  "lastBuilt": "2026-06-05T11:26:47.787Z"
 }
