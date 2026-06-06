@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a Universe Where Socrates Had a Smartphone",
+      "date": "2026-06-06T01:55:55.000Z",
+      "theme": "neon-nights",
+      "topic": "If Philosophy Had No Rules: A Speculative Exploration",
+      "contentType": "article",
+      "excerpt": "A playful look at what might happen if the ancient Greek philosophers had modern technology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Philosophy",
+        "Historical",
+        "Practical Guide"
+      ],
+      "path": "2026/06/06/2026-06-06-01-55-55_if-philosophy-had-no-rules-a-speculative-exploration.html"
+    },
+    {
       "title": "The Matrix Codex: Where Epistemology and Narrative History Collide",
       "date": "2026-06-05T21:22:36.000Z",
       "theme": "ocean-breeze",
@@ -8799,6 +8815,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 541,
-  "lastBuilt": "2026-06-05T21:22:36.777Z"
+  "total": 542,
+  "lastBuilt": "2026-06-06T01:55:55.677Z"
 }
