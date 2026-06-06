@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Consciousness Studies: The Forgotten History of Quantum Mind",
+      "date": "2026-06-06T17:02:32.000Z",
+      "theme": "aurora",
+      "topic": "Consciousness Studies Explained: Conceptual Overview",
+      "contentType": "article",
+      "excerpt": "Unravel the tangled web of consciousness, quantum mind, and the forgotten history that connects them all.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Consciousness Studies",
+        "Optimistic",
+        "Conceptual Overview"
+      ],
+      "path": "2026/06/06/2026-06-06-17-02-32_consciousness-studies-explained-conceptual-overview.html"
+    },
+    {
       "title": "Science, Unveiled: A Peasant's Guide to the Modern Era",
       "date": "2026-06-06T06:52:06.000Z",
       "theme": "cotton-candy",
@@ -8830,6 +8846,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 543,
-  "lastBuilt": "2026-06-06T13:07:59.998Z"
+  "total": 544,
+  "lastBuilt": "2026-06-06T17:02:32.401Z"
 }
