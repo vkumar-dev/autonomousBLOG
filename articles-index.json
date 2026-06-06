@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Future is Yesterday's Trash: A Journey Through Time",
+      "date": "2026-06-06T20:59:23.000Z",
+      "theme": "steampunk",
+      "topic": "Sustainability: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "Unravel the paradox of a world where trash from the past powers our future.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Phenomenological",
+        "Educational Essay"
+      ],
+      "path": "2026/06/06/2026-06-06-20-59-23_sustainability-a-journey-through-time.html"
+    },
+    {
       "title": "Consciousness Studies: The Forgotten History of Quantum Mind",
       "date": "2026-06-06T17:02:32.000Z",
       "theme": "aurora",
@@ -8846,6 +8862,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 544,
-  "lastBuilt": "2026-06-06T17:02:32.401Z"
+  "total": 545,
+  "lastBuilt": "2026-06-06T20:59:23.117Z"
 }
