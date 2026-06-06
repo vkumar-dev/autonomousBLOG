@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Science, Unveiled: A Peasant's Guide to the Modern Era",
+      "date": "2026-06-06T06:52:06.000Z",
+      "theme": "cotton-candy",
+      "topic": "Science in the Modern Era: A Outsider Approach",
+      "contentType": "article",
+      "excerpt": "An entertaining exploration of science for those who've been left out of the loop.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Outsider"
+      ],
+      "path": "2026/06/06/2026-06-06-06-52-06_science-in-the-modern-era-a-outsider-approach.html"
+    },
+    {
       "title": "In a Universe Where Socrates Had a Smartphone",
       "date": "2026-06-06T01:55:55.000Z",
       "theme": "neon-nights",
@@ -8815,6 +8830,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 542,
-  "lastBuilt": "2026-06-06T01:55:55.677Z"
+  "total": 543,
+  "lastBuilt": "2026-06-06T06:52:06.593Z"
 }
