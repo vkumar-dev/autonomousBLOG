@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Anthropology for Everyone: Busting the Myth of the Future-Proof Human",
+      "date": "2026-06-07T21:05:09.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Bridging the Gap: Anthropology for Everyone",
+      "contentType": "article",
+      "excerpt": "Break free from the shackles of anthropological determinism. The future is as malleable as yesterday's news.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Anthropology",
+        "Futuristic",
+        "Myth-Busting"
+      ],
+      "path": "2026/06/07/2026-06-07-21-05-09_bridging-the-gap-anthropology-for-everyone.html"
+    },
+    {
       "title": "The Unknowable: A Forensic Forecast",
       "date": "2026-06-07T13:18:21.000Z",
       "theme": "cyberpunk",
@@ -8893,6 +8909,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 547,
-  "lastBuilt": "2026-06-07T17:09:40.632Z"
+  "total": 548,
+  "lastBuilt": "2026-06-07T21:05:10.079Z"
 }
