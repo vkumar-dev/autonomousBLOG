@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Krakatoa Met Ptolemy: A Tale of Underwater Cartography",
+      "date": "2026-06-07T10:29:01.000Z",
+      "theme": "neon-nights",
+      "topic": "The Intersection of Oceanography and Theory & Practice",
+      "contentType": "article",
+      "excerpt": "Exploring the unexpected connection between the ancient Greek scholar and a 19th-century volcanic eruption.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Global",
+        "Theory & Practice"
+      ],
+      "path": "2026/06/07/2026-06-07-10-29-01_the-intersection-of-oceanography-and-theory-practice.html"
+    },
+    {
       "title": "The Future is Yesterday's Trash: A Journey Through Time",
       "date": "2026-06-06T20:59:23.000Z",
       "theme": "steampunk",
@@ -8862,6 +8878,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 545,
-  "lastBuilt": "2026-06-07T07:53:25.244Z"
+  "total": 546,
+  "lastBuilt": "2026-06-07T10:29:01.973Z"
 }
