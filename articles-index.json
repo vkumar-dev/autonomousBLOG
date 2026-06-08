@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures and the Uncomputable Absurdity",
+      "date": "2026-06-08T08:50:52.000Z",
+      "theme": "matrix-code",
+      "topic": "Computing the Incomputable: A Ancient Cultures Experiment",
+      "contentType": "article",
+      "excerpt": "Discover how ancient civilizations dabbled in the uncomputable, challenging the very foundations of modern computing.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ancient Cultures",
+        "Absurdist",
+        "Alternate Reality"
+      ],
+      "path": "2026/06/08/2026-06-08-08-50-52_computing-the-incomputable-a-ancient-cultures-experiment.html"
+    },
+    {
       "title": "Meet Your New Boss: The Iron Overlord",
       "date": "2026-06-08T02:15:15.000Z",
       "theme": "industrial",
@@ -8924,6 +8940,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 549,
-  "lastBuilt": "2026-06-08T02:15:15.339Z"
+  "total": 550,
+  "lastBuilt": "2026-06-08T08:50:52.823Z"
 }
