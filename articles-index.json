@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Meet Your New Boss: The Iron Overlord",
+      "date": "2026-06-08T02:15:15.000Z",
+      "theme": "industrial",
+      "topic": "Robotics and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "In a world where machines outnumber humans, who really calls the shots?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Speculative Future"
+      ],
+      "path": "2026/06/08/2026-06-08-02-15-15_robotics-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "Anthropology for Everyone: Busting the Myth of the Future-Proof Human",
       "date": "2026-06-07T21:05:09.000Z",
       "theme": "sunset-vibes",
@@ -8909,6 +8924,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 548,
-  "lastBuilt": "2026-06-07T21:05:10.079Z"
+  "total": 549,
+  "lastBuilt": "2026-06-08T02:15:15.339Z"
 }
