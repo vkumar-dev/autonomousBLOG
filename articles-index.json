@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "How Art & Design Shaped a Matrix Unseen",
+      "date": "2026-06-08T18:25:16.000Z",
+      "theme": "sunset-vibes",
+      "topic": "How Art & Design Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Unveil the secret history of art and design, where reality as we know it is challenged.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Ancient"
+      ],
+      "path": "2026/06/08/2026-06-08-18-25-16_how-art-design-shapes-our-world.html"
+    },
+    {
       "title": "Ancient Cultures and the Uncomputable Absurdity",
       "date": "2026-06-08T08:50:52.000Z",
       "theme": "matrix-code",
@@ -8940,6 +8955,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 550,
-  "lastBuilt": "2026-06-08T15:27:47.250Z"
+  "total": 551,
+  "lastBuilt": "2026-06-08T18:25:16.568Z"
 }
