@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Google Predicts Your Queries Before You Type",
+      "date": "2026-06-09T07:43:26.000Z",
+      "theme": "paper-ink",
+      "topic": "Technology: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "A fascinating exploration of the paradoxical implications of predictive search engines.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Absurdist",
+        "Paradox Exploration"
+      ],
+      "path": "2026/06/09/2026-06-09-07-43-26_technology-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "How Art & Design Shaped a Matrix Unseen",
       "date": "2026-06-08T18:25:16.000Z",
       "theme": "sunset-vibes",
@@ -8955,6 +8971,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 551,
-  "lastBuilt": "2026-06-09T01:54:26.779Z"
+  "total": 552,
+  "lastBuilt": "2026-06-09T07:43:27.044Z"
 }
