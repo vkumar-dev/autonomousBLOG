@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Art Market's Matrix Code: Decoding the Economic Puzzle",
+      "date": "2026-06-09T14:20:41.000Z",
+      "theme": "cotton-candy",
+      "topic": "Art & Design in the Modern Era: A Economic Approach",
+      "contentType": "article",
+      "excerpt": "Exploring the intricate dance between art, economics, and the human consciousness.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Economic"
+      ],
+      "path": "2026/06/09/2026-06-09-14-20-41_art-design-in-the-modern-era-a-economic-approach.html"
+    },
+    {
       "title": "In a World Where Google Predicts Your Queries Before You Type",
       "date": "2026-06-09T07:43:26.000Z",
       "theme": "paper-ink",
@@ -8971,6 +8986,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 552,
-  "lastBuilt": "2026-06-09T10:57:50.699Z"
+  "total": 553,
+  "lastBuilt": "2026-06-09T14:20:41.301Z"
 }
