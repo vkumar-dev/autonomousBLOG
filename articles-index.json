@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Cosmic Cerebrum Swap: Consciousness Studies in an Alternate Universe",
+      "date": "2026-06-09T21:33:08.000Z",
+      "theme": "aurora",
+      "topic": "Consciousness Studies, Speculative, Paradox Exploration",
+      "contentType": "article",
+      "excerpt": "What if we swapped brains with aliens? Let's dive into the rabbit hole of consciousness studies in a universe where interspecies telepathy is the norm.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Consciousness Studies",
+        "Speculative",
+        "Paradox Exploration"
+      ],
+      "path": "2026/06/09/2026-06-09-21-33-08_consciousness-studies-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Cosmic Question Mark: What We Can Never Know",
       "date": "2026-06-09T17:57:11.000Z",
       "theme": "sunset-vibes",
@@ -9003,6 +9019,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 554,
-  "lastBuilt": "2026-06-09T17:57:11.463Z"
+  "total": 555,
+  "lastBuilt": "2026-06-09T21:33:08.641Z"
 }
