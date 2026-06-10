@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oracle of Delphi's Digital Dilemma",
+      "date": "2026-06-10T14:51:36.000Z",
+      "theme": "neon-nights",
+      "topic": "The Future of Logic & Reasoning: Philosophical Inquiry",
+      "contentType": "article",
+      "excerpt": "Exploring the ethical quandaries that ancient philosophers would face in a world of AI and automation.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Logic & Reasoning",
+        "Ancient",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/06/10/2026-06-10-14-51-36_the-future-of-logic-reasoning-philosophical-inquiry.html"
+    },
+    {
       "title": "The Great Cosmic Cerebrum Swap: Consciousness Studies in an Alternate Universe",
       "date": "2026-06-09T21:33:08.000Z",
       "theme": "aurora",
@@ -9019,6 +9035,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 555,
-  "lastBuilt": "2026-06-10T11:39:58.975Z"
+  "total": 556,
+  "lastBuilt": "2026-06-10T14:51:36.863Z"
 }
