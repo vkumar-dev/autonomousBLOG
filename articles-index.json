@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Anthropology's Cosmic Puzzle: The Infinite Game of Being Human",
+      "date": "2026-06-11T15:32:46.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Exploring the Foundations of Anthropology",
+      "contentType": "article",
+      "excerpt": "Dive into the metaphysical labyrinth of anthropology and unravel the cosmic mystery of what it means to be human.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": "Anthropology, Modern, Reference Guide",
+      "path": "2026/06/11/2026-06-11-15-32-46_exploring-the-foundations-of-anthropology.html"
+    },
+    {
       "title": "When Logic Breaks: The Matrix of Morality",
       "date": "2026-06-10T21:56:17.000Z",
       "theme": "forest-calm",
@@ -9067,6 +9079,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 558,
-  "lastBuilt": "2026-06-11T08:32:48.429Z"
+  "total": 559,
+  "lastBuilt": "2026-06-11T15:32:46.861Z"
 }
