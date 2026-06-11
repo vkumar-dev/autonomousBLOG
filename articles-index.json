@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Epistemology Was a Madcap Game of Telephone?",
+      "date": "2026-06-11T18:50:23.000Z",
+      "theme": "forest-calm",
+      "topic": "What If Epistemology Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Dive into an absurd thought experiment that challenges our understanding of knowledge and truth.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Absurdist",
+        "Educational Essay"
+      ],
+      "path": "2026/06/11/2026-06-11-18-50-23_what-if-epistemology-worked-backwards.html"
+    },
+    {
       "title": "Anthropology's Cosmic Puzzle: The Infinite Game of Being Human",
       "date": "2026-06-11T15:32:46.000Z",
       "theme": "minimalist-clean",
@@ -9079,6 +9095,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 559,
-  "lastBuilt": "2026-06-11T15:32:46.861Z"
+  "total": 560,
+  "lastBuilt": "2026-06-11T18:50:23.628Z"
 }
