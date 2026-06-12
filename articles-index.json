@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Time Ancient Cultures Gave AI a Run for Its Money",
+      "date": "2026-06-12T18:04:48.000Z",
+      "theme": "cotton-candy",
+      "topic": "Exploring the Foundations of Ancient Cultures",
+      "contentType": "article",
+      "excerpt": "From the Egyptians calculating the Pyramids to the Mayans predicting eclipses, ancient cultures were no slouches when it came to practical knowledge. But what if they'd stumbled upon a case of AI gone awry?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ancient Cultures",
+        "Practical",
+        "Case Study"
+      ],
+      "path": "2026/06/12/2026-06-12-18-04-48_exploring-the-foundations-of-ancient-cultures.html"
+    },
+    {
       "title": "What If Epistemology Was a Madcap Game of Telephone?",
       "date": "2026-06-11T18:50:23.000Z",
       "theme": "forest-calm",
@@ -9095,6 +9111,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 560,
-  "lastBuilt": "2026-06-12T14:33:58.664Z"
+  "total": 561,
+  "lastBuilt": "2026-06-12T18:04:48.800Z"
 }
