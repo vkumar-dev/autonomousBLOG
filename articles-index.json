@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Time Machine for Tourists: The Catastrophic Calculation",
+      "date": "2026-06-12T21:31:43.000Z",
+      "theme": "paper-ink",
+      "topic": "Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "What if we could send tourists back in time? A humorous exploration of the logistics and unintended consequences.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Practical",
+        "Thought Experiment"
+      ],
+      "path": "2026/06/12/2026-06-12-21-31-43_space-astronomy-a-journey-through-time.html"
+    },
+    {
       "title": "The Time Ancient Cultures Gave AI a Run for Its Money",
       "date": "2026-06-12T18:04:48.000Z",
       "theme": "cotton-candy",
@@ -9111,6 +9127,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 561,
-  "lastBuilt": "2026-06-12T18:04:48.800Z"
+  "total": 562,
+  "lastBuilt": "2026-06-12T21:31:43.585Z"
 }
