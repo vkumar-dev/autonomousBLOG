@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Inside the Mind of a Maestro: Debunking the Myths of Music Theory",
+      "date": "2026-06-13T21:06:01.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Music Theory: A Insider Perspective",
+      "contentType": "article",
+      "excerpt": "Unlock the secrets of the symphony. Dive into the labyrinth of notes, chords, and scales with an insider's perspective.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Insider",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/06/13/2026-06-13-21-06-01_music-theory-a-insider-perspective.html"
+    },
+    {
       "title": "The Global Calendar Conspiracy: A History Unraveled",
       "date": "2026-06-13T17:14:35.000Z",
       "theme": "aurora",
@@ -9170,6 +9186,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 565,
-  "lastBuilt": "2026-06-13T17:14:35.604Z"
+  "total": 566,
+  "lastBuilt": "2026-06-13T21:06:01.620Z"
 }
