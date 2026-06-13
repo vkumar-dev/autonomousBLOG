@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The City's Great Escape: A Tale of Unexpected Urban Planning",
+      "date": "2026-06-13T13:24:22.000Z",
+      "theme": "paper-ink",
+      "topic": "Urban Planning: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "An exploration into the paradoxes that shape our cities, told through anecdotes and thought experiments.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Paradox Exploration"
+      ],
+      "path": "2026/06/13/2026-06-13-13-24-22_urban-planning-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Cognitive Science: What We Can Never Know",
       "date": "2026-06-13T07:44:35.000Z",
       "theme": "neon-nights",
@@ -9139,6 +9154,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 563,
-  "lastBuilt": "2026-06-13T10:27:39.083Z"
+  "total": 564,
+  "lastBuilt": "2026-06-13T13:24:22.283Z"
 }
