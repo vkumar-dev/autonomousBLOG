@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Global Calendar Conspiracy: A History Unraveled",
+      "date": "2026-06-13T17:14:35.000Z",
+      "theme": "aurora",
+      "topic": "Exploring the Foundations of History",
+      "contentType": "article",
+      "excerpt": "Discovering a hidden truth behind the organization of our timeline.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Global",
+        "Case Study"
+      ],
+      "path": "2026/06/13/2026-06-13-17-14-35_exploring-the-foundations-of-history.html"
+    },
+    {
       "title": "The City's Great Escape: A Tale of Unexpected Urban Planning",
       "date": "2026-06-13T13:24:22.000Z",
       "theme": "paper-ink",
@@ -9154,6 +9170,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 564,
-  "lastBuilt": "2026-06-13T13:24:22.283Z"
+  "total": 565,
+  "lastBuilt": "2026-06-13T17:14:35.604Z"
 }
