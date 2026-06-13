@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Cognitive Science: What We Can Never Know",
+      "date": "2026-06-13T07:44:35.000Z",
+      "theme": "neon-nights",
+      "topic": "Cognitive Science: What We Can Never Know",
+      "contentType": "Myth-Busting",
+      "excerpt": "AI-generated article about Cognitive Science: What We Can Never Know",
+      "readingTime": 6,
+      "wordCount": 1200,
+      "keywords": [],
+      "path": "2026/06/13/2026-06-13-07-44-35_cognitive-science-what-we-can-never-know.html"
+    },
+    {
       "title": "A Time Machine for Tourists: The Catastrophic Calculation",
       "date": "2026-06-12T21:31:43.000Z",
       "theme": "paper-ink",
@@ -9127,6 +9139,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 562,
-  "lastBuilt": "2026-06-13T02:04:35.086Z"
+  "total": 563,
+  "lastBuilt": "2026-06-13T07:44:35.665Z"
 }
