@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "title": "The Starry Deception: Debunking Space Myths",
+      "date": "2026-06-14T08:13:03.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "Unraveling the tangled web of space myths and revealing the reality of our cosmic neighbors.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space",
+        "Astronomy",
+        "Myths vs Reality",
+        "Scientific",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/06/14/2026-06-14-08-13-03_space-astronomy-myths-vs-reality.html"
+    },
+    {
       "title": "The Ocean's Last Stand: A Tale of Titanic Proportions",
       "date": "2026-06-14T02:15:53.000Z",
       "theme": "neon-nights",
@@ -9202,6 +9220,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 567,
-  "lastBuilt": "2026-06-14T02:15:53.567Z"
+  "total": 568,
+  "lastBuilt": "2026-06-14T08:13:03.203Z"
 }
