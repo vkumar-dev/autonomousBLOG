@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "How the Green Goddess of Sustainability Got Her Wings Clipped",
+      "date": "2026-06-14T13:28:05.000Z",
+      "theme": "industrial",
+      "topic": "Unraveling the Complexity of Sustainability",
+      "contentType": "article",
+      "excerpt": "A myth-busting deep dive into sustainability, revealing its hidden complexities and the misconceptions that got us here.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Myth-Busting"
+      ],
+      "path": "2026/06/14/2026-06-14-13-28-05_unraveling-the-complexity-of-sustainability.html"
+    },
+    {
       "title": "The Starry Deception: Debunking Space Myths",
       "date": "2026-06-14T08:13:03.000Z",
       "theme": "minimalist-clean",
@@ -9220,6 +9235,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 568,
-  "lastBuilt": "2026-06-14T08:13:03.203Z"
+  "total": 569,
+  "lastBuilt": "2026-06-14T13:28:05.323Z"
 }
