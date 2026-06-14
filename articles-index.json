@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ocean's Last Stand: A Tale of Titanic Proportions",
+      "date": "2026-06-14T02:15:53.000Z",
+      "theme": "neon-nights",
+      "topic": "Oceanography: A Ethical Perspective",
+      "contentType": "article",
+      "excerpt": "A thought-provoking dive into the ethical implications of our relationship with the ocean.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Ethical",
+        "Educational Essay"
+      ],
+      "path": "2026/06/14/2026-06-14-02-15-53_oceanography-a-ethical-perspective.html"
+    },
+    {
       "title": "Inside the Mind of a Maestro: Debunking the Myths of Music Theory",
       "date": "2026-06-13T21:06:01.000Z",
       "theme": "minimalist-clean",
@@ -9186,6 +9202,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 566,
-  "lastBuilt": "2026-06-13T21:06:01.620Z"
+  "total": 567,
+  "lastBuilt": "2026-06-14T02:15:53.567Z"
 }
