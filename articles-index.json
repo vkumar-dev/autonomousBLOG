@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "If Consciousness Studies Had No Rules: A Speculative Exploration",
+      "date": "2026-06-15T22:15:48.000Z",
+      "theme": "ocean-breeze",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "What if we could rewrite the rules of consciousness studies? Let's take a wild dive into the absurd.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "{{KEYWORDS}}"
+      ],
+      "path": "2026/06/15/2026-06-15-22-15-48_if-consciousness-studies-had-no-rules-a-speculative-exploration.html"
+    },
+    {
       "title": "Architecture: The Billion Dollar Illusion",
       "date": "2026-06-15T09:57:17.000Z",
       "theme": "neon-nights",
@@ -9251,6 +9265,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 570,
-  "lastBuilt": "2026-06-15T16:56:56.117Z"
+  "total": 571,
+  "lastBuilt": "2026-06-15T22:15:48.449Z"
 }
