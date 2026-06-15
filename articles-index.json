@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Architecture: The Billion Dollar Illusion",
+      "date": "2026-06-15T09:57:17.000Z",
+      "theme": "neon-nights",
+      "topic": "Architecture: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unveiling the economic reality behind the glamorous world of architecture.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Critical",
+        "Theory & Practice"
+      ],
+      "path": "2026/06/15/2026-06-15-09-57-17_architecture-myths-vs-reality.html"
+    },
+    {
       "title": "How the Green Goddess of Sustainability Got Her Wings Clipped",
       "date": "2026-06-14T13:28:05.000Z",
       "theme": "industrial",
@@ -9235,6 +9251,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 569,
-  "lastBuilt": "2026-06-15T02:18:16.526Z"
+  "total": 570,
+  "lastBuilt": "2026-06-15T09:57:17.843Z"
 }
