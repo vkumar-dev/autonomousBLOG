@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Space & Astronomy: A Practical Breakdown for Starry-Eyed Stargazers",
+      "date": "2026-06-16T09:21:28.000Z",
+      "theme": "cosmic",
+      "topic": "Rethinking Space & Astronomy: A Practical Breakdown",
+      "contentType": "article",
+      "excerpt": "Unravel the mysteries of the cosmos with a dash of wit and wisdom. Get ready to rethink your understanding of space and astronomy.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Practical",
+        "Theory & Practice"
+      ],
+      "path": "2026/06/16/2026-06-16-09-21-28_rethinking-space-astronomy-a-practical-breakdown.html"
+    },
+    {
       "title": "If Consciousness Studies Had No Rules: A Speculative Exploration",
       "date": "2026-06-15T22:15:48.000Z",
       "theme": "ocean-breeze",
@@ -9265,6 +9281,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 571,
-  "lastBuilt": "2026-06-16T02:22:06.284Z"
+  "total": 572,
+  "lastBuilt": "2026-06-16T09:21:28.501Z"
 }
