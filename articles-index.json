@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "What if Julius Caesar had Google Maps?",
+      "date": "2026-06-16T22:09:25.000Z",
+      "theme": "neon-nights",
+      "topic": "Exploring the Foundations of History",
+      "contentType": "article",
+      "excerpt": "A historical thought experiment that will leave you wondering about the Roman Empire's lost potential.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Counterfactual History"
+      ],
+      "path": "2026/06/16/2026-06-16-22-09-25_exploring-the-foundations-of-history.html"
+    },
+    {
       "title": "Rethinking Space & Astronomy: A Practical Breakdown for Starry-Eyed Stargazers",
       "date": "2026-06-16T09:21:28.000Z",
       "theme": "cosmic",
@@ -9281,6 +9296,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 572,
-  "lastBuilt": "2026-06-16T16:23:09.957Z"
+  "total": 573,
+  "lastBuilt": "2026-06-16T22:09:25.606Z"
 }
