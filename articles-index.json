@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ugly Truth About Urban Planning's Beautiful Lies",
+      "date": "2026-06-17T21:56:57.000Z",
+      "theme": "neon-nights",
+      "topic": "Urban Planning: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "Unearthing the unvarnished truth about urban planning myths and the reality behind them.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Speculative",
+        "Narrative History"
+      ],
+      "path": "2026/06/17/2026-06-17-21-56-57_urban-planning-myths-vs-reality.html"
+    },
+    {
       "title": "When Urban Planning Meets the Twilight Zone",
       "date": "2026-06-17T18:16:42.000Z",
       "theme": "cotton-candy",
@@ -9312,6 +9328,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 574,
-  "lastBuilt": "2026-06-17T18:16:42.840Z"
+  "total": 575,
+  "lastBuilt": "2026-06-17T21:56:57.794Z"
 }
