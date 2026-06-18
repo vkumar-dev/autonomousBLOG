@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Defying the Logic of Silicon Valley: The Tech That Makes You Go Hmmm",
+      "date": "2026-06-18T14:44:23.000Z",
+      "theme": "aurora",
+      "topic": "The Technology That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "From quantum computers to self-driving cars, here are some technological marvels that will make you question your own intuition.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Economic",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/06/18/2026-06-18-14-44-23_the-technology-that-defies-intuition.html"
+    },
+    {
       "title": "The Discordant Symphony of Reason and Rhythm: When Music Theory's Logic Breaks",
       "date": "2026-06-18T08:35:45.000Z",
       "theme": "sunset-vibes",
@@ -9360,6 +9376,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 577,
-  "lastBuilt": "2026-06-18T08:35:45.488Z"
+  "total": 578,
+  "lastBuilt": "2026-06-18T14:44:23.903Z"
 }
