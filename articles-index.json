@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociological Matrix: Where Paradoxes Unravel",
+      "date": "2026-06-18T02:17:35.000Z",
+      "theme": "matrix-code",
+      "topic": "Understanding Sociology Through Story Arc",
+      "contentType": "article",
+      "excerpt": "Explore how sociology, a field often riddled with paradoxes, can be unpacked using the conceptual framework of a story arc.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Paradoxical",
+        "Conceptual Overview"
+      ],
+      "path": "2026/06/18/2026-06-18-02-17-35_understanding-sociology-through-story-arc.html"
+    },
+    {
       "title": "The Ugly Truth About Urban Planning's Beautiful Lies",
       "date": "2026-06-17T21:56:57.000Z",
       "theme": "neon-nights",
@@ -9328,6 +9344,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 575,
-  "lastBuilt": "2026-06-17T21:56:57.794Z"
+  "total": 576,
+  "lastBuilt": "2026-06-18T02:17:35.367Z"
 }
