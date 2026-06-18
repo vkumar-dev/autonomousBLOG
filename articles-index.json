@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Discordant Symphony of Reason and Rhythm: When Music Theory's Logic Breaks",
+      "date": "2026-06-18T08:35:45.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Music Theory Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Discover the forgotten history of music theory, where logic meets madness.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Critical",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/06/18/2026-06-18-08-35-45_the-music-theory-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "The Sociological Matrix: Where Paradoxes Unravel",
       "date": "2026-06-18T02:17:35.000Z",
       "theme": "matrix-code",
@@ -9344,6 +9360,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 576,
-  "lastBuilt": "2026-06-18T02:17:35.367Z"
+  "total": 577,
+  "lastBuilt": "2026-06-18T08:35:45.488Z"
 }
