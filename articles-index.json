@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oceanography Time Machine",
+      "date": "2026-06-19T02:43:57.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Understanding Oceanography Through Before-After Comparison",
+      "contentType": "article",
+      "excerpt": "A journey through time to understand oceanography, one swirling vortex at a time.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Phenomenological",
+        "Case Study"
+      ],
+      "path": "2026/06/19/2026-06-19-02-43-57_understanding-oceanography-through-before-after-comparison.html"
+    },
+    {
       "title": "Defying the Logic of Silicon Valley: The Tech That Makes You Go Hmmm",
       "date": "2026-06-18T14:44:23.000Z",
       "theme": "aurora",
@@ -9376,6 +9392,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 578,
-  "lastBuilt": "2026-06-18T22:02:01.024Z"
+  "total": 579,
+  "lastBuilt": "2026-06-19T02:43:57.236Z"
 }
