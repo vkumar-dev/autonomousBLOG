@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Professionals: The Green Revolution Has Already Happened... and It's Disastrous",
+      "date": "2026-06-19T09:04:11.000Z",
+      "theme": "paper-ink",
+      "topic": "Why Sustainability Matters for Professionals",
+      "contentType": "article",
+      "excerpt": "In a world where sustainability has backfired, professionals are left to pick up the pieces. But what if this catastrophe held a key to our survival?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Paradoxical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/06/19/2026-06-19-09-04-11_why-sustainability-matters-for-professionals.html"
+    },
+    {
       "title": "The Oceanography Time Machine",
       "date": "2026-06-19T02:43:57.000Z",
       "theme": "minimalist-clean",
@@ -9392,6 +9408,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 579,
-  "lastBuilt": "2026-06-19T02:43:57.236Z"
+  "total": 580,
+  "lastBuilt": "2026-06-19T09:04:11.336Z"
 }
