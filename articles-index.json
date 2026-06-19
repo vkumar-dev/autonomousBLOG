@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Beyond the Celestial Dishwasher: Debunking Space Myths",
+      "date": "2026-06-19T21:06:30.000Z",
+      "theme": "aurora",
+      "topic": "Space & Astronomy Explained: Myth-Busting",
+      "contentType": "article",
+      "excerpt": "A journey through the cosmos, debunking the most persistent space myths.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Metaphysical",
+        "Myth-Busting"
+      ],
+      "path": "2026/06/19/2026-06-19-21-06-30_space-astronomy-explained-myth-busting.html"
+    },
+    {
       "title": "The Quantum Chronomatrix: Unraveling the Time-Bending Tapestry of Ancient Cultures",
       "date": "2026-06-19T14:42:57.000Z",
       "theme": "sunset-vibes",
@@ -9424,6 +9440,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 581,
-  "lastBuilt": "2026-06-19T17:53:52.046Z"
+  "total": 582,
+  "lastBuilt": "2026-06-19T21:06:31.054Z"
 }
