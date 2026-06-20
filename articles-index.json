@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Meet the Socrates You Didn't Know - The Unknowable Known",
+      "date": "2026-06-20T10:31:31.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Epistemology: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "Delve into the life of the man who questioned everything, even himself. But can we ever truly know him?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Pessimistic",
+        "Biography"
+      ],
+      "path": "2026/06/20/2026-06-20-10-31-31_epistemology-what-we-can-never-know.html"
+    },
+    {
       "title": "The Architecture Matrix: A Metaphysical Mind-Bender",
       "date": "2026-06-20T07:48:18.000Z",
       "theme": "paper-ink",
@@ -9456,6 +9472,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 583,
-  "lastBuilt": "2026-06-20T07:48:18.149Z"
+  "total": 584,
+  "lastBuilt": "2026-06-20T10:31:31.732Z"
 }
