@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Architecture Matrix: A Metaphysical Mind-Bender",
+      "date": "2026-06-20T07:48:18.000Z",
+      "theme": "paper-ink",
+      "topic": "The Consciousness of Architecture: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Exploring the unexpected connection between consciousness and architecture, one building block at a time.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Skeptical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/06/20/2026-06-20-07-48-18_the-consciousness-of-architecture-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "Beyond the Celestial Dishwasher: Debunking Space Myths",
       "date": "2026-06-19T21:06:30.000Z",
       "theme": "aurora",
@@ -9440,6 +9456,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 582,
-  "lastBuilt": "2026-06-20T02:06:46.107Z"
+  "total": 583,
+  "lastBuilt": "2026-06-20T07:48:18.149Z"
 }
