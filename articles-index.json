@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Neuroscience: The Philosophical Puzzle Box",
+      "date": "2026-06-20T17:20:01.000Z",
+      "theme": "cotton-candy",
+      "topic": "Understanding Neuroscience Through Philosophical Inquiry",
+      "contentType": "article",
+      "excerpt": "Explore the tantalizing intersection of neuroscience and philosophy, where synapses meet Socrates.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Local",
+        "Comparative Study"
+      ],
+      "path": "2026/06/20/2026-06-20-17-20-01_understanding-neuroscience-through-philosophical-inquiry.html"
+    },
+    {
       "title": "Meet the Socrates You Didn't Know - The Unknowable Known",
       "date": "2026-06-20T10:31:31.000Z",
       "theme": "ocean-breeze",
@@ -9472,6 +9488,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 584,
-  "lastBuilt": "2026-06-20T13:25:53.694Z"
+  "total": 585,
+  "lastBuilt": "2026-06-20T17:20:01.205Z"
 }
