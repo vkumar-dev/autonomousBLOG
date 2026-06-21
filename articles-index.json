@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Hidden Geology of Simulated Realities",
+      "date": "2026-06-21T21:04:38.000Z",
+      "theme": "matrix-code",
+      "topic": "Geology: Speculative Alternate Realities",
+      "contentType": "article",
+      "excerpt": "A tantalizing exploration of geological mysteries in the digital world.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Speculative",
+        "Alternate Reality"
+      ],
+      "path": "2026/06/21/2026-06-21-21-04-38_geology-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Time Travelers with Logic & Reasoning: A Forgotten History",
       "date": "2026-06-21T17:23:11.000Z",
       "theme": "forest-calm",
@@ -9550,6 +9566,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 589,
-  "lastBuilt": "2026-06-21T17:23:11.488Z"
+  "total": 590,
+  "lastBuilt": "2026-06-21T21:04:38.646Z"
 }
