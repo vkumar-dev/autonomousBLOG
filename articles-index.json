@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Nature Swindle: A Tutorial for Industry Leaders",
+      "date": "2026-06-21T08:26:48.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Nature Explained: Tutorial",
+      "contentType": "article",
+      "excerpt": "A guide to understanding the economic intricacies of nature, exposing the hidden swindles that keep us all in check.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Economic",
+        "Tutorial"
+      ],
+      "path": "2026/06/21/2026-06-21-08-26-48_nature-explained-tutorial.html"
+    },
+    {
       "title": "How Geology Shaped Our World - The Hidden Symphony",
       "date": "2026-06-21T02:18:18.000Z",
       "theme": "paper-ink",
@@ -9503,6 +9519,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 586,
-  "lastBuilt": "2026-06-21T02:18:18.359Z"
+  "total": 587,
+  "lastBuilt": "2026-06-21T08:26:48.412Z"
 }
