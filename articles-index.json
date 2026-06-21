@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "How Geology Shaped Our World - The Hidden Symphony",
+      "date": "2026-06-21T02:18:18.000Z",
+      "theme": "paper-ink",
+      "topic": "How Geology Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Discover the hidden symphony that shaped our world. Geology is more than just rocks and mountains.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Critical Case Study"
+      ],
+      "path": "2026/06/21/2026-06-21-02-18-18_how-geology-shapes-our-world.html"
+    },
+    {
       "title": "Neuroscience: The Philosophical Puzzle Box",
       "date": "2026-06-20T17:20:01.000Z",
       "theme": "cotton-candy",
@@ -9488,6 +9503,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 585,
-  "lastBuilt": "2026-06-20T21:07:31.850Z"
+  "total": 586,
+  "lastBuilt": "2026-06-21T02:18:18.359Z"
 }
