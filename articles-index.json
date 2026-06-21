@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Logic & Reasoning: A Nefarious Plot to Overthrow the Irrational?",
+      "date": "2026-06-21T13:35:44.000Z",
+      "theme": "midnight-mystery",
+      "topic": "Logic & Reasoning Explained: Theory & Practice",
+      "contentType": "article",
+      "excerpt": "A guide to navigating the dark arts of logic and reasoning, for those seeking a more rational world.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Logic & Reasoning",
+        "Pessimistic"
+      ],
+      "path": "2026/06/21/2026-06-21-13-35-44_logic-reasoning-explained-theory-practice.html"
+    },
+    {
       "title": "The Great Nature Swindle: A Tutorial for Industry Leaders",
       "date": "2026-06-21T08:26:48.000Z",
       "theme": "sunset-vibes",
@@ -9519,6 +9534,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 587,
-  "lastBuilt": "2026-06-21T08:26:48.412Z"
+  "total": 588,
+  "lastBuilt": "2026-06-21T13:35:44.324Z"
 }
