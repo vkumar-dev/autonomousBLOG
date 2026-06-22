@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What if Socrates had a Time Machine?",
+      "date": "2026-06-22T16:29:04.000Z",
+      "theme": "cotton-candy",
+      "topic": "Rethinking Epistemology: A Skeptical Breakdown",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical implications of time travel on ancient Greek thought.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Skeptical",
+        "Counterfactual History"
+      ],
+      "path": "2026/06/22/2026-06-22-16-29-04_rethinking-epistemology-a-skeptical-breakdown.html"
+    },
+    {
       "title": "Unraveling the Thread of History: A Time-Traveler's Guide",
       "date": "2026-06-22T02:20:50.000Z",
       "theme": "neon-nights",
@@ -9581,6 +9597,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 591,
-  "lastBuilt": "2026-06-22T09:42:58.095Z"
+  "total": 592,
+  "lastBuilt": "2026-06-22T16:29:04.258Z"
 }
