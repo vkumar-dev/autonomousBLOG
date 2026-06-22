@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Unraveling the Thread of History: A Time-Traveler's Guide",
+      "date": "2026-06-22T02:20:50.000Z",
+      "theme": "neon-nights",
+      "topic": "Exploring the Foundations of History",
+      "contentType": "article",
+      "excerpt": "Dive deep into history, as if you were a time-traveling polymath with an espresso machine and a penchant for wit.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Ancient"
+      ],
+      "path": "2026/06/22/2026-06-22-02-20-50_exploring-the-foundations-of-history.html"
+    },
+    {
       "title": "The Hidden Geology of Simulated Realities",
       "date": "2026-06-21T21:04:38.000Z",
       "theme": "matrix-code",
@@ -9566,6 +9581,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 590,
-  "lastBuilt": "2026-06-21T21:04:38.646Z"
+  "total": 591,
+  "lastBuilt": "2026-06-22T02:20:50.344Z"
 }
