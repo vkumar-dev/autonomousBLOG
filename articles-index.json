@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Earth's Eternal Cryptographer: A Geological Biography in Code",
+      "date": "2026-06-24T07:37:26.000Z",
+      "theme": "matrix-code",
+      "topic": "Understanding Geology Through Metaphorical Journey",
+      "contentType": "article",
+      "excerpt": "Delve into the enigmatic world of geology with a man who speaks in cryptic patterns. Meet our hero, the Earth's eternal cryptographer.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Phenomenological",
+        "Biography"
+      ],
+      "path": "2026/06/24/2026-06-24-07-37-26_understanding-geology-through-metaphorical-journey.html"
+    },
+    {
       "title": "The Sociological Matrix: Where Reality Becomes a Simulation",
       "date": "2026-06-24T01:58:04.000Z",
       "theme": "neon-noir",
@@ -9645,6 +9661,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 595,
-  "lastBuilt": "2026-06-24T01:58:04.961Z"
+  "total": 596,
+  "lastBuilt": "2026-06-24T07:37:26.659Z"
 }
