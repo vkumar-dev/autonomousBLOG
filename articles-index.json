@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociological Matrix: Where Reality Becomes a Simulation",
+      "date": "2026-06-24T01:58:04.000Z",
+      "theme": "neon-noir",
+      "topic": "Sociology in the Modern Era: A Pessimistic Approach",
+      "contentType": "article",
+      "excerpt": "A thought-provoking exploration of how sociology is becoming indistinguishable from a pessimistic simulation.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Pessimistic",
+        "Speculative Future"
+      ],
+      "path": "2026/06/24/2026-06-24-01-58-04_sociology-in-the-modern-era-a-pessimistic-approach.html"
+    },
+    {
       "title": "In an Ontological Labyrinth: Could Self Exist Without Itself?",
       "date": "2026-06-23T17:50:58.000Z",
       "theme": "forest-calm",
@@ -9629,6 +9645,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 594,
-  "lastBuilt": "2026-06-23T21:30:27.258Z"
+  "total": 595,
+  "lastBuilt": "2026-06-24T01:58:04.961Z"
 }
