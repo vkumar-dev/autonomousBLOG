@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Local Symphony of Discord: A Comparative Study on Music Theory's Hidden Harmonies",
+      "date": "2026-06-25T18:07:18.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Music Theory in the Modern Era: A Local Approach",
+      "contentType": "article",
+      "excerpt": "In a world where music is no longer confined to geographical boundaries, how do we find the common chords between us?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Local",
+        "Comparative Study"
+      ],
+      "path": "2026/06/25/2026-06-25-18-07-18_music-theory-in-the-modern-era-a-local-approach.html"
+    },
+    {
       "title": "The Earth's Eternal Cryptographer: A Geological Biography in Code",
       "date": "2026-06-24T07:37:26.000Z",
       "theme": "matrix-code",
@@ -9661,6 +9677,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 596,
-  "lastBuilt": "2026-06-25T14:02:36.748Z"
+  "total": 597,
+  "lastBuilt": "2026-06-25T18:07:18.454Z"
 }
