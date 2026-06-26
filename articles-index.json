@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Heart of Iowa: Where Crop Circles are No Coincidence",
+      "date": "2026-06-26T07:48:54.000Z",
+      "theme": "matrix-code",
+      "topic": "Technology: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Unraveling a historical conundrum that challenges our assumptions about technology and agriculture.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Local",
+        "Historical Analysis"
+      ],
+      "path": "2026/06/26/2026-06-26-07-48-54_technology-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "The Digital Oracle: Unraveling the Neurological Labyrinth",
       "date": "2026-06-26T02:05:27.000Z",
       "theme": "matrix-code",
@@ -9693,6 +9709,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 598,
-  "lastBuilt": "2026-06-26T02:05:27.692Z"
+  "total": 599,
+  "lastBuilt": "2026-06-26T07:48:54.811Z"
 }
