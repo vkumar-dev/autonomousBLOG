@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Digital Oracle: Unraveling the Neurological Labyrinth",
+      "date": "2026-06-26T02:05:27.000Z",
+      "theme": "matrix-code",
+      "topic": "The Consciousness of Neuroscience: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Dive into a riveting exploration of neuroscience, where the digital meets the divine.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Scientific",
+        "Debate & Critique"
+      ],
+      "path": "2026/06/26/2026-06-26-02-05-27_the-consciousness-of-neuroscience-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "The Local Symphony of Discord: A Comparative Study on Music Theory's Hidden Harmonies",
       "date": "2026-06-25T18:07:18.000Z",
       "theme": "sunset-vibes",
@@ -9677,6 +9693,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 597,
-  "lastBuilt": "2026-06-25T21:27:42.336Z"
+  "total": 598,
+  "lastBuilt": "2026-06-26T02:05:27.692Z"
 }
