@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forgotten Feast of Folly: A Science Soirée Through History",
+      "date": "2026-06-26T17:35:45.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Science for Everyone",
+      "contentType": "article",
+      "excerpt": "A journey through history's most extravagant science parties, where feuds were settled over quiche and discoveries made while tipsy on fermented plums.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Global",
+        "Narrative History"
+      ],
+      "path": "2026/06/26/2026-06-26-17-35-45_bridging-the-gap-science-for-everyone.html"
+    },
+    {
       "title": "In a World Where Logic and Reasoning are Outlawed",
       "date": "2026-06-26T14:00:15.000Z",
       "theme": "industrial",
@@ -9724,6 +9740,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 600,
-  "lastBuilt": "2026-06-26T14:00:16.026Z"
+  "total": 601,
+  "lastBuilt": "2026-06-26T17:35:45.328Z"
 }
