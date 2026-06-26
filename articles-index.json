@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "In a World Where Logic and Reasoning are Outlawed",
+      "date": "2026-06-26T14:00:15.000Z",
+      "theme": "industrial",
+      "topic": "Logic & Reasoning and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "What if the Socratic method was illegal? Explore the absurdity of a world without logic and reasoning.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Logic & Reasoning",
+        "Practical Guide"
+      ],
+      "path": "2026/06/26/2026-06-26-14-00-15_logic-reasoning-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "In the Heart of Iowa: Where Crop Circles are No Coincidence",
       "date": "2026-06-26T07:48:54.000Z",
       "theme": "matrix-code",
@@ -9709,6 +9724,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 599,
-  "lastBuilt": "2026-06-26T10:48:48.054Z"
+  "total": 600,
+  "lastBuilt": "2026-06-26T14:00:16.026Z"
 }
