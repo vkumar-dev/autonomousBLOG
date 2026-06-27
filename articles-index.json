@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Quantum Cryptography: A Secure Economy's Worst Nightmare",
+      "date": "2026-06-27T06:54:43.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Intersection of Cryptography and Speculative Future",
+      "contentType": "article",
+      "excerpt": "In a world where data is currency, what happens when the rules of encryption are rewritten?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cryptography",
+        "Economic",
+        "Speculative Future"
+      ],
+      "path": "2026/06/27/2026-06-27-06-54-43_the-intersection-of-cryptography-and-speculative-future.html"
+    },
+    {
       "title": "The Forgotten Feast of Folly: A Science Soirée Through History",
       "date": "2026-06-26T17:35:45.000Z",
       "theme": "ocean-breeze",
@@ -9740,6 +9756,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 601,
-  "lastBuilt": "2026-06-27T02:00:48.344Z"
+  "total": 602,
+  "lastBuilt": "2026-06-27T06:54:43.688Z"
 }
