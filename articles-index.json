@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mind's Hidden Operating System: A Forgotten History",
+      "date": "2026-06-27T16:58:53.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Cognitive Science: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Exploring the enigmatic history of the mind's forgotten operating system, a tale as cryptic as the neural networks it once governed.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Insider",
+        "What-If Analysis"
+      ],
+      "path": "2026/06/27/2026-06-27-16-58-53_cognitive-science-practical-applications-and-insights.html"
+    },
+    {
       "title": "The Epistemological Time Machine: A Forgotten History of Phenomenology",
       "date": "2026-06-27T13:09:52.000Z",
       "theme": "matrix-code",
@@ -9788,6 +9804,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 604,
-  "lastBuilt": "2026-06-27T13:09:52.695Z"
+  "total": 605,
+  "lastBuilt": "2026-06-27T16:58:53.333Z"
 }
