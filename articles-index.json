@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Epistemological Time Machine: A Forgotten History of Phenomenology",
+      "date": "2026-06-27T13:09:52.000Z",
+      "theme": "matrix-code",
+      "topic": "Exploring the Foundations of Epistemology",
+      "contentType": "article",
+      "excerpt": "Travel through time to uncover the forgotten roots of phenomenology, where philosophy and experience collide in a thrilling dance of ideas.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Phenomenological",
+        "Reference Guide"
+      ],
+      "path": "2026/06/27/2026-06-27-13-09-52_exploring-the-foundations-of-epistemology.html"
+    },
+    {
       "title": "Nature's Unseen Symphony: A Counterfactual History",
       "date": "2026-06-27T10:03:59.000Z",
       "theme": "minimalist-clean",
@@ -9772,6 +9788,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 603,
-  "lastBuilt": "2026-06-27T10:03:59.597Z"
+  "total": 604,
+  "lastBuilt": "2026-06-27T13:09:52.695Z"
 }
