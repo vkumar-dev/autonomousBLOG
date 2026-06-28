@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Tech That Makes Pennies Rain while Economists Weep",
+      "date": "2026-06-28T10:25:58.000Z",
+      "theme": "paper-ink",
+      "topic": "The Technology That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "From drones that harvest corn to AI that outsmarts the smartest minds, technology is turning the economic world on its head. But are we ready for it?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Insider",
+        "Debate & Critique"
+      ],
+      "path": "2026/06/28/2026-06-28-10-25-58_the-technology-that-defies-intuition.html"
+    },
+    {
       "title": "Rethinking Anthropology: Your Brain on Religion",
       "date": "2026-06-28T07:50:22.000Z",
       "theme": "minimalist-clean",
@@ -9836,6 +9852,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 607,
-  "lastBuilt": "2026-06-28T07:50:23.069Z"
+  "total": 608,
+  "lastBuilt": "2026-06-28T10:25:58.795Z"
 }
