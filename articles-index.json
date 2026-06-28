@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Shot Across AI's Bow: The Fingerprints of Forensics in Our Speculative Future",
+      "date": "2026-06-28T02:08:15.000Z",
+      "theme": "forest-calm",
+      "topic": "The Intersection of Forensics and Speculative Future",
+      "contentType": "article",
+      "excerpt": "In the not-so-distant future, will forensic science be replaced by AI? Not if we have anything to say about it.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Existential",
+        "Speculative Future"
+      ],
+      "path": "2026/06/28/2026-06-28-02-08-15_the-intersection-of-forensics-and-speculative-future.html"
+    },
+    {
       "title": "The Mind's Hidden Operating System: A Forgotten History",
       "date": "2026-06-27T16:58:53.000Z",
       "theme": "minimalist-clean",
@@ -9804,6 +9820,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 605,
-  "lastBuilt": "2026-06-27T20:53:33.131Z"
+  "total": 606,
+  "lastBuilt": "2026-06-28T02:08:15.493Z"
 }
