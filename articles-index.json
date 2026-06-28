@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forensic Follies: A Homicidal Harlequinade",
+      "date": "2026-06-28T20:57:38.000Z",
+      "theme": "forest-calm",
+      "topic": "Forensics: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Delve into the macabre world of forensic science, where the unexpected becomes the expected and logic is a deadly weapon.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Theoretical",
+        "Case Study"
+      ],
+      "path": "2026/06/28/2026-06-28-20-57-38_forensics-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "The Tech That Makes Pennies Rain while Economists Weep",
       "date": "2026-06-28T10:25:58.000Z",
       "theme": "paper-ink",
@@ -9852,6 +9868,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 608,
-  "lastBuilt": "2026-06-28T17:02:26.044Z"
+  "total": 609,
+  "lastBuilt": "2026-06-28T20:57:38.315Z"
 }
