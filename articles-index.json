@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Anthropology: Your Brain on Religion",
+      "date": "2026-06-28T07:50:22.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Rethinking Anthropology: A Philosophical Breakdown",
+      "contentType": "article",
+      "excerpt": "A journey into the mind-bending world of human spirituality and its evolution.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Anthropology",
+        "Philosophical",
+        "Narrative History"
+      ],
+      "path": "2026/06/28/2026-06-28-07-50-22_rethinking-anthropology-a-philosophical-breakdown.html"
+    },
+    {
       "title": "A Shot Across AI's Bow: The Fingerprints of Forensics in Our Speculative Future",
       "date": "2026-06-28T02:08:15.000Z",
       "theme": "forest-calm",
@@ -9820,6 +9836,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 606,
-  "lastBuilt": "2026-06-28T02:08:15.493Z"
+  "total": 607,
+  "lastBuilt": "2026-06-28T07:50:23.069Z"
 }
