@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Counterintuitive Rock That Bends Time",
+      "date": "2026-06-29T21:23:32.000Z",
+      "theme": "neon-nights",
+      "topic": "The Geology That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "A tantalizing glimpse into the geological anomaly that challenges our understanding of causality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Absurdist",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/06/29/2026-06-29-21-23-32_the-geology-that-defies-intuition.html"
+    },
+    {
       "title": "The Sustainable Cornfield Paradox: A Solar-Powered Dilemma",
       "date": "2026-06-29T15:31:07.000Z",
       "theme": "neon-nights",
@@ -9900,6 +9916,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 611,
-  "lastBuilt": "2026-06-29T18:09:16.314Z"
+  "total": 612,
+  "lastBuilt": "2026-06-29T21:23:32.452Z"
 }
