@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sustainable Cornfield Paradox: A Solar-Powered Dilemma",
+      "date": "2026-06-29T15:31:07.000Z",
+      "theme": "neon-nights",
+      "topic": "Sustainability in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "A world where solar-powered drones patrol Iowa cornfields, but at what cost to our consciousness?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Pessimistic",
+        "Educational Essay"
+      ],
+      "path": "2026/06/29/2026-06-29-15-31-07_sustainability-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Sociology Matrix: Myth vs Reality",
       "date": "2026-06-29T02:09:11.000Z",
       "theme": "neon-lights",
@@ -9884,6 +9900,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 610,
-  "lastBuilt": "2026-06-29T08:56:51.918Z"
+  "total": 611,
+  "lastBuilt": "2026-06-29T15:31:07.410Z"
 }
