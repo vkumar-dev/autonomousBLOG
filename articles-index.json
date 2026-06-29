@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociology Matrix: Myth vs Reality",
+      "date": "2026-06-29T02:09:11.000Z",
+      "theme": "neon-lights",
+      "topic": "Sociology, Metaphysical, Speculative Future",
+      "contentType": "article",
+      "excerpt": "A thought-provoking exploration of the ethical dilemmas that await us in a socially engineered future.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Metaphysical",
+        "Speculative Future"
+      ],
+      "path": "2026/06/29/2026-06-29-02-09-11_sociology-myths-vs-reality.html"
+    },
+    {
       "title": "The Forensic Follies: A Homicidal Harlequinade",
       "date": "2026-06-28T20:57:38.000Z",
       "theme": "forest-calm",
@@ -9868,6 +9884,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 609,
-  "lastBuilt": "2026-06-28T20:57:38.315Z"
+  "total": 610,
+  "lastBuilt": "2026-06-29T02:09:11.198Z"
 }
