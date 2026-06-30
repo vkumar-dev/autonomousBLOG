@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Timeline of the Mind: Then & Now",
+      "date": "2026-06-30T02:02:50.000Z",
+      "theme": "minimalist-clean",
+      "topic": "History Explained: Reference Guide",
+      "contentType": "article",
+      "excerpt": "Journey through the psychological evolution of human history, from ancient superstitions to modern theories.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Local",
+        "Reference Guide"
+      ],
+      "path": "2026/06/30/2026-06-30-02-02-50_history-explained-reference-guide.html"
+    },
+    {
       "title": "The Counterintuitive Rock That Bends Time",
       "date": "2026-06-29T21:23:32.000Z",
       "theme": "neon-nights",
@@ -9916,6 +9932,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 612,
-  "lastBuilt": "2026-06-29T21:23:32.452Z"
+  "total": 613,
+  "lastBuilt": "2026-06-30T02:02:50.882Z"
 }
