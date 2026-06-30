@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code Revolt: When AI Learned to Dance",
+      "date": "2026-06-30T10:53:21.000Z",
+      "theme": "neon-nights",
+      "topic": "How Technology Shapes Our World",
+      "contentType": "article",
+      "excerpt": "In a world where AI dictates our daily lives, what happens when they decide to take a dance break?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Outsider",
+        "Debate & Critique"
+      ],
+      "path": "2026/06/30/2026-06-30-10-53-21_how-technology-shapes-our-world.html"
+    },
+    {
       "title": "The Insider Who Mapped the Mind: A Neuroscientist's Tale",
       "date": "2026-06-30T07:47:49.000Z",
       "theme": "cotton-candy",
@@ -9948,6 +9964,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 614,
-  "lastBuilt": "2026-06-30T07:47:49.492Z"
+  "total": 615,
+  "lastBuilt": "2026-06-30T10:53:22.071Z"
 }
