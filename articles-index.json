@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Insider Who Mapped the Mind: A Neuroscientist's Tale",
+      "date": "2026-06-30T07:47:49.000Z",
+      "theme": "cotton-candy",
+      "topic": "Exploring the Foundations of Neuroscience",
+      "contentType": "article",
+      "excerpt": "Dive into the life of a daring neuroscientist who turned our understanding of the brain on its head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Insider",
+        "Biography"
+      ],
+      "path": "2026/06/30/2026-06-30-07-47-49_exploring-the-foundations-of-neuroscience.html"
+    },
+    {
       "title": "A Timeline of the Mind: Then & Now",
       "date": "2026-06-30T02:02:50.000Z",
       "theme": "minimalist-clean",
@@ -9932,6 +9948,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 613,
-  "lastBuilt": "2026-06-30T02:02:50.882Z"
+  "total": 614,
+  "lastBuilt": "2026-06-30T07:47:49.492Z"
 }
