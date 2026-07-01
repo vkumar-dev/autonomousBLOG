@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Symphony of Silence: Unraveling the Enigma of Music Theory",
+      "date": "2026-07-01T14:06:41.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Music Theory: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "A journey into the labyrinthine world of music, where rules are broken and harmony is found.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Practical"
+      ],
+      "path": "2026/07/01/2026-07-01-14-06-41_music-theory-practical-applications-and-insights.html"
+    },
+    {
       "title": "The Rabbit Hole of Epistemology",
       "date": "2026-07-01T11:29:46.000Z",
       "theme": "sunset-vibes",
@@ -10012,6 +10027,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 618,
-  "lastBuilt": "2026-07-01T11:29:46.695Z"
+  "total": 619,
+  "lastBuilt": "2026-07-01T14:06:41.906Z"
 }
