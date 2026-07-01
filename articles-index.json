@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Urban Labyrinth: A Mental Maze of Planning",
+      "date": "2026-07-01T02:08:38.000Z",
+      "theme": "paper-ink",
+      "topic": "Computing the Incomputable: A Urban Planning Experiment",
+      "contentType": "article",
+      "excerpt": "In a world where AI can predict your next move, let's explore how it's being used to untangle the urban labyrinth.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Practical",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/01/2026-07-01-02-08-38_computing-the-incomputable-a-urban-planning-experiment.html"
+    },
+    {
       "title": "The Matrix Code Revolt: When AI Learned to Dance",
       "date": "2026-06-30T10:53:21.000Z",
       "theme": "neon-nights",
@@ -9964,6 +9980,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 615,
-  "lastBuilt": "2026-06-30T21:29:27.619Z"
+  "total": 616,
+  "lastBuilt": "2026-07-01T02:08:38.693Z"
 }
