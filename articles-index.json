@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Rabbit Hole of Epistemology",
+      "date": "2026-07-01T11:29:46.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Impossibility of Epistemology: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "A thought experiment that will make you question the very foundations of knowledge.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Celebratory",
+        "Alternate Reality"
+      ],
+      "path": "2026/07/01/2026-07-01-11-29-46_the-impossibility-of-epistemology-a-thought-experiment.html"
+    },
+    {
       "title": "The Great Green Scam: Busting Sustainability Myths, One City at a Time",
       "date": "2026-07-01T08:08:47.000Z",
       "theme": "minimalist-clean",
@@ -9996,6 +10012,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 617,
-  "lastBuilt": "2026-07-01T08:08:47.642Z"
+  "total": 618,
+  "lastBuilt": "2026-07-01T11:29:46.695Z"
 }
