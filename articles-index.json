@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Green Scam: Busting Sustainability Myths, One City at a Time",
+      "date": "2026-07-01T08:08:47.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Rethinking Sustainability: A Local Breakdown",
+      "contentType": "article",
+      "excerpt": "From solar panels that don't save energy to compost bins that stink up the neighborhood, we're debunking common sustainability myths for the eco-curious.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Local",
+        "Myth-Busting"
+      ],
+      "path": "2026/07/01/2026-07-01-08-08-47_rethinking-sustainability-a-local-breakdown.html"
+    },
+    {
       "title": "The Urban Labyrinth: A Mental Maze of Planning",
       "date": "2026-07-01T02:08:38.000Z",
       "theme": "paper-ink",
@@ -9980,6 +9996,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 616,
-  "lastBuilt": "2026-07-01T02:08:38.693Z"
+  "total": 617,
+  "lastBuilt": "2026-07-01T08:08:47.642Z"
 }
