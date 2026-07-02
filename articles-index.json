@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Counterfeit Garden of Eden",
+      "date": "2026-07-02T07:05:27.000Z",
+      "theme": "neon-nights",
+      "topic": "Unraveling the Complexity of Nature",
+      "contentType": "article",
+      "excerpt": "Exploring a counterfactual history where humanity discovered the secret to controlling nature's chaos.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Historical",
+        "Counterfactual History"
+      ],
+      "path": "2026/07/02/2026-07-02-07-05-27_unraveling-the-complexity-of-nature.html"
+    },
+    {
       "title": "Reverse Engineering Game Design: What If We Built Games Backwards?",
       "date": "2026-07-02T02:03:01.000Z",
       "theme": "neon-nights",
@@ -10043,6 +10059,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 620,
-  "lastBuilt": "2026-07-02T02:03:01.837Z"
+  "total": 621,
+  "lastBuilt": "2026-07-02T07:05:27.491Z"
 }
