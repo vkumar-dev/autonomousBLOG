@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Reverse Engineering Game Design: What If We Built Games Backwards?",
+      "date": "2026-07-02T02:03:01.000Z",
+      "theme": "neon-nights",
+      "topic": "What If Game Design Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Exploring the mind-bending possibilities of designing games starting with the end in mind.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Paradoxical",
+        "Tutorial"
+      ],
+      "path": "2026/07/02/2026-07-02-02-03-01_what-if-game-design-worked-backwards.html"
+    },
+    {
       "title": "The Symphony of Silence: Unraveling the Enigma of Music Theory",
       "date": "2026-07-01T14:06:41.000Z",
       "theme": "sunset-vibes",
@@ -10027,6 +10043,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 619,
-  "lastBuilt": "2026-07-01T21:23:46.584Z"
+  "total": 620,
+  "lastBuilt": "2026-07-02T02:03:01.837Z"
 }
