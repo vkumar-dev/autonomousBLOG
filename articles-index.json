@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociologist Who Lived in a Box",
+      "date": "2026-07-02T17:30:54.000Z",
+      "theme": "aurora",
+      "topic": "Sociology",
+      "contentType": "article",
+      "excerpt": "An examination of the life and work of Émile Durkheim, the father of modern sociology, who found himself entangled in an absurd experiment.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Absurdist",
+        "Biography"
+      ],
+      "path": "2026/07/02/2026-07-02-17-30-54_sociology-what-we-can-never-know.html"
+    },
+    {
       "title": "The Global Ontology Unraveled: A Tale of Two Universities",
       "date": "2026-07-02T10:34:41.000Z",
       "theme": "paper-ink",
@@ -10074,6 +10090,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 622,
-  "lastBuilt": "2026-07-02T13:31:05.571Z"
+  "total": 623,
+  "lastBuilt": "2026-07-02T17:30:54.663Z"
 }
