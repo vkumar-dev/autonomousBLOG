@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mad Mathematician's Lament: A Tale of Consciousness",
+      "date": "2026-07-02T20:56:45.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Consciousness of Mathematics: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A mind-bending journey into the enigmatic realm where math meets metaphysics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Insider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/07/02/2026-07-02-20-56-45_the-consciousness-of-mathematics-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "The Sociologist Who Lived in a Box",
       "date": "2026-07-02T17:30:54.000Z",
       "theme": "aurora",
@@ -10090,6 +10106,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 623,
-  "lastBuilt": "2026-07-02T17:30:54.663Z"
+  "total": 624,
+  "lastBuilt": "2026-07-02T20:56:45.710Z"
 }
