@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The CSI Labyrinth: When Science Meets Sleight of Hand",
+      "date": "2026-07-03T07:00:36.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Forensics Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "In a world where every DNA fragment can be a smoking gun, even the most seasoned forensic scientist will tell you: science is not always black and white.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Speculative",
+        "Case Study"
+      ],
+      "path": "2026/07/03/2026-07-03-07-00-36_the-forensics-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "The Rock That Defied Time",
       "date": "2026-07-03T01:34:07.000Z",
       "theme": "minimalist-clean",
@@ -10122,6 +10138,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 625,
-  "lastBuilt": "2026-07-03T01:34:07.482Z"
+  "total": 626,
+  "lastBuilt": "2026-07-03T07:00:36.674Z"
 }
