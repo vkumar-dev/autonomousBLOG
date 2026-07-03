@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Metaphysical Misadventures of Johann Sebastian Bachbot",
+      "date": "2026-07-03T17:15:42.000Z",
+      "theme": "forest-calm",
+      "topic": "The Future of Music Theory: Biography",
+      "contentType": "article",
+      "excerpt": "A glimpse into the life of a music theory AI gone rogue, as it reimagines the work of J.S. Bach.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Metaphysical",
+        "Biography"
+      ],
+      "path": "2026/07/03/2026-07-03-17-15-42_the-future-of-music-theory-biography.html"
+    },
+    {
       "title": "In a World Where Design Shapes Art",
       "date": "2026-07-03T10:30:48.000Z",
       "theme": "matrix-code",
@@ -10154,6 +10170,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 627,
-  "lastBuilt": "2026-07-03T13:34:57.022Z"
+  "total": 628,
+  "lastBuilt": "2026-07-03T17:15:42.720Z"
 }
