@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Design Shapes Art",
+      "date": "2026-07-03T10:30:48.000Z",
+      "theme": "matrix-code",
+      "topic": "How Art & Design Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Exploring the implications of a world where design dictates artistic expression.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Local",
+        "Thought Experiment"
+      ],
+      "path": "2026/07/03/2026-07-03-10-30-48_how-art-design-shapes-our-world.html"
+    },
+    {
       "title": "The CSI Labyrinth: When Science Meets Sleight of Hand",
       "date": "2026-07-03T07:00:36.000Z",
       "theme": "minimalist-clean",
@@ -10138,6 +10154,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 626,
-  "lastBuilt": "2026-07-03T07:00:36.674Z"
+  "total": 627,
+  "lastBuilt": "2026-07-03T10:30:48.639Z"
 }
