@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Rock That Defied Time",
+      "date": "2026-07-03T01:34:07.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Could Geology Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A journey through geological time that asks the question: Can geology be its own foundation?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Existential",
+        "Narrative History"
+      ],
+      "path": "2026/07/03/2026-07-03-01-34-07_could-geology-exist-without-itself.html"
+    },
+    {
       "title": "The Mad Mathematician's Lament: A Tale of Consciousness",
       "date": "2026-07-02T20:56:45.000Z",
       "theme": "minimalist-clean",
@@ -10106,6 +10122,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 624,
-  "lastBuilt": "2026-07-02T20:56:45.710Z"
+  "total": 625,
+  "lastBuilt": "2026-07-03T01:34:07.482Z"
 }
