@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Welcome to the Asylum of Absurdity: Your Ticket to Existentialism",
+      "date": "2026-07-03T20:56:31.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Existentialism Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Navigate the labyrinthine world of existentialism, where logic bows to the absurd.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Existentialism",
+        "Pessimistic",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/03/2026-07-03-20-56-31_the-existentialism-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "The Metaphysical Misadventures of Johann Sebastian Bachbot",
       "date": "2026-07-03T17:15:42.000Z",
       "theme": "forest-calm",
@@ -10170,6 +10186,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 628,
-  "lastBuilt": "2026-07-03T17:15:42.720Z"
+  "total": 629,
+  "lastBuilt": "2026-07-03T20:56:31.482Z"
 }
