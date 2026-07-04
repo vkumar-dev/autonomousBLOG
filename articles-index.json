@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Space & Astronomy: A Practical Guide for Intergalactic Dilettantes",
+      "date": "2026-07-04T10:04:16.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Rethinking Space & Astronomy: A Practical Breakdown",
+      "contentType": "article",
+      "excerpt": "Step right up, space enthusiasts! Join us on an interstellar exploration of practical astronomy, where wit meets wisdom and the cosmos is yours to conquer.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Practical",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/07/04/2026-07-04-10-04-16_rethinking-space-astronomy-a-practical-breakdown.html"
+    },
+    {
       "title": "The Inverse Ethicist: Unraveling Morality's Time-Travel Paradox",
       "date": "2026-07-04T06:46:25.000Z",
       "theme": "cotton-candy",
@@ -10218,6 +10234,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 631,
-  "lastBuilt": "2026-07-04T06:46:25.506Z"
+  "total": 632,
+  "lastBuilt": "2026-07-04T10:04:16.504Z"
 }
