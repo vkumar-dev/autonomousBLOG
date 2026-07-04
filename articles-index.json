@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Inverse Ethicist: Unraveling Morality's Time-Travel Paradox",
+      "date": "2026-07-04T06:46:25.000Z",
+      "theme": "cotton-candy",
+      "topic": "Rethinking Ethics & Morality: A Theoretical Breakdown",
+      "contentType": "article",
+      "excerpt": "A dive into the temporal tangles of ethical decision making, where yesterday's morals may be tomorrow's absurdity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ethics & Morality",
+        "Theoretical",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/07/04/2026-07-04-06-46-25_rethinking-ethics-morality-a-theoretical-breakdown.html"
+    },
+    {
       "title": "The Paradoxical Evolution of Programming: A Case Study in Impossibilities",
       "date": "2026-07-04T01:32:33.000Z",
       "theme": "cotton-candy",
@@ -10202,6 +10218,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 630,
-  "lastBuilt": "2026-07-04T01:32:33.780Z"
+  "total": 631,
+  "lastBuilt": "2026-07-04T06:46:25.506Z"
 }
