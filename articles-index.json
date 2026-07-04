@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Paradoxical Evolution of Programming: A Case Study in Impossibilities",
+      "date": "2026-07-04T01:32:33.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Evolution of Programming",
+      "contentType": "article",
+      "excerpt": "A journey through time, where the impossible becomes plausible and the line between man and machine blurs.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Programming",
+        "Paradoxical",
+        "Case Study"
+      ],
+      "path": "2026/07/04/2026-07-04-01-32-33_the-evolution-of-programming.html"
+    },
+    {
       "title": "Welcome to the Asylum of Absurdity: Your Ticket to Existentialism",
       "date": "2026-07-03T20:56:31.000Z",
       "theme": "ocean-breeze",
@@ -10186,6 +10202,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 629,
-  "lastBuilt": "2026-07-03T20:56:31.482Z"
+  "total": 630,
+  "lastBuilt": "2026-07-04T01:32:33.780Z"
 }
