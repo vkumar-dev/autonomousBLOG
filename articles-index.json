@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Psychoanalysis in a Universe Where Dreams are Reality",
+      "date": "2026-07-05T13:09:06.000Z",
+      "theme": "forest-calm",
+      "topic": "Psychology in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Dive into the mind-bending world where dreams become reality and explore the implications for human psychology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Psychology",
+        "Scientific",
+        "Biography"
+      ],
+      "path": "2026/07/05/2026-07-05-13-09-06_psychology-in-an-alternate-universe.html"
+    },
+    {
       "title": "Reverse Economics: The Matrix of Money",
       "date": "2026-07-05T01:35:33.000Z",
       "theme": "ocean-breeze",
@@ -10266,6 +10282,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 634,
-  "lastBuilt": "2026-07-05T10:10:11.397Z"
+  "total": 635,
+  "lastBuilt": "2026-07-05T13:09:06.694Z"
 }
