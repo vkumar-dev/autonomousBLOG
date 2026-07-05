@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Reverse Economics: The Matrix of Money",
+      "date": "2026-07-05T01:35:33.000Z",
+      "theme": "ocean-breeze",
+      "topic": "What If Economics Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "What if money chased value instead of the other way around? Dive into an alternate reality where the economy is flipped on its head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Practical",
+        "Thought Experiment"
+      ],
+      "path": "2026/07/05/2026-07-05-01-35-33_what-if-economics-worked-backwards.html"
+    },
+    {
       "title": "Where Logic Goes to Die: A Paradoxical Journey",
       "date": "2026-07-04T13:00:56.000Z",
       "theme": "matrix-code",
@@ -10250,6 +10266,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 633,
-  "lastBuilt": "2026-07-04T20:50:42.389Z"
+  "total": 634,
+  "lastBuilt": "2026-07-05T01:35:34.053Z"
 }
