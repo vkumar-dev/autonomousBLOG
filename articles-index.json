@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Stargazers of Antiquity: Forgotten Heroes of Modern Life",
+      "date": "2026-07-06T01:38:53.000Z",
+      "theme": "neon-nights",
+      "topic": "Space & Astronomy and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Uncover the forgotten history of stargazers who laid the foundation for our modern understanding of space.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Historical",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/06/2026-07-06-01-38-53_space-astronomy-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "Psychoanalysis in a Universe Where Dreams are Reality",
       "date": "2026-07-05T13:09:06.000Z",
       "theme": "forest-calm",
@@ -10282,6 +10298,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 635,
-  "lastBuilt": "2026-07-05T20:51:33.799Z"
+  "total": 636,
+  "lastBuilt": "2026-07-06T01:38:53.969Z"
 }
