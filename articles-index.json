@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Future of Biology: Debate & Critique",
+      "date": "2026-07-06T21:24:55.000Z",
+      "theme": "industrial",
+      "topic": "The Future of Biology: Debate & Critique",
+      "contentType": "Debate & Critique",
+      "excerpt": "AI-generated article about The Future of Biology: Debate & Critique",
+      "readingTime": 4,
+      "wordCount": 800,
+      "keywords": [],
+      "path": "2026/07/06/2026-07-06-21-24-55_the-future-of-biology-debate-critique.html"
+    },
+    {
       "title": "Stargazers of Antiquity: Forgotten Heroes of Modern Life",
       "date": "2026-07-06T01:38:53.000Z",
       "theme": "neon-nights",
@@ -10298,6 +10310,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 636,
-  "lastBuilt": "2026-07-06T18:09:59.858Z"
+  "total": 637,
+  "lastBuilt": "2026-07-06T21:24:56.093Z"
 }
