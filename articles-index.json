@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Abyssal Calamity: Could Oceanography Exist Without Itself?",
+      "date": "2026-07-07T01:39:28.000Z",
+      "theme": "cotton-candy",
+      "topic": "Could Oceanography Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A thought experiment delving into the origins of oceanography and its peculiar paradox.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Historical",
+        "Case Study"
+      ],
+      "path": "2026/07/07/2026-07-07-01-39-28_could-oceanography-exist-without-itself.html"
+    },
+    {
       "title": "The Future of Biology: Debate & Critique",
       "date": "2026-07-06T21:24:55.000Z",
       "theme": "industrial",
@@ -10310,6 +10326,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 637,
-  "lastBuilt": "2026-07-06T21:24:56.093Z"
+  "total": 638,
+  "lastBuilt": "2026-07-07T01:39:28.987Z"
 }
