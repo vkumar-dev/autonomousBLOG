@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Dance with Incomputability: A Nature Experiment",
+      "date": "2026-07-07T07:34:21.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Computing the Incomputable: A Nature Experiment",
+      "contentType": "article",
+      "excerpt": "An unexpected exploration of nature's own attempts to outsmart the uncomputable.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Absurdist",
+        "Narrative History"
+      ],
+      "path": "2026/07/07/2026-07-07-07-34-21_computing-the-incomputable-a-nature-experiment.html"
+    },
+    {
       "title": "The Abyssal Calamity: Could Oceanography Exist Without Itself?",
       "date": "2026-07-07T01:39:28.000Z",
       "theme": "cotton-candy",
@@ -10326,6 +10342,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 638,
-  "lastBuilt": "2026-07-07T01:39:28.987Z"
+  "total": 639,
+  "lastBuilt": "2026-07-07T07:34:22.081Z"
 }
