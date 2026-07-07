@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "How Geology Tamed the Tech Titans",
+      "date": "2026-07-07T14:05:56.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Intersection of Geology and Technical Deep Dive",
+      "contentType": "article",
+      "excerpt": "A journey through the unexpected world where geology meets technology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Phenomenological",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/07/07/2026-07-07-14-05-56_the-intersection-of-geology-and-technical-deep-dive.html"
+    },
+    {
       "title": "A Dance with Incomputability: A Nature Experiment",
       "date": "2026-07-07T07:34:21.000Z",
       "theme": "minimalist-clean",
@@ -10342,6 +10358,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 639,
-  "lastBuilt": "2026-07-07T10:50:11.279Z"
+  "total": 640,
+  "lastBuilt": "2026-07-07T14:05:56.812Z"
 }
