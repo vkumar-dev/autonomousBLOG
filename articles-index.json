@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Field of Bodies and Invisible Handcuffs",
+      "date": "2026-07-08T10:10:38.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Why Forensics Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "Unraveling the paradoxical importance of forensics, one unsolved murder at a time.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Outsider",
+        "Paradox Exploration"
+      ],
+      "path": "2026/07/08/2026-07-08-10-10-38_why-forensics-matters-for-general-readers.html"
+    },
+    {
       "title": "Tech Trivia Explained: The Matrix Code Is Just a Symphony of Binary Philosophy",
       "date": "2026-07-08T06:27:53.000Z",
       "theme": "paper-ink",
@@ -10390,6 +10406,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 642,
-  "lastBuilt": "2026-07-08T06:27:53.831Z"
+  "total": 643,
+  "lastBuilt": "2026-07-08T10:10:38.267Z"
 }
