@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Reality Where Ethics & Morality Flipped Floppies",
+      "date": "2026-07-08T21:00:04.000Z",
+      "theme": "paper-ink",
+      "topic": "Ethics & Morality",
+      "contentType": "article",
+      "excerpt": "A whimsical exploration of what our world would look like if the very foundation of right and wrong was turned on its head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ethics & Morality",
+        "Historical",
+        "Alternate Reality"
+      ],
+      "path": "2026/07/08/2026-07-08-21-00-04_unraveling-the-complexity-of-ethics-morality.html"
+    },
+    {
       "title": "A Field of Bodies and Invisible Handcuffs",
       "date": "2026-07-08T10:10:38.000Z",
       "theme": "sunset-vibes",
@@ -10406,6 +10422,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 643,
-  "lastBuilt": "2026-07-08T17:23:05.144Z"
+  "total": 644,
+  "lastBuilt": "2026-07-08T21:00:04.149Z"
 }
