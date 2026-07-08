@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Sociologist's Stroll Through the Fourth Dimension",
+      "date": "2026-07-08T01:25:03.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Unraveling the Complexity of Sociology",
+      "contentType": "article",
+      "excerpt": "Exploring how sociology, like a shape-shifting chameleon, confounds our expectations and expands our understanding.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Historical",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/08/2026-07-08-01-25-03_unraveling-the-complexity-of-sociology.html"
+    },
+    {
       "title": "How Geology Tamed the Tech Titans",
       "date": "2026-07-07T14:05:56.000Z",
       "theme": "cotton-candy",
@@ -10358,6 +10374,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 640,
-  "lastBuilt": "2026-07-07T21:18:20.758Z"
+  "total": 641,
+  "lastBuilt": "2026-07-08T01:25:03.860Z"
 }
