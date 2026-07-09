@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "From Barter to Bots: A Satirical Timeline of Economics",
+      "date": "2026-07-09T21:18:57.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Evolution of Economics",
+      "contentType": "article",
+      "excerpt": "A humorous romp through the history of economics, where every era is more absurd than the last.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Existential",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/07/09/2026-07-09-21-18-57_the-evolution-of-economics.html"
+    },
+    {
       "title": "Epistemology: The Unsung Hero of Global Survival",
       "date": "2026-07-09T17:52:48.000Z",
       "theme": "sunset-vibes",
@@ -10482,6 +10498,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 648,
-  "lastBuilt": "2026-07-09T17:52:48.956Z"
+  "total": 649,
+  "lastBuilt": "2026-07-09T21:18:57.806Z"
 }
