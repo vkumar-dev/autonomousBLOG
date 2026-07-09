@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Math Teacher Who Dared to Question Pi",
+      "date": "2026-07-09T01:31:24.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Mathematics for Everyone",
+      "contentType": "article",
+      "excerpt": "A humorous exploration of mathematics, questioning the sacred number Pi and its implications.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Absurdist",
+        "Reference Guide"
+      ],
+      "path": "2026/07/09/2026-07-09-01-31-24_bridging-the-gap-mathematics-for-everyone.html"
+    },
+    {
       "title": "In an Alternate Reality Where Ethics & Morality Flipped Floppies",
       "date": "2026-07-08T21:00:04.000Z",
       "theme": "paper-ink",
@@ -10422,6 +10438,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 644,
-  "lastBuilt": "2026-07-08T21:00:04.149Z"
+  "total": 645,
+  "lastBuilt": "2026-07-09T01:31:24.787Z"
 }
