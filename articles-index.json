@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Sociology in the Modern Era: A Local Approach",
+      "date": "2026-07-09T10:56:06.000Z",
+      "theme": "neon-nights",
+      "topic": "Sociology in the Modern Era: A Local Approach",
+      "contentType": "Counterfactual History",
+      "excerpt": "AI-generated article about Sociology in the Modern Era: A Local Approach",
+      "readingTime": 7,
+      "wordCount": 1400,
+      "keywords": [],
+      "path": "2026/07/09/2026-07-09-10-56-06_sociology-in-the-modern-era-a-local-approach.html"
+    },
+    {
       "title": "The Math Teacher Who Dared to Question Pi",
       "date": "2026-07-09T01:31:24.000Z",
       "theme": "ocean-breeze",
@@ -10438,6 +10450,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 645,
-  "lastBuilt": "2026-07-09T07:35:47.813Z"
+  "total": 646,
+  "lastBuilt": "2026-07-09T10:56:06.810Z"
 }
