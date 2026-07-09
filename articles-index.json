@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Epistemology: The Unsung Hero of Global Survival",
+      "date": "2026-07-09T17:52:48.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Why Epistemology Matters for General Readers",
+      "contentType": "article",
+      "excerpt": "A deep dive into the importance of knowing how we know, and why it's crucial for our future.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Global",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/07/09/2026-07-09-17-52-48_why-epistemology-matters-for-general-readers.html"
+    },
+    {
       "title": "Logic, Reasoning, and the Absurd: A Counterfactual Thought Experiment",
       "date": "2026-07-09T14:29:10.000Z",
       "theme": "industrial",
@@ -10466,6 +10482,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 647,
-  "lastBuilt": "2026-07-09T14:29:10.467Z"
+  "total": 648,
+  "lastBuilt": "2026-07-09T17:52:48.956Z"
 }
