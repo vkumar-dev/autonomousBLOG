@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Logic, Reasoning, and the Absurd: A Counterfactual Thought Experiment",
+      "date": "2026-07-09T14:29:10.000Z",
+      "theme": "industrial",
+      "topic": "The Impossibility of Logic & Reasoning: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "In a world where logic and reasoning reign supreme, what happens when reason itself becomes absurd?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Logic & Reasoning",
+        "Absurdist",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/09/2026-07-09-14-29-10_the-impossibility-of-logic-reasoning-a-thought-experiment.html"
+    },
+    {
       "title": "Sociology in the Modern Era: A Local Approach",
       "date": "2026-07-09T10:56:06.000Z",
       "theme": "neon-nights",
@@ -10450,6 +10466,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 646,
-  "lastBuilt": "2026-07-09T10:56:06.810Z"
+  "total": 647,
+  "lastBuilt": "2026-07-09T14:29:10.467Z"
 }
