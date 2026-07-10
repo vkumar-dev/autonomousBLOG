@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Heart of the Machine: A Forgotten History of Robotics",
+      "date": "2026-07-10T07:32:50.000Z",
+      "theme": "paper-ink",
+      "topic": "How Robotics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "A journey through the unsung heroes and forgotten chapters of robotics, reshaping our understanding of progress.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Celebratory",
+        "Case Study"
+      ],
+      "path": "2026/07/10/2026-07-10-07-32-50_how-robotics-shapes-our-world.html"
+    },
+    {
       "title": "The Biological Matrix: A Peek Behind the Scenes",
       "date": "2026-07-10T01:27:01.000Z",
       "theme": "sunset-vibes",
@@ -10513,6 +10529,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 650,
-  "lastBuilt": "2026-07-10T01:27:01.455Z"
+  "total": 651,
+  "lastBuilt": "2026-07-10T07:32:50.847Z"
 }
