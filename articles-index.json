@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Impossibility of Music Theory: A Thought Experiment",
+      "date": "2026-07-10T10:49:36.000Z",
+      "theme": "matrix-code",
+      "topic": "The Impossibility of Music Theory: A Thought Experiment",
+      "contentType": "Case Study",
+      "excerpt": "AI-generated article about The Impossibility of Music Theory: A Thought Experiment",
+      "readingTime": 6,
+      "wordCount": 1200,
+      "keywords": [],
+      "path": "2026/07/10/2026-07-10-10-49-36_the-impossibility-of-music-theory-a-thought-experiment.html"
+    },
+    {
       "title": "In the Heart of the Machine: A Forgotten History of Robotics",
       "date": "2026-07-10T07:32:50.000Z",
       "theme": "paper-ink",
@@ -10529,6 +10541,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 651,
-  "lastBuilt": "2026-07-10T07:32:50.847Z"
+  "total": 652,
+  "lastBuilt": "2026-07-10T10:49:36.999Z"
 }
