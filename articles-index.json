@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Economics: A Counterfactual Journey",
+      "date": "2026-07-10T13:56:48.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Time Travelers with Economics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "A deep dive into the economic implications of a world where time travel is commonplace.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Ethical",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/07/10/2026-07-10-13-56-48_time-travelers-with-economics-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Impossibility of Music Theory: A Thought Experiment",
       "date": "2026-07-10T10:49:36.000Z",
       "theme": "matrix-code",
@@ -10541,6 +10557,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 652,
-  "lastBuilt": "2026-07-10T10:49:36.999Z"
+  "total": 653,
+  "lastBuilt": "2026-07-10T13:56:48.901Z"
 }
