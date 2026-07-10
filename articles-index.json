@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "The Biological Matrix: A Peek Behind the Scenes",
+      "date": "2026-07-10T01:27:01.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Exploring the Foundations of Biology",
+      "contentType": "article",
+      "excerpt": "Dive deep into the hidden mechanics of life itself. Prepare to question everything you thought you knew.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Biology",
+        "Existential"
+      ],
+      "path": "2026/07/10/2026-07-10-01-27-01_exploring-the-foundations-of-biology.html"
+    },
+    {
       "title": "From Barter to Bots: A Satirical Timeline of Economics",
       "date": "2026-07-09T21:18:57.000Z",
       "theme": "ocean-breeze",
@@ -10498,6 +10513,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 649,
-  "lastBuilt": "2026-07-09T21:18:57.806Z"
+  "total": 650,
+  "lastBuilt": "2026-07-10T01:27:01.455Z"
 }
