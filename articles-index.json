@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mathematics That Makes Sense of Nonsense",
+      "date": "2026-07-11T12:52:09.000Z",
+      "theme": "forest-calm",
+      "topic": "The Mathematics That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "A journey through history's most baffling equations and the audacious thinkers who made them dance.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Optimistic",
+        "Historical Analysis"
+      ],
+      "path": "2026/07/11/2026-07-11-12-52-09_the-mathematics-that-defies-intuition.html"
+    },
+    {
       "title": "Forensic Fracas: A Dance with Deception",
       "date": "2026-07-11T06:13:00.000Z",
       "theme": "neon-nights",
@@ -10589,6 +10605,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 655,
-  "lastBuilt": "2026-07-11T09:19:47.914Z"
+  "total": 656,
+  "lastBuilt": "2026-07-11T12:52:09.786Z"
 }
