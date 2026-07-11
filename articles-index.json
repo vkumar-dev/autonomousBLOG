@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Phenomenology: A Forgotten History",
+      "date": "2026-07-11T01:22:56.000Z",
+      "theme": "aurora",
+      "topic": "Time Travelers with Phenomenology: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "A brief exploration of the curious case of time travelers and their peculiar fascination with phenomenology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Outsider",
+        "Reference Guide"
+      ],
+      "path": "2026/07/11/2026-07-11-01-22-56_time-travelers-with-phenomenology-a-counterfactual-journey.html"
+    },
+    {
       "title": "Time Travelers with Economics: A Counterfactual Journey",
       "date": "2026-07-10T13:56:48.000Z",
       "theme": "sunset-vibes",
@@ -10557,6 +10573,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 653,
-  "lastBuilt": "2026-07-10T21:05:52.833Z"
+  "total": 654,
+  "lastBuilt": "2026-07-11T01:22:56.941Z"
 }
