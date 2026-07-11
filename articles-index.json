@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Forensic Fracas: A Dance with Deception",
+      "date": "2026-07-11T06:13:00.000Z",
+      "theme": "neon-nights",
+      "topic": "Unraveling the Complexity of Forensics",
+      "contentType": "article",
+      "excerpt": "Delving into the tangled web of forensics, where science and culture collide in a dance of deception.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Critical",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/11/2026-07-11-06-13-00_unraveling-the-complexity-of-forensics.html"
+    },
+    {
       "title": "Time Travelers with Phenomenology: A Forgotten History",
       "date": "2026-07-11T01:22:56.000Z",
       "theme": "aurora",
@@ -10573,6 +10589,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 654,
-  "lastBuilt": "2026-07-11T01:22:56.941Z"
+  "total": 655,
+  "lastBuilt": "2026-07-11T06:13:00.524Z"
 }
