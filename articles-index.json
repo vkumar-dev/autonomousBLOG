@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Dance with Descartes: The Metaphysical Matrix of Science",
+      "date": "2026-07-11T16:47:01.000Z",
+      "theme": "matrix-code",
+      "topic": "Exploring the Foundations of Science",
+      "contentType": "article",
+      "excerpt": "Journey through a mind-bending scenario where reality is but a line of code, and Descartes dances with Pythagoras in a digital hallucination.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Metaphysical",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/07/11/2026-07-11-16-47-01_exploring-the-foundations-of-science.html"
+    },
+    {
       "title": "The Mathematics That Makes Sense of Nonsense",
       "date": "2026-07-11T12:52:09.000Z",
       "theme": "forest-calm",
@@ -10605,6 +10621,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 656,
-  "lastBuilt": "2026-07-11T12:52:09.786Z"
+  "total": 657,
+  "lastBuilt": "2026-07-11T16:47:01.225Z"
 }
