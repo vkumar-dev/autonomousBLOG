@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In Iowa's Fields, Solar-Powered Drones Patrol as Human Farmers Flee",
+      "date": "2026-07-12T06:32:10.000Z",
+      "theme": "matrix-code",
+      "topic": "The Intersection of Sustainability and Theory & Practice",
+      "contentType": "article",
+      "excerpt": "As the sun beats down on the heartland's cornfields, an unlikely guardian emerges.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Economic",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/12/2026-07-12-06-32-10_the-intersection-of-sustainability-and-theory-practice.html"
+    },
+    {
       "title": "A Dance with Descartes: The Metaphysical Matrix of Science",
       "date": "2026-07-11T16:47:01.000Z",
       "theme": "matrix-code",
@@ -10621,6 +10637,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 657,
-  "lastBuilt": "2026-07-11T20:45:15.948Z"
+  "total": 658,
+  "lastBuilt": "2026-07-12T06:32:10.873Z"
 }
