@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Universe's Secret Sauce: Recipe for a Cosmic Revolution",
+      "date": "2026-07-12T12:52:54.000Z",
+      "theme": "aurora",
+      "topic": "Rethinking Space & Astronomy: A Balanced Breakdown",
+      "contentType": "article",
+      "excerpt": "Discover the unexpected twists that could change our understanding of space and astronomy forever.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Balanced",
+        "Speculative Future"
+      ],
+      "path": "2026/07/12/2026-07-12-12-52-54_rethinking-space-astronomy-a-balanced-breakdown.html"
+    },
+    {
       "title": "In Iowa's Fields, Solar-Powered Drones Patrol as Human Farmers Flee",
       "date": "2026-07-12T06:32:10.000Z",
       "theme": "matrix-code",
@@ -10637,6 +10653,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 658,
-  "lastBuilt": "2026-07-12T09:40:14.350Z"
+  "total": 659,
+  "lastBuilt": "2026-07-12T12:52:54.332Z"
 }
