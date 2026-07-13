@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Ontology: A Thought Experiment",
+      "date": "2026-07-13T01:25:34.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Impossibility of Ontology: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into the Matrix of ontological paradoxes and come out questioning reality itself.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ontology",
+        "Metaphysical",
+        "Educational Essay"
+      ],
+      "path": "2026/07/13/2026-07-13-01-25-34_the-impossibility-of-ontology-a-thought-experiment.html"
+    },
+    {
       "title": "The Universe's Secret Sauce: Recipe for a Cosmic Revolution",
       "date": "2026-07-12T12:52:54.000Z",
       "theme": "aurora",
@@ -10653,6 +10669,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 659,
-  "lastBuilt": "2026-07-12T20:41:21.555Z"
+  "total": 660,
+  "lastBuilt": "2026-07-13T01:25:34.588Z"
 }
