@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Myth of Tech Trivia: A Thought Experiment",
+      "date": "2026-07-13T10:54:41.000Z",
+      "theme": "neon-nights",
+      "topic": "The Impossibility of Tech Trivia: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "A journey through the illusory landscape of tech trivia, where history and reality collide in a mind-bending exploration.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Tech Trivia",
+        "Historical",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/07/13/2026-07-13-10-54-41_the-impossibility-of-tech-trivia-a-thought-experiment.html"
+    },
+    {
       "title": "The Matrix of Ontology: A Thought Experiment",
       "date": "2026-07-13T01:25:34.000Z",
       "theme": "minimalist-clean",
@@ -10669,6 +10685,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 660,
-  "lastBuilt": "2026-07-13T06:50:16.948Z"
+  "total": 661,
+  "lastBuilt": "2026-07-13T10:54:41.342Z"
 }
