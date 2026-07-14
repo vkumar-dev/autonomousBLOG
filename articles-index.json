@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Phenomenology for Fools: What if the World was Local?",
+      "date": "2026-07-14T13:06:26.000Z",
+      "theme": "midnight-sky",
+      "topic": "Bridging the Gap: Phenomenology for Everyone",
+      "contentType": "article",
+      "excerpt": "Exploring a world where subjective experiences determine reality, and the universe is but a dream in your local coffee shop.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Local",
+        "What-If Analysis"
+      ],
+      "path": "2026/07/14/2026-07-14-13-06-26_bridging-the-gap-phenomenology-for-everyone.html"
+    },
+    {
       "title": "The Matrix of Madness: A Dangerous Liaison with Epistemology",
       "date": "2026-07-14T06:09:23.000Z",
       "theme": "industrial",
@@ -10701,6 +10717,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 662,
-  "lastBuilt": "2026-07-14T09:50:19.565Z"
+  "total": 663,
+  "lastBuilt": "2026-07-14T13:06:26.832Z"
 }
