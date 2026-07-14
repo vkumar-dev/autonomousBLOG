@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rock and Roll Revolutions: Geology's Great Leap Forward",
+      "date": "2026-07-14T20:55:29.000Z",
+      "theme": "matrix-code",
+      "topic": "Rethinking Geology: A Futuristic Breakdown",
+      "contentType": "article",
+      "excerpt": "A daring exploration of geology's future, where the past is prologue and the present is merely the beginning.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Futuristic",
+        "Reference Guide"
+      ],
+      "path": "2026/07/14/2026-07-14-20-55-29_rethinking-geology-a-futuristic-breakdown.html"
+    },
+    {
       "title": "Phenomenology for Fools: What if the World was Local?",
       "date": "2026-07-14T13:06:26.000Z",
       "theme": "midnight-sky",
@@ -10717,6 +10733,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 663,
-  "lastBuilt": "2026-07-14T17:06:12.634Z"
+  "total": 664,
+  "lastBuilt": "2026-07-14T20:55:29.888Z"
 }
