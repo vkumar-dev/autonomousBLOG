@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Madness: A Dangerous Liaison with Epistemology",
+      "date": "2026-07-14T06:09:23.000Z",
+      "theme": "industrial",
+      "topic": "Unraveling the Complexity of Epistemology",
+      "contentType": "article",
+      "excerpt": "A foray into the tangled web of truth, a journey through the labyrinth of knowledge.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Futuristic",
+        "Alternate Reality"
+      ],
+      "path": "2026/07/14/2026-07-14-06-09-23_unraveling-the-complexity-of-epistemology.html"
+    },
+    {
       "title": "The Myth of Tech Trivia: A Thought Experiment",
       "date": "2026-07-13T10:54:41.000Z",
       "theme": "neon-nights",
@@ -10685,6 +10701,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 661,
-  "lastBuilt": "2026-07-14T01:15:49.433Z"
+  "total": 662,
+  "lastBuilt": "2026-07-14T06:09:23.537Z"
 }
