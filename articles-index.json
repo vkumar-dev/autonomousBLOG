@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cryptography Game Changer You Never Saw Coming",
+      "date": "2026-07-15T13:08:12.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Rethinking Cryptography: A Practical Breakdown",
+      "contentType": "article",
+      "excerpt": "A deep dive into the unexpected connection reshaping cryptography, and how it's turning traditional wisdom on its head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cryptography",
+        "Practical",
+        "Debate & Critique"
+      ],
+      "path": "2026/07/15/2026-07-15-13-08-12_rethinking-cryptography-a-practical-breakdown.html"
+    },
+    {
       "title": "The Art World's Unspoken Economic Matrix",
       "date": "2026-07-15T06:12:03.000Z",
       "theme": "cotton-candy",
@@ -10749,6 +10765,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 665,
-  "lastBuilt": "2026-07-15T09:56:06.610Z"
+  "total": 666,
+  "lastBuilt": "2026-07-15T13:08:12.452Z"
 }
