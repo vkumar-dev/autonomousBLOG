@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Art World's Unspoken Economic Matrix",
+      "date": "2026-07-15T06:12:03.000Z",
+      "theme": "cotton-candy",
+      "topic": "Exploring the Foundations of Art & Design",
+      "contentType": "article",
+      "excerpt": "Dive into a riveting debate on art, ethics, and the cold hand of economics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Ethical",
+        "Debate & Critique"
+      ],
+      "path": "2026/07/15/2026-07-15-06-12-03_exploring-the-foundations-of-art-design.html"
+    },
+    {
       "title": "Rock and Roll Revolutions: Geology's Great Leap Forward",
       "date": "2026-07-14T20:55:29.000Z",
       "theme": "matrix-code",
@@ -10733,6 +10749,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 664,
-  "lastBuilt": "2026-07-14T20:55:29.888Z"
+  "total": 665,
+  "lastBuilt": "2026-07-15T06:12:03.678Z"
 }
