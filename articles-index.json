@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Could Cryptography Have Evolved Without Itself?",
+      "date": "2026-07-16T09:59:51.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Could Cryptography Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A scientific breakdown that challenges the very foundations of cryptography.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cryptography",
+        "Phenomenological",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/07/16/2026-07-16-09-59-51_could-cryptography-exist-without-itself.html"
+    },
+    {
       "title": "The Science of Reality: A Guide to the Unseen World",
       "date": "2026-07-16T01:20:42.000Z",
       "theme": "industrial",
@@ -10796,6 +10812,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 668,
-  "lastBuilt": "2026-07-16T06:15:55.217Z"
+  "total": 669,
+  "lastBuilt": "2026-07-16T09:59:51.391Z"
 }
