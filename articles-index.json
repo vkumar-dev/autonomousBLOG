@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Green Goldrush and the Unseen Profiteers",
+      "date": "2026-07-16T13:17:21.000Z",
+      "theme": "neon-nights",
+      "topic": "The Intersection of Sustainability and Exploratory Investigation",
+      "contentType": "article",
+      "excerpt": "A deep dive into the economic reality of sustainability, where every leaf is a dollar and every seed a potential fortune.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Local",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/07/16/2026-07-16-13-17-21_the-intersection-of-sustainability-and-exploratory-investigation.html"
+    },
+    {
       "title": "Could Cryptography Have Evolved Without Itself?",
       "date": "2026-07-16T09:59:51.000Z",
       "theme": "sunset-vibes",
@@ -10812,6 +10828,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 669,
-  "lastBuilt": "2026-07-16T09:59:51.391Z"
+  "total": 670,
+  "lastBuilt": "2026-07-16T13:17:21.860Z"
 }
