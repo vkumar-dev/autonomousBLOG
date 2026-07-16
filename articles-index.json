@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "From Corinthian Columns to Glass Skyscrapers: A Psychological Journey",
+      "date": "2026-07-16T17:07:03.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Architecture in the Modern Era: An Outsider Approach",
+      "contentType": "article",
+      "excerpt": "Exploring the mind behind the buildings and the human element that shapes our urban landscapes.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Outsider",
+        "Myth-Busting"
+      ],
+      "path": "2026/07/16/2026-07-16-17-07-03_architecture-in-the-modern-era-a-outsider-approach.html"
+    },
+    {
       "title": "The Green Goldrush and the Unseen Profiteers",
       "date": "2026-07-16T13:17:21.000Z",
       "theme": "neon-nights",
@@ -10828,6 +10844,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 670,
-  "lastBuilt": "2026-07-16T13:17:21.860Z"
+  "total": 671,
+  "lastBuilt": "2026-07-16T17:07:04.082Z"
 }
