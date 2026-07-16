@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Science of Reality: A Guide to the Unseen World",
+      "date": "2026-07-16T01:20:42.000Z",
+      "theme": "industrial",
+      "topic": "How Science Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Discover how science unveils the hidden layers of reality, and why it's crucial to question the status quo.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Philosophical",
+        "Practical Guide"
+      ],
+      "path": "2026/07/16/2026-07-16-01-20-42_how-science-shapes-our-world.html"
+    },
+    {
       "title": "Defying Intuition: The Anthropology That'll Make You Do a Double Take",
       "date": "2026-07-15T20:54:09.000Z",
       "theme": "aurora",
@@ -10780,6 +10796,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 667,
-  "lastBuilt": "2026-07-15T20:54:09.477Z"
+  "total": 668,
+  "lastBuilt": "2026-07-16T01:20:42.729Z"
 }
