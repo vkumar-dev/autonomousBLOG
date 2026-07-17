@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Neuroscience Was a Rewind Tape?",
+      "date": "2026-07-17T01:24:38.000Z",
+      "theme": "neon",
+      "topic": "What If Neuroscience Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "A thought-provoking exploration of what happens when we challenge the conventions of neuroscience.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Pessimistic",
+        "Conceptual Overview"
+      ],
+      "path": "2026/07/17/2026-07-17-01-24-38_what-if-neuroscience-worked-backwards.html"
+    },
+    {
       "title": "From Corinthian Columns to Glass Skyscrapers: A Psychological Journey",
       "date": "2026-07-16T17:07:03.000Z",
       "theme": "minimalist-clean",
@@ -10844,6 +10860,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 671,
-  "lastBuilt": "2026-07-16T20:49:54.663Z"
+  "total": 672,
+  "lastBuilt": "2026-07-17T01:24:38.349Z"
 }
