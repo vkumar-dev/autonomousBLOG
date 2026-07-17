@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Swarm of Solar-Powered Drones: The Future We've Always Wanted",
+      "date": "2026-07-17T13:02:58.000Z",
+      "theme": "cotton-candy",
+      "topic": "Sustainability Explained: Technical Deep Dive",
+      "contentType": "article",
+      "excerpt": "Exploring a world where renewable energy meets autonomous technology, and the results are nothing short of breathtaking.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Counterfactual",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/07/17/2026-07-17-13-02-58_sustainability-explained-technical-deep-dive.html"
+    },
+    {
       "title": "The Hidden Mechanics of Metaphysics: A Myth-Busting Expedition",
       "date": "2026-07-17T09:50:39.000Z",
       "theme": "sunset-vibes",
@@ -10892,6 +10908,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 674,
-  "lastBuilt": "2026-07-17T09:50:39.831Z"
+  "total": 675,
+  "lastBuilt": "2026-07-17T13:02:58.878Z"
 }
