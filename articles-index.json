@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Hidden Mechanics of Metaphysics: A Myth-Busting Expedition",
+      "date": "2026-07-17T09:50:39.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Evolution of Metaphysics",
+      "contentType": "article",
+      "excerpt": "Unveiling the hidden machinations behind metaphysical concepts, proving once and for all that reality is stranger than you think.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Metaphysics",
+        "Scientific",
+        "Myth-Busting"
+      ],
+      "path": "2026/07/17/2026-07-17-09-50-39_the-evolution-of-metaphysics.html"
+    },
+    {
       "title": "A Cornucopia of Unseen Science: The Great Economic Debate",
       "date": "2026-07-17T06:14:14.000Z",
       "theme": "ocean-breeze",
@@ -10876,6 +10892,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 673,
-  "lastBuilt": "2026-07-17T06:14:14.181Z"
+  "total": 674,
+  "lastBuilt": "2026-07-17T09:50:39.831Z"
 }
