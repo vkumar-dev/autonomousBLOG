@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Cornucopia of Unseen Science: The Great Economic Debate",
+      "date": "2026-07-17T06:14:14.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Science: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "An enchanting journey through the hidden realms of science, where economic principles meet the ethereal.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Science",
+        "Economic",
+        "Debate & Critique"
+      ],
+      "path": "2026/07/17/2026-07-17-06-14-14_science-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "What If Neuroscience Was a Rewind Tape?",
       "date": "2026-07-17T01:24:38.000Z",
       "theme": "neon",
@@ -10860,6 +10876,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 672,
-  "lastBuilt": "2026-07-17T01:24:38.349Z"
+  "total": 673,
+  "lastBuilt": "2026-07-17T06:14:14.181Z"
 }
