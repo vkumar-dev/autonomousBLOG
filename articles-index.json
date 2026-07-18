@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures Playing Chess with Time",
+      "date": "2026-07-18T12:51:36.000Z",
+      "theme": "cotton-candy",
+      "topic": "What If Ancient Cultures Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Exploring the radical possibility that ancient civilizations were not only ahead of their time, but working backwards from ours.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ancient Cultures",
+        "Practical",
+        "Biography"
+      ],
+      "path": "2026/07/18/2026-07-18-12-51-36_what-if-ancient-cultures-worked-backwards.html"
+    },
+    {
       "title": "The Phenomenology of the Balanced Mind: An Unexpected Connection",
       "date": "2026-07-18T09:19:05.000Z",
       "theme": "paper-ink",
@@ -10940,6 +10956,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 677,
-  "lastBuilt": "2026-07-18T09:19:05.973Z"
+  "total": 678,
+  "lastBuilt": "2026-07-18T12:51:36.894Z"
 }
