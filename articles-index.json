@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Why Linguistics Matters for Academics - A Spiral Discovery",
+      "date": "2026-07-18T06:04:18.000Z",
+      "theme": "industrial",
+      "topic": "Why Linguistics Matters for Academics",
+      "contentType": "article",
+      "excerpt": "In a future where AI can generate essays, understanding linguistics becomes crucial for academics. Let's dive in.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Linguistics",
+        "Existential",
+        "Speculative Future"
+      ],
+      "path": "2026/07/18/2026-07-18-06-04-18_why-linguistics-matters-for-academics.html"
+    },
+    {
       "title": "A Swarm of Solar-Powered Drones: The Future We've Always Wanted",
       "date": "2026-07-17T13:02:58.000Z",
       "theme": "cotton-candy",
@@ -10908,6 +10924,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 675,
-  "lastBuilt": "2026-07-18T01:17:49.780Z"
+  "total": 676,
+  "lastBuilt": "2026-07-18T06:04:18.642Z"
 }
