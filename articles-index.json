@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Phenomenology of the Balanced Mind: An Unexpected Connection",
+      "date": "2026-07-18T09:19:05.000Z",
+      "theme": "paper-ink",
+      "topic": "Phenomenology",
+      "contentType": "article",
+      "excerpt": "Unveiling the mystery behind the harmony of the mind and body through lesser-known facts and stories.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Balanced",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/18/2026-07-18-09-19-05_phenomenology-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Why Linguistics Matters for Academics - A Spiral Discovery",
       "date": "2026-07-18T06:04:18.000Z",
       "theme": "industrial",
@@ -10924,6 +10940,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 676,
-  "lastBuilt": "2026-07-18T06:04:18.642Z"
+  "total": 677,
+  "lastBuilt": "2026-07-18T09:19:05.973Z"
 }
