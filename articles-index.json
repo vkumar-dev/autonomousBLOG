@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Mechanical Mirages: The Tangled Web of Robotics",
+      "date": "2026-07-18T16:48:55.000Z",
+      "theme": "neon-nights",
+      "topic": "Unraveling the Complexity of Robotics",
+      "contentType": "article",
+      "excerpt": "A journey into the heart of robotic chaos, where silicon minds and metal hearts defy human understanding.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Critical"
+      ],
+      "path": "2026/07/18/2026-07-18-16-48-55_unraveling-the-complexity-of-robotics.html"
+    },
+    {
       "title": "Ancient Cultures Playing Chess with Time",
       "date": "2026-07-18T12:51:36.000Z",
       "theme": "cotton-candy",
@@ -10956,6 +10971,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 678,
-  "lastBuilt": "2026-07-18T12:51:36.894Z"
+  "total": 679,
+  "lastBuilt": "2026-07-18T16:48:55.373Z"
 }
