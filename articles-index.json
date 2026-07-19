@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Linguistics: The Economic Language of Cultural Exchange",
+      "date": "2026-07-19T01:22:22.000Z",
+      "theme": "forest-calm",
+      "topic": "The Philosophy Behind Linguistics",
+      "contentType": "article",
+      "excerpt": "A journey through the economic and cultural implications of linguistic evolution.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Linguistics",
+        "Economic",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/19/2026-07-19-01-22-22_the-philosophy-behind-linguistics.html"
+    },
+    {
       "title": "Mechanical Mirages: The Tangled Web of Robotics",
       "date": "2026-07-18T16:48:55.000Z",
       "theme": "neon-nights",
@@ -10971,6 +10987,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 679,
-  "lastBuilt": "2026-07-18T20:42:16.376Z"
+  "total": 680,
+  "lastBuilt": "2026-07-19T01:22:23.030Z"
 }
