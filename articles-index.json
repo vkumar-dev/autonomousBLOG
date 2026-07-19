@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Earth's Tectonic Time-Travel Agency",
+      "date": "2026-07-19T09:48:45.000Z",
+      "theme": "matrix-code",
+      "topic": "Geology, Local",
+      "contentType": "article",
+      "excerpt": "Exploring a mind-bending scenario where geological time travel is not only possible but local.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Local",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/07/19/2026-07-19-09-48-45_geology-a-local-perspective.html"
+    },
+    {
       "title": "Linguistics: The Economic Language of Cultural Exchange",
       "date": "2026-07-19T01:22:22.000Z",
       "theme": "forest-calm",
@@ -10987,6 +11003,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 680,
-  "lastBuilt": "2026-07-19T06:30:39.444Z"
+  "total": 681,
+  "lastBuilt": "2026-07-19T09:48:45.841Z"
 }
