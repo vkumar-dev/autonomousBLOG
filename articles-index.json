@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Painting the Town with Quantum Dots: A Mind-Bending Local Art Scene",
+      "date": "2026-07-20T13:40:41.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Art & Design",
+      "contentType": "article",
+      "excerpt": "Discover how quantum dots are revolutionizing local art, one luminescent stroke at a time.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Local"
+      ],
+      "path": "2026/07/20/2026-07-20-13-40-41_art-design-practical-applications-and-insights.html"
+    },
+    {
       "title": "When Machines Dream of Incomputability",
       "date": "2026-07-20T01:25:10.000Z",
       "theme": "forest-calm",
@@ -11019,6 +11034,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 682,
-  "lastBuilt": "2026-07-20T10:45:09.463Z"
+  "total": 683,
+  "lastBuilt": "2026-07-20T13:40:41.289Z"
 }
