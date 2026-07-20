@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Machines Dream of Incomputability",
+      "date": "2026-07-20T01:25:10.000Z",
+      "theme": "forest-calm",
+      "topic": "Computing the Incomputable: A Robotics Experiment",
+      "contentType": "article",
+      "excerpt": "What if robots started dreaming of incomputable problems? A whimsical exploration into the absurd and the profound.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Existential",
+        "Conceptual Overview"
+      ],
+      "path": "2026/07/20/2026-07-20-01-25-10_computing-the-incomputable-a-robotics-experiment.html"
+    },
+    {
       "title": "The Earth's Tectonic Time-Travel Agency",
       "date": "2026-07-19T09:48:45.000Z",
       "theme": "matrix-code",
@@ -11003,6 +11019,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 681,
-  "lastBuilt": "2026-07-19T20:43:23.372Z"
+  "total": 682,
+  "lastBuilt": "2026-07-20T01:25:10.973Z"
 }
