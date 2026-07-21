@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Skyscraper Paradox: A Tale of Steel and Silhouettes",
+      "date": "2026-07-21T21:04:42.000Z",
+      "theme": "paper-ink",
+      "topic": "Architecture and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "Exploring the paradoxical nature of skyscrapers, the giants that shape our cities yet vanish at dusk.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Phenomenological",
+        "Paradox Exploration"
+      ],
+      "path": "2026/07/21/2026-07-21-21-04-42_architecture-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "Time Travelers with Linguistics: A Counterfactual Journey",
       "date": "2026-07-21T17:12:02.000Z",
       "theme": "matrix-code",
@@ -11081,6 +11097,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 686,
-  "lastBuilt": "2026-07-21T17:12:02.188Z"
+  "total": 687,
+  "lastBuilt": "2026-07-21T21:04:43.061Z"
 }
