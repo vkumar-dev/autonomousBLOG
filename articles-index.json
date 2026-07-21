@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Nature Chronotourists: A Counterfactual Tale",
+      "date": "2026-07-21T13:14:57.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Time Travelers with Nature: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "A humorous exploration of what might happen if time travelers decided to meddle in nature.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Practical",
+        "Conceptual Overview"
+      ],
+      "path": "2026/07/21/2026-07-21-13-14-57_time-travelers-with-nature-a-counterfactual-journey.html"
+    },
+    {
       "title": "Technology's Hidden Depths: A Dive into the Meta-Matrix",
       "date": "2026-07-21T06:28:51.000Z",
       "theme": "paper-ink",
@@ -11049,6 +11065,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 684,
-  "lastBuilt": "2026-07-21T06:28:51.576Z"
+  "total": 685,
+  "lastBuilt": "2026-07-21T13:14:57.294Z"
 }
