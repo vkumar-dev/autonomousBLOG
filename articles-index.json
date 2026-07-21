@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Linguistics: A Counterfactual Journey",
+      "date": "2026-07-21T17:12:02.000Z",
+      "theme": "matrix-code",
+      "topic": "Time Travelers with Linguistics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Exploring the metaphysical implications of time travelers carrying dictionaries, not cell phones.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Linguistics",
+        "Modern",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/21/2026-07-21-17-12-02_time-travelers-with-linguistics-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Nature Chronotourists: A Counterfactual Tale",
       "date": "2026-07-21T13:14:57.000Z",
       "theme": "minimalist-clean",
@@ -11065,6 +11081,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 685,
-  "lastBuilt": "2026-07-21T13:14:57.294Z"
+  "total": 686,
+  "lastBuilt": "2026-07-21T17:12:02.188Z"
 }
