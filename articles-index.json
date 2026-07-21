@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Technology's Hidden Depths: A Dive into the Meta-Matrix",
+      "date": "2026-07-21T06:28:51.000Z",
+      "theme": "paper-ink",
+      "topic": "The Hidden Depths of Technology",
+      "contentType": "article",
+      "excerpt": "Exploring the metaphysical implications of a world where technology has surpassed human comprehension.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Pessimistic"
+      ],
+      "path": "2026/07/21/2026-07-21-06-28-51_the-hidden-depths-of-technology.html"
+    },
+    {
       "title": "Painting the Town with Quantum Dots: A Mind-Bending Local Art Scene",
       "date": "2026-07-20T13:40:41.000Z",
       "theme": "ocean-breeze",
@@ -11034,6 +11049,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 683,
-  "lastBuilt": "2026-07-21T01:25:02.217Z"
+  "total": 684,
+  "lastBuilt": "2026-07-21T06:28:51.576Z"
 }
