@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Philosophical Time Machine: A Trip to Ancient Greece",
+      "date": "2026-07-22T21:00:14.000Z",
+      "theme": "neon-nights",
+      "topic": "The Hidden Depths of Philosophy",
+      "contentType": "article",
+      "excerpt": "Jump in a time machine, grab some wine, and join Socrates for an evening of intellectual sparring.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Philosophy",
+        "Ancient",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/22/2026-07-22-21-00-14_the-hidden-depths-of-philosophy.html"
+    },
+    {
       "title": "Time Travelers, Calculators, and the Great Historical Hoax",
       "date": "2026-07-22T17:12:42.000Z",
       "theme": "cotton-candy",
@@ -11113,6 +11129,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 688,
-  "lastBuilt": "2026-07-22T17:12:42.549Z"
+  "total": 689,
+  "lastBuilt": "2026-07-22T21:00:14.758Z"
 }
