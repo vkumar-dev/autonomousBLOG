@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers, Calculators, and the Great Historical Hoax",
+      "date": "2026-07-22T17:12:42.000Z",
+      "theme": "cotton-candy",
+      "topic": "Unraveling the Complexity of History",
+      "contentType": "article",
+      "excerpt": "The fascinating tale of how calculators revealed a shocking truth about history.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Practical",
+        "Myth-Busting"
+      ],
+      "path": "2026/07/22/2026-07-22-17-12-42_unraveling-the-complexity-of-history.html"
+    },
+    {
       "title": "The Skyscraper Paradox: A Tale of Steel and Silhouettes",
       "date": "2026-07-21T21:04:42.000Z",
       "theme": "paper-ink",
@@ -11097,6 +11113,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 687,
-  "lastBuilt": "2026-07-22T13:19:23.985Z"
+  "total": 688,
+  "lastBuilt": "2026-07-22T17:12:42.549Z"
 }
