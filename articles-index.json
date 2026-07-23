@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Cognitive Science in an Alternate Universe",
+      "date": "2026-07-23T01:25:17.000Z",
+      "theme": "paper-ink",
+      "topic": "Cognitive Science in an Alternate Universe",
+      "contentType": "Myth-Busting",
+      "excerpt": "AI-generated article about Cognitive Science in an Alternate Universe",
+      "readingTime": 7,
+      "wordCount": 1400,
+      "keywords": [],
+      "path": "2026/07/23/2026-07-23-01-25-17_cognitive-science-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Philosophical Time Machine: A Trip to Ancient Greece",
       "date": "2026-07-22T21:00:14.000Z",
       "theme": "neon-nights",
@@ -11129,6 +11141,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 689,
-  "lastBuilt": "2026-07-22T21:00:14.758Z"
+  "total": 690,
+  "lastBuilt": "2026-07-23T01:25:17.504Z"
 }
