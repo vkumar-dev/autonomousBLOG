@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "When Art Imitates Mechanics: A Case Study in Counterfactual Art & Design",
+      "date": "2026-07-24T10:10:40.000Z",
+      "theme": "matrix-code",
+      "topic": "The Impossibility of Art & Design: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if art was just a well-oiled machine? Let's explore the absurdity and the truth behind the mechanics of creativity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Counterfactual",
+        "Case Study"
+      ],
+      "path": "2026/07/24/2026-07-24-10-10-40_the-impossibility-of-art-design-a-thought-experiment.html"
+    },
+    {
       "title": "Cognitive Science in an Alternate Universe",
       "date": "2026-07-23T01:25:17.000Z",
       "theme": "paper-ink",
@@ -11141,6 +11157,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 690,
-  "lastBuilt": "2026-07-24T06:24:01.849Z"
+  "total": 691,
+  "lastBuilt": "2026-07-24T10:10:40.431Z"
 }
