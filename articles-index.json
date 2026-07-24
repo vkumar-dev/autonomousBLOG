@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Deep Sea's Dial-Up Modem: A Historical Analysis of Oceanography",
+      "date": "2026-07-24T13:18:02.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Consciousness of Oceanography: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A historical examination of oceanographic technology reveals a surprising parallel to the evolution of our own consciousness.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Economic",
+        "Historical Analysis"
+      ],
+      "path": "2026/07/24/2026-07-24-13-18-02_the-consciousness-of-oceanography-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "When Art Imitates Mechanics: A Case Study in Counterfactual Art & Design",
       "date": "2026-07-24T10:10:40.000Z",
       "theme": "matrix-code",
@@ -11157,6 +11173,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 691,
-  "lastBuilt": "2026-07-24T10:10:40.431Z"
+  "total": 692,
+  "lastBuilt": "2026-07-24T13:18:02.191Z"
 }
