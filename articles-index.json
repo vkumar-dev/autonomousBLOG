@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A World Where Music Theory Runs Backwards",
+      "date": "2026-07-24T20:58:48.000Z",
+      "theme": "neon-nights",
+      "topic": "What If Music Theory Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Dare to ponder a universe where music theory defies our understanding. A journey through sound, logic, and the absurd.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Outsider",
+        "Educational Essay"
+      ],
+      "path": "2026/07/24/2026-07-24-20-58-48_what-if-music-theory-worked-backwards.html"
+    },
+    {
       "title": "The Matrix of Mind-Blowing Thought Experiments",
       "date": "2026-07-24T17:27:26.000Z",
       "theme": "neon-noir",
@@ -11189,6 +11205,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 693,
-  "lastBuilt": "2026-07-24T17:27:27.053Z"
+  "total": 694,
+  "lastBuilt": "2026-07-24T20:58:48.371Z"
 }
