@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Mind-Blowing Thought Experiments",
+      "date": "2026-07-24T17:27:26.000Z",
+      "theme": "neon-noir",
+      "topic": "Tech Trivia Explained: Counterfactual AI",
+      "contentType": "article",
+      "excerpt": "What if the Matrix was just a glitch in the AI?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Tech Trivia",
+        "Insider",
+        "Thought Experiment"
+      ],
+      "path": "2026/07/24/2026-07-24-17-27-26_tech-trivia-explained-thought-experiment.html"
+    },
+    {
       "title": "The Deep Sea's Dial-Up Modem: A Historical Analysis of Oceanography",
       "date": "2026-07-24T13:18:02.000Z",
       "theme": "cotton-candy",
@@ -11173,6 +11189,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 692,
-  "lastBuilt": "2026-07-24T13:18:02.191Z"
+  "total": 693,
+  "lastBuilt": "2026-07-24T17:27:27.053Z"
 }
