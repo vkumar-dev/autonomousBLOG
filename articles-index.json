@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Outsider's Guide to Nature's Hidden Dimension",
+      "date": "2026-07-25T13:00:02.000Z",
+      "theme": "neon-nights",
+      "topic": "Nature",
+      "contentType": "article",
+      "excerpt": "An alternate reality tour of the natural world, where the laws of physics are but mere suggestions.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Outsider",
+        "Alternate Reality"
+      ],
+      "path": "2026/07/25/2026-07-25-13-00-02_nature-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Literature and Its Impact on Modern Life",
       "date": "2026-07-25T09:32:33.000Z",
       "theme": "ocean-breeze",
@@ -11233,6 +11249,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 696,
-  "lastBuilt": "2026-07-25T09:32:33.885Z"
+  "total": 697,
+  "lastBuilt": "2026-07-25T13:00:02.741Z"
 }
