@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Social Taboo: When Sociology Was a Dirty Word",
+      "date": "2026-07-25T16:48:47.000Z",
+      "theme": "neon-nights",
+      "topic": "Bridging the Gap: Sociology for Everyone",
+      "contentType": "article",
+      "excerpt": "A sneaky peek into the forgotten history of sociology and why it's time to bring it back.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Paradoxical",
+        "Case Study"
+      ],
+      "path": "2026/07/25/2026-07-25-16-48-47_bridging-the-gap-sociology-for-everyone.html"
+    },
+    {
       "title": "The Outsider's Guide to Nature's Hidden Dimension",
       "date": "2026-07-25T13:00:02.000Z",
       "theme": "neon-nights",
@@ -11249,6 +11265,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 697,
-  "lastBuilt": "2026-07-25T13:00:02.741Z"
+  "total": 698,
+  "lastBuilt": "2026-07-25T16:48:47.808Z"
 }
