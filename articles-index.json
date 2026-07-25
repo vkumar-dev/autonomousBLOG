@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Epistemology's Hidden Time Machine",
+      "date": "2026-07-25T06:15:25.000Z",
+      "theme": "aurora",
+      "topic": "Epistemology in the Modern Era: A Global Approach",
+      "contentType": "article",
+      "excerpt": "A global journey through the twists and turns of modern epistemology, revealing its hidden mechanics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Global",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/07/25/2026-07-25-06-15-25_epistemology-in-the-modern-era-a-global-approach.html"
+    },
+    {
       "title": "A World Where Music Theory Runs Backwards",
       "date": "2026-07-24T20:58:48.000Z",
       "theme": "neon-nights",
@@ -11205,6 +11221,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 694,
-  "lastBuilt": "2026-07-25T01:25:55.704Z"
+  "total": 695,
+  "lastBuilt": "2026-07-25T06:15:25.647Z"
 }
