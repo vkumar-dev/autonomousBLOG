@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Unraveling History's Gordian Knot",
+      "date": "2026-07-26T16:51:59.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Exploring the Foundations of History",
+      "contentType": "article",
+      "excerpt": "A practical guide to peeling back the layers of historical complexity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "History",
+        "Theoretical"
+      ],
+      "path": "2026/07/26/2026-07-26-16-51-59_exploring-the-foundations-of-history.html"
+    },
+    {
       "title": "The Sustainable Matrix: A Pessimist's Paradise",
       "date": "2026-07-26T12:56:45.000Z",
       "theme": "industrial",
@@ -11297,6 +11312,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 700,
-  "lastBuilt": "2026-07-26T12:56:45.702Z"
+  "total": 701,
+  "lastBuilt": "2026-07-26T16:51:59.640Z"
 }
