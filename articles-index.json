@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "IoT for All: The Hidden Mechanics of a World Wired",
+      "date": "2026-07-26T06:32:19.000Z",
+      "theme": "neon-nights",
+      "topic": "Bridging the Gap: Technology for Everyone",
+      "contentType": "article",
+      "excerpt": "Exploring the unseen gears turning in our smart, interconnected world.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Optimistic",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/07/26/2026-07-26-06-32-19_bridging-the-gap-technology-for-everyone.html"
+    },
+    {
       "title": "The Great Social Taboo: When Sociology Was a Dirty Word",
       "date": "2026-07-25T16:48:47.000Z",
       "theme": "neon-nights",
@@ -11265,6 +11281,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 698,
-  "lastBuilt": "2026-07-26T01:27:30.856Z"
+  "total": 699,
+  "lastBuilt": "2026-07-26T06:32:20.094Z"
 }
