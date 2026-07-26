@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Myths vs Reality: Unveiling the Forgotten History of Literature",
+      "date": "2026-07-26T20:49:47.000Z",
+      "theme": "cotton-candy",
+      "topic": "Literature: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of literature, where myths and realities intertwine in unexpected ways.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Literature",
+        "Practical",
+        "Debate & Critique"
+      ],
+      "path": "2026/07/26/2026-07-26-20-49-47_literature-myths-vs-reality.html"
+    },
+    {
       "title": "Unraveling History's Gordian Knot",
       "date": "2026-07-26T16:51:59.000Z",
       "theme": "sunset-vibes",
@@ -11312,6 +11328,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 701,
-  "lastBuilt": "2026-07-26T16:51:59.640Z"
+  "total": 702,
+  "lastBuilt": "2026-07-26T20:49:48.050Z"
 }
