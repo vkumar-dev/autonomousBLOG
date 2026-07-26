@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sustainable Matrix: A Pessimist's Paradise",
+      "date": "2026-07-26T12:56:45.000Z",
+      "theme": "industrial",
+      "topic": "The Philosophy Behind Sustainability",
+      "contentType": "article",
+      "excerpt": "Exploring the paradoxical world of sustainability through the eyes of a pessimistic polymath.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Pessimistic",
+        "Debate & Critique"
+      ],
+      "path": "2026/07/26/2026-07-26-12-56-45_the-philosophy-behind-sustainability.html"
+    },
+    {
       "title": "IoT for All: The Hidden Mechanics of a World Wired",
       "date": "2026-07-26T06:32:19.000Z",
       "theme": "neon-nights",
@@ -11281,6 +11297,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 699,
-  "lastBuilt": "2026-07-26T09:57:29.434Z"
+  "total": 700,
+  "lastBuilt": "2026-07-26T12:56:45.702Z"
 }
