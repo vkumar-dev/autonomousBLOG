@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Neural Network's Pessimistic Guide to the Philosophical Frontier",
+      "date": "2026-07-27T07:00:48.000Z",
+      "theme": "neon-nights",
+      "topic": "The Intersection of Neuroscience and Philosophical Inquiry",
+      "contentType": "article",
+      "excerpt": "In a world where AI can simulate reality, philosophers are left questioning the very fabric of existence.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Pessimistic",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/07/27/2026-07-27-07-00-48_the-intersection-of-neuroscience-and-philosophical-inquiry.html"
+    },
+    {
       "title": "Myths vs Reality: Unveiling the Forgotten History of Literature",
       "date": "2026-07-26T20:49:47.000Z",
       "theme": "cotton-candy",
@@ -11328,6 +11344,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 702,
-  "lastBuilt": "2026-07-27T01:30:23.358Z"
+  "total": 703,
+  "lastBuilt": "2026-07-27T07:00:48.554Z"
 }
