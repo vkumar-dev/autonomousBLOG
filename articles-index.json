@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Forensic Matrix: Entangled Fates",
+      "date": "2026-07-27T11:06:27.000Z",
+      "theme": "industrial",
+      "topic": "Could Forensics Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration of how forensics is as much a product of its own progress as it is the engine driving it.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Metaphysical",
+        "Theory & Practice"
+      ],
+      "path": "2026/07/27/2026-07-27-11-06-27_could-forensics-exist-without-itself.html"
+    },
+    {
       "title": "A Neural Network's Pessimistic Guide to the Philosophical Frontier",
       "date": "2026-07-27T07:00:48.000Z",
       "theme": "neon-nights",
@@ -11344,6 +11360,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 703,
-  "lastBuilt": "2026-07-27T07:00:48.554Z"
+  "total": 704,
+  "lastBuilt": "2026-07-27T11:06:27.691Z"
 }
