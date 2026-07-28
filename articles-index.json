@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Music Theory: A Counterfactual Journey",
+      "date": "2026-07-28T06:23:18.000Z",
+      "theme": "matrix-code",
+      "topic": "Time Travelers with Music Theory: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "What if time travelers brought their music theory knowledge back to the past? A mind-bending exploration of history and harmony.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Historical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/07/28/2026-07-28-06-23-18_time-travelers-with-music-theory-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Forensic Matrix: Entangled Fates",
       "date": "2026-07-27T11:06:27.000Z",
       "theme": "industrial",
@@ -11360,6 +11376,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 704,
-  "lastBuilt": "2026-07-28T01:20:11.710Z"
+  "total": 705,
+  "lastBuilt": "2026-07-28T06:23:19.121Z"
 }
