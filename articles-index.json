@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Philosophy's Unseen Architect: A Tale of Absence and Presence",
+      "date": "2026-07-28T13:32:24.000Z",
+      "theme": "aurora",
+      "topic": "Could Philosophy Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "A delightful exploration of philosophy's enigmatic relationship with itself, where absence breeds presence and presence reveals the essence of thinking.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Philosophy",
+        "Philosophical",
+        "Narrative History"
+      ],
+      "path": "2026/07/28/2026-07-28-13-32-24_could-philosophy-exist-without-itself.html"
+    },
+    {
       "title": "Time Travelers with Music Theory: A Counterfactual Journey",
       "date": "2026-07-28T06:23:18.000Z",
       "theme": "matrix-code",
@@ -11376,6 +11392,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 705,
-  "lastBuilt": "2026-07-28T10:25:06.483Z"
+  "total": 706,
+  "lastBuilt": "2026-07-28T13:32:24.347Z"
 }
