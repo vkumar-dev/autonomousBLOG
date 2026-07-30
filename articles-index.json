@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Phenomenology Rewind: Unraveling Reality Backwards",
+      "date": "2026-07-30T06:23:16.000Z",
+      "theme": "neon-lights",
+      "topic": "What If Phenomenology Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "Exploring the philosophical implications of turning the lens of phenomenology inside out.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Philosophical",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/07/30/2026-07-30-06-23-16_what-if-phenomenology-worked-backwards.html"
+    },
+    {
       "title": "The Cognitive Science of Paradoxes: Where Reality Meets Madness",
       "date": "2026-07-30T01:17:05.000Z",
       "theme": "sunset-vibes",
@@ -11423,6 +11439,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 708,
-  "lastBuilt": "2026-07-30T01:17:05.527Z"
+  "total": 709,
+  "lastBuilt": "2026-07-30T06:23:16.822Z"
 }
