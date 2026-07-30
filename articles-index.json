@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travel and the Quadrilateral of Irrationality",
+      "date": "2026-07-30T13:26:14.000Z",
+      "theme": "paper-ink",
+      "topic": "Mathematics: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "A mathematical exploration that defies logic, challenges time, and leaves you wanting more.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Pessimistic",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/07/30/2026-07-30-13-26-14_mathematics-a-journey-through-time.html"
+    },
+    {
       "title": "Phenomenology Rewind: Unraveling Reality Backwards",
       "date": "2026-07-30T06:23:16.000Z",
       "theme": "neon-lights",
@@ -11439,6 +11455,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 709,
-  "lastBuilt": "2026-07-30T10:12:53.543Z"
+  "total": 710,
+  "lastBuilt": "2026-07-30T13:26:14.885Z"
 }
