@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "From Stardust to Supercomputers: Debunking Space Myths",
+      "date": "2026-07-30T17:19:45.000Z",
+      "theme": "aurora",
+      "topic": "Space & Astronomy",
+      "contentType": "article",
+      "excerpt": "A journey through the cosmos, unraveling the truth behind common space myths and the role of humanity in the grand scheme.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Space & Astronomy",
+        "Speculative",
+        "Myth-Busting"
+      ],
+      "path": "2026/07/30/2026-07-30-17-19-45_space-astronomy-practical-applications-and-insights.html"
+    },
+    {
       "title": "Time Travel and the Quadrilateral of Irrationality",
       "date": "2026-07-30T13:26:14.000Z",
       "theme": "paper-ink",
@@ -11455,6 +11471,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 710,
-  "lastBuilt": "2026-07-30T13:26:14.885Z"
+  "total": 711,
+  "lastBuilt": "2026-07-30T17:19:45.418Z"
 }
