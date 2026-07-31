@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Game Designers: Lament the Loss of Your Own Existence?",
+      "date": "2026-07-31T06:40:39.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Could Game Design Exist Without Itself?",
+      "contentType": "article",
+      "excerpt": "Exploring a world where game designers are obsolete, and artificial intelligence takes over the creation of our digital playgrounds.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Skeptical",
+        "Cultural Critique"
+      ],
+      "path": "2026/07/31/2026-07-31-06-40-39_could-game-design-exist-without-itself.html"
+    },
+    {
       "title": "Nature's Economic Mindbender: A Rewind Through Time",
       "date": "2026-07-30T20:59:56.000Z",
       "theme": "sunset-vibes",
@@ -11487,6 +11503,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 712,
-  "lastBuilt": "2026-07-31T01:28:22.829Z"
+  "total": 713,
+  "lastBuilt": "2026-07-31T06:40:41.132Z"
 }
