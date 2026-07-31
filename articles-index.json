@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Geology: The Time-Traveling Science",
+      "date": "2026-07-31T20:55:08.000Z",
+      "theme": "industrial",
+      "topic": "The Evolution of Geology",
+      "contentType": "article",
+      "excerpt": "A journey through the past, present, and future of geology, where time is as malleable as rock.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Geology",
+        "Practical",
+        "Narrative History"
+      ],
+      "path": "2026/07/31/2026-07-31-20-55-08_the-evolution-of-geology.html"
+    },
+    {
       "title": "Game Designers: Lament the Loss of Your Own Existence?",
       "date": "2026-07-31T06:40:39.000Z",
       "theme": "ocean-breeze",
@@ -11503,6 +11519,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 713,
-  "lastBuilt": "2026-07-31T17:21:07.017Z"
+  "total": 714,
+  "lastBuilt": "2026-07-31T20:55:09.066Z"
 }
