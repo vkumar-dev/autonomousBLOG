@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Economy is a Dream, Wake Up and Check Your Pockets",
+      "date": "2026-08-01T01:32:56.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Consciousness of Economics: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A thought-provoking exploration into the nature of economics, questioning its very reality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Balanced",
+        "Cultural Critique"
+      ],
+      "path": "2026/08/01/2026-08-01-01-32-56_the-consciousness-of-economics-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "Geology: The Time-Traveling Science",
       "date": "2026-07-31T20:55:08.000Z",
       "theme": "industrial",
@@ -11519,6 +11535,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 714,
-  "lastBuilt": "2026-07-31T20:55:09.066Z"
+  "total": 715,
+  "lastBuilt": "2026-08-01T01:32:56.890Z"
 }
