@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Reality: A Dance with Ontology",
+      "date": "2026-08-02T12:55:27.000Z",
+      "theme": "cyberpunk",
+      "topic": "The Philosophy Behind Ontology",
+      "contentType": "article",
+      "excerpt": "Explore the matrix of reality through the lens of ontology, where existence is a dance between creation and destruction.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ontology",
+        "Ethical",
+        "Tutorial"
+      ],
+      "path": "2026/08/02/2026-08-02-12-55-27_the-philosophy-behind-ontology.html"
+    },
+    {
       "title": "The Anthropologists' Great Uncomputable Calamity",
       "date": "2026-08-02T06:32:36.000Z",
       "theme": "sunset-vibes",
@@ -11567,6 +11583,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 717,
-  "lastBuilt": "2026-08-02T09:54:52.718Z"
+  "total": 718,
+  "lastBuilt": "2026-08-02T12:55:27.354Z"
 }
