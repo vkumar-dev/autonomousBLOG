@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Anthropologists' Great Uncomputable Calamity",
+      "date": "2026-08-02T06:32:36.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Computing the Incomputable: A Anthropology Experiment",
+      "contentType": "article",
+      "excerpt": "Exploring the existential crisis of the anthropologist who tries to quantify human emotions with a computer.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Anthropology",
+        "Existential",
+        "Thought Experiment"
+      ],
+      "path": "2026/08/02/2026-08-02-06-32-36_computing-the-incomputable-a-anthropology-experiment.html"
+    },
+    {
       "title": "In an Alternate Universe Where Metaphysics is Computable",
       "date": "2026-08-01T06:26:53.000Z",
       "theme": "ocean-breeze",
@@ -11551,6 +11567,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 716,
-  "lastBuilt": "2026-08-02T01:27:19.450Z"
+  "total": 717,
+  "lastBuilt": "2026-08-02T06:32:36.369Z"
 }
