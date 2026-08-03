@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In an Alternate Universe, Tech Trivia Reveals a Forgotten History",
+      "date": "2026-08-03T06:58:08.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Tech Trivia, Balanced, Educational Essay",
+      "contentType": "article",
+      "excerpt": "Uncover the quirky tech facts that our alternate universe has hidden in plain sight.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Tech Trivia",
+        "Balanced",
+        "Educational Essay"
+      ],
+      "path": "2026/08/03/2026-08-03-06-58-08_tech-trivia-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Great Game Designer Rebellion of 2145",
       "date": "2026-08-03T01:26:37.000Z",
       "theme": "matrix-code",
@@ -11599,6 +11615,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 719,
-  "lastBuilt": "2026-08-03T01:26:37.286Z"
+  "total": 720,
+  "lastBuilt": "2026-08-03T06:58:08.991Z"
 }
