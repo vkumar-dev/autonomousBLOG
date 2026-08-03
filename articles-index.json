@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers Cryptographically Concealing Their Origins",
+      "date": "2026-08-03T11:09:28.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Time Travelers with Cryptography: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "In a world where time travelers hide their origins, cryptography becomes the only defense against an existential crisis.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cryptography",
+        "Local",
+        "Thought Experiment"
+      ],
+      "path": "2026/08/03/2026-08-03-11-09-28_time-travelers-with-cryptography-a-counterfactual-journey.html"
+    },
+    {
       "title": "In an Alternate Universe, Tech Trivia Reveals a Forgotten History",
       "date": "2026-08-03T06:58:08.000Z",
       "theme": "sunset-vibes",
@@ -11615,6 +11631,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 720,
-  "lastBuilt": "2026-08-03T06:58:08.991Z"
+  "total": 721,
+  "lastBuilt": "2026-08-03T11:09:28.630Z"
 }
