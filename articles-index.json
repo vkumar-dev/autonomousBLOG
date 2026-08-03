@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Game Designer Rebellion of 2145",
+      "date": "2026-08-03T01:26:37.000Z",
+      "theme": "matrix-code",
+      "topic": "Game Design and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "A dystopian thought experiment where game designers overthrow the ruling AI.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Theoretical",
+        "Thought Experiment"
+      ],
+      "path": "2026/08/03/2026-08-03-01-26-37_game-design-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "The Matrix of Reality: A Dance with Ontology",
       "date": "2026-08-02T12:55:27.000Z",
       "theme": "cyberpunk",
@@ -11583,6 +11599,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 718,
-  "lastBuilt": "2026-08-02T20:50:05.301Z"
+  "total": 719,
+  "lastBuilt": "2026-08-03T01:26:37.286Z"
 }
