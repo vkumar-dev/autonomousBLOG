@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Robo-Revolutionaries: Reversing the Clock on Humanity's Helpers",
+      "date": "2026-08-04T13:38:08.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Robotics: A Celebratory Perspective",
+      "contentType": "article",
+      "excerpt": "A humorous exploration of the psychological implications of reversing the roles of humans and robots, celebrating our evolving relationship with technology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Celebratory",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/08/04/2026-08-04-13-38-08_robotics-a-celebratory-perspective.html"
+    },
+    {
       "title": "The Matrix of Mind: A Tale of Cognitive Evolution",
       "date": "2026-08-04T01:19:11.000Z",
       "theme": "paper-ink",
@@ -11647,6 +11663,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 722,
-  "lastBuilt": "2026-08-04T10:31:49.319Z"
+  "total": 723,
+  "lastBuilt": "2026-08-04T13:38:08.350Z"
 }
