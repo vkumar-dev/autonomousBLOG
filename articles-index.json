@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Mind: A Tale of Cognitive Evolution",
+      "date": "2026-08-04T01:19:11.000Z",
+      "theme": "paper-ink",
+      "topic": "The Evolution of Cognitive Science",
+      "contentType": "article",
+      "excerpt": "A journey through the annals of thought, where Absurdism and Reality intertwine.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Absurdist",
+        "Theory & Practice"
+      ],
+      "path": "2026/08/04/2026-08-04-01-19-11_the-evolution-of-cognitive-science.html"
+    },
+    {
       "title": "Time Travelers Cryptographically Concealing Their Origins",
       "date": "2026-08-03T11:09:28.000Z",
       "theme": "sunset-vibes",
@@ -11631,6 +11647,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 721,
-  "lastBuilt": "2026-08-03T20:57:22.796Z"
+  "total": 722,
+  "lastBuilt": "2026-08-04T01:19:11.183Z"
 }
