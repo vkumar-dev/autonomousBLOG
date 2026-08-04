@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Tongue Twister That Twists Linguistics",
+      "date": "2026-08-04T21:07:20.000Z",
+      "theme": "aurora",
+      "topic": "Linguistics: A Skeptical Perspective",
+      "contentType": "article",
+      "excerpt": "A whimsical exploration of the language we speak, questioning its very foundations.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Linguistics",
+        "Skeptical",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/04/2026-08-04-21-07-20_linguistics-a-skeptical-perspective.html"
+    },
+    {
       "title": "Robo-Revolutionaries: Reversing the Clock on Humanity's Helpers",
       "date": "2026-08-04T13:38:08.000Z",
       "theme": "minimalist-clean",
@@ -11663,6 +11679,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 723,
-  "lastBuilt": "2026-08-04T17:34:30.862Z"
+  "total": 724,
+  "lastBuilt": "2026-08-04T21:07:21.065Z"
 }
