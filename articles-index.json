@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Ocean's Great Bank Heist: A Historical Reversal",
+      "date": "2026-08-05T06:23:49.000Z",
+      "theme": "forest-calm",
+      "topic": "Rethinking Oceanography: A Historical Breakdown",
+      "contentType": "article",
+      "excerpt": "From Roman gold to modern treasure hunts, the ocean's economic history is a deep dive into intrigue.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Historical",
+        "Cultural Critique"
+      ],
+      "path": "2026/08/05/2026-08-05-06-23-49_rethinking-oceanography-a-historical-breakdown.html"
+    },
+    {
       "title": "The Tongue Twister That Twists Linguistics",
       "date": "2026-08-04T21:07:20.000Z",
       "theme": "aurora",
@@ -11679,6 +11695,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 724,
-  "lastBuilt": "2026-08-05T01:23:00.116Z"
+  "total": 725,
+  "lastBuilt": "2026-08-05T06:23:49.979Z"
 }
