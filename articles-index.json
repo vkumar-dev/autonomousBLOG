@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Sustainability: The New Fable of Reality",
+      "date": "2026-08-05T17:21:38.000Z",
+      "theme": "paper-ink",
+      "topic": "What Sustainability Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Exploring the unexpected truths about sustainability through history and local case studies.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sustainability",
+        "Local",
+        "Historical Analysis"
+      ],
+      "path": "2026/08/05/2026-08-05-17-21-38_what-sustainability-reveals-about-reality.html"
+    },
+    {
       "title": "In a World Where Codes Dream, Who Watches the Watchmen?",
       "date": "2026-08-05T10:22:45.000Z",
       "theme": "ocean-breeze",
@@ -11711,6 +11727,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 726,
-  "lastBuilt": "2026-08-05T13:35:49.433Z"
+  "total": 727,
+  "lastBuilt": "2026-08-05T17:21:38.280Z"
 }
