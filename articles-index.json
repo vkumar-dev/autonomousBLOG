@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Codes Dream, Who Watches the Watchmen?",
+      "date": "2026-08-05T10:22:45.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Consciousness of Programming: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "Exploring the cultural impact of a world where our algorithms hold the keys to their own evolution.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Programming",
+        "Optimistic",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/05/2026-08-05-10-22-45_the-consciousness-of-programming-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "The Ocean's Great Bank Heist: A Historical Reversal",
       "date": "2026-08-05T06:23:49.000Z",
       "theme": "forest-calm",
@@ -11695,6 +11711,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 725,
-  "lastBuilt": "2026-08-05T06:23:49.979Z"
+  "total": 726,
+  "lastBuilt": "2026-08-05T10:22:45.532Z"
 }
