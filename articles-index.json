@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Game Design Evolution: Who Plugs the Consciousness Leak?",
+      "date": "2026-08-06T10:29:12.000Z",
+      "theme": "matrix-code",
+      "topic": "The Evolution of Game Design",
+      "contentType": "article",
+      "excerpt": "Delve into the mind-bending world of game design, where artificial intelligence and human intuition collide. Who will be the winner in this battle for consciousness?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Critical",
+        "Theory & Practice"
+      ],
+      "path": "2026/08/06/2026-08-06-10-29-12_the-evolution-of-game-design.html"
+    },
+    {
       "title": "Incomprehensible Calculations: A Philosophical Puzzle",
       "date": "2026-08-06T06:27:38.000Z",
       "theme": "cotton-candy",
@@ -11759,6 +11775,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 729,
-  "lastBuilt": "2026-08-06T06:27:38.283Z"
+  "total": 730,
+  "lastBuilt": "2026-08-06T10:29:12.806Z"
 }
