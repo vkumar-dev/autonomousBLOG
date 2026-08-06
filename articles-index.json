@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Cornfields of Iowa, Where AI is the Crop",
+      "date": "2026-08-06T01:18:27.000Z",
+      "theme": "aurora",
+      "topic": "Unraveling the Complexity of Cognitive Science",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration of how artificial intelligence is reshaping our cognitive landscape.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Artificial Intelligence",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/08/06/2026-08-06-01-18-27_unraveling-the-complexity-of-cognitive-science.html"
+    },
+    {
       "title": "Sustainability: The New Fable of Reality",
       "date": "2026-08-05T17:21:38.000Z",
       "theme": "paper-ink",
@@ -11727,6 +11743,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 727,
-  "lastBuilt": "2026-08-05T20:59:34.359Z"
+  "total": 728,
+  "lastBuilt": "2026-08-06T01:18:28.017Z"
 }
