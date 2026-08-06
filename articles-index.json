@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Incomprehensible Calculations: A Philosophical Puzzle",
+      "date": "2026-08-06T06:27:38.000Z",
+      "theme": "cotton-candy",
+      "topic": "Computing the Incomputable: A Philosophy Experiment",
+      "contentType": "article",
+      "excerpt": "A wild ride into the world of uncomputable numbers, and what it says about our understanding of mathematics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Philosophy",
+        "Scientific",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/06/2026-08-06-06-27-38_computing-the-incomputable-a-philosophy-experiment.html"
+    },
+    {
       "title": "In the Cornfields of Iowa, Where AI is the Crop",
       "date": "2026-08-06T01:18:27.000Z",
       "theme": "aurora",
@@ -11743,6 +11759,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 728,
-  "lastBuilt": "2026-08-06T01:18:28.017Z"
+  "total": 729,
+  "lastBuilt": "2026-08-06T06:27:38.283Z"
 }
