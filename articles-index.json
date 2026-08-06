@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Time Robots Stole Christmas",
+      "date": "2026-08-06T13:35:16.000Z",
+      "theme": "matrix-code",
+      "topic": "Robotics: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "From steam-powered automatons to AI elves, a whimsical exploration of the history and future of robots.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Metaphysical",
+        "Practical Guide"
+      ],
+      "path": "2026/08/06/2026-08-06-13-35-16_robotics-a-journey-through-time.html"
+    },
+    {
       "title": "The Great Game Design Evolution: Who Plugs the Consciousness Leak?",
       "date": "2026-08-06T10:29:12.000Z",
       "theme": "matrix-code",
@@ -11775,6 +11791,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 730,
-  "lastBuilt": "2026-08-06T10:29:12.806Z"
+  "total": 731,
+  "lastBuilt": "2026-08-06T13:35:17.002Z"
 }
