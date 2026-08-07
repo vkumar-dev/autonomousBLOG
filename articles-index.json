@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Blueprint of Reality: Architecture Unveiled",
+      "date": "2026-08-07T08:50:06.000Z",
+      "theme": "matrix-code",
+      "topic": "What Architecture Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "A mind-bending journey through history reveals the economic reality hidden in our buildings.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Architecture",
+        "Historical",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/08/07/2026-08-07-08-50-06_what-architecture-reveals-about-reality.html"
+    },
+    {
       "title": "The Time Robots Stole Christmas",
       "date": "2026-08-06T13:35:16.000Z",
       "theme": "matrix-code",
@@ -11791,6 +11807,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 731,
-  "lastBuilt": "2026-08-07T05:31:37.432Z"
+  "total": 732,
+  "lastBuilt": "2026-08-07T08:50:07.157Z"
 }
