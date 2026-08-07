@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Philharmonic of Numerology: A Scandalous Theory",
+      "date": "2026-08-07T16:47:20.000Z",
+      "theme": "aurora",
+      "topic": "Bridging the Gap: Music Theory for Everyone",
+      "contentType": "article",
+      "excerpt": "Unveiling the mysterious connection between music and mathematics, and turning conventional wisdom on its head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Optimistic",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/08/07/2026-08-07-16-47-20_bridging-the-gap-music-theory-for-everyone.html"
+    },
+    {
       "title": "The Unknowables of Nature: If We Could Compute the Incomputable",
       "date": "2026-08-07T12:41:25.000Z",
       "theme": "forest-calm",
@@ -11823,6 +11839,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 733,
-  "lastBuilt": "2026-08-07T12:41:25.227Z"
+  "total": 734,
+  "lastBuilt": "2026-08-07T16:47:20.135Z"
 }
