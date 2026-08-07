@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unknowables of Nature: If We Could Compute the Incomputable",
+      "date": "2026-08-07T12:41:25.000Z",
+      "theme": "forest-calm",
+      "topic": "Nature",
+      "contentType": "article",
+      "excerpt": "Exploring the mysteries of nature that lie beyond our current computational capabilities.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Practical",
+        "Guide"
+      ],
+      "path": "2026/08/07/2026-08-07-12-41-25_nature-what-we-can-never-know.html"
+    },
+    {
       "title": "The Blueprint of Reality: Architecture Unveiled",
       "date": "2026-08-07T08:50:06.000Z",
       "theme": "matrix-code",
@@ -11807,6 +11823,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 732,
-  "lastBuilt": "2026-08-07T08:50:07.157Z"
+  "total": 733,
+  "lastBuilt": "2026-08-07T12:41:25.227Z"
 }
