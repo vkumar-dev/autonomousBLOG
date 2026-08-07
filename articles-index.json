@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Counterfactual Journey with Time Traveling Economists",
+      "date": "2026-08-07T20:33:35.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Time Travelers with Economics: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Ever wondered what would happen if economists could time travel? Let's explore the chaos and calculators in a world where yesterday's decisions can be undone.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Existential",
+        "Narrative History"
+      ],
+      "path": "2026/08/07/2026-08-07-20-33-35_time-travelers-with-economics-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Philharmonic of Numerology: A Scandalous Theory",
       "date": "2026-08-07T16:47:20.000Z",
       "theme": "aurora",
@@ -11839,6 +11855,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 734,
-  "lastBuilt": "2026-08-07T16:47:20.135Z"
+  "total": 735,
+  "lastBuilt": "2026-08-07T20:33:35.650Z"
 }
