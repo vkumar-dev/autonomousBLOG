@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unknowable Library of Babel: A Labyrinthine Literary Expedition",
+      "date": "2026-08-08T12:27:53.000Z",
+      "theme": "aurora",
+      "topic": "Literature: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "A literary exploration into the realm of the unattainable and the enigmatic, where the secrets of the universe are whispered by the wind.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Literature",
+        "Optimistic",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/08/08/2026-08-08-12-27-53_literature-what-we-can-never-know.html"
+    },
+    {
       "title": "Time Travelers with Nature: A Counterfactual Journey Through the Metaphysical",
       "date": "2026-08-08T04:51:11.000Z",
       "theme": "ocean-breeze",
@@ -11887,6 +11903,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 737,
-  "lastBuilt": "2026-08-08T08:31:46.782Z"
+  "total": 738,
+  "lastBuilt": "2026-08-08T12:27:53.894Z"
 }
