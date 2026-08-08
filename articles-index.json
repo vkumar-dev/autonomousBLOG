@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rethinking Music Theory: A What-If Analysis for Optimists",
+      "date": "2026-08-08T00:44:40.000Z",
+      "theme": "cotton-candy",
+      "topic": "Rethinking Music Theory: A Optimistic Breakdown",
+      "contentType": "article",
+      "excerpt": "What if music theory didn't have to be so... theorized? A whimsical exploration of a world where music is felt, not calculated.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Optimistic",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/08/2026-08-08-00-44-40_rethinking-music-theory-a-optimistic-breakdown.html"
+    },
+    {
       "title": "A Counterfactual Journey with Time Traveling Economists",
       "date": "2026-08-07T20:33:35.000Z",
       "theme": "ocean-breeze",
@@ -11855,6 +11871,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 735,
-  "lastBuilt": "2026-08-07T20:33:35.650Z"
+  "total": 736,
+  "lastBuilt": "2026-08-08T00:44:40.828Z"
 }
