@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Invisible Hand Was Never Playing Fair",
+      "date": "2026-08-09T00:47:40.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Impossibility of Economics: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if the market was rigged from the start? A historical analysis that might make you question everything.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Philosophical",
+        "Historical Analysis"
+      ],
+      "path": "2026/08/09/2026-08-09-00-47-40_the-impossibility-of-economics-a-thought-experiment.html"
+    },
+    {
       "title": "The Unknowable Library of Babel: A Labyrinthine Literary Expedition",
       "date": "2026-08-08T12:27:53.000Z",
       "theme": "aurora",
@@ -11903,6 +11919,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 738,
-  "lastBuilt": "2026-08-08T20:23:10.582Z"
+  "total": 739,
+  "lastBuilt": "2026-08-09T00:47:40.940Z"
 }
