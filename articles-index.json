@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a Virtual World, Who Really Pulls the Strings?",
+      "date": "2026-08-09T04:58:41.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Consciousness of Game Design: A Metaphysical Inquiry",
+      "contentType": "article",
+      "excerpt": "A journey into the labyrinthine mind of game designers and the reality they weave.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Balanced",
+        "Theory & Practice"
+      ],
+      "path": "2026/08/09/2026-08-09-04-58-41_the-consciousness-of-game-design-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "The Invisible Hand Was Never Playing Fair",
       "date": "2026-08-09T00:47:40.000Z",
       "theme": "sunset-vibes",
@@ -11919,6 +11935,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 739,
-  "lastBuilt": "2026-08-09T00:47:40.940Z"
+  "total": 740,
+  "lastBuilt": "2026-08-09T04:58:41.171Z"
 }
