@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Mathematics: The Key to Unlocking the Matrix of Reality",
+      "date": "2026-08-10T00:48:22.000Z",
+      "theme": "forest-calm",
+      "topic": "What Mathematics Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "From the infinite wonders of Pi, to the bizarre beauty of fractals, math isn't just about equations - it's a window into the very fabric of our universe.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Speculative",
+        "Speculative Future"
+      ],
+      "path": "2026/08/10/2026-08-10-00-48-22_what-mathematics-reveals-about-reality.html"
+    },
+    {
       "title": "In an Alternate Universe: The Literary Apocalypse",
       "date": "2026-08-09T08:34:14.000Z",
       "theme": "aurora",
@@ -11951,6 +11967,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 741,
-  "lastBuilt": "2026-08-09T20:24:55.428Z"
+  "total": 742,
+  "lastBuilt": "2026-08-10T00:48:22.995Z"
 }
