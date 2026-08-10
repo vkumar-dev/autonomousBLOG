@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Parameters of Cognitive Science: A Thought Experiment",
+      "date": "2026-08-10T12:44:50.000Z",
+      "theme": "ocean-breeze",
+      "topic": "The Impossibility of Cognitive Science: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "A journey into the labyrinthine world of cognitive science, where the line between reality and speculation blurs.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Scientific",
+        "Speculative Future"
+      ],
+      "path": "2026/08/10/2026-08-10-12-44-50_the-impossibility-of-cognitive-science-a-thought-experiment.html"
+    },
+    {
       "title": "The Mind's Last Frontier: Quantum Psychology",
       "date": "2026-08-10T09:11:23.000Z",
       "theme": "industrial",
@@ -11983,6 +11999,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 743,
-  "lastBuilt": "2026-08-10T09:11:23.254Z"
+  "total": 744,
+  "lastBuilt": "2026-08-10T12:44:50.740Z"
 }
