@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mind's Last Frontier: Quantum Psychology",
+      "date": "2026-08-10T09:11:23.000Z",
+      "theme": "industrial",
+      "topic": "The Future of Psychology: Debate & Critique",
+      "contentType": "article",
+      "excerpt": "Exploring the paradoxical possibilities of quantum psychology and its impact on our understanding of consciousness.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Psychology",
+        "Practical",
+        "Debate & Critique"
+      ],
+      "path": "2026/08/10/2026-08-10-09-11-23_the-future-of-psychology-debate-critique.html"
+    },
+    {
       "title": "Mathematics: The Key to Unlocking the Matrix of Reality",
       "date": "2026-08-10T00:48:22.000Z",
       "theme": "forest-calm",
@@ -11967,6 +11983,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 742,
-  "lastBuilt": "2026-08-10T05:22:32.817Z"
+  "total": 743,
+  "lastBuilt": "2026-08-10T09:11:23.254Z"
 }
