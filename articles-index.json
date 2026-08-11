@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "The Tech That Twists Your Mind's Corkscrew",
+      "date": "2026-08-11T12:41:55.000Z",
+      "theme": "matrix-code",
+      "topic": "{{TOPIC}}",
+      "contentType": "article",
+      "excerpt": "A peek into the world of technology that defies our intuition, where AI is not your friend.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "{{KEYWORDS}}"
+      ],
+      "path": "2026/08/11/2026-08-11-12-41-55_the-technology-that-defies-intuition.html"
+    },
+    {
       "title": "Economics: The Paradoxical Puzzle Box",
       "date": "2026-08-11T05:04:07.000Z",
       "theme": "industrial",
@@ -12031,6 +12045,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 746,
-  "lastBuilt": "2026-08-11T08:50:28.694Z"
+  "total": 747,
+  "lastBuilt": "2026-08-11T12:41:55.499Z"
 }
