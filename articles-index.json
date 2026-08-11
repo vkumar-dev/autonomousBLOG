@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Economics: The Paradoxical Puzzle Box",
+      "date": "2026-08-11T05:04:07.000Z",
+      "theme": "industrial",
+      "topic": "Economics in the Modern Era: A Paradoxical Approach",
+      "contentType": "article",
+      "excerpt": "A thought-provoking exploration of the economic enigmas that defy logic and reason.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Paradoxical",
+        "Thought Experiment"
+      ],
+      "path": "2026/08/11/2026-08-11-05-04-07_economics-in-the-modern-era-a-paradoxical-approach.html"
+    },
+    {
       "title": "The Great Economic Circus: A Tale of Infinite Balancing Acts",
       "date": "2026-08-10T16:45:38.000Z",
       "theme": "neon-nights",
@@ -12015,6 +12031,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 745,
-  "lastBuilt": "2026-08-11T00:48:17.675Z"
+  "total": 746,
+  "lastBuilt": "2026-08-11T05:04:07.425Z"
 }
