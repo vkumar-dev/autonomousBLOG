@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers at the Louvre: The Impossible Made Plausible",
+      "date": "2026-08-12T00:54:49.000Z",
+      "theme": "matrix-code",
+      "topic": "Rethinking Literature: A Ancient Breakdown",
+      "contentType": "article",
+      "excerpt": "What if time travelers had infiltrated the world of ancient literature? Let's explore...",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Literature",
+        "Ancient",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/08/12/2026-08-12-00-54-49_rethinking-literature-a-ancient-breakdown.html"
+    },
+    {
       "title": "The Tech That Twists Your Mind's Corkscrew",
       "date": "2026-08-11T12:41:55.000Z",
       "theme": "matrix-code",
@@ -12045,6 +12061,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 747,
-  "lastBuilt": "2026-08-11T20:41:00.445Z"
+  "total": 748,
+  "lastBuilt": "2026-08-12T00:54:49.477Z"
 }
