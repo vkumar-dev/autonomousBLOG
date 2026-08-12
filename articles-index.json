@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix is Not What You Think",
+      "date": "2026-08-12T09:04:07.000Z",
+      "theme": "forest-calm",
+      "topic": "Anthropology: A Metaphysical Perspective",
+      "contentType": "article",
+      "excerpt": "Unraveling the misconceptions about anthropology and metaphysics that have been keeping you in the Matrix.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Anthropology",
+        "Metaphysical",
+        "Myth-Busting"
+      ],
+      "path": "2026/08/12/2026-08-12-09-04-07_anthropology-a-metaphysical-perspective.html"
+    },
+    {
       "title": "The Cities That Think They're Neo: Unraveling the Philosophy Behind Urban Planning",
       "date": "2026-08-12T05:29:42.000Z",
       "theme": "matrix-code",
@@ -12077,6 +12093,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 749,
-  "lastBuilt": "2026-08-12T05:29:42.465Z"
+  "total": 750,
+  "lastBuilt": "2026-08-12T09:04:08.195Z"
 }
