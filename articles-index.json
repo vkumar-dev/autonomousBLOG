@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cities That Think They're Neo: Unraveling the Philosophy Behind Urban Planning",
+      "date": "2026-08-12T05:29:42.000Z",
+      "theme": "matrix-code",
+      "topic": "The Philosophy Behind Urban Planning",
+      "contentType": "article",
+      "excerpt": "A guide for industry leaders seeking to understand the philosophical underpinnings of urban planning.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Skeptical",
+        "Practical Guide"
+      ],
+      "path": "2026/08/12/2026-08-12-05-29-42_the-philosophy-behind-urban-planning.html"
+    },
+    {
       "title": "Time Travelers at the Louvre: The Impossible Made Plausible",
       "date": "2026-08-12T00:54:49.000Z",
       "theme": "matrix-code",
@@ -12061,6 +12077,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 748,
-  "lastBuilt": "2026-08-12T00:54:49.477Z"
+  "total": 749,
+  "lastBuilt": "2026-08-12T05:29:42.465Z"
 }
