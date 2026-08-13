@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Art & Design in an Alternate Universe: A Guide for Pessimistic Industry Leaders",
+      "date": "2026-08-13T12:48:17.000Z",
+      "theme": "matrix-code",
+      "topic": "Art & Design",
+      "contentType": "article",
+      "excerpt": "A journey through the peculiarities and possibilities of art and design in a universe where the norms are turned on their head.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Pessimistic",
+        "Reference Guide"
+      ],
+      "path": "2026/08/13/2026-08-13-12-48-17_art-design-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Matrix is Not What You Think",
       "date": "2026-08-12T09:04:07.000Z",
       "theme": "forest-calm",
@@ -12093,6 +12109,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 750,
-  "lastBuilt": "2026-08-13T09:08:43.235Z"
+  "total": 751,
+  "lastBuilt": "2026-08-13T12:48:18.294Z"
 }
