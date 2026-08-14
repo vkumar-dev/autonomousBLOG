@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Philosophers Programmed AI: The Epistemological Time Machine",
+      "date": "2026-08-14T00:55:31.000Z",
+      "theme": "cyberpunk",
+      "topic": "Epistemology: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "What if the philosophers who built our AI had a few too many espressos? A thrilling exploration of how our understanding of knowledge could be radically different.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Ethical",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/14/2026-08-14-00-55-31_epistemology-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Art & Design in an Alternate Universe: A Guide for Pessimistic Industry Leaders",
       "date": "2026-08-13T12:48:17.000Z",
       "theme": "matrix-code",
@@ -12109,6 +12125,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 751,
-  "lastBuilt": "2026-08-13T20:34:26.103Z"
+  "total": 752,
+  "lastBuilt": "2026-08-14T00:55:32.259Z"
 }
