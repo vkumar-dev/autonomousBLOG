@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Oceans of an Altered Reality: A Deep Dive into the Oceanographic Paradox",
+      "date": "2026-08-15T16:14:56.000Z",
+      "theme": "paper-ink",
+      "topic": "Oceanography in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Explore the unexpected implications of an oceanographic paradox in an alternate reality, where the laws of physics are not as we know them.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Practical",
+        "Paradox Exploration"
+      ],
+      "path": "2026/08/15/2026-08-15-16-14-56_oceanography-in-an-alternate-universe.html"
+    },
+    {
       "title": "Robots: The Reality Behind the Myths",
       "date": "2026-08-15T08:20:35.000Z",
       "theme": "minimalist-clean",
@@ -12157,6 +12173,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 754,
-  "lastBuilt": "2026-08-15T12:19:48.633Z"
+  "total": 755,
+  "lastBuilt": "2026-08-15T16:14:56.261Z"
 }
