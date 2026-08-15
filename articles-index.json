@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Time Traveler's Tale: The Clockwork Conundrum",
+      "date": "2026-08-15T04:25:24.000Z",
+      "theme": "aurora",
+      "topic": "Time Travelers with Technology: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "What if time travelers carried calculators? A whimsical exploration of causality, paradoxes, and the incomputable.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Technology",
+        "Critical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/08/15/2026-08-15-04-25-24_time-travelers-with-technology-a-counterfactual-journey.html"
+    },
+    {
       "title": "In a World Where Philosophers Programmed AI: The Epistemological Time Machine",
       "date": "2026-08-14T00:55:31.000Z",
       "theme": "cyberpunk",
@@ -12125,6 +12141,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 752,
-  "lastBuilt": "2026-08-15T00:35:26.931Z"
+  "total": 753,
+  "lastBuilt": "2026-08-15T04:25:25.002Z"
 }
