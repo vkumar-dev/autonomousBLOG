@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Biology of the Undead: A Tale of Molecular Misadventures",
+      "date": "2026-08-16T16:17:34.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Biology: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Ever wondered what would happen if you tried to resurrect the dead? Let's delve into the twisted world of molecular biology and find out.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Biology",
+        "Local",
+        "Technical Deep Dive"
+      ],
+      "path": "2026/08/16/2026-08-16-16-17-34_biology-practical-applications-and-insights.html"
+    },
+    {
       "title": "What If Tech Trivia Quizzes Worked Backwards?",
       "date": "2026-08-16T12:20:47.000Z",
       "theme": "aurora",
@@ -12221,6 +12237,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 758,
-  "lastBuilt": "2026-08-16T12:20:48.167Z"
+  "total": 759,
+  "lastBuilt": "2026-08-16T16:17:34.689Z"
 }
