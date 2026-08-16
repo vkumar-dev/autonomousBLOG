@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Symphony of Eternity: A Narrative History of Music Theory",
+      "date": "2026-08-16T20:14:23.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Future of Music Theory: Narrative History",
+      "contentType": "article",
+      "excerpt": "Explore the paradoxical evolution of music theory through a whirlwind of unexpected case studies and examples.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Paradoxical",
+        "Narrative History"
+      ],
+      "path": "2026/08/16/2026-08-16-20-14-23_the-future-of-music-theory-narrative-history.html"
+    },
+    {
       "title": "The Biology of the Undead: A Tale of Molecular Misadventures",
       "date": "2026-08-16T16:17:34.000Z",
       "theme": "minimalist-clean",
@@ -12237,6 +12253,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 759,
-  "lastBuilt": "2026-08-16T16:17:34.689Z"
+  "total": 760,
+  "lastBuilt": "2026-08-16T20:14:23.498Z"
 }
