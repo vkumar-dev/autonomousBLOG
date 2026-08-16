@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "What If Tech Trivia Quizzes Worked Backwards?",
+      "date": "2026-08-16T12:20:47.000Z",
+      "theme": "aurora",
+      "topic": "What If Tech Trivia Worked Backwards?",
+      "contentType": "article",
+      "excerpt": "A tongue-in-cheek exploration of the ethical dilemma of tech trivia that tests our knowledge of future technology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Tech Trivia",
+        "Skeptical",
+        "Paradox Exploration"
+      ],
+      "path": "2026/08/16/2026-08-16-12-20-47_what-if-tech-trivia-worked-backwards.html"
+    },
+    {
       "title": "In Pursuit of the Conscious Killer: Unraveling the Forensic Fiction",
       "date": "2026-08-16T08:21:21.000Z",
       "theme": "paper-ink",
@@ -12205,6 +12221,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 757,
-  "lastBuilt": "2026-08-16T08:21:22.036Z"
+  "total": 758,
+  "lastBuilt": "2026-08-16T12:20:48.167Z"
 }
