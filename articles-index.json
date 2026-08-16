@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code: A Forensic Mind-Bender",
+      "date": "2026-08-16T00:35:32.000Z",
+      "theme": "cyberpunk",
+      "topic": "The Impossibility of Forensics: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "What if forensic science was as elusive as the Matrix code? Dive into a mind-bending scenario that challenges the very foundations of practical forensics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Practical",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/08/16/2026-08-16-00-35-32_the-impossibility-of-forensics-a-thought-experiment.html"
+    },
+    {
       "title": "The Oceans of an Altered Reality: A Deep Dive into the Oceanographic Paradox",
       "date": "2026-08-15T16:14:56.000Z",
       "theme": "paper-ink",
@@ -12173,6 +12189,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 755,
-  "lastBuilt": "2026-08-15T20:14:36.104Z"
+  "total": 756,
+  "lastBuilt": "2026-08-16T00:35:32.680Z"
 }
