@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In Pursuit of the Conscious Killer: Unraveling the Forensic Fiction",
+      "date": "2026-08-16T08:21:21.000Z",
+      "theme": "paper-ink",
+      "topic": "Forensics: Myths vs Reality",
+      "contentType": "article",
+      "excerpt": "A deep dive into the intriguing world of forensics, where the line between science and fiction is blurrier than a CSI episode.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Scientific",
+        "Exploratory Investigation"
+      ],
+      "path": "2026/08/16/2026-08-16-08-21-21_forensics-myths-vs-reality.html"
+    },
+    {
       "title": "The Matrix Code: A Forensic Mind-Bender",
       "date": "2026-08-16T00:35:32.000Z",
       "theme": "cyberpunk",
@@ -12189,6 +12205,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 756,
-  "lastBuilt": "2026-08-16T04:31:24.936Z"
+  "total": 757,
+  "lastBuilt": "2026-08-16T08:21:22.036Z"
 }
