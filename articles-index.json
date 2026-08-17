@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Ancient Cultures Explained: Practical Guide",
+      "date": "2026-08-17T16:20:03.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Ancient Cultures Explained: Practical Guide",
+      "contentType": "Practical Guide",
+      "excerpt": "AI-generated article about Ancient Cultures Explained: Practical Guide",
+      "readingTime": 6,
+      "wordCount": 1200,
+      "keywords": [],
+      "path": "2026/08/17/2026-08-17-16-20-03_ancient-cultures-explained-practical-guide.html"
+    },
+    {
       "title": "Nature's Ruse: The Hidden Life of a Philosopher",
       "date": "2026-08-17T12:22:59.000Z",
       "theme": "forest-calm",
@@ -12301,6 +12313,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 763,
-  "lastBuilt": "2026-08-17T12:22:59.669Z"
+  "total": 764,
+  "lastBuilt": "2026-08-17T16:20:03.754Z"
 }
