@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Cornfield Swarm: The Mathematics of an Alternate Universe",
+      "date": "2026-08-17T08:35:09.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Mathematics in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Imagine a world where solar-powered drones patrol cornfields and the Pythagorean theorem is a conspiracy. Welcome to the math of an alternate universe.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Mathematics",
+        "Metaphysical",
+        "Tutorial"
+      ],
+      "path": "2026/08/17/2026-08-17-08-35-09_mathematics-in-an-alternate-universe.html"
+    },
+    {
       "title": "A Counterfactual History: The Age of Empathy",
       "date": "2026-08-17T04:36:31.000Z",
       "theme": "paper-ink",
@@ -12269,6 +12285,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 761,
-  "lastBuilt": "2026-08-17T04:36:31.453Z"
+  "total": 762,
+  "lastBuilt": "2026-08-17T08:35:12.624Z"
 }
