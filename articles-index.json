@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Nature's Ruse: The Hidden Life of a Philosopher",
+      "date": "2026-08-17T12:22:59.000Z",
+      "theme": "forest-calm",
+      "topic": "The Impossibility of Nature: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Delve into the mind of a philosopher who dared to question the very fabric of reality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Philosophical",
+        "Biography"
+      ],
+      "path": "2026/08/17/2026-08-17-12-22-59_the-impossibility-of-nature-a-thought-experiment.html"
+    },
+    {
       "title": "A Cornfield Swarm: The Mathematics of an Alternate Universe",
       "date": "2026-08-17T08:35:09.000Z",
       "theme": "minimalist-clean",
@@ -12285,6 +12301,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 762,
-  "lastBuilt": "2026-08-17T08:35:12.624Z"
+  "total": 763,
+  "lastBuilt": "2026-08-17T12:22:59.669Z"
 }
