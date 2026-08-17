@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Counterfactual History: The Age of Empathy",
+      "date": "2026-08-17T04:36:31.000Z",
+      "theme": "paper-ink",
+      "topic": "Psychology Explained: Counterfactual History",
+      "contentType": "article",
+      "excerpt": "What if the opposite were true? Dive into a world where empathy is a rare commodity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Psychology",
+        "Phenomenological",
+        "Counterfactual History"
+      ],
+      "path": "2026/08/17/2026-08-17-04-36-31_psychology-explained-counterfactual-history.html"
+    },
+    {
       "title": "In the Symphony of Eternity: A Narrative History of Music Theory",
       "date": "2026-08-16T20:14:23.000Z",
       "theme": "minimalist-clean",
@@ -12253,6 +12269,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 760,
-  "lastBuilt": "2026-08-17T00:33:19.936Z"
+  "total": 761,
+  "lastBuilt": "2026-08-17T04:36:31.453Z"
 }
