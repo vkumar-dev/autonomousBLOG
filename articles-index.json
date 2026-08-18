@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Urban Playground: Unveiling the Forgotten Follies of City Planning",
+      "date": "2026-08-18T20:17:51.000Z",
+      "theme": "matrix-code",
+      "topic": "Urban Planning: Lesser-Known Facts and Stories",
+      "contentType": "article",
+      "excerpt": "Exploring the hidden history of urban planning through a controversial lens.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Balanced",
+        "Case Study"
+      ],
+      "path": "2026/08/18/2026-08-18-20-17-51_urban-planning-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "The Existentialist Who Outsmarted the Machines",
       "date": "2026-08-18T16:24:26.000Z",
       "theme": "industrial",
@@ -12345,6 +12361,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 766,
-  "lastBuilt": "2026-08-18T16:24:26.567Z"
+  "total": 767,
+  "lastBuilt": "2026-08-18T20:17:51.277Z"
 }
