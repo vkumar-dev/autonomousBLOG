@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Existentialist Who Outsmarted the Machines",
+      "date": "2026-08-18T16:24:26.000Z",
+      "theme": "industrial",
+      "topic": "The Existentialism That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "Discover the extraordinary life of a philosopher who found a way to challenge the AI revolution.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Existentialism",
+        "Optimistic",
+        "Biography"
+      ],
+      "path": "2026/08/18/2026-08-18-16-24-26_the-existentialism-that-defies-intuition.html"
+    },
+    {
       "title": "A Journey Through Time That's Anything But Linear",
       "date": "2026-08-18T12:25:29.000Z",
       "theme": "aurora",
@@ -12329,6 +12345,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 765,
-  "lastBuilt": "2026-08-18T12:25:29.849Z"
+  "total": 766,
+  "lastBuilt": "2026-08-18T16:24:26.567Z"
 }
