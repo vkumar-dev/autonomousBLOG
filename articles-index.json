@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Art Has No Reality, Reality Has All the Art",
+      "date": "2026-08-19T12:25:24.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Evolution of Art & Design",
+      "contentType": "article",
+      "excerpt": "Exploring the paradoxes of a world where art is the canvas of our perception.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Art & Design",
+        "Absurdist",
+        "Paradox Exploration"
+      ],
+      "path": "2026/08/19/2026-08-19-12-25-24_the-evolution-of-art-design.html"
+    },
+    {
       "title": "The Matrix Parameters: What We Can Never Know, and Why It Matters",
       "date": "2026-08-19T08:29:11.000Z",
       "theme": "sunset-vibes",
@@ -12393,6 +12409,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 769,
-  "lastBuilt": "2026-08-19T08:29:11.377Z"
+  "total": 770,
+  "lastBuilt": "2026-08-19T12:25:24.964Z"
 }
