@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Parameters: What We Can Never Know, and Why It Matters",
+      "date": "2026-08-19T08:29:11.000Z",
+      "theme": "sunset-vibes",
+      "topic": "Psychology",
+      "contentType": "article",
+      "excerpt": "A philosophical exploration of the limits of human knowledge, and its cultural impact on students and learners.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Psychology",
+        "Critical",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/08/19/2026-08-19-08-29-11_psychology-what-we-can-never-know.html"
+    },
+    {
       "title": "Time Travelers with Cognitive Science: A Counterfactual Journey",
       "date": "2026-08-19T00:33:33.000Z",
       "theme": "ocean-breeze",
@@ -12377,6 +12393,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 768,
-  "lastBuilt": "2026-08-19T04:32:10.199Z"
+  "total": 769,
+  "lastBuilt": "2026-08-19T08:29:11.377Z"
 }
