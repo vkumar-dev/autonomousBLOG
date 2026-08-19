@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Cognitive Science: A Counterfactual Journey",
+      "date": "2026-08-19T00:33:33.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Time Travelers with Cognitive Science: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "Exploring the hidden mechanics of time travelers' cognitive processes in a thought-provoking debate.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Modern",
+        "Debate & Critique"
+      ],
+      "path": "2026/08/19/2026-08-19-00-33-33_time-travelers-with-cognitive-science-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Urban Playground: Unveiling the Forgotten Follies of City Planning",
       "date": "2026-08-18T20:17:51.000Z",
       "theme": "matrix-code",
@@ -12361,6 +12377,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 767,
-  "lastBuilt": "2026-08-18T20:17:51.277Z"
+  "total": 768,
+  "lastBuilt": "2026-08-19T00:33:34.272Z"
 }
