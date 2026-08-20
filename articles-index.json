@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociology Matrix: A Peek Behind the Veil",
+      "date": "2026-08-20T20:23:05.000Z",
+      "theme": "cotton-candy",
+      "topic": "The Future of Sociology: Cultural Critique",
+      "contentType": "article",
+      "excerpt": "A glimpse into the absurdity of societal norms, and the power of questioning the unquestionable.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Absurdist",
+        "Cultural Critique"
+      ],
+      "path": "2026/08/20/2026-08-20-20-23-05_the-future-of-sociology-cultural-critique.html"
+    },
+    {
       "title": "A Literary Temporal Paradox: The Evolution of a Counterfactual Canon",
       "date": "2026-08-20T16:26:29.000Z",
       "theme": "minimalist-clean",
@@ -12473,6 +12489,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 774,
-  "lastBuilt": "2026-08-20T16:26:29.379Z"
+  "total": 775,
+  "lastBuilt": "2026-08-20T20:23:06.067Z"
 }
