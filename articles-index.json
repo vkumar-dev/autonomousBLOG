@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Literary Temporal Paradox: The Evolution of a Counterfactual Canon",
+      "date": "2026-08-20T16:26:29.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Evolution of Literature",
+      "contentType": "article",
+      "excerpt": "What if Shakespeare wrote in the era of Twitter? Let's dive into a conceptual puzzle that'll make you rethink the past, present, and future of literature.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Literature",
+        "Counterfactual",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/08/20/2026-08-20-16-26-29_the-evolution-of-literature.html"
+    },
+    {
       "title": "A Brainy Bargain: How Neuroscience is the Currency of the Future",
       "date": "2026-08-20T12:28:52.000Z",
       "theme": "industrial",
@@ -12457,6 +12473,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 773,
-  "lastBuilt": "2026-08-20T12:28:52.383Z"
+  "total": 774,
+  "lastBuilt": "2026-08-20T16:26:29.379Z"
 }
