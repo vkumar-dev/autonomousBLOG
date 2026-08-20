@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Brainy Bargain: How Neuroscience is the Currency of the Future",
+      "date": "2026-08-20T12:28:52.000Z",
+      "theme": "industrial",
+      "topic": "Why Neuroscience Matters for Researchers",
+      "contentType": "article",
+      "excerpt": "From the battlefield to the boardroom, a neuroscientific understanding is the new business requirement.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Ethical",
+        "Narrative History"
+      ],
+      "path": "2026/08/20/2026-08-20-12-28-52_why-neuroscience-matters-for-researchers.html"
+    },
+    {
       "title": "The Dicey Math of Existence: A Practical Examination of the Absurd",
       "date": "2026-08-20T00:35:15.000Z",
       "theme": "aurora",
@@ -12441,6 +12457,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 772,
-  "lastBuilt": "2026-08-20T08:31:44.500Z"
+  "total": 773,
+  "lastBuilt": "2026-08-20T12:28:52.383Z"
 }
