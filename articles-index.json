@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Mind-Boggling Paradox of Cryptography: When Logic Breaks",
+      "date": "2026-08-21T20:18:37.000Z",
+      "theme": "forest-calm",
+      "topic": "The Cryptography Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "Unraveling the enigma of cryptography, where logic becomes a conundrum.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cryptography",
+        "Exploratory Investigation",
+        "Local"
+      ],
+      "path": "2026/08/21/2026-08-21-20-18-37_the-cryptography-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "In Quest of the Unknowable: A Forensic Odyssey",
       "date": "2026-08-21T16:24:14.000Z",
       "theme": "industrial",
@@ -12553,6 +12569,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 779,
-  "lastBuilt": "2026-08-21T16:24:14.315Z"
+  "total": 780,
+  "lastBuilt": "2026-08-21T20:18:37.484Z"
 }
