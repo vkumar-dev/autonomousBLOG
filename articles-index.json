@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Sociological Time Machine: A Counterfactual Adventure",
+      "date": "2026-08-21T08:31:18.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Bridging the Gap: Sociology for Everyone",
+      "contentType": "article",
+      "excerpt": "Join me on a wild ride through history, where we'll challenge our assumptions about sociology. Buckle up, darling, it's going to be a bumpy ride!",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Counterfactual",
+        "Historical Analysis"
+      ],
+      "path": "2026/08/21/2026-08-21-08-31-18_bridging-the-gap-sociology-for-everyone.html"
+    },
+    {
       "title": "The Matrix of Misinformation: A Tale of Unseen Histories",
       "date": "2026-08-21T04:33:57.000Z",
       "theme": "matrix-code",
@@ -12521,6 +12537,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 777,
-  "lastBuilt": "2026-08-21T04:33:57.823Z"
+  "total": 778,
+  "lastBuilt": "2026-08-21T08:31:18.491Z"
 }
