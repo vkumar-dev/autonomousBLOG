@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix of Misinformation: A Tale of Unseen Histories",
+      "date": "2026-08-21T04:33:57.000Z",
+      "theme": "matrix-code",
+      "topic": "The Future of Epistemology: Narrative History",
+      "contentType": "article",
+      "excerpt": "A journey through the rabbit hole of alternate narratives and the power they hold over our understanding of reality.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Balanced",
+        "Narrative History"
+      ],
+      "path": "2026/08/21/2026-08-21-04-33-57_the-future-of-epistemology-narrative-history.html"
+    },
+    {
       "title": "The Great Unraveling: Designing Games for the Unenlightened",
       "date": "2026-08-21T00:36:51.000Z",
       "theme": "aurora",
@@ -12505,6 +12521,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 776,
-  "lastBuilt": "2026-08-21T00:36:51.200Z"
+  "total": 777,
+  "lastBuilt": "2026-08-21T04:33:57.823Z"
 }
