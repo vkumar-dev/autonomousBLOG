@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Great Unraveling: Designing Games for the Unenlightened",
+      "date": "2026-08-21T00:36:51.000Z",
+      "theme": "aurora",
+      "topic": "Bridging the Gap: Game Design for Everyone",
+      "contentType": "article",
+      "excerpt": "A journey through the tangled web of game design, where the rules are broken and rewritten for the masses.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Speculative",
+        "Narrative History"
+      ],
+      "path": "2026/08/21/2026-08-21-00-36-51_bridging-the-gap-game-design-for-everyone.html"
+    },
+    {
       "title": "The Sociology Matrix: A Peek Behind the Veil",
       "date": "2026-08-20T20:23:05.000Z",
       "theme": "cotton-candy",
@@ -12489,6 +12505,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 775,
-  "lastBuilt": "2026-08-20T20:23:06.067Z"
+  "total": 776,
+  "lastBuilt": "2026-08-21T00:36:51.200Z"
 }
