@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In Quest of the Unknowable: A Forensic Odyssey",
+      "date": "2026-08-21T16:24:14.000Z",
+      "theme": "industrial",
+      "topic": "Forensics: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of forensics, unraveling the mysteries we'll forever be in the dark about.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Forensics",
+        "Balanced",
+        "Theory & Practice"
+      ],
+      "path": "2026/08/21/2026-08-21-16-24-14_forensics-what-we-can-never-know.html"
+    },
+    {
       "title": "The Sociological Time Machine: A Counterfactual Adventure",
       "date": "2026-08-21T08:31:18.000Z",
       "theme": "ocean-breeze",
@@ -12537,6 +12553,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 778,
-  "lastBuilt": "2026-08-21T12:25:48.191Z"
+  "total": 779,
+  "lastBuilt": "2026-08-21T16:24:14.315Z"
 }
