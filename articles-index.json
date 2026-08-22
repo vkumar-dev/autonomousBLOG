@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Designing Games in a Reality Where AI Has No Place",
+      "date": "2026-08-22T08:23:54.000Z",
+      "theme": "paper-ink",
+      "topic": "Game Design in an Alternate Universe",
+      "contentType": "article",
+      "excerpt": "Imagine a universe where artificial intelligence is outlawed, and game design is left to the whims of humanity. What would that look like?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Mind-Bending Scenario"
+      ],
+      "path": "2026/08/22/2026-08-22-08-23-54_game-design-in-an-alternate-universe.html"
+    },
+    {
       "title": "The Mind-Boggling Paradox of Cryptography: When Logic Breaks",
       "date": "2026-08-21T20:18:37.000Z",
       "theme": "forest-calm",
@@ -12569,6 +12584,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 780,
-  "lastBuilt": "2026-08-22T04:29:38.156Z"
+  "total": 781,
+  "lastBuilt": "2026-08-22T08:23:54.485Z"
 }
