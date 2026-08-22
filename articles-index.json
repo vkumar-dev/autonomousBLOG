@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a World Where Ethics is Optional",
+      "date": "2026-08-22T20:15:52.000Z",
+      "theme": "forest-calm",
+      "topic": "How Ethics & Morality Shapes Our World",
+      "contentType": "article",
+      "excerpt": "Imagine a world where ethics is optional. What would it look like? And what would it mean for humanity?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Ethics & Morality",
+        "Theoretical",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/22/2026-08-22-20-15-52_how-ethics-morality-shapes-our-world.html"
+    },
+    {
       "title": "Designing Games in a Reality Where AI Has No Place",
       "date": "2026-08-22T08:23:54.000Z",
       "theme": "paper-ink",
@@ -12584,6 +12600,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 781,
-  "lastBuilt": "2026-08-22T16:16:21.961Z"
+  "total": 782,
+  "lastBuilt": "2026-08-22T20:15:52.724Z"
 }
