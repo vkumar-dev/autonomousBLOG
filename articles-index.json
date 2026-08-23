@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "In a Time Before Time Signatures: A Symphony of Historical Proportions",
+      "date": "2026-08-23T04:32:37.000Z",
+      "theme": "aurora",
+      "topic": "Music Theory Explained: Historical Analysis",
+      "contentType": "article",
+      "excerpt": "Delve into the forgotten past of music theory and unravel the symphony that is time itself.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Historical Analysis"
+      ],
+      "path": "2026/08/23/2026-08-23-04-32-37_music-theory-explained-historical-analysis.html"
+    },
+    {
       "title": "In a World Where Ethics is Optional",
       "date": "2026-08-22T20:15:52.000Z",
       "theme": "forest-calm",
@@ -12600,6 +12615,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 782,
-  "lastBuilt": "2026-08-23T00:35:11.551Z"
+  "total": 783,
+  "lastBuilt": "2026-08-23T04:32:37.638Z"
 }
