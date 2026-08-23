@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Bridging the Gap: Literature for Everyone",
+      "date": "2026-08-23T20:14:19.000Z",
+      "theme": "cotton-candy",
+      "topic": "Bridging the Gap: Literature for Everyone",
+      "contentType": "Narrative History",
+      "excerpt": "AI-generated article about Bridging the Gap: Literature for Everyone",
+      "readingTime": 6,
+      "wordCount": 1200,
+      "keywords": [],
+      "path": "2026/08/23/2026-08-23-20-14-19_bridging-the-gap-literature-for-everyone.html"
+    },
+    {
       "title": "The Time Travelers' Chronological Conundrum: A Counterfactual Journey",
       "date": "2026-08-23T08:23:19.000Z",
       "theme": "matrix-code",
@@ -12631,6 +12643,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 784,
-  "lastBuilt": "2026-08-23T16:17:30.975Z"
+  "total": 785,
+  "lastBuilt": "2026-08-23T20:14:19.509Z"
 }
