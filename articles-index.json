@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Economics: The Hilarious History of Money, According to Feynman & Wilde",
+      "date": "2026-08-24T08:40:58.000Z",
+      "theme": "industrial",
+      "topic": "Economics and Its Impact on Modern Life",
+      "contentType": "article",
+      "excerpt": "From ancient bartering to cryptocurrencies, a spicy journey through the world of money.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Economics",
+        "Practical",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/08/24/2026-08-24-08-40-58_economics-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "Bridging the Gap: Literature for Everyone",
       "date": "2026-08-23T20:14:19.000Z",
       "theme": "cotton-candy",
@@ -12643,6 +12659,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 785,
-  "lastBuilt": "2026-08-24T04:43:00.109Z"
+  "total": 786,
+  "lastBuilt": "2026-08-24T08:40:58.527Z"
 }
