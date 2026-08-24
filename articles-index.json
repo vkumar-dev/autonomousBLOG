@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a Timeline Where Programming is a Taboo",
+      "date": "2026-08-24T20:23:45.000Z",
+      "theme": "neon-noir",
+      "topic": "The Programming That Defies Intuition",
+      "contentType": "article",
+      "excerpt": "In a world where code is outlawed, we explore the ethical implications of a programming that bends the mind.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Programming",
+        "Ethical",
+        "Debate & Critique"
+      ],
+      "path": "2026/08/24/2026-08-24-20-23-45_the-programming-that-defies-intuition.html"
+    },
+    {
       "title": "The Matrix Code: What Robotics Tells Us About the Matrix",
       "date": "2026-08-24T12:34:01.000Z",
       "theme": "ocean-breeze",
@@ -12675,6 +12691,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 787,
-  "lastBuilt": "2026-08-24T16:27:48.826Z"
+  "total": 788,
+  "lastBuilt": "2026-08-24T20:23:45.139Z"
 }
