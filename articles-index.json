@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Matrix Code: What Robotics Tells Us About the Matrix",
+      "date": "2026-08-24T12:34:01.000Z",
+      "theme": "ocean-breeze",
+      "topic": "What Robotics Reveals About Reality",
+      "contentType": "article",
+      "excerpt": "Delve into the world of robotics and uncover the secrets that challenge our perception of reality, akin to uncovering the code of the Matrix.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Scientific",
+        "Scientific Breakdown"
+      ],
+      "path": "2026/08/24/2026-08-24-12-34-01_what-robotics-reveals-about-reality.html"
+    },
+    {
       "title": "Economics: The Hilarious History of Money, According to Feynman & Wilde",
       "date": "2026-08-24T08:40:58.000Z",
       "theme": "industrial",
@@ -12659,6 +12675,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 786,
-  "lastBuilt": "2026-08-24T08:40:58.527Z"
+  "total": 787,
+  "lastBuilt": "2026-08-24T12:34:02.129Z"
 }
