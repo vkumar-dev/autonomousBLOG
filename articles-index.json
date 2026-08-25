@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Game Design: A Journey Through Time - Backwards, Naturally",
+      "date": "2026-08-25T04:30:16.000Z",
+      "theme": "neon-pastel",
+      "topic": "Game Design",
+      "contentType": "article",
+      "excerpt": "What if the golden age of game design was in the past? And what if we're playing it all wrong?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Game Design",
+        "Scientific",
+        "Debate & Critique"
+      ],
+      "path": "2026/08/25/2026-08-25-04-30-16_game-design-a-journey-through-time.html"
+    },
+    {
       "title": "In a Timeline Where Programming is a Taboo",
       "date": "2026-08-24T20:23:45.000Z",
       "theme": "neon-noir",
@@ -12691,6 +12707,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 788,
-  "lastBuilt": "2026-08-25T00:35:04.626Z"
+  "total": 789,
+  "lastBuilt": "2026-08-25T04:30:17.025Z"
 }
