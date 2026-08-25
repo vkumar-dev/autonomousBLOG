@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Echoes of Yesterday's Forgotten Future: A Global Case Study on the Intersection of Cognitive Science and the Past",
+      "date": "2026-08-25T16:31:56.000Z",
+      "theme": "matrix-code",
+      "topic": "The Intersection of Cognitive Science and Case Study",
+      "contentType": "article",
+      "excerpt": "A captivating exploration of the tantalizing possibilities of a cognitive science revolution left unrealized.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Global",
+        "Case Study"
+      ],
+      "path": "2026/08/25/2026-08-25-16-31-56_the-intersection-of-cognitive-science-and-case-study.html"
+    },
+    {
       "title": "Can Phenomenology Exist Without Itself?",
       "date": "2026-08-25T08:32:32.000Z",
       "theme": "cotton-candy",
@@ -12723,6 +12739,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 790,
-  "lastBuilt": "2026-08-25T12:27:59.269Z"
+  "total": 791,
+  "lastBuilt": "2026-08-25T16:31:56.456Z"
 }
