@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Can Phenomenology Exist Without Itself?",
+      "date": "2026-08-25T08:32:32.000Z",
+      "theme": "cotton-candy",
+      "topic": "Phenomenology, Speculative",
+      "contentType": "article",
+      "excerpt": "A mind-bending exploration of the self-referential nature of phenomenology.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Speculative",
+        "Educational Essay"
+      ],
+      "path": "2026/08/25/2026-08-25-08-32-32_could-phenomenology-exist-without-itself.html"
+    },
+    {
       "title": "Game Design: A Journey Through Time - Backwards, Naturally",
       "date": "2026-08-25T04:30:16.000Z",
       "theme": "neon-pastel",
@@ -12707,6 +12723,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 789,
-  "lastBuilt": "2026-08-25T04:30:17.025Z"
+  "total": 790,
+  "lastBuilt": "2026-08-25T08:32:32.887Z"
 }
