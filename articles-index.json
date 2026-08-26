@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Secret Life of Nature: A Speculative Exploration",
+      "date": "2026-08-26T16:48:01.000Z",
+      "theme": "sunset-vibes",
+      "topic": "The Hidden Depths of Nature",
+      "contentType": "article",
+      "excerpt": "Delve into the tantalizing mysteries of nature, where the line between science and science fiction blurs.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Nature",
+        "Futuristic",
+        "Speculative Future"
+      ],
+      "path": "2026/08/26/2026-08-26-16-48-01_the-hidden-depths-of-nature.html"
+    },
+    {
       "title": "The Cities of Tomorrow: A Phenomenological What-If Analysis",
       "date": "2026-08-26T12:29:17.000Z",
       "theme": "neon-nights",
@@ -12755,6 +12771,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 792,
-  "lastBuilt": "2026-08-26T12:29:17.359Z"
+  "total": 793,
+  "lastBuilt": "2026-08-26T16:48:01.283Z"
 }
