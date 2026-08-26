@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Cities of Tomorrow: A Phenomenological What-If Analysis",
+      "date": "2026-08-26T12:29:17.000Z",
+      "theme": "neon-nights",
+      "topic": "Urban Planning",
+      "contentType": "article",
+      "excerpt": "What if cities were designed by artists and philosophers instead of engineers and economists?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Urban Planning",
+        "Phenomenological",
+        "What-If Analysis"
+      ],
+      "path": "2026/08/26/2026-08-26-12-29-17_urban-planning-and-its-impact-on-modern-life.html"
+    },
+    {
       "title": "The Echoes of Yesterday's Forgotten Future: A Global Case Study on the Intersection of Cognitive Science and the Past",
       "date": "2026-08-25T16:31:56.000Z",
       "theme": "matrix-code",
@@ -12739,6 +12755,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 791,
-  "lastBuilt": "2026-08-26T08:34:25.825Z"
+  "total": 792,
+  "lastBuilt": "2026-08-26T12:29:17.359Z"
 }
