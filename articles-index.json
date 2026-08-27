@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Time-Twisting Oceanographer's Tale",
+      "date": "2026-08-27T05:19:51.000Z",
+      "theme": "matrix-code",
+      "topic": "Time Travelers with Oceanography: A Counterfactual Journey",
+      "contentType": "article",
+      "excerpt": "What if time travelers were oceanographers? A plausible (yet fantastical) journey through the depths of history.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Oceanography",
+        "Local",
+        "Historical Analysis"
+      ],
+      "path": "2026/08/27/2026-08-27-05-19-51_time-travelers-with-oceanography-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Secret Life of Nature: A Speculative Exploration",
       "date": "2026-08-26T16:48:01.000Z",
       "theme": "sunset-vibes",
@@ -12771,6 +12787,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 793,
-  "lastBuilt": "2026-08-26T22:40:48.481Z"
+  "total": 794,
+  "lastBuilt": "2026-08-27T05:19:51.761Z"
 }
