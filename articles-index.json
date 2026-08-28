@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Hidden Depths of Programming: What If Machines Could Code Themselves?",
+      "date": "2026-08-28T15:51:18.000Z",
+      "theme": "neon-nights",
+      "topic": "The Hidden Depths of Programming",
+      "contentType": "article",
+      "excerpt": "A scientific breakdown of the intriguing question: what if machines could code themselves?",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Programming",
+        "Scientific Breakdown",
+        "Local"
+      ],
+      "path": "2026/08/28/2026-08-28-15-51-18_the-hidden-depths-of-programming.html"
+    },
+    {
       "title": "A Time-Twisting Oceanographer's Tale",
       "date": "2026-08-27T05:19:51.000Z",
       "theme": "matrix-code",
@@ -12787,6 +12803,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 794,
-  "lastBuilt": "2026-08-28T04:02:42.794Z"
+  "total": 795,
+  "lastBuilt": "2026-08-28T15:51:18.136Z"
 }
