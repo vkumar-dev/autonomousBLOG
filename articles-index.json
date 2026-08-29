@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Symphony of the Uncomputable: An Outsider's Guide to Music Theory",
+      "date": "2026-08-29T22:12:11.000Z",
+      "theme": "industrial",
+      "topic": "Music Theory: Outsider's Guide",
+      "contentType": "article",
+      "excerpt": "Dive into the rhythmic world of the uncomputable, where even the most advanced algorithms can't keep up with the symphony of sound.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Outsider",
+        "Educational Essay"
+      ],
+      "path": "2026/08/29/2026-08-29-22-12-11_music-theory-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "Neurons, the Unsung Heroes of Cultural Mimicry",
       "date": "2026-08-29T15:55:21.000Z",
       "theme": "minimalist-clean",
@@ -12835,6 +12851,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 797,
-  "lastBuilt": "2026-08-29T19:05:37.492Z"
+  "total": 798,
+  "lastBuilt": "2026-08-29T22:12:11.419Z"
 }
