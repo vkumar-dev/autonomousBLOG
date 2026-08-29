@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Un-Conductivity of Music Theory: A Symphony of Paradoxes",
+      "date": "2026-08-29T10:38:30.000Z",
+      "theme": "matrix-code",
+      "topic": "Music Theory: What We Can Never Know",
+      "contentType": "article",
+      "excerpt": "A hilarious exploration of the absurdities and paradoxes in music theory, challenging the notion that there's a 'right' or 'wrong' note.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Balanced",
+        "Tutorial"
+      ],
+      "path": "2026/08/29/2026-08-29-10-38-30_music-theory-what-we-can-never-know.html"
+    },
+    {
       "title": "The Hidden Depths of Programming: What If Machines Could Code Themselves?",
       "date": "2026-08-28T15:51:18.000Z",
       "theme": "neon-nights",
@@ -12803,6 +12819,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 795,
-  "lastBuilt": "2026-08-29T00:20:21.269Z"
+  "total": 796,
+  "lastBuilt": "2026-08-29T10:38:30.988Z"
 }
