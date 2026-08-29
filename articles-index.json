@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Neurons, the Unsung Heroes of Cultural Mimicry",
+      "date": "2026-08-29T15:55:21.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Philosophy Behind Neuroscience",
+      "contentType": "article",
+      "excerpt": "Exploring the paradoxical ways our brains adopt cultural habits, and why the 'local' is more powerful than you think.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Neuroscience",
+        "Local",
+        "Cultural Critique"
+      ],
+      "path": "2026/08/29/2026-08-29-15-55-21_the-philosophy-behind-neuroscience.html"
+    },
+    {
       "title": "The Un-Conductivity of Music Theory: A Symphony of Paradoxes",
       "date": "2026-08-29T10:38:30.000Z",
       "theme": "matrix-code",
@@ -12819,6 +12835,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 796,
-  "lastBuilt": "2026-08-29T10:38:30.988Z"
+  "total": 797,
+  "lastBuilt": "2026-08-29T15:55:21.793Z"
 }
