@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Modern Matrix, Your Mind is the Keeper of the Keys",
+      "date": "2026-08-30T01:57:35.000Z",
+      "theme": "forest-calm",
+      "topic": "Psychology in the Modern Era: A Existential Approach",
+      "contentType": "article",
+      "excerpt": "A journey through the mind's labyrinth in the era of existential paradoxes and the modern matrix.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Psychology",
+        "Existential",
+        "Paradox Exploration"
+      ],
+      "path": "2026/08/30/2026-08-30-01-57-35_psychology-in-the-modern-era-a-existential-approach.html"
+    },
+    {
       "title": "The Symphony of the Uncomputable: An Outsider's Guide to Music Theory",
       "date": "2026-08-29T22:12:11.000Z",
       "theme": "industrial",
@@ -12851,6 +12867,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 798,
-  "lastBuilt": "2026-08-29T22:12:11.419Z"
+  "total": 799,
+  "lastBuilt": "2026-08-30T01:57:35.855Z"
 }
