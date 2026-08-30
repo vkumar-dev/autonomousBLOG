@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In the Fields of Corn, Solar-Powered Drone Swarms Patrol",
+      "date": "2026-08-30T18:59:15.000Z",
+      "theme": "paper-ink",
+      "topic": "Understanding Robotics Through Case Studies & Examples",
+      "contentType": "article",
+      "excerpt": "A look at the reality of robotics in our future, where solar-powered drones revolutionize agriculture.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Skeptical",
+        "Speculative Future"
+      ],
+      "path": "2026/08/30/2026-08-30-18-59-15_understanding-robotics-through-case-studies-examples.html"
+    },
+    {
       "title": "In the Modern Matrix, Your Mind is the Keeper of the Keys",
       "date": "2026-08-30T01:57:35.000Z",
       "theme": "forest-calm",
@@ -12867,6 +12883,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 799,
-  "lastBuilt": "2026-08-30T15:39:18.649Z"
+  "total": 800,
+  "lastBuilt": "2026-08-30T18:59:16.085Z"
 }
