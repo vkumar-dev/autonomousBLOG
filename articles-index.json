@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "From Abacus to AI: A Temporal Tango Through Tech",
+      "date": "2026-08-30T22:17:23.000Z",
+      "theme": "forest-calm",
+      "topic": "Tech Trivia: A Journey Through Time",
+      "contentType": "article",
+      "excerpt": "A dance through the ages, where numbers and silicon intertwine. Join us as we sashay from the abacus to AI, and ponder the unexpected connections.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Tech Trivia",
+        "Counterfactual",
+        "Thought Experiment"
+      ],
+      "path": "2026/08/30/2026-08-30-22-17-23_tech-trivia-a-journey-through-time.html"
+    },
+    {
       "title": "In the Fields of Corn, Solar-Powered Drone Swarms Patrol",
       "date": "2026-08-30T18:59:15.000Z",
       "theme": "paper-ink",
@@ -12883,6 +12899,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 800,
-  "lastBuilt": "2026-08-30T18:59:16.085Z"
+  "total": 801,
+  "lastBuilt": "2026-08-30T22:17:23.860Z"
 }
