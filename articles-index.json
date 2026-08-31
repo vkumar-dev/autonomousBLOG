@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Consciousness of Linguistics: A Metaphysical Inquiry",
+      "date": "2026-08-31T18:23:25.000Z",
+      "theme": "minimalist-clean",
+      "topic": "The Consciousness of Linguistics: A Metaphysical Inquiry",
+      "contentType": "Technical Deep Dive",
+      "excerpt": "AI-generated article about The Consciousness of Linguistics: A Metaphysical Inquiry",
+      "readingTime": 5,
+      "wordCount": 900,
+      "keywords": [],
+      "path": "2026/08/31/2026-08-31-18-23-25_the-consciousness-of-linguistics-a-metaphysical-inquiry.html"
+    },
+    {
       "title": "From Abacus to AI: A Temporal Tango Through Tech",
       "date": "2026-08-30T22:17:23.000Z",
       "theme": "forest-calm",
@@ -12899,6 +12911,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 801,
-  "lastBuilt": "2026-08-31T10:18:58.746Z"
+  "total": 802,
+  "lastBuilt": "2026-08-31T18:23:25.768Z"
 }
