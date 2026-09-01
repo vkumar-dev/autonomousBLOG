@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Time Travelers with Biology: A Counterfactual Journey",
+      "date": "2026-09-01T15:42:58.000Z",
+      "theme": "matrix-code",
+      "topic": "Time Travelers with Biology",
+      "contentType": "article",
+      "excerpt": "Exploring the implications of a world where time travelers have evolved biological adaptations.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Biology",
+        "Philosophical Inquiry"
+      ],
+      "path": "2026/09/01/2026-09-01-15-42-58_time-travelers-with-biology-a-counterfactual-journey.html"
+    },
+    {
       "title": "The Consciousness of Linguistics: A Metaphysical Inquiry",
       "date": "2026-08-31T18:23:25.000Z",
       "theme": "minimalist-clean",
@@ -12911,6 +12926,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 802,
-  "lastBuilt": "2026-09-01T09:04:59.167Z"
+  "total": 803,
+  "lastBuilt": "2026-09-01T15:42:59.174Z"
 }
