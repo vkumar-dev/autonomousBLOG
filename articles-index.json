@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Music Theory: A Journey Through Time",
+      "date": "2026-09-02T08:18:17.000Z",
+      "theme": "neon-lights",
+      "topic": "Music Theory",
+      "contentType": "article",
+      "excerpt": "A wild ride through history, uncovering the evolution of music theory.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Music Theory",
+        "Global",
+        "Historical Analysis"
+      ],
+      "path": "2026/09/02/2026-09-02-08-18-17_music-theory-a-journey-through-time.html"
+    },
+    {
       "title": "Time Travelers with Biology: A Counterfactual Journey",
       "date": "2026-09-01T15:42:58.000Z",
       "theme": "matrix-code",
@@ -12926,6 +12942,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 803,
-  "lastBuilt": "2026-09-02T01:40:37.127Z"
+  "total": 804,
+  "lastBuilt": "2026-09-02T08:18:18.381Z"
 }
