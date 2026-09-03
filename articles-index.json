@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Uncomputable Library: A Speculative Future for Literature",
+      "date": "2026-09-03T19:03:20.000Z",
+      "theme": "industrial",
+      "topic": "The Impossibility of Literature: A Thought Experiment",
+      "contentType": "article",
+      "excerpt": "Dive into a world where literature is no longer a human endeavor, but a computational problem.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Literature",
+        "Philosophical",
+        "Speculative Future"
+      ],
+      "path": "2026/09/03/2026-09-03-19-03-20_the-impossibility-of-literature-a-thought-experiment.html"
+    },
+    {
       "title": "Time's Arrow Unbent: A Reverse Chronology of Phenomenology's Paradoxical Evolution",
       "date": "2026-09-03T15:23:57.000Z",
       "theme": "neon-nights",
@@ -12990,6 +13006,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 807,
-  "lastBuilt": "2026-09-03T15:23:57.807Z"
+  "total": 808,
+  "lastBuilt": "2026-09-03T19:03:20.558Z"
 }
