@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Time's Arrow Unbent: A Reverse Chronology of Phenomenology's Paradoxical Evolution",
+      "date": "2026-09-03T15:23:57.000Z",
+      "theme": "neon-nights",
+      "topic": "The Phenomenology Paradox: When Logic Breaks",
+      "contentType": "article",
+      "excerpt": "A journey through the fractured mirrors of Phenomenology's timeline, where logic dances with absurdity.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Phenomenology",
+        "Pessimistic",
+        "Timeline & Evolution"
+      ],
+      "path": "2026/09/03/2026-09-03-15-23-57_the-phenomenology-paradox-when-logic-breaks.html"
+    },
+    {
       "title": "The Epistemology of the Kitchen Sink: A Journey Through the Rabbit Hole of Knowing",
       "date": "2026-09-03T08:28:05.000Z",
       "theme": "minimalist-clean",
@@ -12974,6 +12990,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 806,
-  "lastBuilt": "2026-09-03T08:28:05.335Z"
+  "total": 807,
+  "lastBuilt": "2026-09-03T15:23:57.807Z"
 }
