@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "In a Universe Where Cognitive Science Ruled",
+      "date": "2026-09-03T22:04:21.000Z",
+      "theme": "ocean-breeze",
+      "topic": "Cognitive Science: Practical Applications and Insights",
+      "contentType": "article",
+      "excerpt": "Imagine a world where understanding the mind's intricacies was the key to mastering the universe.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Cognitive Science",
+        "Historical",
+        "Comparative Study"
+      ],
+      "path": "2026/09/03/2026-09-03-22-04-21_cognitive-science-practical-applications-and-insights.html"
+    },
+    {
       "title": "The Uncomputable Library: A Speculative Future for Literature",
       "date": "2026-09-03T19:03:20.000Z",
       "theme": "industrial",
@@ -13006,6 +13022,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 808,
-  "lastBuilt": "2026-09-03T19:03:20.558Z"
+  "total": 809,
+  "lastBuilt": "2026-09-03T22:04:21.711Z"
 }
