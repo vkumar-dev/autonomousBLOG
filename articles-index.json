@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Epistemology of the Kitchen Sink: A Journey Through the Rabbit Hole of Knowing",
+      "date": "2026-09-03T08:28:05.000Z",
+      "theme": "minimalist-clean",
+      "topic": "Why Epistemology Matters for Enthusiasts & Hobbyists",
+      "contentType": "article",
+      "excerpt": "From ancient Greece to modern neuroscience, a lighthearted exploration of why knowing how we know is more important than you think.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Epistemology",
+        "Optimistic",
+        "Conceptual Overview"
+      ],
+      "path": "2026/09/03/2026-09-03-08-28-05_why-epistemology-matters-for-enthusiasts-hobbyists.html"
+    },
+    {
       "title": "Rise of the Sparklers: The Dawn of Robot Consciousness",
       "date": "2026-09-03T01:42:26.000Z",
       "theme": "sunset-vibes",
@@ -12958,6 +12974,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 805,
-  "lastBuilt": "2026-09-03T01:42:27.245Z"
+  "total": 806,
+  "lastBuilt": "2026-09-03T08:28:05.335Z"
 }
