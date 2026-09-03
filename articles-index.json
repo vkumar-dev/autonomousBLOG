@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "Rise of the Sparklers: The Dawn of Robot Consciousness",
+      "date": "2026-09-03T01:42:26.000Z",
+      "theme": "sunset-vibes",
+      "topic": "How Robotics Shapes Our World",
+      "contentType": "article",
+      "excerpt": "A fascinating exploration of the consciousness puzzle in the age of robotics.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Robotics",
+        "Optimistic",
+        "Conceptual Puzzle"
+      ],
+      "path": "2026/09/03/2026-09-03-01-42-26_how-robotics-shapes-our-world.html"
+    },
+    {
       "title": "Music Theory: A Journey Through Time",
       "date": "2026-09-02T08:18:17.000Z",
       "theme": "neon-lights",
@@ -12942,6 +12958,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 804,
-  "lastBuilt": "2026-09-02T22:11:07.440Z"
+  "total": 805,
+  "lastBuilt": "2026-09-03T01:42:27.245Z"
 }
