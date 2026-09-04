@@ -11,6 +11,7 @@
 ## Core Features
 
 - **🤖 Fully Autonomous**: Generates articles every 4 hours via GitHub Actions.
+- **🆕 Current-Gen Models**: Runs keyless local inference on **Hugging Face GGUF** models (llama.cpp) — the model is discovered fresh from the Hub, so it stays current without waiting on an Ollama registry. No API keys needed.
 - **🎨 Dynamic Themes**: Dual-theme homepage (White/Black) and 10+ unique article themes.
 - **📅 Smart Topics**: Prioritizes news/trending topics with fallback to historical analysis and fun content.
 - **🔄 No Duplicates**: Persistent tracking of previously covered topics to avoid repetition.

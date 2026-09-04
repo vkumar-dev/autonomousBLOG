@@ -1,20 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * Generate Article with Ollama
- * Uses local Ollama instance for keyless, offline inference
+ * Generate Article with local Hugging Face GGUF inference
+ * Uses llama.cpp via scripts/hf_inference.py - no API key, no Ollama.
+ * Model is discovered fresh from Hugging Face Hub by scripts/model_resolver.py,
+ * so the blog keeps up with current-generation open models.
  * NO FALLBACK - Only real AI content or failure as blog post
  */
 
 const fs = require('fs');
 const path = require('path');
-const OllamaInference = require('./ollama-inference');
+const HfInference = require('./hf-inference');
 
-const OLLAMA_URL = process.env.OLLAMA_URL || 'http://localhost:11434';
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'mistral';
 const TOPIC_FILE = path.join(__dirname, '..', 'selected-topic.json');
 const ARTICLES_DIR = path.join(__dirname, '..', 'articles');
-const PROMPT_FILE = path.join(__dirname, '..', 'prompts', 'article-generation.txt');
 
 const ARTICLE_THEMES = [
   'minimalist-clean', 'neon-nights', 'paper-ink', 'ocean-breeze', 'forest-calm',
@@ -52,21 +51,21 @@ function calculateReadingTime(wordCount) {
 }
 
 /**
- * Call Ollama API for content generation
+ * Generate content with the local llama.cpp GGUF model
  */
-async function callOllama(prompt, topicData) {
-  const inference = new OllamaInference(OLLAMA_URL, OLLAMA_MODEL);
-  
-  const result = await inference.generate(prompt, {
-    temperature: 0.7,
-    topP: 0.9,
-    topK: 40,
-    numPredict: 4096, // Increased to support long HTML articles without cutoff
-    verbose: true
+async function generateWithHf(prompt) {
+  const inference = new HfInference();
+
+  const result = inference.generate(prompt, {
+    temperature: 0.85,
+    maxTokens: parseInt(process.env.LLAMA_MAX_TOKENS || '5200', 10),
+    system: process.env.HF_SYSTEM ||
+      'You are a world-class long-form blog writer. Follow the prompt exactly. ' +
+      'Output ONLY the requested article HTML content, with no preamble, no commentary and no closing notes.'
   });
 
   if (!result.success) {
-    throw new Error(result.error || 'Failed to generate content with Ollama');
+    throw new Error(result.error || 'Failed to generate content with GGUF model');
   }
 
   return result.content;
@@ -82,6 +81,7 @@ async function generateArticle() {
   console.log('📰 Generating article for topic:', topicData.topic);
 
   // Load and prepare prompt
+  const PROMPT_FILE = path.join(__dirname, '..', 'prompts', 'article-generation.txt');
   let prompt = fs.existsSync(PROMPT_FILE)
     ? fs.readFileSync(PROMPT_FILE, 'utf8')
     : 'Write an article about {{TOPIC}}';
@@ -106,15 +106,15 @@ async function generateArticle() {
     .replace('{{CONTENT_TYPE}}', topicData.type || 'article')
     .replace('{{THEME}}', theme);
 
-  // Generate with Ollama (NO FALLBACK)
-  console.log('🤖 Generating with Ollama...');
-  let content = await callOllama(prompt, topicData);
+  // Generate with the local GGUF model (NO FALLBACK)
+  console.log('🤖 Generating with local HF GGUF model...');
+  let content = await generateWithHf(prompt);
 
   // Clean up content - remove code fences if present
   content = content.replace(/^\s*```html\s*\n/i, '').replace(/^\s*```\s*\n/i, '').replace(/\n\s*```\s*$/i, '');
 
   // Ensure content has frontmatter (wrapped in HTML comments for .html files)
-  const finalContent = !content.includes('---') 
+  const finalContent = !content.includes('---')
     ? `<!--
 ---
 title: "${topicData.topic}"
@@ -125,7 +125,7 @@ wordCount: ${topicData.estimatedWords || 800}
 readingTime: ${calculateReadingTime(topicData.estimatedWords || 800)}
 excerpt: "AI-generated article about ${topicData.topic}"
 contentType: "${topicData.type}"
-generated: "ollama"
+generated: "hf-gguf"
 ---
 -->
 
@@ -145,7 +145,6 @@ ${content}`
   // Write article
   fs.writeFileSync(articleFile, finalContent);
   console.log('✅ Article created:', articleFile);
-
 
   // Clean up topic file
   if (fs.existsSync(TOPIC_FILE)) {

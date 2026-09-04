@@ -1,0 +1,146 @@
+name: Autonomous Article Generation (Hugging Face GGUF)
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    # Manual trigger for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      HF_HUB_DISABLE_PROGRESS_BARS: "1"
+      MODEL_MIN_PARAMS: "3B"
+      MODEL_MAX_PARAMS: "7B"
+      LLAMA_MAX_TOKENS: "5200"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - name: Install Python inference dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install huggingface_hub
+          pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu || pip install llama-cpp-python
+
+      - name: Install Node.js dependencies
+        run: |
+          npm init -y
+          npm install --no-save gray-matter node-fetch@2
+
+      - name: Discover latest public GGUF model
+        id: model
+        run: |
+          echo "Selecting a current-generation public non-gated GGUF model..."
+          python3 scripts/model_resolver.py
+          MODEL_ID=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-model.json')).model)")
+          QUANT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-model.json')).quantization)")
+          echo "model=$MODEL_ID" >> "$GITHUB_OUTPUT"
+          echo "quant=$QUANT" >> "$GITHUB_OUTPUT"
+          echo "Selected $MODEL_ID ($QUANT)"
+
+      - name: Cache GGUF weights
+        uses: actions/cache@v4
+        with:
+          # Keep weights + HF cache OUT of $GITHUB_WORKSPACE so they are never
+          # uploaded as part of the Pages artifact.
+          path: |
+            ${{ runner.temp }}/models
+            ${{ runner.temp }}/hf
+          key: ${{ runner.os }}-gguf-${{ hashFiles('selected-model.json') }}
+          restore-keys: |
+            ${{ runner.os }}-gguf-
+
+      - name: Generate topic history
+        run: |
+          echo "📚 Building topic history..."
+          node scripts/build-topic-history.js
+          echo "✅ Topic history built"
+        continue-on-error: true
+
+      - name: Select random topic
+        id: topic
+        run: |
+          echo "🎲 Generating random topic..."
+          node scripts/random-topic-selector.js > selected-topic.json
+          TOPIC=$(node -e "console.log(JSON.parse(require('fs').readFileSync('selected-topic.json')).topic)")
+          echo "topic=$TOPIC" >> "$GITHUB_OUTPUT"
+          echo "✅ Generated topic: $TOPIC"
+
+      - name: Generate article with local GGUF inference
+        timeout-minutes: 25
+        env:
+          HF_HOME: ${{ runner.temp }}/hf
+          LLAMA_MODEL_DIR: ${{ runner.temp }}/models
+        run: |
+          echo "✍️  Generating article with local Hugging Face GGUF inference..."
+          timeout 1200 node scripts/generate-article-hf.js || { echo "❌ Generation failed"; exit 1; }
+          echo "✅ Article generation complete"
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'autonomousBLOG Bot'
+          git config --global user.email 'autonomousblog@github-actions.local'
+
+      - name: Build article index and content cache
+        run: |
+          echo "🔨 Building article index..."
+          node scripts/build-article-index.js
+          echo "✅ Article index built"
+
+          echo "🔨 Building content cache..."
+          node scripts/build-articles-content.js
+          echo "✅ Content cache built"
+        continue-on-error: true
+
+      - name: Commit and push article with index
+        run: |
+          git add articles/ articles-index.json articles-content.json
+
+          if git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit"
+            exit 0
+          fi
+
+          # Commit without [skip ci] so push event triggers deploy workflow
+          git commit -m "🤖 Auto-generated article: $(date -u +%Y-%m-%d)"
+
+          if git push origin main; then
+            echo "✅ Article committed and pushed"
+          else
+            echo "⚠️  Push failed (may need to pull first)"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Show summary
+        if: always()
+        run: |
+          echo "📊 Workflow Summary:"
+          echo "   Article topic: ${{ steps.topic.outputs.topic }}"
+          echo "   Model: ${{ steps.model.outputs.model }}"
+          echo "   Status: Complete"

@@ -31,7 +31,7 @@ The codebase includes optimized `v2` scripts that leverage shared utility module
 - `scripts/utils/fetch-helper.js`: API calls with 30-second timeouts, retry logic, and validation.
 
 ## Local Inference & Agentic Frameworks
-The system supports local LLM execution via **Ollama**.
+The system supports local LLM execution via **Hugging Face GGUF** models run through llama.cpp (`scripts/model_resolver.py` discovers a current public GGUF; `scripts/hf_inference.py` runs it). No Ollama, no API keys.
 - **Model Support**: Optimally works with Mistral 7B, Llama 2, or Zephyr 7B.
 - **Workflow Protection**: Uses the `[skip ci]` commit flag to prevent recursive GitHub Actions triggers.
 - **Agentic Logic**: Supports reasoning loops where the AI can validate its own output before saving.

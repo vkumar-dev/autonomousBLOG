@@ -38,3 +38,9 @@ temp/
 
 # Python cache files
 __pycache__/
+
+# Model / inference runtime
+.models/
+.hf/
+selected-model.json
+resolver-output.json

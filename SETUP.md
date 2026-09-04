@@ -49,12 +49,14 @@ If you prefer OpenAI or other models:
 - Set `AI_API_URL` if using a custom endpoint.
 - Set `AI_MODEL` to specify a model (e.g., `gpt-4`).
 
-### Local Setup (Ollama)
-To run autonomousBLOG locally using local models:
-1. **Install Ollama**: Visit [ollama.ai](https://ollama.ai).
-2. **Pull a Model**: `ollama pull mistral`.
-3. **Run the Loop**: Use `scripts/start-ralph-blog.bat` (Windows) or `scripts/check-blog-status.sh` (Linux).
-4. **Agentic Framework**: See `docs/ARCHITECTURE.md` for details on running local agents with Ollama.
+### Local Setup (Hugging Face GGUF)
+To run autonomousBLOG locally with current-generation open models (no Ollama, no API keys):
+1. **Install Python deps**: `pip install huggingface_hub llama-cpp-python` (CPU wheel available via `--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu`).
+2. **Discover a model**: `python3 scripts/model_resolver.py` picks the latest suitable public GGUF and writes `selected-model.json`.
+3. **Generate**: `node scripts/random-topic-selector.js > selected-topic.json && node scripts/generate-article-hf.js`.
+4. **Build**: `node scripts/build-article-index.js && node scripts/build-articles-content.js`.
+
+The workflow (`.github/workflows/autonomous-generate-hf.yml`) does all of this automatically on GitHub Actions.
 
 ### Customizing Frequency
 Edit `.github/workflows/autonomous-generate.yml` to change the `cron` schedule:
