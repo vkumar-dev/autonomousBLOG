@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "The Unseen Players in Your Mind: A Skeptical Conceptual Overview",
+      "date": "2026-09-04T18:45:41.000Z",
+      "theme": "matrix-code",
+      "topic": "Consciousness Studies",
+      "contentType": "article",
+      "excerpt": "Discover the lesser-known facts and stories that challenge our understanding of consciousness.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Consciousness Studies",
+        "Skeptical",
+        "Conceptual Overview"
+      ],
+      "path": "2026/09/04/2026-09-04-18-45-41_consciousness-studies-lesser-known-facts-and-stories.html"
+    },
+    {
       "title": "In a Universe Where Cognitive Science Ruled",
       "date": "2026-09-03T22:04:21.000Z",
       "theme": "ocean-breeze",
@@ -13022,6 +13038,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 809,
-  "lastBuilt": "2026-09-04T15:19:09.646Z"
+  "total": 810,
+  "lastBuilt": "2026-09-04T18:45:41.961Z"
 }
