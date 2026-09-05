@@ -1,0 +1,135 @@
+We need to produce HTML article per format, with required sections. Must follow strict constraints: no boilerplate sentences like "In the fast-paced world...", no definitions, no repetitive structure unless storytelling method requires. Storytelling method is "Question-Answer Format". So we need to structure as Q&A? The prompt says Storytelling Method: Question-Answer Format. So we need to embed Q&A style throughout. Possibly each section can be framed as questions. But overall article must follow the content architecture: Hook, Narrative Arc, interactive elements. The format includes sections with headers, but we can embed Q&A inside paragraphs.
+
+We must ensure no boilerplate sentences like "In the fast-paced world...", "In conclusion...", etc. Avoid those phrases.
+
+We need to output only the article HTML, no extra text.
+
+We must have title, topic, etc as per template: The HTML skeleton provided includes fields like title, topic, theme, excerpt, keywords inside comment block. But we need to output actual HTML with article. The comment block is just a placeholder; we should output the article with those fields maybe as comment? Usually we output just the article content as specified. The template shows:
+
+```html
+<!--
+---
+title: "A Headline That Hooks and Challenges"
+topic: "{{TOPIC}}"
+theme: "cotton-candy"
+excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
+keywords: [{{KEYWORDS}}]
+---
+-->
+
+<article class="ai-article">
+  ...
+</article>
+```
+
+We should fill actual values. Use the given topic: Neuroscience in the Modern Era: A Practical Approach. So title could be something like "Neuroscience in the Modern Era: A Practical Approach". But we need to follow the instruction: Title should be a compelling title. We'll put something like "Neuroscience on the Edge: A Practical Journey".
+
+We need keywords: Neuroscience, Practical, Educational Essay. So we need list [Neuroscience, Practical, Educational Essay] or exactly as keywords. Use keywords array: [Neuroscience, Practical, Educational Essay].
+
+We need to include the header fields: <header class="article-header"> with h1 and p.
+
+We need sections: content-section with header h2, etc.
+
+We need interactive elements: [!NOTE], [!TIP] via markdown? In the article we should embed them as <aside class="fun-fact"> with icon etc. They said sprinkle these throughout using > [!NOTE] etc? Actually they said sprinkle these throughout to break up the text: > [!NOTE] (Fun Fact), > [!TIP] (Pro-Tip). But in HTML we can embed those as <aside class="fun-fact"> etc. Might be okay to include them as separate elements. We'll include <aside class="fun-fact"> with content.
+
+Also pull quotes: Use <figure class="pull-quote"> with blockquote.
+
+Key takeaway: <div class="key-takeaway">.
+
+Footer with thematic pondering.
+
+Make sure no boilerplate sentences.
+
+We must use Q&A format: The story must be in question-answer style. How to embed? We could have Q/A pairs within paragraphs: e.g., "Question: How does modern neuroscience inform practical training?" "Answer: ..." But we need to keep narrative.
+
+Better: Use headings like "Q: What if..."? Or embed question sentences directly as questions in text. But requirement is "Storytelling Method: Question-Answer Format". So the article should be structured as Q&A; maybe each major section starts with a question and answer.
+
+We can have sections where first line is a question, then answer. But must avoid boilerplate sentences.
+
+We'll design the article where the hook is a bold claim (question or challenge). Then we proceed with Q&A style paragraphs.
+
+We need depth expert. Use narrative, wit, etc.
+
+Constraints: NO definitions, no repeated structure unless required. Storytelling method is Q&A, so we should follow Q&A format throughout.
+
+We'll produce sections like:
+
+<section class="content-section">
+  <h2>Q: How do you turn neural data into real-world skill acquisition?</h2>
+  <p>Answer: ... (explanation)</p>
+</section>
+
+But headings might be fine.
+
+Better: Use Q&A as embedded sentences: e.g., "What is the practical first step?" Answer in same paragraph.
+
+But we need to avoid repetitive structure like intro-point-summary.
+
+We'll keep narrative flowing but embed Q&A.
+
+We'll have a main narrative that asks questions and answers them.
+
+Let's outline:
+
+Hook: start with bold claim: "Imagine you could read the brain’s wiring map in real time and use it to design a classroom that adapts to each learner’s neural rhythm." That's a hook.
+
+Then the narrative arc: We'll use Q&A style.
+
+Section 1: Title maybe "The First Puzzle: Mapping the Brain's Flow" with Q&A.
+
+We need to embed [!NOTE] and [!TIP] maybe via aside or as inline notes. We'll embed aside for fun fact, and maybe a tip inside content.
+
+We'll follow the provided structure:
+
+<article class="ai-article">
+  <header class="article-header">
+    <h1>Neuroscience in the Modern Era: A Practical Approach</h1>
+    <p class="lead">[Hook paragraph]</p>
+  </header>
+
+  <section class="content-section">
+    <h2>Q: What if you could see a learner's neural activation during a problem-solving task?</h2>
+    <p>Answer: ...</p>
+    <aside class="fun-fact"> ...</aside>
+  </section>
+
+  <section class="content-section">
+    <h2>Q: How does that visibility translate into a practical classroom technique?</h2>
+    <p>Answer: ...</p>
+    <figure class="pull-quote"> ...</figure>
+  </section>
+
+  <section class="content-section">
+    <h2>Q: What practical tools can researchers and educators actually build today?</h2>
+    <p>Answer: ...</p>
+    <div class="key-takeaway"> ...</div>
+  </section>
+
+  <footer class="thematic-pondering">
+    <h2>Thematic Pondering</h2>
+    <p> ...</p>
+    <div class="pondering-question"> ...</div>
+  </footer>
+</article>
+
+Make sure no boilerplate sentences like "In conclusion". Avoid "It's important".
+
+Use active voice.
+
+Use varied sentence cadence.
+
+Include [!NOTE] and [!TIP] maybe as inline like "Note: ..." but they asked to sprinkle these elements using > [!NOTE] etc. In HTML we can have <aside class="fun-fact"> for note, and <aside class="tip"> for tip? But they said use > [!NOTE] (Fun Fact) and > [!TIP] (Pro-Tip) as markers. We could embed them as separate elements, but the template only includes aside for fun-fact. We'll include a fun-fact aside for note, and maybe a tip as a separate element.
+
+We can include a <aside class="tip"> but not required. Safer to include both as separate aside classes? The template has only <aside class="fun-fact">. We'll just use that for note, and embed tip within content using a small inline note maybe as a <span class="pro-tip">. But better to keep simple: Use <aside class="fun-fact"> for note, and also include a <aside class="pro-tip"> maybe? But they only defined fun-fact and pull-quote.
+
+We'll just use the fun-fact for note, and for tip we can embed within paragraph using inline "Tip: ..." but they said > [!TIP] as a marker. Maybe we can include a separate aside with class "tip". But the template didn't define it. Safer to include a small block with a tip label.
+
+I'll include a separate aside with class "tip" but it's okay as long as HTML is valid.
+
+We'll keep simple: Use <aside class="fun-fact"> for note, and within content include a short "💡 Tip:" line as part of key-takeaway? Or just include a <div class="tip">.
+
+But the instructions: "Sprinkle these throughout to break up the text: > [!NOTE] (A "Fun Fact" or "Side Note" box), > [!TIP] (A "Pro-Tip" or "Key Takeaway" box)". So we should have elements representing those. In the provided HTML skeleton they have aside class "fun-fact" and figure pull-quote, and div key-takeaway. We can treat the fun-fact as [!NOTE], and key-takeaway as [!TIP]? But key-takeaway is a bottom line. Might be okay to use fun-fact for note, and perhaps include a tip as a separate element like <aside class="tip">.
+
+But to avoid extra elements maybe just use the fun-fact for note and embed tip as inline phrase.
+
+Better: Keep the structure as given
