@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The History That Defies Intuition",
+      "date": "2026-09-05T14:33:27.000Z",
+      "theme": "forest-calm",
+      "topic": "The History That Defies Intuition",
+      "contentType": "Debate & Critique",
+      "excerpt": "AI-generated article about The History That Defies Intuition",
+      "readingTime": 5,
+      "wordCount": 1000,
+      "keywords": [],
+      "path": "2026/09/05/2026-09-05-14-33-27_the-history-that-defies-intuition.html"
+    },
+    {
       "title": "Robotics in an Alternate Universe",
       "date": "2026-09-05T08:02:13.000Z",
       "theme": "neon-nights",
@@ -13062,6 +13074,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 812,
-  "lastBuilt": "2026-09-05T11:53:23.973Z"
+  "total": 813,
+  "lastBuilt": "2026-09-05T14:33:27.518Z"
 }
