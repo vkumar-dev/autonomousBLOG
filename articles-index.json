@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "Geology: Myths vs Reality",
+      "date": "2026-09-05T21:59:41.000Z",
+      "theme": "aurora",
+      "topic": "Geology: Myths vs Reality",
+      "contentType": "Counterfactual History",
+      "excerpt": "AI-generated article about Geology: Myths vs Reality",
+      "readingTime": 6,
+      "wordCount": 1200,
+      "keywords": [],
+      "path": "2026/09/05/2026-09-05-21-59-41_geology-myths-vs-reality.html"
+    },
+    {
       "title": "The History That Defies Intuition",
       "date": "2026-09-05T14:33:27.000Z",
       "theme": "forest-calm",
@@ -13074,6 +13086,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 813,
-  "lastBuilt": "2026-09-05T18:00:43.172Z"
+  "total": 814,
+  "lastBuilt": "2026-09-05T21:59:41.508Z"
 }
