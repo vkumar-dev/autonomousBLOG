@@ -1,0 +1,75 @@
+<!--
+---
+title: "If Phenomenology Had No Rules: A Speculative Exploration"
+date: "2026-09-06T17:58:17.789Z"
+theme: "matrix-code"
+topic: "If Phenomenology Had No Rules: A Speculative Exploration"
+wordCount: 1500
+readingTime: 8
+excerpt: "AI-generated article about If Phenomenology Had No Rules: A Speculative Exploration"
+contentType: "Comparative Study"
+generated: "hf-gguf"
+---
+-->
+
+We need to produce an article HTML content per format, with title, topic, etc. Must follow strict constraints: no boilerplate sentences like "In the fast-paced world...", no definitions, no repetitive structure unless required. Use conversational casual style, expert deep dive, keywords: Phenomenology, Pessimistic, Comparative Study. Angle: a paradox that breaks intuition. Tone: casual but spicy authentic. Word count ~1500 words. Use storytelling method: philosophical inquiry. Use interactive elements via markdown special: > [!NOTE], > [!TIP], pull quotes using > "Quote text". Also include fun fact via aside, key takeaway, pondering question.
+
+We need to output ONLY article HTML, no extra text. Must follow the HTML5 skeleton given.
+
+Let's design content.
+
+Title: maybe "If Phenomenology Had No Rules: A Speculative Exploration". Or more catchy: "The Rules Are Gone: Phenomenology Without Boundaries". But the spec says article HTML should have title as "Your Compelling Title". We'll include a heading.
+
+We need to embed the keywords in article? The spec says include keywords list in the top comment? The output format includes a comment block with title, topic, theme, excerpt, keywords. We'll fill those.
+
+We need to include the required sections: header with article-header h1 and lead paragraph. Then content sections.
+
+We must not use boilerplate sentences like "In the fast-paced world...". Avoid "In conclusion...". Avoid definitions.
+
+We need to start with hook in first ten words that establishes style. Must start with "Your Compelling Title" heading? The header h1 is title, then lead paragraph.
+
+We should start with a bold claim, a bizarre anecdote, etc. Use conversational casual tone, spicy authentic.
+
+We need to embed pull quotes using `> "Quote text"` as a block inside a figure with pull-quote. The spec says: <figure class="pull-quote"> <blockquote>"A particularly sharp pull-quote from your own writing."</blockquote> </figure>. We'll use that.
+
+We need to include > [!NOTE] and > [!TIP] boxes. In HTML, they want `<aside class="fun-fact">` etc. They defined `<aside class="fun-fact">` with span icon, fact-text. Also they want > [!NOTE] (Fun Fact) and > [!TIP] (Pro-Tip). We'll embed those via the `<aside>` maybe or separate elements.
+
+Better to follow the spec: they said sprinkle these throughout using markdown special > [!NOTE] etc. But final output is HTML; they gave specific HTML structure with aside class "fun-fact". So we can embed note/tip inside that aside or separate elements. The spec says "Sprinkle these throughout to break up the text: > [!NOTE] (A "Fun Fact" or "Side Note" box), > [!TIP] (A "Pro-Tip" or "Key Takeaway" box), Pull Quotes: Use `> "Quote text"` for particularly witty or profound sentences."
+
+But they also define `<aside class="fun-fact">` etc. We can include a separate element like `<aside class="fun-fact">...` for note. For tip we could use `<div class="tip">...` but they didn't define. Safer to use `<aside class="fun-fact">` for notes, and maybe `<aside class="tip">` or just embed tip in same aside with different label? But spec says > [!TIP] (A "Pro-Tip" or "Key Takeaway" box). The key takeaway box is already defined as `<div class="key-takeaway">`. So > [!TIP] could be a separate aside or inline note.
+
+We'll use `<aside class="fun-fact">` for notes, and `<aside class="tip">` maybe not defined; but we can just include a `<div class="tip">` or just embed tip inside same aside with a label? Better to follow given HTML: they have `<aside class="fun-fact">` for fun fact, and `<div class="key-takeaway">` for bottom line. For tip, maybe we can put inside a `<aside class="tip">` but not defined; but the instruction is just to sprinkle > [!TIP] boxes; we can just include a short tip as a sentence with > [!TIP] marker? They want markdown special but final output is HTML; we can embed the tip as a block with class "tip". However spec says "Pull Quotes: Use `> "Quote text"` for particularly witty or profound sentences you've written." So we will use blockquote with pull-quote class.
+
+For > [!NOTE] and > [!TIP], we can embed them as separate `<div class="note">` or just as text with the markers? The instruction is about markdown special, but final format is HTML; we can still include the markers in the HTML as text. Usually they'd want the literal > [!NOTE] etc. I'd include them as separate HTML elements like `<p> > [!NOTE] ... </p>` but that seems odd. Better to follow the spec: they said "Sprinkle these throughout to break up the text: > [!NOTE] (A 'Fun Fact' or 'Side Note' box), > [!TIP] (A 'Pro-Tip' or 'Key Takeaway' box)". So we can embed them as separate HTML elements using the defined aside for note, and maybe use `<div class="tip">` for tip, but they didn't define class. Might be okay to just include them as inline text with the markers, but it's ambiguous.
+
+Given the output format they expect is strict HTML with specific sections, I'll embed notes and tips as part of the aside and key-takeaway sections. For > [!NOTE], I'll use `<aside class="fun-fact">` with content being the fun fact; but that is for fun fact, which is okay. For > [!TIP], I'll use `<div class="tip">...` maybe fine.
+
+But they explicitly define `<aside class="fun-fact">` for fun fact, and `<div class="key-takeaway">` for bottom line. So > [!TIP] might be redundant; but we can treat tip as part of key-takeaway or as a separate small block.
+
+Alternatively, we could include a `<aside class="tip">` but they didn't define class. Safer to just include the tip as a short sentence prefixed with > [!TIP] using markdown style? But final output is HTML; we can include raw text like "> [!TIP] ..." but that's not valid HTML? Might be okay but they said return ONLY article HTML content. I'd include them as plain text within the HTML body using `<p>`? But they'd still be fine.
+
+Better to follow the given structure strictly: they defined specific sections: header, content sections, footer. The note/tip can be placed inside those sections as separate paragraphs with the markers. For example, within a content section, we can write:
+
+> [!NOTE] This is a fun fact.
+
+But that would be a blockquote? Might be okay as plain text; but they want the special markers exactly > [!NOTE] etc. I'd include them as separate lines using `<p> > [!NOTE] ... </p>`? But the spec says > [!NOTE] (A "Fun Fact" or "Side Note" box). They likely expect the HTML to contain elements that visually represent that. Since they defined `<aside class="fun-fact">` for fun fact, we can use that for note. For tip, we could reuse `<div class="key-takeaway">`? But that's already used for bottom line.
+
+Maybe we can include a `<aside class="tip">` element, but they didn't define; but it's fine to add custom class. The instructions don't forbid extra classes. But to keep clean, I'll embed tip as a short italic sentence prefixed with "Tip:" but not exactly.
+
+Alternatively, we can embed > [!TIP] as a separate paragraph using `<p> > [!TIP] ... </p>` but that's not ideal.
+
+Given the instruction: "Sprinkle these throughout to break up the text: > [!NOTE] (A 'Fun Fact' or 'Side Note' box), > [!TIP] (A 'Pro-Tip' or 'Key Takeaway' box), Pull Quotes: Use `> "Quote text"` for particularly witty or profound sentences you've written."
+
+Probably they expect the output to contain those literal strings as part of the HTML content, like:
+
+> [!NOTE] ...
+
+> [!TIP] ...
+
+> "Quote text"
+
+But they said the final output should be HTML. In markdown, > [!NOTE] is a blockquote. In HTML, blockquote is `<blockquote>`. However they specifically used `> "Quote text"` for pull quotes; they may expect the HTML to contain a blockquote element with that text.
+
+Better to keep using the defined HTML elements: `<aside class="fun-fact">` for notes, and `<div class="key-takeaway">` for tip? But they already have key-takeaway for bottom line. Maybe we can have two key-takeaway blocks: one for bottom line (the final synthesis) and one for tip? But they defined "key-takeaway" as a specific element for the bottom line. So tip may be separate.
+
+We can include tip as a `<p class="tip">` or just as a sentence

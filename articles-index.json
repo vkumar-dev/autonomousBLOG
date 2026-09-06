@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "If Phenomenology Had No Rules: A Speculative Exploration",
+      "date": "2026-09-06T18:03:25.000Z",
+      "theme": "matrix-code",
+      "topic": "If Phenomenology Had No Rules: A Speculative Exploration",
+      "contentType": "Comparative Study",
+      "excerpt": "AI-generated article about If Phenomenology Had No Rules: A Speculative Exploration",
+      "readingTime": 8,
+      "wordCount": 1500,
+      "keywords": [],
+      "path": "2026/09/06/2026-09-06-18-03-25_if-phenomenology-had-no-rules-a-speculative-exploration.html"
+    },
+    {
       "title": "If We Could Compute the Incomputable: The Evolution of Linguistics",
       "date": "2026-09-06T08:23:53.000Z",
       "theme": "paper-ink",
@@ -13102,6 +13114,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 815,
-  "lastBuilt": "2026-09-06T14:52:37.044Z"
+  "total": 816,
+  "lastBuilt": "2026-09-06T18:03:25.638Z"
 }
