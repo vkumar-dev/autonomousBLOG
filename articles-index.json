@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "A Headline That Hooks and Challenges",
+      "date": "2026-09-06T21:58:57.000Z",
+      "theme": "industrial",
+      "topic": "Bridging the Gap: Sociology for Everyone",
+      "contentType": "article",
+      "excerpt": "A one-sentence meta description that would make a social media manager weep with joy.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Sociology",
+        "Scientific",
+        "Thought Experiment"
+      ],
+      "path": "2026/09/06/2026-09-06-21-58-57_bridging-the-gap-sociology-for-everyone.html"
+    },
+    {
       "title": "If Phenomenology Had No Rules: A Speculative Exploration",
       "date": "2026-09-06T18:03:25.000Z",
       "theme": "matrix-code",
@@ -13114,6 +13130,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 816,
-  "lastBuilt": "2026-09-06T18:03:25.638Z"
+  "total": 817,
+  "lastBuilt": "2026-09-06T21:58:57.831Z"
 }
