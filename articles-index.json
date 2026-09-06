@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "title": "If We Could Compute the Incomputable: The Evolution of Linguistics",
+      "date": "2026-09-06T08:23:53.000Z",
+      "theme": "paper-ink",
+      "topic": "The Evolution of Linguistics",
+      "contentType": "article",
+      "excerpt": "A journey through the labyrinth of language, where logic and mystery collide.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": [
+        "Linguistics",
+        "Theoretical",
+        "Reference Guide"
+      ],
+      "path": "2026/09/06/2026-09-06-08-23-53_the-evolution-of-linguistics.html"
+    },
+    {
       "title": "Geology: Myths vs Reality",
       "date": "2026-09-05T21:59:41.000Z",
       "theme": "aurora",
@@ -13086,6 +13102,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 814,
-  "lastBuilt": "2026-09-06T02:34:22.820Z"
+  "total": 815,
+  "lastBuilt": "2026-09-06T08:23:53.975Z"
 }
