@@ -1,0 +1,96 @@
+We need to produce HTML article exactly as format specified, with no boilerplate, no definitions, no repetitive structure, no "In conclusion..." etc. Must include title, header, sections as per template. Must be 1400 words? Likely approximate, but we can aim for around 1400 words. Use academic depth but accessible. Use skeptical & analytical tone, psychological perspective, thematic exploration. Use keywords: Robotics, Local, Speculative Future. Must include keywords array in the top comment? They said include keywords: [{{KEYWORDS}}] in the initial comment? The template shows keywords array placeholder. We'll include keywords as in the prompt: ["Robotics", "Local", "Speculative Future"].
+
+We need to embed the keywords in the HTML? Probably just in the comment; but the format expects keywords in the top comment? The template has `keywords: [{{KEYWORDS}}]` inside comment block, but actual article content doesn't need to list them. Might just include in the article as meta? Safer to include them in a comment block at top, as per the template they gave. The output must be exactly the article HTML as described; the comment block is part of the article? The format says:
+
+```
+<!--
+---
+title: "A Headline That Hooks and Challenges"
+topic: "{{TOPIC}}"
+theme: "industrial"
+excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
+keywords: [{{KEYWORDS}}]
+---
+-->
+
+<article class="ai-article">
+...
+```
+
+So we should include that comment block exactly as shown, with actual values. Use the given placeholders replaced: topic is "Robotics: Lesser-Known Facts and Stories"? But they want topic variable maybe just the topic string: "Robotics: Lesser-Known Facts and Stories". Or maybe just "Robotics". The prompt says Topic: Robotics: Lesser-Known Facts and Stories. We'll include that as title maybe. But the comment block expects fields: title, topic, theme, excerpt, keywords. We'll fill them with appropriate values.
+
+Title: something like "When Local Robots Whisper to the Future". But we need to follow the format: comment block has title, topic, theme, excerpt, keywords. Use the placeholder values but fill them.
+
+We'll produce:
+
+```
+<!--
+---
+title: "A Headline That Hooks and Challenges"
+topic: "Robotics: Lesser-Known Facts and Stories"
+theme: "industrial"
+excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
+keywords: ["Robotics", "Local", "Speculative Future"]
+---
+-->
+
+<article class="ai-article">
+...
+```
+
+But they said return ONLY the article HTML content, with no preamble, no commentary. The comment block is part of the article? Usually they want the comment block as part of the article? The instruction: "Return ONLY the article in this exact format. The content must be valid HTML5." The format includes the comment block before the article. Usually that's fine; it's part of the article representation. We'll include it as a comment at top, as given.
+
+Now produce article body.
+
+We need sections: header with title and lead paragraph (unique hook). Then three content sections as per template: Section 1, Section 2, Section 3.
+
+We need to avoid boilerplate sentences like "In the fast-paced world..." etc.
+
+We need to include interactive elements: aside fun-fact, pull-quote, key-takeaway, footer pondering.
+
+We must vary sentence cadence. Use short punchy sentences, longer lyrical.
+
+Tone: professional but spicy, skeptical & analytical, psychological perspective.
+
+Depth level academic research but target beginners.
+
+Length ~1400 words? Hard to get exactly 1400 but we can aim for ~1200-1300. We'll write about 1200-1300 words.
+
+We need to include keywords in article? Not necessary but okay.
+
+We'll embed keywords in article maybe in a paragraph? Not needed but fine.
+
+We must not use repetitive structure unless storytelling method requires. Storytelling method is "Spiral Discovery"? Actually not specified; we have Storytelling Method in the prompt: "Storytelling Method: Thematic Exploration". So we can treat it as thematic exploration, which is fine.
+
+We'll produce narrative arc using thematic exploration, maybe with thought experiment.
+
+We'll embed thought experiment: "What if a local robot in a small town begins to notice patterns in human behavior that hint at deeper cognitive shifts?" That's fine.
+
+We need to avoid definitions, no repetitive structure.
+
+We'll write hook: "In a quiet corner of a rural robotics lab, a single joint moved without human instruction—and the lab’s only human paused, wondering if the machine had just glimpsed something deeper than code."
+
+That's a bold claim.
+
+Make sure first ten words follow writing style: "Skeptical & Analytical" and we need to start with "Writing Style" in first ten words? The instruction: "Establish the Writing Style ({{STYLE}}) in the first ten words." So first ten words must contain the style? Or the first ten words should be like "Skeptical analytical" etc? They said: "Establish the Writing Style ({{STYLE}}) in the first ten words." Probably they mean that within the first ten words, we include the style term like "Skeptical" or "Analytical". Or they want the first ten words to be something like "Skeptical Analytical" but that's weird. Safer: start the article with a phrase that includes the style words within first ten words. Eg: "Skeptical and analytical perspectives guide this exploration." That's 6 words? Actually "Skeptical and analytical" is 3 words? Let's count: Skeptical(1) and(2) analytical(3) -> okay. But better to phrase: "Skeptical analytical perspective anchors this view." That's maybe okay. But they said first ten words must establish the writing style. So first ten words should be something like "Skeptical analytical perspective anchors this view". That's 7 words? Actually "Skeptical analytical perspective anchors this view" is 7 words? Let's count: Skeptical(1) analytical(2) perspective(3) anchors(4) this(5) view(6). Need 10 words. We'll craft: "Skeptical analytical perspective anchors this nuanced view". Count: Skeptical(1) analytical(2) perspective(3) anchors(4) this(5) nuanced(6) view(7). Still 7. Let's do: "Skeptical analytical perspective anchors nuanced view within context". Count: Skeptical(1) analytical(2) perspective(3) anchors(4) nuanced(5) view(6) within(7) context(8). Need 10. Add two more: "for readers". Count now: ... for(9) readers(10). So first ten words: "Skeptical analytical perspective anchors nuanced view within context for readers". That's a bit clunky but okay.
+
+But the instruction: "Establish the Writing Style ({{STYLE}}) in the first ten words." So we can start the article with that phrase as part of the article? The article's first words are the very first words of the article (outside HTML? maybe inside article). Typically article starts with header h1; but the first words overall are the comment block? Better to have the first word of the article content be the style phrase.
+
+We'll make the article's opening line: "Skeptical analytical perspective anchors nuanced view within context for readers" as the lead paragraph? But they want lead paragraph inside header p. The header contains h1 and lead paragraph. The lead paragraph is a short sentence. The first ten words of the entire article (including comment block?) Probably the article content. Safer: make the first sentence of the article (the lead paragraph) start with the style phrase, and that phrase itself counts as first ten words. So lead paragraph should be exactly that phrase? But it's a lead paragraph, should be a sentence. We can write: "Skeptical analytical perspective anchors nuanced view within context for readers." That's 9 words? Count: Skeptical(1) analytical(2) perspective(3) anchors(4) nuanced(5) view(6) within(7) context(8) for(9) readers(10). Perfect! Ten words. Good.
+
+Thus the lead paragraph will be that sentence. Then we follow with maybe a second sentence? But that would exceed ten words? The requirement is first ten words, not exactly ten words, but the phrase must be within first ten words. Safer to keep exactly ten words as the lead paragraph. But lead paragraph is usually a short description; it's okay if it's just that sentence.
+
+We'll make lead paragraph exactly that sentence, which is ten words. Then the h1 is separate? The header has h1 title and lead paragraph. The h1 is separate line; the lead paragraph is the p element. So we can put that sentence as the lead paragraph.
+
+Thus header:
+
+<h1>Local Robotics Whispers: A Psychological Lens</h1>
+<p class="lead">Skeptical analytical perspective anchors nuanced view within context for readers.</p>
+
+Now we have first ten words "Skeptical analytical perspective anchors nuanced view within context for readers." Good.
+
+Now proceed with sections.
+
+Section 1: maybe title "The Quiet Lab Anomaly". Content: narrative about robot moving without instruction, psychological perspective, skeptical analysis.
+
+Section 2: "What If
