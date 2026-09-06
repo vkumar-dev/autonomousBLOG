@@ -1,0 +1,144 @@
+We need to produce article HTML exactly as format specified. Must follow constraints: no boilerplate sentences like "In the fast-paced world...", no definitions, no repetitive structure unless Storytelling Method requires it. Storytelling Method is Cause-Effect Chain. So we need to use cause-effect chain throughout. The article must be cohesive, unique, with topic Anthropology in an Alternate Universe, genre Speculative Future, writing style Educational & Explanatory, storytelling method Cause-Effect Chain, depth level Thought Experiment, target audience general readers, angle impossible made plausible, tone professional but spicy and authentic, word count ~1000. Use keywords Anthropology, Philosophical, Speculative Future. Must avoid boilerplate phrases. No definitions. No repetitive structure unless required. Use varying sentence cadence. Include interactive elements: > [!NOTE] (Fun Fact), > [!TIP] (Pro-Tip), Pull Quotes using `> "Quote text"` (they want Pull Quotes as blockquote with blockquote?). In format they have `<figure class="pull-quote">` with `> "Quote text"`? Actually they show:
+
+```
+    <figure class="pull-quote">
+      <blockquote>"A particularly sharp pull-quote from your own writing."</blockquote>
+    </figure>
+```
+
+But they also say "Pull Quotes: Use `> "Quote text"` for particularly witty or profound sentences you've written." Might be they want to embed pull quotes as blockquote with >? In the format they defined earlier: In Content Architecture they say:
+
+```
+Pull Quotes: Use `> "Quote text"` for particularly witty or profound sentences you've written.
+```
+
+But later in output format they have:
+
+```
+  <section class="content-section">
+    <h2>[Section Header 2]</h2>
+    <p>[Content...]</p>
+
+    <figure class="pull-quote">
+      <blockquote>"A particularly sharp pull-quote from your own writing."</blockquote>
+    </figure>
+  </section>
+```
+
+So we should include a pull-quote block like that. Also they have `<aside class="fun-fact">` for fun fact, and `<div class="key-takeaway">` for bottom line. And `<div class="pondering-question">` for final question.
+
+Also they want `<aside class="fun-fact">` with `> [!NOTE]`? Actually they said sprinkle these throughout to break up the text: 
+- `> [!NOTE]` (A "Fun Fact" or "Side Note" box)
+- `> [!TIP]` (A "Pro-Tip" or "Key Takeaway" box)
+
+But later they have separate sections for fun-fact and key-takeaway. In the output format they have `<aside class="fun-fact">` and `<div class="key-takeaway">`. So we can embed the note inside fun-fact or tip? Probably we should include both notes via `<aside class="fun-fact">` and `<aside class="tip">`? But format only defines `<aside class="fun-fact">`. And `<div class="key-takeaway">` is for bottom line.
+
+The guidelines: Sprinkle these throughout: > [!NOTE] (A "Fun Fact" or "Side Note" box) and > [!TIP] (A "Pro-Tip" or "Key Takeaway" box). In the output format they have `<aside class="fun-fact">` for fun fact and `<div class="key-takeaway">` for key takeaway. So maybe we should put fun-fact in `<aside class="fun-fact">` and key-takeaway in `<div class="key-takeaway">`. They also have > [!TIP] maybe as `<aside class="tip">` but not defined. Better stick to defined elements.
+
+We'll use `<aside class="fun-fact">` for fun fact, and `<div class="key-takeaway">` for bottom line (as in format). The output format also includes `<div class="key-takeaway">` inside footer section. That's fine.
+
+We need to include pull-quote block using `<figure class="pull-quote">` with blockquote containing quote.
+
+We need to avoid boilerplate phrases, no definitions, no repetitive structure. Use cause-effect chain: each paragraph should follow cause-effect relationships: e.g., "When X changes, Y occurs because..." This will guide the narrative.
+
+We need word count ~1000 words. We'll aim for about 950-1050 words.
+
+We must output ONLY the article HTML, no extra text.
+
+We must use the exact format with article, header, sections, footer, style block.
+
+We need to fill title, topic, theme, excerpt, keywords. Title should be something like "When Anthropology Meets an Alternate Universe". Excerpt: a short sentence.
+
+We must include keywords: Anthropology, Philosophical, Speculative Future in keywords list.
+
+We must include the HTML as specified:
+
+```
+<!--
+---
+title: "A Headline That Hooks and Challenges"
+topic: "{{TOPIC}}"
+theme: "ocean-breeze"
+excerpt: "A one-sentence meta description that would make a social media manager weep with joy."
+keywords: [{{KEYWORDS}}]
+---
+-->
+
+<article class="ai-article">
+  <header class="article-header">
+    <h1>Your Compelling Title</h1>
+    <p class="lead">[Your unique hook paragraph]</p>
+  </header>
+
+  <section class="content-section">
+    <h2>[Section Header 1]</h2>
+    <p>[Content...]</p>
+
+    <aside class="fun-fact">
+      <span class="icon">ℹ️</span>
+      <div class="fact-text">[A witty aside or rare fact related to the topic]</div>
+    </aside>
+  </section>
+
+  <section class="content-section">
+    <h2>[Section Header 2]</h2>
+    <p>[Content...]</p>
+
+    <figure class="pull-quote">
+      <blockquote>"A particularly sharp pull-quote from your own writing."</blockquote>
+    </figure>
+  </section>
+
+  <section class="content-section">
+    <h2>[Section Header 3]</h2>
+    <p>[Content...]</p>
+
+    <div class="key-takeaway">
+      <span class="icon">💡</span>
+      <strong>The Bottom Line:</strong> [One-sentence synthesis of why this matters to {{AUDIENCE}}]
+    </div>
+  </section>
+
+  <footer class="thematic-pondering">
+    <h2>[A Thematic Pondering]</h2>
+    <p>[A final paragraph that synthesizes the article's core tension.]</p>
+    <div class="pondering-question">
+      <strong>Pondering Question:</strong> [End with an interesting, preferably philosophical, question for the reader to ponder.]
+    </div>
+  </footer>
+</article>
+
+<style>
+  /* You can add article-specific styles here to be creative! */
+  .ai-article { line-height: 1.6; }
+  .lead { font-size: 1.25rem; font-weight: 500; }
+  .fun-fact { background: rgba(var(--accent-rgb), 0.1); border-left: 4px solid var(--accent-color); padding: 1rem; margin: 1.5rem 0; display: flex; gap: 1rem; }
+  .pull-quote { border: none; margin: 2rem 0; padding: 0; text-align: center; font-style: italic; font-size: 1.5rem; }
+  .key-takeaway { background: rgba(var(--accent-rgb), 0.05); border: 1px dashed var(--accent-color); padding: 1rem; margin: 1.5rem 0; }
+  .pondering-question { border-top: 2px solid var(--accent-color); margin-top: 2rem; padding-top: 1rem; font-size: 1.1rem; }
+</style>
+```
+
+We need to fill placeholders: title, topic, theme, excerpt, keywords.
+
+Topic should be "Anthropology in an Alternate Universe". Use exactly as in prompt: Topic: Anthropology in an Alternate Universe.
+
+We need to fill:
+
+title: "When Anthropology Meets a Universe Where Time Walks Backward" (or something catchy). Must be in article header h1.
+
+Lead paragraph: unique hook paragraph (first ten words must establish style). It must be the hook.
+
+Section headers: we can have [Section Header 1], [Section Header 2], [Section Header 3] as placeholders; but we should write actual content.
+
+We must follow storytelling method Cause-Effect Chain. So we will write paragraphs where each sentence shows cause-effect relationships, building the scenario.
+
+We need depth: Thought Experiment.
+
+We need to avoid boilerplate phrases.
+
+We need to use active voice.
+
+We need to include the required elements: pull quote, fun fact, key takeaway, thematic pondering.
+
+We must not use repetitive structure unless required. The
