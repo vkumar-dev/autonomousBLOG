@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "title": "The Matrix Parameters: Unraveling the Future of Economics",
+      "date": "2026-09-07T02:24:42.000Z",
+      "theme": "matrix-code",
+      "topic": "Economics in the Modern Era: A Insider Approach",
+      "contentType": "article",
+      "excerpt": "How the world of finance is evolving beyond traditional models.",
+      "readingTime": 5,
+      "wordCount": 0,
+      "keywords": "Economics, Insider, What-If Analysis",
+      "path": "2026/09/07/2026-09-07-02-24-42_economics-in-the-modern-era-a-insider-approach.html"
+    },
+    {
       "title": "A Headline That Hooks and Challenges",
       "date": "2026-09-06T21:58:57.000Z",
       "theme": "industrial",
@@ -13130,6 +13142,6 @@
       "path": "2026/02/27/2026-02-27-16-30-01_ancient-cultures-lesser-known-facts-and-stories.md"
     }
   ],
-  "total": 817,
-  "lastBuilt": "2026-09-06T21:58:57.831Z"
+  "total": 818,
+  "lastBuilt": "2026-09-07T02:24:42.178Z"
 }
